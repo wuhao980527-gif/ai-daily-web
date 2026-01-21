@@ -34,7 +34,7 @@ export default function Home() {
                   <a href={item.url} target="_blank" className="text-xl font-bold hover:text-blue-600 block mb-2">
                     {item.title}
                   </a>
-                  <p className="text-gray-600 text-sm">{item.content}</p>
+                  <p className="text-gray-600 text-sm">{item.summary}</p>
                 </div>
               ))}
             </div>

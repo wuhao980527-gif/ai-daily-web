@@ -1,148 +1,104 @@
 [
-  {
-    "date": "2026-01-21",
-    "summary": "今日AI趋势聚焦于高性能芯片升级与多模态模型发展，大模型效率提升显著，开源项目活跃，图像生成、文档解析及区块链集成成为热点方向。",
-    "news": [
-      {
-        "id": "prod001",
-        "title": "英伟达发布Vera Rubin AI芯片平台",
-        "source": "Product",
-        "tags": [
-          "AI芯片",
-          "高性能计算",
-          "英伟达"
-        ],
-        "summary": "新一代AI芯片平台，集成六颗专用芯片，训练与推理效率达前代五倍。",
-        "url": "https://www.dawan.africa/news/nvidia-unveils-new-ai-chip-as-2026-hardware-race-heats-up"
-      },
-      {
-        "id": "prod002",
-        "title": "Grok推出图像生成功能Grok Imagine",
-        "source": "Product",
-        "tags": [
-          "图像生成",
-          "Grok",
-          "X平台"
-        ],
-        "summary": "X平台用户可在欧盟使用Grok Imagine，通过文本生成高质量图像。",
-        "url": "https://www.linkedin.com/posts/reneschulte_this-is-not-sora-but-grok-imagine-and-i-love-activity-7382481423338774528-DN5q"
-      },
-      {
-        "id": "hf001",
-        "title": "GLM-4.7-Flash模型上线HuggingFace",
-        "source": "HuggingFace",
-        "tags": [
-          "大模型",
-          "GLM",
-          "高效推理"
-        ],
-        "summary": "ZAI-org发布的GLM-4.7-Flash模型轻量高效，获社区高度关注。",
-        "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-      },
-      {
-        "id": "hf002",
-        "title": "FLUX.2-klein-4B小型视觉模型发布",
-        "source": "HuggingFace",
-        "tags": [
-          "视觉模型",
-          "轻量模型",
-          "Black Forest Labs"
-        ],
-        "summary": "Black Forest Labs推出40亿参数视觉模型，适用于资源受限场景。",
-        "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B"
-      },
-      {
-        "id": "gh001",
-        "title": "ocrbase：基于OCR与LLM的文档结构化工具",
-        "source": "GitHub",
-        "tags": [
-          "OCR",
-          "文档解析",
-          "TypeScript"
-        ],
-        "summary": "支持PDF转Markdown/JSON，集成PaddleOCR与LLM，支持自托管。",
-        "url": "https://github.com/majcheradam/ocrbase"
-      },
-      {
-        "id": "gh002",
-        "title": "SIGNIA：将现实结构转化为链上可验证形式",
-        "source": "GitHub",
-        "tags": [
-          "区块链",
-          "去中心化",
-          "SIGNIA"
-        ],
-        "summary": "SIGNIA项目致力于将现实世界数据结构编译为链上可验证格式。",
-        "url": "https://github.com/SIGNIAINDEX/SIGNIA"
-      },
-      {
-        "id": "gh003",
-        "title": "AWS发布AgentCore全栈解决方案模板",
-        "source": "GitHub",
-        "tags": [
-          "AWS",
-          "AgentCore",
-          "全栈开发"
-        ],
-        "summary": "Amazon推出AgentCore生产级部署模板，支持各类Agent应用场景。",
-        "url": "https://github.com/awslabs/fullstack-solution-template-for-agentcore"
-      },
-      {
-        "id": "paper001",
-        "title": "DeepSeek-V2：高效经济的混合专家模型",
-        "source": "Papers",
-        "tags": [
-          "DeepSeek",
-          "混合专家",
-          "大模型"
-        ],
-        "summary": "DeepSeek-V2在保持强大性能的同时显著降低计算成本。",
-        "url": "https://huggingface.co/papers/2405.04434"
-      }
-    ]
-  },
-  {
-    "date": "2026-01-06",
-    "summary": "今日AI领域重点关注大模型推理能力的进化。DeepSeek 发布的最新技术报告引发热议。",
-    "news": [
-      {
-        "id": "1",
-        "title": "DeepSeek-V3 技术报告发布",
-        "source": "HuggingFace",
-        "tags": [
-          "LLM",
-          "Open Source"
-        ],
-        "content": "DeepSeek 团队正式发布 V3 版本技术报告，在代码生成和数学推理能力上表现优异。",
-        "url": "https://huggingface.co/"
-      },
-      {
-        "id": "2",
-        "title": "NVIDIA 发布 RTX 5090",
-        "source": "TechCrunch",
-        "tags": [
-          "Hardware",
-          "GPU"
-        ],
-        "content": "英伟达 CES 演讲中暗示了新一代显卡的显存规格升级。",
-        "url": "https://techcrunch.com/"
-      }
-    ]
-  },
-  {
-    "date": "2026-01-05",
-    "summary": "昨日重点在于 AI 安全与监管。欧盟出台新的 AI 法案草案。",
-    "news": [
-      {
-        "id": "3",
-        "title": "OpenAI 谈 AI 对齐",
-        "source": "OpenAI Blog",
-        "tags": [
-          "Safety"
-        ],
-        "content": "Ilya Sutskever 阐述了超级对齐（Superalignment）的最新进展。",
-        "url": "https://openai.com/"
-      }
-    ]
-  }
-]
+    {
+      "date": "2026-01-21",
+      "summary": "今日AI趋势聚焦于高性能芯片升级与多模态模型发展，大模型效率提升显著，开源项目活跃，图像生成、文档解析及区块链集成成为热点方向。",
+      "news": [
+        {
+          "id": "prod001",
+          "title": "英伟达发布Vera Rubin AI芯片平台",
+          "source": "Product",
+          "tags": [
+            "AI芯片",
+            "高性能计算",
+            "英伟达"
+          ],
+          "summary": "新一代AI芯片平台，集成六颗专用芯片，训练与推理效率达前代五倍。",
+          "url": "https://www.dawan.africa/news/nvidia-unveils-new-ai-chip-as-2026-hardware-race-heats-up"
+        },
+        {
+          "id": "prod002",
+          "title": "Grok推出图像生成功能Grok Imagine",
+          "source": "Product",
+          "tags": [
+            "图像生成",
+            "Grok",
+            "X平台"
+          ],
+          "summary": "X平台用户可在欧盟使用Grok Imagine，通过文本生成高质量图像。",
+          "url": "https://www.linkedin.com/posts/reneschulte_this-is-not-sora-but-grok-imagine-and-i-love-activity-7382481423338774528-DN5q"
+        },
+        {
+          "id": "hf001",
+          "title": "GLM-4.7-Flash模型上线HuggingFace",
+          "source": "HuggingFace",
+          "tags": [
+            "大模型",
+            "GLM",
+            "高效推理"
+          ],
+          "summary": "ZAI-org发布的GLM-4.7-Flash模型轻量高效，获社区高度关注。",
+          "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "id": "hf002",
+          "title": "FLUX.2-klein-4B小型视觉模型发布",
+          "source": "HuggingFace",
+          "tags": [
+            "视觉模型",
+            "轻量模型",
+            "Black Forest Labs"
+          ],
+          "summary": "Black Forest Labs推出40亿参数视觉模型，适用于资源受限场景。",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B"
+        },
+        {
+          "id": "gh001",
+          "title": "ocrbase：基于OCR与LLM的文档结构化工具",
+          "source": "GitHub",
+          "tags": [
+            "OCR",
+            "文档解析",
+            "TypeScript"
+          ],
+          "summary": "支持PDF转Markdown/JSON，集成PaddleOCR与LLM，支持自托管。",
+          "url": "https://github.com/majcheradam/ocrbase"
+        },
+        {
+          "id": "gh002",
+          "title": "SIGNIA：将现实结构转化为链上可验证形式",
+          "source": "GitHub",
+          "tags": [
+            "区块链",
+            "去中心化",
+            "SIGNIA"
+          ],
+          "summary": "SIGNIA项目致力于将现实世界数据结构编译为链上可验证格式。",
+          "url": "https://github.com/SIGNIAINDEX/SIGNIA"
+        },
+        {
+          "id": "gh003",
+          "title": "AWS发布AgentCore全栈解决方案模板",
+          "source": "GitHub",
+          "tags": [
+            "AWS",
+            "AgentCore",
+            "全栈开发"
+          ],
+          "summary": "Amazon推出AgentCore生产级部署模板，支持各类Agent应用场景。",
+          "url": "https://github.com/awslabs/fullstack-solution-template-for-agentcore"
+        },
+        {
+          "id": "paper001",
+          "title": "DeepSeek-V2：高效经济的混合专家模型",
+          "source": "Papers",
+          "tags": [
+            "DeepSeek",
+            "混合专家",
+            "大模型"
+          ],
+          "summary": "DeepSeek-V2在保持强大性能的同时显著降低计算成本。",
+          "url": "https://huggingface.co/papers/2405.04434"
+        }
+      ]
+    }
+  ]
