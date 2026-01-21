@@ -1,38 +1,144 @@
 [
-    {
-      "date": "2026-01-06",
-      "summary": "今日AI领域重点关注大模型推理能力的进化。DeepSeek 发布的最新技术报告引发热议。",
-      "news": [
-        {
-          "id": "1",
-          "title": "DeepSeek-V3 技术报告发布",
-          "source": "HuggingFace",
-          "tags": ["LLM", "Open Source"],
-          "content": "DeepSeek 团队正式发布 V3 版本技术报告，在代码生成和数学推理能力上表现优异。",
-          "url": "https://huggingface.co/"
-        },
-        {
-          "id": "2",
-          "title": "NVIDIA 发布 RTX 5090",
-          "source": "TechCrunch",
-          "tags": ["Hardware", "GPU"],
-          "content": "英伟达 CES 演讲中暗示了新一代显卡的显存规格升级。",
-          "url": "https://techcrunch.com/"
-        }
-      ]
-    },
-    {
-      "date": "2026-01-05",
-      "summary": "昨日重点在于 AI 安全与监管。欧盟出台新的 AI 法案草案。",
-      "news": [
-        {
-          "id": "3",
-          "title": "OpenAI 谈 AI 对齐",
-          "source": "OpenAI Blog",
-          "tags": ["Safety"],
-          "content": "Ilya Sutskever 阐述了超级对齐（Superalignment）的最新进展。",
-          "url": "https://openai.com/"
-        }
-      ]
-    }
-  ]
+  {
+    "date": "2026-01-21",
+    "summary": "今日AI趋势聚焦于开源模型与工具链创新，OCR文档解析、轻量级推理模型及安全对齐成为热点，GitHub多个高星项目推动开发者生态发展。",
+    "news": [
+      {
+        "id": "hf772glm",
+        "title": "智谱发布GLM-4.7-Flash高效推理模型",
+        "source": "HuggingFace",
+        "tags": [
+          "大模型",
+          "推理优化"
+        ],
+        "summary": "轻量级中文大模型，适合快速部署与低延迟应用",
+        "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+      },
+      {
+        "id": "hf246flux",
+        "title": "FLUX.2-klein-4B小型高性能视觉模型上线",
+        "source": "HuggingFace",
+        "tags": [
+          "视觉模型",
+          "小模型"
+        ],
+        "summary": "40亿参数的紧凑型视觉模型，兼顾性能与效率",
+        "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B"
+      },
+      {
+        "id": "gh269ocr",
+        "title": "ocrbase实现PDF到结构化数据的智能转换",
+        "source": "GitHub",
+        "tags": [
+          "OCR",
+          "文档解析",
+          "PaddleOCR"
+        ],
+        "summary": "基于PaddleOCR与大模型的文档提取API，支持实时WebSocket更新",
+        "url": "https://github.com/majcheradam/ocrbase"
+      },
+      {
+        "id": "gh216signia",
+        "title": "SIGNIA将现实结构转化为链上可验证形式",
+        "source": "GitHub",
+        "tags": [
+          "区块链",
+          "结构化数据"
+        ],
+        "summary": "探索物理世界信息上链的新型编译框架",
+        "url": "https://github.com/SIGNIAINDEX/SIGNIA"
+      },
+      {
+        "id": "gh186agentcore",
+        "title": "AWS发布AgentCore全栈解决方案模板",
+        "source": "GitHub",
+        "tags": [
+          "Agent",
+          "云服务",
+          "Amazon Bedrock"
+        ],
+        "summary": "用于在Amazon Bedrock上构建生产级Agent应用的完整模板",
+        "url": "https://github.com/awslabs/fullstack-solution-template-for-agentcore"
+      },
+      {
+        "id": "gh177slash",
+        "title": "awesome-slash提供专业级Claude代码命令集",
+        "source": "GitHub",
+        "tags": [
+          "开发工具",
+          "Claude",
+          "Slash命令"
+        ],
+        "summary": "跨项目通用的高质量Slash命令库，提升编码效率",
+        "url": "https://github.com/avifenesh/awesome-slash"
+      },
+      {
+        "id": "gh76violit",
+        "title": "Violit：高性能无重载Python Web框架",
+        "source": "GitHub",
+        "tags": [
+          "Web框架",
+          "Python",
+          "Streamlit替代"
+        ],
+        "summary": "兼具Streamlit简洁性但避免重复执行的新型Python框架",
+        "url": "https://github.com/violit-dev/violit"
+      },
+      {
+        "id": "pp2504safe",
+        "title": "RealSafe-R1提升大模型安全性对齐研究",
+        "source": "Papers",
+        "tags": [
+          "安全对齐",
+          "大模型安全"
+        ],
+        "summary": "深入探讨DeepSeek-R1等模型的安全性优化路径",
+        "url": "https://huggingface.co/papers/2504.10081"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-06",
+    "summary": "今日AI领域重点关注大模型推理能力的进化。DeepSeek 发布的最新技术报告引发热议。",
+    "news": [
+      {
+        "id": "1",
+        "title": "DeepSeek-V3 技术报告发布",
+        "source": "HuggingFace",
+        "tags": [
+          "LLM",
+          "Open Source"
+        ],
+        "content": "DeepSeek 团队正式发布 V3 版本技术报告，在代码生成和数学推理能力上表现优异。",
+        "url": "https://huggingface.co/"
+      },
+      {
+        "id": "2",
+        "title": "NVIDIA 发布 RTX 5090",
+        "source": "TechCrunch",
+        "tags": [
+          "Hardware",
+          "GPU"
+        ],
+        "content": "英伟达 CES 演讲中暗示了新一代显卡的显存规格升级。",
+        "url": "https://techcrunch.com/"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-05",
+    "summary": "昨日重点在于 AI 安全与监管。欧盟出台新的 AI 法案草案。",
+    "news": [
+      {
+        "id": "3",
+        "title": "OpenAI 谈 AI 对齐",
+        "source": "OpenAI Blog",
+        "tags": [
+          "Safety"
+        ],
+        "content": "Ilya Sutskever 阐述了超级对齐（Superalignment）的最新进展。",
+        "url": "https://openai.com/"
+      }
+    ]
+  }
+]
