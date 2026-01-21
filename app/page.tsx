@@ -5,7 +5,7 @@ export default function Home() {
     <main className="min-h-screen p-8 bg-gray-50 text-gray-900">
       <div className="max-w-4xl mx-auto mb-10">
         <h1 className="text-4xl font-bold mb-2">AI Daily Insight</h1>
-        <p className="text-gray-500">我的个人 AI 每日情报站</p>
+        <p className="text-gray-500">AI 每日情报站</p>
       </div>
 
       <div className="max-w-4xl mx-auto space-y-12">
