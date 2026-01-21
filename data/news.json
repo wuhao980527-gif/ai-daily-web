@@ -1,0 +1,38 @@
+[
+    {
+      "date": "2026-01-06",
+      "summary": "今日AI领域重点关注大模型推理能力的进化。DeepSeek 发布的最新技术报告引发热议。",
+      "news": [
+        {
+          "id": "1",
+          "title": "DeepSeek-V3 技术报告发布",
+          "source": "HuggingFace",
+          "tags": ["LLM", "Open Source"],
+          "content": "DeepSeek 团队正式发布 V3 版本技术报告，在代码生成和数学推理能力上表现优异。",
+          "url": "https://huggingface.co/"
+        },
+        {
+          "id": "2",
+          "title": "NVIDIA 发布 RTX 5090",
+          "source": "TechCrunch",
+          "tags": ["Hardware", "GPU"],
+          "content": "英伟达 CES 演讲中暗示了新一代显卡的显存规格升级。",
+          "url": "https://techcrunch.com/"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-05",
+      "summary": "昨日重点在于 AI 安全与监管。欧盟出台新的 AI 法案草案。",
+      "news": [
+        {
+          "id": "3",
+          "title": "OpenAI 谈 AI 对齐",
+          "source": "OpenAI Blog",
+          "tags": ["Safety"],
+          "content": "Ilya Sutskever 阐述了超级对齐（Superalignment）的最新进展。",
+          "url": "https://openai.com/"
+        }
+      ]
+    }
+  ]
