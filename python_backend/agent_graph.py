@@ -5,10 +5,9 @@ import operator
 from datetime import datetime, timedelta
 from typing import Annotated, List, TypedDict
 
-# LangChain / LangGraph 组件
-from langchain_core.messages import SystemMessage, HumanMessage
+# LangGraph 组件
 from langgraph.graph import StateGraph, END, START
-from dotenv import load_dotenv
+from langchain_core.messages import SystemMessage, HumanMessage
 
 # 引入工具
 from agent_tools import (
@@ -20,8 +19,9 @@ from agent_tools import (
     fetch_big_tech_papers
 )
 
-# 加载环境变量
-load_dotenv()
+# 代理设置 (保持你之前的 VPN 配置)
+os.environ["http_proxy"] = "http://127.0.0.1:7897"
+os.environ["https_proxy"] = "http://127.0.0.1:7897"
 
 # ================= 1. 定义状态 =================
 class AgentState(TypedDict):
@@ -43,9 +43,17 @@ def init_node(state: AgentState):
     """初始化搜索词"""
     print(f"⚙️ [Init] 初始化任务...")
     target_date = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
-    # 构造更精准的搜索词
-    query = f'("AI Product" OR "AI Model" OR "AI新品") ("released" OR "launch" OR "发布") after:{target_date}'
-    return {"product_query": query, "product_retries": 0, "product_verified_items": []}
+    
+    # 搜索词策略 (保持原样)
+    en_subjects = '"AI product" OR "AI model" OR "Embodied AI" OR "Humanoid Robot" '
+    en_actions = '"launched" OR "released" OR "unveiled" OR "announced"'
+    cn_subjects = '"AI新品" OR "大模型" OR "具身智能" OR "人形机器人" '
+    cn_actions = '"发布" OR "上线" OR "推出" OR "亮相"'
+    
+    initial_query = f"({en_subjects} OR {cn_subjects}) ({en_actions} OR {cn_actions}) after:{target_date}"
+    clean_query = " ".join(initial_query.split())
+    
+    return {"product_query": clean_query, "product_retries": 0, "product_verified_items": []}
 
 def product_search_node(state: AgentState):
     results = search_new_products.invoke(state['product_query'])
@@ -58,10 +66,9 @@ def product_verify_node(state: AgentState):
     
     for item in raw:
         try:
-            # 这里的 item['url'] 传给工具
             res = verify_product_page.invoke(item['url'])
+            # 只要是发布的，全部保留，不轻易过滤
             if res.get('is_released'):
-                # 拼接成字符串供 Writer 参考
                 info = f"Product: {res['product_name']} | Date: {res['release_date']} | Desc: {res['description']} | URL: {item['url']}"
                 verified.append(info)
         except Exception:
@@ -70,17 +77,16 @@ def product_verify_node(state: AgentState):
     return {"product_verified_items": verified}
 
 def product_reflect_node(state: AgentState):
-    """如果没搜到，换个词重试"""
     new_retries = state['product_retries'] + 1
     print(f"🔄 [Reflect] 结果不足，第 {new_retries} 次重试...")
     # 简单的备用词策略
-    backups = ["LLM Agent Framework", "New AI Hardware", "Sora alternative"]
+    backups = ["LLM Agent Framework", "New AI Hardware", "Sora alternative", "Robotics AI"]
     new_q = backups[new_retries % len(backups)]
     return {"product_query": new_q, "product_retries": new_retries}
 
 def should_continue_product(state: AgentState):
-    # 只要有 2 条以上有效新闻，或者试了 2 次，就停止
-    if len(state['product_verified_items']) >= 2 or state['product_retries'] >= 2:
+    # 策略：只要有 4 条以上就够了（保证和你的报告量级一致）
+    if len(state['product_verified_items']) >= 4 or state['product_retries'] >= 3:
         return "join"
     return "reflect"
 
@@ -94,7 +100,7 @@ def github_node(state: AgentState):
 def paper_node(state: AgentState):
     return {"tech_papers": fetch_big_tech_papers.invoke({})}
 
-# --- 核心：Writer 生成 JSON ---
+# --- 核心：Writer 生成 JSON (对应网页需求) ---
 def writer_node(state: AgentState):
     print("\n✍️ [Writer] 正在生成前端所需的 JSON 数据...")
     
@@ -108,13 +114,25 @@ def writer_node(state: AgentState):
     
     today_str = datetime.now().strftime('%Y-%m-%d')
     
-    # Prompt: 强制要求输出 JSON，且字段要对应前端 news.json 的结构
+    # Prompt: 强制全量保留，绝不缩水
     prompt = f"""
-    你是一个 AI 新闻聚合器。请将以下抓取到的数据，转化为符合前端标准的 **JSON 格式**。
+    你是一个专业 AI 数据分析师。请将以下抓取到的数据，转化为符合前端标准的 **JSON 格式**。
     
     **原始数据**:
     {str(all_data)}
     
+    **重要指令**:
+    1. **数量不设上限**：请保留原始数据中所有有效的内容（Products, HuggingFace, GitHub 等全部保留）。不要因为为了精简而删除任何条目！
+    2. **内容详实**：
+       - 对于 `summary` 字段，请将原始数据中的“功能+评价”或“简介+用途”进行合并，写成一段详实的中文描述（约 50-80 字）。
+       - 严禁只写一句话！必须包含具体的技术参数、功能点和应用场景，保持专业深度。
+    3. **Tags 生成**：为每条新闻生成 3 个精准的中文标签（如 #AI芯片 #大模型 #开源）。
+    4. **Source 映射**：
+       - Products -> "Product"
+       - HuggingFace -> "HuggingFace"
+       - GitHub -> "GitHub"
+       - Papers -> "Papers"
+
     **目标 JSON 结构**:
     {{
         "date": "{today_str}",
@@ -122,23 +140,20 @@ def writer_node(state: AgentState):
         "news": [
             {{
                 "id": "随机生成的短ID",
-                "title": "新闻标题(中文)",
-                "source": "来源(如 Product, HuggingFace, GitHub)",
-                "tags": ["Tag1", "Tag2"],
-                "summary": "一句话简介(中文)，不要太长",
+                "title": "新闻标题(中文翻译)",
+                "source": "来源分类",
+                "tags": ["Tag1", "Tag2", "Tag3"],
+                "summary": "详实的中文描述(包含功能、评价、用途等详细信息)",
                 "url": "原始链接"
             }}
         ]
     }}
     
-    **要求**:
-    1. 必须返回纯 JSON 字符串，不要 Markdown 格式。
-    2. news 列表最多保留 6-8 条最有价值的内容。
-    3. 翻译所有英文内容为中文。
+    **必须返回纯 JSON 字符串，不要 Markdown 格式。**
     """
     
     response = llm.invoke(prompt)
-    # 清洗可能存在的 Markdown 标记
+    # 清洗 Markdown 标记
     clean_json = response.content.replace("```json", "").replace("```", "").strip()
     
     return {"final_json": clean_json}
@@ -177,7 +192,7 @@ app = workflow.compile()
 
 # ================= 4. 主程序：运行并写入文件 =================
 if __name__ == "__main__":
-    print("🚀 启动 AI 日报生成器 (Local Mode)...")
+    print("🚀 启动 AI 日报生成器 (Website Data Mode)...")
     
     try:
         # 1. 运行 Agent
@@ -196,7 +211,7 @@ if __name__ == "__main__":
             print(json_str)
             exit(1)
             
-        print("✅ 数据生成成功，准备写入文件...")
+        print(f"✅ 数据生成成功 (包含 {len(new_daily_data['news'])} 条新闻)，准备写入文件...")
         
         # 3. 路径定位：找到 ../data/news.json
         current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -211,19 +226,17 @@ if __name__ == "__main__":
                 except:
                     pass
         
-        # 5. 插入新数据 (如果今天已存在则覆盖，否则插入头部)
+        # 5. 插入新数据 (覆盖同日期的)
         today = new_daily_data['date']
-        # 过滤掉旧的同日期数据
         existing_data = [d for d in existing_data if d['date'] != today]
-        # 插入新的
         existing_data.insert(0, new_daily_data)
         
         # 6. 写入保存
         with open(data_file_path, 'w', encoding='utf-8') as f:
             json.dump(existing_data, f, ensure_ascii=False, indent=2)
             
-        print(f"🎉 成功！文件已更新: {data_file_path}")
-        print("💡 下一步: 在终端运行 'git push' 即可推送到网站！")
+        print(f"🎉 成功！最新全量日报已写入: {data_file_path}")
+        print("💡 下一步: 在终端运行 'git push' 即可更新网站！")
 
     except Exception as e:
         print(f"❌ 程序运行出错: {e}")

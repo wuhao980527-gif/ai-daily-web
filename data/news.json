@@ -1,104 +1,152 @@
 [
-    {
-      "date": "2026-01-21",
-      "summary": "今日AI趋势聚焦于高性能芯片升级与多模态模型发展，大模型效率提升显著，开源项目活跃，图像生成、文档解析及区块链集成成为热点方向。",
-      "news": [
-        {
-          "id": "prod001",
-          "title": "英伟达发布Vera Rubin AI芯片平台",
-          "source": "Product",
-          "tags": [
-            "AI芯片",
-            "高性能计算",
-            "英伟达"
-          ],
-          "summary": "新一代AI芯片平台，集成六颗专用芯片，训练与推理效率达前代五倍。",
-          "url": "https://www.dawan.africa/news/nvidia-unveils-new-ai-chip-as-2026-hardware-race-heats-up"
-        },
-        {
-          "id": "prod002",
-          "title": "Grok推出图像生成功能Grok Imagine",
-          "source": "Product",
-          "tags": [
-            "图像生成",
-            "Grok",
-            "X平台"
-          ],
-          "summary": "X平台用户可在欧盟使用Grok Imagine，通过文本生成高质量图像。",
-          "url": "https://www.linkedin.com/posts/reneschulte_this-is-not-sora-but-grok-imagine-and-i-love-activity-7382481423338774528-DN5q"
-        },
-        {
-          "id": "hf001",
-          "title": "GLM-4.7-Flash模型上线HuggingFace",
-          "source": "HuggingFace",
-          "tags": [
-            "大模型",
-            "GLM",
-            "高效推理"
-          ],
-          "summary": "ZAI-org发布的GLM-4.7-Flash模型轻量高效，获社区高度关注。",
-          "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-        },
-        {
-          "id": "hf002",
-          "title": "FLUX.2-klein-4B小型视觉模型发布",
-          "source": "HuggingFace",
-          "tags": [
-            "视觉模型",
-            "轻量模型",
-            "Black Forest Labs"
-          ],
-          "summary": "Black Forest Labs推出40亿参数视觉模型，适用于资源受限场景。",
-          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B"
-        },
-        {
-          "id": "gh001",
-          "title": "ocrbase：基于OCR与LLM的文档结构化工具",
-          "source": "GitHub",
-          "tags": [
-            "OCR",
-            "文档解析",
-            "TypeScript"
-          ],
-          "summary": "支持PDF转Markdown/JSON，集成PaddleOCR与LLM，支持自托管。",
-          "url": "https://github.com/majcheradam/ocrbase"
-        },
-        {
-          "id": "gh002",
-          "title": "SIGNIA：将现实结构转化为链上可验证形式",
-          "source": "GitHub",
-          "tags": [
-            "区块链",
-            "去中心化",
-            "SIGNIA"
-          ],
-          "summary": "SIGNIA项目致力于将现实世界数据结构编译为链上可验证格式。",
-          "url": "https://github.com/SIGNIAINDEX/SIGNIA"
-        },
-        {
-          "id": "gh003",
-          "title": "AWS发布AgentCore全栈解决方案模板",
-          "source": "GitHub",
-          "tags": [
-            "AWS",
-            "AgentCore",
-            "全栈开发"
-          ],
-          "summary": "Amazon推出AgentCore生产级部署模板，支持各类Agent应用场景。",
-          "url": "https://github.com/awslabs/fullstack-solution-template-for-agentcore"
-        },
-        {
-          "id": "paper001",
-          "title": "DeepSeek-V2：高效经济的混合专家模型",
-          "source": "Papers",
-          "tags": [
-            "DeepSeek",
-            "混合专家",
-            "大模型"
-          ],
-          "summary": "DeepSeek-V2在保持强大性能的同时显著降低计算成本。",
-          "url": "https://huggingface.co/papers/2405.04434"
-        }
-      ]
-    }
-  ]
+  {
+    "date": "2026-01-21",
+    "summary": "今日AI领域呈现多维度进展：文本生成视频功能落地应用，高效小模型持续涌现，文档OCR与结构化提取技术成熟，区块链与AI结合初现端倪，同时大模型安全性研究成为焦点，开源生态与云原生部署方案不断完善。",
+    "news": [
+      {
+        "id": "p1x9m2",
+        "title": "Grok Imagine上线文本生成视频功能",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#文本转视频",
+          "#Grok"
+        ],
+        "summary": "Grok Imagine作为Grok AI系统的集成模块，支持通过文本提示生成视频片段，已在欧盟地区开放使用。用户反馈显示其具备良好的提示遵循能力与快速生成速度，适用于内容创作与创意原型设计场景，标志着xAI在多模态生成领域的实质性进展。",
+        "url": "https://www.linkedin.com/posts/reneschulte_this-is-not-sora-but-grok-imagine-and-i-love-activity-7382481423338774528-DN5q"
+      },
+      {
+        "id": "h7f3k8",
+        "title": "GLM-4.7-Flash模型发布，支持高效推理",
+        "source": "HuggingFace",
+        "tags": [
+          "#大模型",
+          "#高效推理",
+          "#GLM"
+        ],
+        "summary": "zai-org发布的GLM-4.7-Flash模型基于智谱AI的GLM架构优化，具备轻量化与高速响应特性，适用于低延迟场景下的自然语言处理任务。该模型在保持强大语言理解能力的同时显著降低计算资源消耗，适合部署于边缘设备或高并发服务环境，获得社区广泛关注。",
+        "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+      },
+      {
+        "id": "h5t2n1",
+        "title": "FLUX.2-klein-4B小型高性能模型上线",
+        "source": "HuggingFace",
+        "tags": [
+          "#小模型",
+          "#多模态",
+          "#FLUX"
+        ],
+        "summary": "black-forest-labs推出的FLUX.2-klein-4B是一款参数量为40亿的紧凑型多模态模型，专为资源受限环境设计，在图像生成与文本理解任务中表现均衡。其高性价比和易部署特性使其适用于本地化AI应用与终端设备集成，适合中小企业与开发者快速构建AI功能。",
+        "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B"
+      },
+      {
+        "id": "g9r4s6",
+        "title": "ocrbase实现PDF到结构化数据的自动化提取",
+        "source": "GitHub",
+        "tags": [
+          "#OCR",
+          "#文档解析",
+          "#TypeScript"
+        ],
+        "summary": "ocrbase是一个基于PaddleOCR与大语言模型的文档结构化API系统，支持将PDF转换为Markdown或JSON格式，具备实时WebSocket更新与类型安全的TypeScript SDK。支持自托管部署，适用于金融、法律等需高精度文档处理的行业自动化流程。",
+        "url": "https://github.com/majcheradam/ocrbase"
+      },
+      {
+        "id": "g3m7v2",
+        "title": "SIGNIA将现实结构转化为链上可验证形式",
+        "source": "GitHub",
+        "tags": [
+          "#区块链",
+          "#AI集成",
+          "#去中心化"
+        ],
+        "summary": "SIGNIA项目致力于将现实世界的数据结构（如组织架构、知识体系）编译为可在区块链上验证的数字形式，结合AI进行语义解析与逻辑验证。该框架为去中心化自治组织（DAO）与智能合约提供可信数据输入，推动Web3与AI融合应用发展。",
+        "url": "https://github.com/SIGNIAINDEX/SIGNIA"
+      },
+      {
+        "id": "g6w8q5",
+        "title": "AgentCore全栈模板支持生产级AI代理部署",
+        "source": "GitHub",
+        "tags": [
+          "#AI代理",
+          "#云原生",
+          "#AmazonBedrock"
+        ],
+        "summary": "AWS实验室推出的全栈解决方案模板专为Amazon Bedrock AgentCore设计，支持生产环境下的AI代理快速部署，涵盖前端、后端与AI逻辑层。该模板提供灵活架构，适用于客服、自动化流程等企业级应用场景，显著降低开发与运维复杂度。",
+        "url": "https://github.com/awslabs/fullstack-solution-template-for-agentcore"
+      },
+      {
+        "id": "g2n9x3",
+        "title": "awesome-slash提供专业级Claude代码命令集",
+        "source": "GitHub",
+        "tags": [
+          "#AI编程",
+          "#Claude",
+          "#开发工具"
+        ],
+        "summary": "awesome-slash项目为Claude Code提供一系列专业级的斜杠命令（slash commands），可在任意项目中通用，提升代码生成效率与一致性。命令集覆盖常见开发模式，支持团队协作标准化，是提升AI辅助编程体验的重要工具库。",
+        "url": "https://github.com/avifenesh/awesome-slash"
+      },
+      {
+        "id": "g8y4p1",
+        "title": "Violit打造高性能无重载Python Web框架",
+        "source": "GitHub",
+        "tags": [
+          "#Web框架",
+          "#Python",
+          "#Streamlit替代"
+        ],
+        "summary": "Violit是一个高性能Python Web框架，兼具Streamlit的简洁性但避免其页面重载问题，适用于构建交互式数据应用与AI前端界面。其设计专注于低延迟响应与状态管理，适合需要实时更新的数据可视化与AI交互系统开发。",
+        "url": "https://github.com/violit-dev/violit"
+      },
+      {
+        "id": "r4k7m9",
+        "title": "DeepSeek-VL推进真实场景视觉语言理解",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#视觉语言模型",
+          "#DeepSeek"
+        ],
+        "summary": "DeepSeek-VL研究致力于提升视觉语言模型在真实世界场景中的理解与推理能力，通过大规模图文对训练实现跨模态对齐。该模型在复杂图像描述、视觉问答等任务中表现优异，为自动驾驶、智能助手等应用提供核心技术支持。",
+        "url": "https://huggingface.co/papers/2403.05525"
+      },
+      {
+        "id": "r2t5n3",
+        "title": "RealSafe-R1实现安全对齐的DeepSeek-R1模型",
+        "source": "Papers",
+        "tags": [
+          "#AI安全",
+          "#对齐技术",
+          "#DeepSeek"
+        ],
+        "summary": "RealSafe-R1研究提出一种针对DeepSeek-R1模型的安全对齐框架，通过强化学习与人类反馈机制降低模型生成有害内容的风险。该方法在保持模型性能的同时显著提升安全性，为大模型在金融、医疗等高风险领域的应用提供保障。",
+        "url": "https://huggingface.co/papers/2504.10081"
+      },
+      {
+        "id": "r7f1j6",
+        "title": "o3-mini与DeepSeek-R1安全性对比研究",
+        "source": "Papers",
+        "tags": [
+          "#AI安全",
+          "#模型对比",
+          "#红队测试"
+        ],
+        "summary": "该论文系统比较o3-mini与DeepSeek-R1在多种安全基准下的表现，评估其对恶意提示的抵抗能力。研究涵盖越狱攻击、隐私泄露等维度，为开发者选择更安全的基座模型提供实证依据，推动行业安全标准建立。",
+        "url": "https://huggingface.co/papers/2501.18438"
+      },
+      {
+        "id": "r9p3k2",
+        "title": "DeepSeek-R1思维逻辑机制深度解析",
+        "source": "Papers",
+        "tags": [
+          "#思维链",
+          "#大模型推理",
+          "#DeepSeek"
+        ],
+        "summary": "本研究深入剖析DeepSeek-R1模型的内部推理机制，揭示其在复杂任务中如何构建思维链（Thought Chain）进行逻辑推导。通过可视化与归因分析，论文展示了模型在数学推理、代码生成等任务中的逐步思考过程，为可解释AI提供新视角。",
+        "url": "https://huggingface.co/papers/2504.07128"
+      }
+    ]
+  }
+]
