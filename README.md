@@ -68,7 +68,7 @@ graph TD
 下载代码并安装依赖：
 
 ```bash
-git clone https://github.com/你的用户名/ai-daily-web.git
+git clone https://github.com/wuhao980527-gif/ai-daily-web.git
 cd ai-daily-web && make install
 ```
 
