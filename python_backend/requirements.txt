@@ -1,10 +1,7 @@
-python-dotenv
-python-dateutil
+langchain
 langchain-openai
-langchain-core
 langchain-community
-pydantic
-tavily-python
-huggingface-hub
 langgraph
+tavily-python
 requests
+beautifulsoup4
