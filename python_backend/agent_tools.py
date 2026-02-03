@@ -33,6 +33,7 @@ llm = ChatOpenAI(
     openai_api_key=os.getenv("MY_API_KEY"),
     base_url=os.getenv("MY_BASE_URL"),
     model_name=os.getenv("MY_MODEL_NAME"),
+    request_timeout=300,
     temperature=0
 )
 tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
