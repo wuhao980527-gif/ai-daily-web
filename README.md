@@ -101,6 +101,19 @@ make run
 * **Frontend**: Next.js 14 (App Router), Tailwind CSS, Framer Motion
 * **DevOps**: Makefile, GitHub Actions (Optional)
 
+### GitHub Actions 自动更新配置
+
+若使用定时/手动触发日报更新，请在 Repo **Settings → Secrets and variables → Actions** 中配置：
+
+| Secret | 说明 |
+|--------|------|
+| `MY_API_KEY` | LLM API 密钥 |
+| `MY_BASE_URL` | LLM API 地址（**必须是公网可访问**，如 `https://api.openai.com/v1`） |
+| `MY_MODEL_NAME` | 模型名称（如 `gpt-4o-mini`） |
+| `TAVILY_API_KEY` | Tavily 搜索 API 密钥 |
+
+⚠️ **重要**：GitHub Actions 运行在海外服务器，无法访问内网/公司网关，请使用 OpenAI、Groq、Together.ai 等公网 API。
+
 ---
 
 ## 📂 目录结构 (Structure)

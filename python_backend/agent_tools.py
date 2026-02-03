@@ -1,5 +1,7 @@
 import os
 import json
+import time
+import requests
 from typing import List, Dict
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
@@ -21,6 +23,10 @@ load_dotenv()
 # ============================================================
 # 🔧 网络配置 
 # ============================================================
+if not os.getenv("MY_BASE_URL") or not os.getenv("MY_API_KEY"):
+    raise ValueError(
+        "请配置 MY_BASE_URL 和 MY_API_KEY。本地用 .env，GitHub Actions 用 Repo Secrets。"
+    )
 if not os.getenv("LOCAL_VPN"):
     print("🌍 [Network] 云端模式：清除代理，全权交给 Tavily")
     os.environ.pop("http_proxy", None)
@@ -116,38 +122,43 @@ def verify_product_page(item_str: str) -> dict:
 @tool
 def fetch_hf_trending_models() -> List[str]:
     print("   🤗 [Tool] 拉取 HF 热门模型...")
-    try:
-        api = HfApi()
-        models = api.list_models(sort="likes7d", direction=-1, limit=10)
-        results = []
-        limit_date = datetime.now().astimezone() - timedelta(days=7)
-        count = 0
-        for m in models:
-            if m.created_at and m.created_at >= limit_date:
-                info = f"Model: {m.modelId} | Date: {m.created_at.strftime('%Y-%m-%d')} | Likes: {m.likes} | URL: https://huggingface.co/{m.modelId}"
-                results.append(info)
-                count += 1
-                if count >= 5: break
-        return results
-    except Exception:
-        return []
+    for attempt in range(3):
+        try:
+            api = HfApi()
+            models = api.list_models(sort="likes7d", direction=-1, limit=10)
+            results = []
+            limit_date = datetime.now().astimezone() - timedelta(days=7)
+            count = 0
+            for m in models:
+                if m.created_at and m.created_at >= limit_date:
+                    info = f"Model: {m.modelId} | Date: {m.created_at.strftime('%Y-%m-%d')} | Likes: {m.likes} | URL: https://huggingface.co/{m.modelId}"
+                    results.append(info)
+                    count += 1
+                    if count >= 5:
+                        break
+            return results
+        except Exception as e:
+            print(f"      ⚠️ HuggingFace API 第{attempt+1}次失败: {e}")
+            if attempt < 2:
+                time.sleep(2)
+    return []
 
 @tool
 def fetch_github_trending() -> List[str]:
     print("   🐙 [Tool] 拉取 GitHub 趋势...")
-    try:
-        date_str = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
-        url = f"https://api.github.com/search/repositories?q=topic:ai+created:>{date_str}&sort=stars&order=desc&per_page=5"
-        headers = {"Accept": "application/vnd.github.v3+json", "User-Agent": "NewsAgent/1.0"}
-        resp = requests.get(url, headers=headers, timeout=10)
-        items = resp.json().get("items", [])
-        results = []
-        for i in items:
-            info = f"Repo: {i['full_name']} | Date: {i.get('created_at','')[:10]} | Stars: {i['stargazers_count']} | Desc: {i['description']} | URL: {i['html_url']}"
-            results.append(info)
-        return results
-    except Exception:
-        return []
+    url = f"https://api.github.com/search/repositories?q=topic:ai+created:>{(datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')}&sort=stars&order=desc&per_page=5"
+    headers = {"Accept": "application/vnd.github.v3+json", "User-Agent": "NewsAgent/1.0"}
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, headers=headers, timeout=15)
+            resp.raise_for_status()
+            items = resp.json().get("items", [])
+            return [f"Repo: {i['full_name']} | Date: {i.get('created_at','')[:10]} | Stars: {i['stargazers_count']} | Desc: {i.get('description','')} | URL: {i['html_url']}" for i in items]
+        except Exception as e:
+            print(f"      ⚠️ GitHub API 第{attempt+1}次失败: {e}")
+            if attempt < 2:
+                time.sleep(2)
+    return []
 
 @tool
 def fetch_big_tech_papers() -> List[str]:

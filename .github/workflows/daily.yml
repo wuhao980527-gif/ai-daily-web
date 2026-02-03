@@ -28,18 +28,27 @@ jobs:
         run: |
           pip install -r python_backend/requirements.txt
 
+      - name: 🔐 Validate Secrets (校验配置)
+        run: |
+          if [ -z "${{ secrets.MY_BASE_URL }}" ]; then
+            echo "::error::请在 Repo Settings → Secrets 中配置 MY_BASE_URL（公网可访问的 LLM API 地址，如 https://api.openai.com/v1）"
+            exit 1
+          fi
+          if [ -z "${{ secrets.MY_API_KEY }}" ]; then
+            echo "::error::请配置 MY_API_KEY"
+            exit 1
+          fi
+          echo "✅ 必要 Secrets 已配置"
+
       - name: 🚀 Run Agent (执行抓取)
         env:
-          # 🔑 从 Secrets 读取敏感密钥
+          # 🔑 必须使用「公网可访问」的 LLM API（GitHub 在美国，无法访问内网网关）
+          # 推荐：OpenAI / Groq / Together.ai / Anyscale 等
           MY_API_KEY: ${{ secrets.MY_API_KEY }}
+          MY_BASE_URL: ${{ secrets.MY_BASE_URL }}
+          MY_MODEL_NAME: ${{ secrets.MY_MODEL_NAME }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          
-          # 🌍 公开配置直接写在这里
-          MY_BASE_URL: http://higress-pirate-prod-gao.weizhipin.com/v1
-          MY_MODEL_NAME: qwen-v3-235b
-          
-          # ☁️ 告诉 Python：这是云端，别用 VPN
-          LOCAL_VPN: "" 
+          LOCAL_VPN: ""
         run: |
           python python_backend/agent_graph.py
 
