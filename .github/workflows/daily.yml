@@ -1,0 +1,57 @@
+name: Daily AI Insight Update
+
+on:
+  schedule:
+    # ⏰ 定时任务：每天 UTC 时间 01:00 (即北京时间 09:00)
+    - cron: '0 1 * * *'
+  # 👇 允许你在 GitHub 页面上手动点击按钮触发 (方便测试)
+  workflow_dispatch:
+
+permissions:
+  contents: write  # 允许脚本修改仓库代码 (为了推送 news.json)
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest  # 使用 GitHub 的 Linux 服务器
+
+    steps:
+      - name: 📥 Checkout Code (拉取代码)
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python (安装 Python)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip' # 开启缓存，加速安装
+
+      - name: 📦 Install Dependencies (安装依赖)
+        run: |
+          pip install -r python_backend/requirements.txt
+
+      - name: 🚀 Run Agent (执行抓取)
+        env:
+          # 🔑 从 Secrets 读取敏感密钥
+          MY_API_KEY: ${{ secrets.MY_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          
+          # 🌍 公开配置直接写在这里
+          MY_BASE_URL: http://higress-pirate-prod-gao.weizhipin.com/v1
+          MY_MODEL_NAME: qwen-v3-235b
+          
+          # ☁️ 告诉 Python：这是云端，别用 VPN
+          LOCAL_VPN: "" 
+        run: |
+          python python_backend/agent_graph.py
+
+      - name: 📤 Commit and Push (推送数据)
+        run: |
+          # 配置 Git 身份 (GitHub 机器人)
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # 检查 news.json 是否有变化
+          git add data/news.json
+          
+          # 如果有变化就提交，没变化就不报错
+          git commit -m "chore(bot): update daily news [skip ci]" || echo "No changes to commit"
+          git push

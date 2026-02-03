@@ -19,9 +19,18 @@ from agent_tools import (
     fetch_big_tech_papers
 )
 
-# 代理设置 (保持你之前的 VPN 配置)
-os.environ["http_proxy"] = "http://127.0.0.1:7897"
-os.environ["https_proxy"] = "http://127.0.0.1:7897"
+# ========================================================
+# 🌍 代理设置 (核心修改处)
+# 作用：GitHub Actions (云端) 不需要代理，直连速度更快
+# 本地运行如果需要代理，请在 .env 里加一行 LOCAL_VPN=true
+# ========================================================
+if os.getenv("LOCAL_VPN"):
+    os.environ["http_proxy"] = "http://127.0.0.1:7897"
+    os.environ["https_proxy"] = "http://127.0.0.1:7897"
+    print("🌍 检测到 LOCAL_VPN 变量，已开启本地代理模式...")
+else:
+    print("☁️ 未检测到 LOCAL_VPN，使用云端直连模式 (GitHub Actions)...")
+
 
 # ================= 1. 定义状态 =================
 class AgentState(TypedDict):
