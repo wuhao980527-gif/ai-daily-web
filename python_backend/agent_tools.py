@@ -121,6 +121,7 @@ def verify_product_page(item_str: str) -> dict:
 
 @tool
 def fetch_hf_trending_models() -> List[str]:
+    """拉取 HuggingFace 近 7 天热门 AI 模型列表。"""
     print("   🤗 [Tool] 拉取 HF 热门模型...")
     for attempt in range(3):
         try:
@@ -145,6 +146,7 @@ def fetch_hf_trending_models() -> List[str]:
 
 @tool
 def fetch_github_trending() -> List[str]:
+    """拉取 GitHub 近 7 天 AI 相关热门仓库列表。"""
     print("   🐙 [Tool] 拉取 GitHub 趋势...")
     url = f"https://api.github.com/search/repositories?q=topic:ai+created:>{(datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')}&sort=stars&order=desc&per_page=5"
     headers = {"Accept": "application/vnd.github.v3+json", "User-Agent": "NewsAgent/1.0"}
@@ -162,6 +164,7 @@ def fetch_github_trending() -> List[str]:
 
 @tool
 def fetch_big_tech_papers() -> List[str]:
+    """通过 Tavily 搜索大厂 AI 论文。"""
     print("   📜 [Tool] 论文搜索...")
     try:
         query = 'site:huggingface.co/papers ("OpenAI" OR "Google" OR "DeepSeek" OR "Meta")'
