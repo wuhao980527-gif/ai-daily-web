@@ -3,7 +3,7 @@ import json
 import time
 import requests
 from typing import List, Dict
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 from dateutil import parser
 import re
@@ -16,7 +16,6 @@ from pydantic import BaseModel, Field
 
 # 第三方客户端
 from tavily import TavilyClient
-from huggingface_hub import HfApi
 
 load_dotenv()
 
@@ -32,15 +31,16 @@ if not os.getenv("LOCAL_VPN"):
     os.environ.pop("http_proxy", None)
     os.environ.pop("https_proxy", None)
 
-# 初始化 LLM
+# 初始化 LLM（120s 超时 + 重试，避免单次卡死）
 llm = ChatOpenAI(
     openai_api_key=os.getenv("MY_API_KEY"),
     base_url=os.getenv("MY_BASE_URL"),
     model_name=os.getenv("MY_MODEL_NAME"),
     temperature=0.5,
-    request_timeout=300, 
-    max_retries=3
+    request_timeout=120,
+    max_retries=2,
 )
+
 tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
 # ================= 结构化校验 =================
@@ -105,39 +105,55 @@ def verify_product_page(item_str: str) -> dict:
         
         搜索摘要内容：{text}
         """)
-        
-        # 容错：如果输入太长，截断
-        content = item_str[:8000]
-        
-        res = (prompt | verifier).invoke({"text": content})
-        data = res.model_dump()
-        
-        status = "🟢通过" if (data['is_released'] and data['is_recent']) else "🔴拒绝"
-        print(f"         {status} | {data['product_name']}")
-        return data
+        content = item_str[:4000]
+        chain = prompt | verifier
+        for attempt in range(3):
+            try:
+                res = chain.invoke({"text": content})
+                data = res.model_dump()
+                status = "🟢通过" if (data['is_released'] and data['is_recent']) else "🔴拒绝"
+                print(f"         {status} | {data['product_name']}")
+                return data
+            except Exception as e:
+                if attempt < 2:
+                    print(f"      ⏳ 核查超时，5s 后重试 ({attempt + 2}/3)...")
+                    time.sleep(5)
+                else:
+                    raise
     except Exception as e:
         print(f"      ⚠️ 核查跳过: {e}")
         return {"is_released": False, "description": "Verification Skipped"}
 
 @tool
 def fetch_hf_trending_models() -> List[str]:
-    """拉取 HuggingFace 近 7 天热门 AI 模型列表。"""
-    print("   🤗 [Tool] 拉取 HF 热门模型...")
+    """拉取 HuggingFace 近 7 天新增、按点赞量降序的 Top 5 模型。"""
+    print("   🤗 [Tool] 拉取 HF 近 7 天新增模型 (点赞量降序 Top5)...")
+    url = "https://huggingface.co/api/models?sort=likes7d&limit=80"
+    limit_date = (datetime.now(timezone.utc) - timedelta(days=7)).replace(tzinfo=None)
     for attempt in range(3):
         try:
-            api = HfApi()
-            models = api.list_models(sort="likes7d", direction=-1, limit=10)
-            results = []
-            limit_date = datetime.now().astimezone() - timedelta(days=7)
-            count = 0
+            resp = requests.get(url, headers={"User-Agent": "NewsAgent/1.0"}, timeout=15)
+            resp.raise_for_status()
+            models = resp.json()
+            # 1. 筛出近 7 天新增的
+            recent = []
             for m in models:
-                if m.created_at and m.created_at >= limit_date:
-                    info = f"Model: {m.modelId} | Date: {m.created_at.strftime('%Y-%m-%d')} | Likes: {m.likes} | URL: https://huggingface.co/{m.modelId}"
-                    results.append(info)
-                    count += 1
-                    if count >= 5:
-                        break
-            return results
+                created = m.get("createdAt")
+                if not created:
+                    continue
+                try:
+                    dt = datetime.fromisoformat(created.replace("Z", "+00:00")).replace(tzinfo=None)
+                    if dt >= limit_date:
+                        recent.append(m)
+                except (ValueError, TypeError):
+                    pass
+            # 2. 按点赞量降序
+            recent.sort(key=lambda m: m.get("likes", 0), reverse=True)
+            # 3. 取 Top 5
+            return [
+                f"Model: {m.get('modelId', m.get('id', ''))} | Date: {m.get('createdAt', '')[:10]} | Likes: {m.get('likes', 0)} | URL: https://huggingface.co/{m.get('modelId', m.get('id', ''))}"
+                for m in recent[:5]
+            ]
         except Exception as e:
             print(f"      ⚠️ HuggingFace API 第{attempt+1}次失败: {e}")
             if attempt < 2:
