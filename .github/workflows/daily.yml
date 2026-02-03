@@ -13,6 +13,7 @@ permissions:
 jobs:
   build-and-run:
     runs-on: ubuntu-latest  # 使用 GitHub 的 Linux 服务器
+    timeout-minutes: 15     # 防止某步卡死超过 15 分钟
 
     steps:
       - name: 📥 Checkout Code (拉取代码)
