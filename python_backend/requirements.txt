@@ -5,3 +5,6 @@ langgraph
 tavily-python
 requests
 beautifulsoup4
+python-dateutil
+python-dotenv
+huggingface_hub
