@@ -2,15 +2,19 @@
 
 > **全自动化的 AI 趋势聚合平台。**
 > **Python Agent** 负责抓取清洗，**Next.js** 负责高颜值呈现。
+> **自动部署**在 Vercel，**定时更新**通过 GitHub Actions。
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 ![Architecture](https://img.shields.io/badge/Architecture-ReAct-purple?style=flat-square)
 ![Next.js](https://img.shields.io/badge/Frontend-Next.js_14-black?style=flat-square)
 ![LangGraph](https://img.shields.io/badge/Backend-LangGraph-orange?style=flat-square)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=flat-square)
 
 ## 📖 简介 (Introduction)
 
 **AI Daily Insight** 是一个自动化的 AI 趋势聚合工具。它利用 **LLM Agent** 每天并行抓取各大科技源（Product Hunt, Hugging Face, GitHub, Arxiv），经由 ReAct 认知架构清洗、去重、翻译，最终生成结构化的中文简报。
+
+**🌐 在线访问**: https://ai-daily-web-r.vercel.app/
 
 ---
 
@@ -85,6 +89,8 @@ MY_MODEL_NAME=gpt-4o
 TAVILY_API_KEY=tvly-xxxxxx
 ```
 
+**注意**: GitHub Actions 自动运行需要使用 **公网可访问** 的 API（如 OpenAI、Groq 等），不能使用内网网关。
+
 ### 3. 一键运行
 执行全流程（抓取 -> 清洗 -> 生成 -> 预览）：
 
@@ -95,24 +101,39 @@ make run
 
 ---
 
-## 🛠 技术栈 (Tech Stack)
+## 🔄 自动更新机制 (Auto Update)
 
-* **Backend**: LangGraph, LangChain, OpenAI GPT-4o, Tavily API
-* **Frontend**: Next.js 14 (App Router), Tailwind CSS, Framer Motion
-* **DevOps**: Makefile, GitHub Actions (Optional)
+本项目已实现 **全自动定时更新**：
 
-### GitHub Actions 自动更新配置
+### GitHub Actions 定时任务
+- **触发时间**: 每天 UTC 01:00 (北京时间 09:00)
+- **执行内容**: 自动运行 Python Agent 抓取最新 AI 资讯
+- **数据更新**: 将结果保存到 `data/news.json` 并自动提交到仓库
+- **自动部署**: Vercel 监听到 `data/news.json` 变化后自动重新部署网站
 
-若使用定时/手动触发日报更新，请在 Repo **Settings → Secrets and variables → Actions** 中配置：
+### 手动触发更新
+在 GitHub 仓库页面的 **Actions** 标签页，可以手动点击 "Run workflow" 立即执行更新。
+
+### 配置要求
+在 GitHub 仓库的 **Settings → Secrets and variables → Actions** 中配置以下 Secrets：
 
 | Secret | 说明 |
 |--------|------|
-| `MY_API_KEY` | LLM API 密钥 |
-| `MY_BASE_URL` | LLM API 地址（**必须是公网可访问**，如 `https://api.openai.com/v1`） |
-| `MY_MODEL_NAME` | 模型名称（如 `gpt-4o-mini`） |
+| `MY_API_KEY` | LLM API 密钥 (支持 OpenAI, Groq, Together.ai 等) |
+| `MY_BASE_URL` | API 地址 (如 `https://api.openai.com/v1`) |
+| `MY_MODEL_NAME` | 模型名称 (如 `gpt-4o-mini`) |
 | `TAVILY_API_KEY` | Tavily 搜索 API 密钥 |
 
-⚠️ **重要**：GitHub Actions 运行在海外服务器，无法访问内网/公司网关，请使用 OpenAI、Groq、Together.ai 等公网 API。
+---
+
+## 🛠 技术栈 (Tech Stack)
+
+* **Backend**: LangGraph, LangChain, LLM (GPT-4o, Claude, etc.), Tavily API
+* **Frontend**: Next.js 14 (App Router), Tailwind CSS
+* **DevOps**: GitHub Actions, Vercel
+* **数据存储**: JSON 文件 (data/news.json)
+
+---
 
 ---
 
