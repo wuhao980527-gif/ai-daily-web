@@ -176,89 +176,181 @@ def paper_node(state: AgentState):
 # --- 核心：主编汇总 ---
 
 def writer_node(state: AgentState):
-    """汇总四个板块的数据，生成 Markdown 日报"""
-    print("\n✍️ [Writer] 数据就位，生成最终简报...")
-    
-    # 数据判空处理，防止 None 导致报错
+    """汇总四个板块的数据，生成结构化 JSON 数据"""
+    print("\n✍️ [Writer] 数据就位，生成结构化新闻...")
+
+    import json
+    import hashlib
+    import re
+
+    # 数据判空处理
     p_items = state.get('product_verified_items', [])
     h_items = state.get('hf_models', [])
     g_items = state.get('github_repos', [])
     paper_items = state.get('tech_papers', [])
-    
-    # 拼装上下文
-    context = f"""
-    【1. 新品发布】
-    {chr(10).join(p_items) if p_items else "无重大发布。"}
-    
-    【2. Hugging Face 热榜】
-    {chr(10).join(h_items) if h_items else "接口未返回数据。"}
-    
-    【3. GitHub 趋势】
-    {chr(10).join(g_items) if g_items else "接口未返回数据。"}
-    
-    【4. 大厂论文】
-    {chr(10).join(paper_items) if paper_items else "无最新论文。"}
-    """
-    
-    # 详细的 Prompt
-    prompt = f"""
-    你是一名极其严谨的 AI 数据分析师。请整理一份 **AI 每日数据简报 ({datetime.now().strftime('%Y-%m-%d')})**。
-    
-    **⚠️ 格式排版铁律 (Python Markdown 兼容性要求)**：
-    1. **4空格缩进**：嵌套的子列表（如功能、评价、简介），必须使用 **4个空格** 的缩进！少于4个会被解析为同一行。
-    2. **空行隔离**：在进入列表 `-` 之前，必须先留一个 **空行**。
-    3. **中英双语**：保留英文标题，但描述全部翻译成中文。
 
-    **核心原则**：
-    1. **客观汇总**：仅罗列事实，不要添加任何主观评论（如“太强了”、“颠覆性”）。
-    2. **拒绝幻觉**：如果情报中只有 2 条新品，就只写 2 条，不要编造。
-    3. **格式规范**：严格遵守下方的 Markdown 结构。
-    4. **格式规范**：主要内容翻译成中文，标题可以沿用英文。
+    # 收集所有原始数据
+    raw_items = []
 
-    **输出格式模板**：
+    # ==================== 解析新品 ====================
+    for item_str in p_items:
+        try:
+            lines = item_str.strip().split('\n')
+            data = {}
+            for line in lines:
+                if ":" in line:
+                    key, val = line.split(":", 1)
+                    data[key.strip()] = val.strip()
 
-    # 📊 AI 全景数据简报 ({datetime.now().strftime('%Y-%m-%d')})
+            if data.get("Product") and data.get("URL"):
+                raw_items.append({
+                    "type": "Product",
+                    "title": data.get("Product"),
+                    "url": data.get("URL"),
+                    "description": data.get("Desc", ""),
+                    "date": data.get("Date", "")
+                })
+        except Exception as e:
+            print(f"⚠️ 解析新品出错: {e}")
 
-    ## 1. 🆕 全球 AI 新品发布 (Product Launches)
-    *筛选已核实的真实发布信息*
+    # ==================== 解析 HF 模型 ====================
+    for item_str in h_items:
+        try:
+            # 提取 Model ID 和 URL
+            model_match = re.search(r'Model:\s*(.+?)(?:\n|$)', item_str)
+            url_match = re.search(r'URL:\s*(.+?)(?:\n|$)', item_str)
+            readme_match = re.search(r'README Summary ---\n(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
-    - **[产品名]** ([Link](url))📅 <提取Date字段>
-        - **功能**: <功能描述&主要内容>
-        - **评价**: <客观评价/市场意义>
+            if model_match and url_match:
+                raw_items.append({
+                    "type": "HuggingFace",
+                    "title": model_match.group(1).strip().replace("===", "").strip(),
+                    "url": url_match.group(1).strip(),
+                    "description": readme_match.group(1).strip()[:500] if readme_match else "",
+                    "date": ""
+                })
+        except Exception as e:
+            print(f"⚠️ 解析 HF 模型出错: {e}")
 
+    # ==================== 解析 GitHub 项目 ====================
+    for item_str in g_items:
+        try:
+            repo_match = re.search(r'Repo:\s*(.+?)(?:\n|$)', item_str)
+            url_match = re.search(r'URL:\s*(.+?)(?:\n|$)', item_str)
+            lang_match = re.search(r'Language:\s*(.+?)(?:\n|$)', item_str)
+            readme_match = re.search(r'README snippet ---\n(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
-    ## 2. 🤗 Hugging Face 热门模型 (Trending Models)
-    *基于 7 天内点赞数 Top 5*
+            if repo_match and url_match:
+                raw_items.append({
+                    "type": "GitHub",
+                    "title": repo_match.group(1).strip().replace("===", "").strip(),
+                    "url": url_match.group(1).strip(),
+                    "description": readme_match.group(1).strip()[:500] if readme_match else "",
+                    "language": lang_match.group(1).strip() if lang_match else "Unknown",
+                    "date": ""
+                })
+        except Exception as e:
+            print(f"⚠️ 解析 GitHub 项目出错: {e}")
 
-    - **[Model ID]** ([Link](url)) (⭐Likes)📅<提取Date字段>
-        - **简介**: <阅读 'README Summary'，总结该模型最核心的亮点（如：是微调版？是量化版？支持多长 Context？在某个Benchmark上超越了谁？），或者有什么其他亮点？>
-        - **场景**: <根据 README 里的 Usage 或描述判断。例如：'适合医疗问答'、'适合低显存部署'、'适合角色扮演'、'适合代码补全'>
+    # ==================== 解析论文 ====================
+    for item_str in paper_items:
+        try:
+            title_match = re.search(r'Paper:\s*(.+?)(?:\n|$)', item_str)
+            url_match = re.search(r'URL:\s*(.+?)(?:\n|$)', item_str)
+            org_match = re.search(r'Organization:\s*(.+?)(?:\n|$)', item_str)
+            abstract_match = re.search(r'Abstract:\s*(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
-    ## 3. 🐙 GitHub 开发者趋势 (Dev Trends)
-    *基于 7 天内 Stars 增长 Top 5*
+            if title_match and url_match:
+                raw_items.append({
+                    "type": "Papers",
+                    "title": title_match.group(1).strip().replace("===", "").strip(),
+                    "url": url_match.group(1).strip(),
+                    "description": abstract_match.group(1).strip()[:300] if abstract_match else "",
+                    "organization": org_match.group(1).strip() if org_match else "",
+                    "date": ""
+                })
+        except Exception as e:
+            print(f"⚠️ 解析论文出错: {e}")
 
-    - **[项目名]** ([Link](url)) (⭐Stars)📅<提取Date字段>
-        - **简介**: <阅读 'README snippet'，概括项目功能&亮点>
-        - **用途**: <推断其面向人群，或者应用场景。>
+    # ==================== 用一次 LLM 调用处理所有数据 ====================
+    if raw_items:
+        # 构建 prompt
+        items_text = ""
+        for i, item in enumerate(raw_items):
+            items_text += f"\n[{i}] 类型:{item['type']} | 标题:{item['title']} | 描述:{item['description'][:100]}...\n"
 
-    ## 4. 📜 大厂前沿论文 (Big Tech Papers)
-    *聚焦 Google, OpenAI, Meta, Anthropic, Qwen 等大厂近 7 天动态*
+        prompt = f"""你是 AI 新闻编辑。请为以下 {len(raw_items)} 条新闻生成中文摘要和标签。
 
-    - **[<提取Source字段>] [英文标题] (中文译名)** ([Link](url))📅<提取Date字段>
-        - **摘要**: <阅读 'Snippet'，用一句话概括核心贡献（如：提出新架构、解决幻觉问题、发布新模型、优化推理速度）>
-        - **领域**: <归纳技术方向。例如：'大模型对齐'、'多模态生成'、'高效推理'、'Agent 规划'>
+{items_text}
 
-    ---
-    *数据来源: Tavily, Hugging Face, GitHub API, Arxiv | 生成时间: {datetime.now().strftime('%H:%M')}*
+要求：
+1. 每条新闻生成一句话的中文摘要（50字以内）
+2. 每条新闻提取2-3个中文标签（格式：#标签）
+3. 输出格式必须严格为 JSON 数组：
+[
+  {{"index": 0, "summary": "摘要文本", "tags": ["#标签1", "#标签2"]}},
+  {{"index": 1, "summary": "摘要文本", "tags": ["#标签1", "#标签2"]}}
+]
 
-    **原始情报数据**：
-    {context}
-    
-    请直接输出 Markdown 内容，不要包含 "Here is the report" 等废话。
-    """
-    
-    response = llm.invoke(prompt)
-    return {"final_report": response.content}
+只输出 JSON，不要其他文字！"""
+
+        try:
+            response = llm.invoke(prompt).content
+            # 提取 JSON 部分
+            json_match = re.search(r'\[.*\]', response, re.DOTALL)
+            if json_match:
+                summaries = json.loads(json_match.group())
+
+                # 将摘要和标签填充回原数据
+                for summary_data in summaries:
+                    idx = summary_data.get("index")
+                    if idx is not None and idx < len(raw_items):
+                        raw_items[idx]["summary"] = summary_data.get("summary", raw_items[idx]["description"][:100])
+                        raw_items[idx]["tags"] = summary_data.get("tags", ["#AI"])
+            else:
+                print("⚠️ LLM 未返回有效 JSON，使用原始描述")
+                for item in raw_items:
+                    item["summary"] = item["description"][:100]
+                    item["tags"] = ["#AI", f"#{item['type']}"]
+
+        except Exception as e:
+            print(f"⚠️ LLM 处理失败: {e}，使用原始描述")
+            for item in raw_items:
+                item["summary"] = item["description"][:100] if item["description"] else "暂无描述"
+                item["tags"] = ["#AI", f"#{item['type']}"]
+
+    # ==================== 组装最终数据 ====================
+    all_news = []
+    for item in raw_items:
+        item_id = hashlib.md5(item["url"].encode()).hexdigest()[:6]
+        all_news.append({
+            "id": item_id,
+            "title": item["title"],
+            "source": item["type"],
+            "tags": item.get("tags", ["#AI"]),
+            "summary": item.get("summary", item["description"][:100]),
+            "url": item["url"]
+        })
+
+    # 生成每日总结
+    if all_news:
+        titles_text = ", ".join([n["title"][:30] for n in all_news[:8]])
+        summary_prompt = f"用一句话总结今天 AI 领域的主要进展（不超过50字）。今日新闻包括：{titles_text}"
+        try:
+            daily_summary = llm.invoke(summary_prompt).content.strip()
+        except:
+            daily_summary = f"今日共有 {len(all_news)} 条 AI 相关动态。"
+    else:
+        daily_summary = "今日暂无重大 AI 进展。"
+
+    # 返回结构化数据
+    result = {
+        "summary": daily_summary,
+        "news": all_news
+    }
+
+    print(f"   ✅ 已生成 {len(all_news)} 条新闻")
+    return {"final_report": json.dumps(result, ensure_ascii=False)}
 
 # ================= 3. 构建图谱 (Graph) =================
 
@@ -332,9 +424,20 @@ if __name__ == "__main__":
         # 确保 data 目录存在
         os.makedirs(data_dir, exist_ok=True)
 
+        # 解析 LLM 返回的 JSON 字符串
+        try:
+            report_data = json.loads(report)
+        except json.JSONDecodeError:
+            print("⚠️ 解析 JSON 失败，使用默认格式")
+            report_data = {
+                "summary": "数据生成失败",
+                "news": []
+            }
+
         today_news = {
             "date": datetime.now().strftime("%Y-%m-%d"),
-            "content": report
+            "summary": report_data.get("summary", ""),
+            "news": report_data.get("news", [])
         }
 
         # 读取现有数据
@@ -361,6 +464,7 @@ if __name__ == "__main__":
             json.dump(all_news, f, ensure_ascii=False, indent=2)
 
         print(f"\n✅ 数据已保存到 {json_path}")
+        print(f"   今日新增 {len(report_data.get('news', []))} 条新闻")
 
     except Exception as e:
         print(f"\n❌ 程序运行出错: {e}")
