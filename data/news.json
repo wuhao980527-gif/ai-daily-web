@@ -151,17 +151,18 @@
   },
   {
     "date": "2026-02-04",
-    "summary": "AI领域取得进展，包括GLM-OCR、Step-3.5-Flash和PaddleOCR-VL-1.5等新模型发布。",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 GLM-OCR、Step-3.5-Flash、Anima、Qwen3-Coder-Next 和 MiniCPM-o-4_5，这些模型在 HuggingFace 平台上发布，表明了 AI 研究和开发的持续活跃。这些模型的发布可能将推动自然语言处理、计算机视觉等领域的技术进步和行业应用。",
     "news": [
       {
         "id": "284f32",
         "title": "zai-org/GLM-OCR",
         "source": "HuggingFace",
         "tags": [
-          "#HuggingFace",
-          "#OCR"
+          "#多模态",
+          "#图像识别",
+          "#自然语言处理"
         ],
-        "summary": "GLM-OCR模型支持多语言",
+        "summary": "zai-org/GLM-OCR 是一个基于 HuggingFace 的图像到文本模型，支持多语言，包括中文、英文、法文、西班牙文、俄文、德文、日文和韩文。其核心功能是将图像中的文本识别并转换为可编辑的文本。技术亮点在于其多语言支持和高精度的识别能力。应用场景包括文档扫描、图片中的文本提取等。行业意义在于其能够提高文本识别的效率和准确性，特别是在多语言环境中。",
         "url": "https://huggingface.co/zai-org/GLM-OCR"
       },
       {
@@ -169,10 +170,11 @@
         "title": "stepfun-ai/Step-3.5-Flash",
         "source": "HuggingFace",
         "tags": [
-          "#HuggingFace",
-          "#AI"
+          "#自然语言处理",
+          "#文本分析",
+          "#高性能计算"
         ],
-        "summary": "Step-3.5-Flash模型发布",
+        "summary": "stepfun-ai/Step-3.5-Flash 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是提供高性能的文本处理能力，技术亮点在于其快速的处理速度和高效的资源利用。应用场景包括文本分类、情感分析等。行业意义在于其能够提高文本处理的效率和降低计算成本，特别是在大规模文本处理任务中。",
         "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash"
       },
       {
@@ -180,88 +182,36 @@
         "title": "circlestone-labs/Anima",
         "source": "HuggingFace",
         "tags": [
-          "#HuggingFace",
-          "#AI"
+          "#生成式AI",
+          "#文本生成",
+          "#对话系统"
         ],
-        "summary": "Anima模型发布",
+        "summary": "circlestone-labs/Anima 是一个基于 HuggingFace 的模型，采用 circlestone-labs-non-commercial-license 协议。其核心功能是提供高级的文本生成能力，技术亮点在于其创新的生成算法和高质量的生成结果。应用场景包括内容生成、对话系统等。行业意义在于其能够提高内容生成的质量和效率，特别是在需要高质量内容的场景中。",
         "url": "https://huggingface.co/circlestone-labs/Anima"
-      },
-      {
-        "id": "15781b",
-        "title": "PaddlePaddle/PaddleOCR-VL-1.5",
-        "source": "HuggingFace",
-        "tags": [
-          "#HuggingFace",
-          "#PaddleOCR"
-        ],
-        "summary": "PaddleOCR-VL-1.5模型发布",
-        "url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5"
       },
       {
         "id": "7937ae",
         "title": "Qwen/Qwen3-Coder-Next",
         "source": "HuggingFace",
         "tags": [
-          "#HuggingFace",
-          "#AI"
+          "#编码助手",
+          "#代码生成",
+          "#高性能计算"
         ],
-        "summary": "Qwen3-Coder-Next模型发布",
+        "summary": "Qwen/Qwen3-Coder-Next 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是提供高性能的编码能力，技术亮点在于其高效的编码算法和高质量的编码结果。应用场景包括代码生成、代码优化等。行业意义在于其能够提高编码的效率和质量，特别是在大规模编码任务中。",
         "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       },
       {
-        "id": "2ff2f6",
-        "title": "voocel/openclaw-mini",
-        "source": "GitHub",
+        "id": "e3bce6",
+        "title": "openbmb/MiniCPM-o-4_5",
+        "source": "HuggingFace",
         "tags": [
-          "#GitHub",
-          "#AI"
+          "#多模态",
+          "#图像识别",
+          "#语音识别"
         ],
-        "summary": "OpenClaw Mini项目发布",
-        "url": "https://github.com/voocel/openclaw-mini"
-      },
-      {
-        "id": "e1bcbf",
-        "title": "lukehinds/nono",
-        "source": "GitHub",
-        "tags": [
-          "#GitHub",
-          "#安全"
-        ],
-        "summary": "nono项目发布",
-        "url": "https://github.com/lukehinds/nono"
-      },
-      {
-        "id": "945daa",
-        "title": "burpheart/cursor-tap",
-        "source": "GitHub",
-        "tags": [
-          "#GitHub",
-          "#流量分析"
-        ],
-        "summary": "Cursor-Tap工具发布",
-        "url": "https://github.com/burpheart/cursor-tap"
-      },
-      {
-        "id": "02b843",
-        "title": "Vasco0x4/AIDA",
-        "source": "GitHub",
-        "tags": [
-          "#GitHub",
-          "#AI"
-        ],
-        "summary": "AIDA项目发布",
-        "url": "https://github.com/Vasco0x4/AIDA"
-      },
-      {
-        "id": "f53196",
-        "title": "BlockRunAI/ClawRouter",
-        "source": "GitHub",
-        "tags": [
-          "#GitHub",
-          "#LLM"
-        ],
-        "summary": "ClawRouter项目发布",
-        "url": "https://github.com/BlockRunAI/ClawRouter"
+        "summary": "openbmb/MiniCPM-o-4_5 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是提供高性能的多模态处理能力，技术亮点在于其创新性的多模态融合算法和高质量的处理结果。应用场景包括图像、文本、语音等多模态处理任务。行业意义在于其能够提高多模态处理的效率和质量，特别是在需要多模态交互的场景中。",
+        "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5"
       }
     ]
   }
