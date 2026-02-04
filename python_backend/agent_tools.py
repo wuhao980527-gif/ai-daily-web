@@ -10,7 +10,6 @@ from langchain_openai import ChatOpenAI
 from langchain_core.tools import tool
 from langchain_core.prompts import ChatPromptTemplate
 from tavily import TavilyClient
-# ❌ 删除 from huggingface_hub import HfApi (这个库会卡死)
 
 load_dotenv()
 
@@ -33,7 +32,7 @@ tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
 @tool
 def search_new_products(query: str) -> List[Dict]:
-    """Tavily 搜索"""
+    """Tavily 搜索工具，用于查找最新的 AI 产品发布信息。"""
     print(f"   🕵️ [Tool] 正在搜索: {query}")
     try:
         response = tavily_client.search(
@@ -49,7 +48,7 @@ def search_new_products(query: str) -> List[Dict]:
 
 @tool
 def verify_product_page(content_snippet: str) -> dict:
-    """AI 核查"""
+    """AI 核查工具，用于根据文本判断产品是否真实发布。"""
     print(f"      🧠 [Tool] AI 正在核查信息...")
     class ProductVerification(BaseModel):
         product_name: str = Field(description="产品名称")
@@ -72,17 +71,13 @@ def verify_product_page(content_snippet: str) -> dict:
 
 @tool
 def fetch_hf_trending_models() -> List[str]:
-    """
-    ❌ 不再使用 HfApi 库
-    ✅ 改用 requests 直连，强制 10秒超时
-    """
+    """获取 Hugging Face 热门模型列表。"""
     print("   🤗 [Tool] 获取 HF 榜单 (Requests版)...")
     try:
-        # 官方 API 地址
         url = "https://huggingface.co/api/models"
         params = {"sort": "likes7d", "direction": "-1", "limit": 10}
         
-        # ⚡️ 关键：timeout=10 防止卡死
+        # 强制 10秒超时
         resp = requests.get(url, params=params, timeout=10)
         
         models = resp.json()
@@ -90,7 +85,6 @@ def fetch_hf_trending_models() -> List[str]:
         limit_date = datetime.now() - timedelta(days=7)
         
         for m in models:
-            # 安全获取时间，防止某些模型没时间字段
             created_at = m.get('createdAt')
             if created_at:
                 dt = datetime.fromisoformat(created_at.replace('Z', '+00:00')).replace(tzinfo=None)
@@ -100,10 +94,11 @@ def fetch_hf_trending_models() -> List[str]:
         return results
     except Exception as e:
         print(f"      ⚠️ HF 获取失败 (已跳过): {e}")
-        return [] # 失败了就返回空，不要卡死主程序
+        return []
 
 @tool
 def fetch_github_trending() -> List[str]:
+    """获取 GitHub 热门 AI 项目列表。"""
     print("   🐙 [Tool] 获取 GitHub 榜单...")
     try:
         date_str = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
@@ -115,6 +110,7 @@ def fetch_github_trending() -> List[str]:
 
 @tool
 def fetch_big_tech_papers() -> List[str]:
+    """搜索大厂发布的最新 AI 论文。"""
     print("   📜 [Tool] 获取论文...")
     try:
         res = tavily_client.search('site:huggingface.co/papers ("OpenAI" OR "DeepSeek" OR "Google")', max_results=5)
