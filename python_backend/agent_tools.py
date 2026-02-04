@@ -24,7 +24,9 @@ llm = ChatOpenAI(
     openai_api_key=os.getenv("MY_API_KEY"),
     base_url=os.getenv("MY_BASE_URL"),
     model_name=os.getenv("MY_MODEL_NAME"),
-    temperature=0
+    temperature=0,
+    timeout=30,  # 30秒超时，防止卡死
+    max_retries=2  # 最多重试2次
 )
 tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 

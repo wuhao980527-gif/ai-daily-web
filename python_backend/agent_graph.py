@@ -23,8 +23,13 @@ import os  # 确保这行一定要有（如果没有就补上，如果本来就�
 # 作用：确保无论是手动运行还是 Crontab 定时任务，都能连上外网
 # ⚠️ 注意：如果你换了 VPN 软件，记得回来把 7897 改成新端口
 # ========================================================
-os.environ["http_proxy"] = "http://127.0.0.1:7897"
-os.environ["https_proxy"] = "http://127.0.0.1:7897"
+LOCAL_VPN = os.getenv("LOCAL_VPN", "")
+if LOCAL_VPN:
+    os.environ["http_proxy"] = LOCAL_VPN
+    os.environ["https_proxy"] = LOCAL_VPN
+    print(f"🔧 [Config] 使用本地代理: {LOCAL_VPN}")
+else:
+    print("🌐 [Config] 直连模式 (GitHub Actions)")
 # ========================================================
 
 
@@ -89,22 +94,26 @@ def product_verify_node(state: AgentState):
     raw = state.get('product_raw_items', [])
     verified = []
     print(f"\n🔍 [Graph] 正在核实 {len(raw)} 条新品线索...")
-    
+
     for item in raw:
-        # 调用 agent_tools 里的核查工具
-        res = verify_product_page.invoke(item['url'])
-        
-        # 只有真正发布且是近期的新品才保留
-        if res['is_released'] and res['is_recent']:
-            # 格式化数据，方便主编直接使用
-            info = (
-                f"Product: {res['product_name']}\n"
-                f"Date: {res['release_date']}\n"  # <--- 新增这一行
-                f"Desc: {res['description']}\n"
-                f"URL: {item['url']}"
-            )
-            verified.append(info)
-            
+        try:
+            # 调用 agent_tools 里的核查工具
+            res = verify_product_page.invoke(item['url'])
+
+            # 只有真正发布且是近期的新品才保留
+            if res.get('is_released') and res.get('is_recent'):
+                # 格式化数据，方便主编直接使用
+                info = (
+                    f"Product: {res.get('product_name', 'Unknown')}\n"
+                    f"Date: {res.get('release_date', 'N/A')}\n"
+                    f"Desc: {res.get('description', 'N/A')}\n"
+                    f"URL: {item['url']}"
+                )
+                verified.append(info)
+        except Exception as e:
+            print(f"      ⚠️ 核查失败 ({item.get('url', 'N/A')}): {e}")
+            continue
+
     return {"product_verified_items": verified}
 
 def product_reflect_node(state: AgentState):
@@ -144,13 +153,25 @@ def should_continue_product(state: AgentState):
 # --- 板块 2/3/4: API 直连逻辑 ---
 
 def hf_node(state: AgentState):
-    return {"hf_models": fetch_hf_trending_models.invoke({})}
+    try:
+        return {"hf_models": fetch_hf_trending_models.invoke({})}
+    except Exception as e:
+        print(f"⚠️ [HF] 获取失败: {e}")
+        return {"hf_models": []}
 
 def github_node(state: AgentState):
-    return {"github_repos": fetch_github_trending.invoke({})}
+    try:
+        return {"github_repos": fetch_github_trending.invoke({})}
+    except Exception as e:
+        print(f"⚠️ [GitHub] 获取失败: {e}")
+        return {"github_repos": []}
 
 def paper_node(state: AgentState):
-    return {"tech_papers": fetch_big_tech_papers.invoke({})}
+    try:
+        return {"tech_papers": fetch_big_tech_papers.invoke({})}
+    except Exception as e:
+        print(f"⚠️ [Papers] 获取失败: {e}")
+        return {"tech_papers": []}
 
 # --- 核心：主编汇总 ---
 
@@ -301,6 +322,16 @@ if __name__ == "__main__":
 
         # 3. 保存到 data/news.json (用于网页展示)
         import json
+
+        # 确保使用项目根目录的路径
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.dirname(script_dir)
+        data_dir = os.path.join(project_root, "data")
+        json_path = os.path.join(data_dir, "news.json")
+
+        # 确保 data 目录存在
+        os.makedirs(data_dir, exist_ok=True)
+
         today_news = {
             "date": datetime.now().strftime("%Y-%m-%d"),
             "content": report
@@ -308,7 +339,7 @@ if __name__ == "__main__":
 
         # 读取现有数据
         try:
-            with open("data/news.json", "r", encoding="utf-8") as f:
+            with open(json_path, "r", encoding="utf-8") as f:
                 all_news = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             all_news = []
@@ -326,10 +357,10 @@ if __name__ == "__main__":
             all_news.append(today_news)
 
         # 保存回文件
-        with open("data/news.json", "w", encoding="utf-8") as f:
+        with open(json_path, "w", encoding="utf-8") as f:
             json.dump(all_news, f, ensure_ascii=False, indent=2)
 
-        print(f"\n✅ 数据已保存到 data/news.json")
+        print(f"\n✅ 数据已保存到 {json_path}")
 
     except Exception as e:
         print(f"\n❌ 程序运行出错: {e}")
