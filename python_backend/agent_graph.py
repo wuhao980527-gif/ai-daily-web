@@ -51,31 +51,33 @@ class AgentState(TypedDict):
 # ================= 2. 定义节点 (Nodes) =================
 
 def init_node(state: AgentState):
-    """初始化：生成针对高热度+近期的搜索词"""
-    print(f"⚙️ [Init] 系统初始化（聚焦高热度+近期3天）...")
+    """初始化：生成针对高热度+近期7天的搜索词"""
+    print(f"⚙️ [Init] 系统初始化（聚焦高热度+近期7天）...")
 
-    # 1. 缩短时间窗口到3天，提高时效性
-    target_date = (datetime.now() - timedelta(days=3)).strftime("%Y-%m-%d")
+    # 1. 时间窗口：7天
+    target_date = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
 
-    # 2. 优化搜索词：聚焦大事件（发布、融资、重大更新）
-    # 大公司关键词
-    big_companies = '"OpenAI" OR "Google" OR "Meta" OR "Anthropic" OR "DeepMind" OR "DeepSeek" OR "Qwen" OR "Alibaba"'
+    # 2. 国际大厂
+    global_companies = '"OpenAI" OR "Google" OR "Meta" OR "Anthropic" OR "DeepMind" OR "Microsoft"'
 
-    # 重大事件关键词
-    major_events = '"launched" OR "released" OR "funding" OR "融资" OR "发布会" OR "announces"'
+    # 3. 国内大厂（重点关注）
+    china_companies = '"百度" OR "字节跳动" OR "ByteDance" OR "腾讯" OR "Tencent" OR "阿里" OR "Alibaba" OR "华为" OR "Huawei" OR "商汤" OR "SenseTime" OR "旷视" OR "Megvii" OR "科大讯飞" OR "iFlytek" OR "DeepSeek" OR "智谱AI" OR "Zhipu" OR "Qwen" OR "通义" OR "文心" OR "ERNIE"'
 
-    # AI 热门方向
-    hot_topics = '"GPT" OR "Claude" OR "Gemini" OR "大模型" OR "Agent" OR "多模态" OR "Sora"'
+    # 4. 重要AI产品/服务
+    hot_products = '"ChatGPT" OR "Claude" OR "Gemini" OR "GPT" OR "Sora" OR "文心一言" OR "通义千问" OR "Kimi" OR "豆包"'
 
-    # 组合策略：(大公司 OR 热门话题) + 重大事件 + 近期
+    # 5. 重大事件关键词
+    major_events = '"launched" OR "released" OR "发布" OR "上线" OR "推出" OR "funding" OR "融资" OR "发布会"'
+
+    # 组合策略：(国际大厂 OR 国内大厂 OR 热门产品) + 重大事件 + 7天内
     initial_query = f"""
-    ({big_companies} OR {hot_topics})
+    ({global_companies} OR {china_companies} OR {hot_products})
     {major_events}
     after:{target_date}
     """
 
     clean_query = " ".join(initial_query.split())
-    print(f"   🔍 搜索策略: {clean_query[:80]}...")
+    print(f"   🔍 搜索策略: 国内外大厂+重要产品，7天内...")
 
     return {
         "product_query": clean_query,

@@ -90,28 +90,28 @@ def verify_product_page(url: str) -> dict:
 @tool
 def fetch_hf_trending_models() -> List[str]:
     """
-    【板块2】Hugging Face 近 3 天最热模型 Top 5（按7日增长排序）。
-    聚焦：新发布 + 高热度 + 官方模型
+    【板块2】Hugging Face 近 7 天最热模型 Top 5（按7日点赞飙升排序）。
+    策略：使用 likes7d 排序（代表7天内点赞增长最快）
     """
-    print("   🤗 [Tool] 正在拉取 HF 热门模型（3天内 + 高热度）...")
+    print("   🤗 [Tool] 正在拉取 HF 热门模型（7天内点赞飙升榜）...")
     try:
         api = HfApi()
-        # 按7日点赞数排序，但只要3天内创建的
-        models = api.list_models(sort="likes7d", direction=-1, limit=30)
+        # 按7日点赞数排序（这就是飙升榜）
+        models = api.list_models(sort="likes7d", direction=-1, limit=50)
 
         results = []
-        limit_date = datetime.now().astimezone() - timedelta(days=3)
+        limit_date = datetime.now().astimezone() - timedelta(days=7)
 
         count = 0
         for m in models:
-            # 严格筛选：3天内创建 + 有一定热度
-            if m.created_at and m.created_at >= limit_date and m.likes > 5:
+            # 筛选：7天内创建或更新的模型
+            if m.created_at and m.created_at >= limit_date:
                 model_id = m.modelId
                 likes = m.likes
                 date_str = m.created_at.strftime('%Y-%m-%d')
                 model_url = f"https://huggingface.co/{model_id}"
 
-                print(f"      📥 [HF] ({date_str}) {model_id} (⭐{likes})...")
+                print(f"      📥 [HF] ({date_str}) {model_id} (⭐{likes} 7d增长)...")
 
                 readme_content = "暂无详细介绍"
                 try:
@@ -136,7 +136,46 @@ def fetch_hf_trending_models() -> List[str]:
                 count += 1
                 if count >= 5: break
 
-        print(f"      ✅ HF 抓取成功: {count} 个（聚焦高热度）")
+        # 如果7天内新创建的模型不足5个，补充7天内点赞最高的
+        if count < 5:
+            print(f"      ⚠️ 7天内新模型不足，补充点赞最高的模型...")
+            for m in models:
+                if count >= 5:
+                    break
+
+                # 跳过已经添加的
+                model_id = m.modelId
+                if any(model_id in r for r in results):
+                    continue
+
+                likes = m.likes
+                date_str = m.created_at.strftime('%Y-%m-%d') if m.created_at else "Unknown"
+                model_url = f"https://huggingface.co/{model_id}"
+
+                print(f"      📥 [HF] ({date_str}) {model_id} (⭐{likes})...")
+
+                readme_content = "暂无详细介绍"
+                try:
+                    readme_url = f"https://huggingface.co/{model_id}/resolve/main/README.md"
+                    resp = requests.get(readme_url, timeout=10)
+                    if resp.status_code == 200:
+                        readme_content = resp.text[:3000]
+                except Exception:
+                    pass
+
+                info = (
+                    f"=== Model: {model_id} ===\n"
+                    f"URL: {model_url}\n"
+                    f"Date: {date_str}\n"
+                    f"Likes: {likes} | Tags: {m.tags}\n"
+                    f"--- README Summary ---\n"
+                    f"{readme_content}\n"
+                    f"======================\n"
+                )
+                results.append(info)
+                count += 1
+
+        print(f"      ✅ HF 抓取成功: {count} 个（7天飙升榜）")
         return results
     except Exception as e:
         print(f"   ❌ HF API 错误: {e}")
@@ -145,16 +184,16 @@ def fetch_hf_trending_models() -> List[str]:
 @tool
 def fetch_github_trending() -> List[str]:
     """
-    【板块3】GitHub 近 3 天热门 AI 项目 Top 5（按 Stars 排序）。
-    聚焦：新项目 + 高 Stars + 热门话题
+    【板块3】GitHub 近 7 天 AI 项目飙升榜 Top 5。
+    策略：7天内新创建的AI项目，按Stars降序（新项目高stars=飙升快）
     """
-    print("   🐙 [Tool] 正在拉取 GitHub 趋势（3天内 + 高Stars）...")
+    print("   🐙 [Tool] 正在拉取 GitHub 趋势（7天内新项目，Stars倒序）...")
     try:
-        date_str = (datetime.now() - timedelta(days=3)).strftime('%Y-%m-%d')
+        date_str = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
 
-        # 搜索热门AI话题：agent, llm, multimodal等
-        hot_topics = "agent OR llm OR transformer OR multimodal OR rag OR diffusion"
-        url = f"https://api.github.com/search/repositories?q=({hot_topics})+created:>{date_str}&sort=stars&order=desc&per_page=10"
+        # AI相关话题（覆盖广泛）
+        ai_topics = "ai OR machine-learning OR deep-learning OR llm OR gpt OR agent OR transformer OR diffusion OR rag"
+        url = f"https://api.github.com/search/repositories?q=({ai_topics})+created:>{date_str}&sort=stars&order=desc&per_page=20"
         headers = {"Accept": "application/vnd.github.v3+json"}
 
         resp = requests.get(url, headers=headers, timeout=10)
@@ -163,9 +202,9 @@ def fetch_github_trending() -> List[str]:
         results = []
         count = 0
         for item in items:
-            # 筛选：至少10个Stars（避免无意义项目）
+            # 筛选：至少5个Stars（避免完全无人关注的项目）
             stars = item['stargazers_count']
-            if stars < 10:
+            if stars < 5:
                 continue
 
             full_name = item['full_name']
@@ -174,7 +213,7 @@ def fetch_github_trending() -> List[str]:
             language = item.get('language') or "Unknown"
             created_at = item.get('created_at', '')[:10]
 
-            print(f"      📥 [GitHub] ({language}) {full_name} (⭐{stars})...")
+            print(f"      📥 [GitHub] ({language}) {full_name} (⭐{stars} 7天飙升)...")
 
             readme_text = "暂无详细介绍"
             try:
@@ -204,7 +243,7 @@ def fetch_github_trending() -> List[str]:
             count += 1
             if count >= 5: break
 
-        print(f"      ✅ GitHub 抓取成功: {count} 个（聚焦高热度）")
+        print(f"      ✅ GitHub 抓取成功: {count} 个（7天飙升榜）")
         return results
     except Exception as e:
         print(f"   ❌ GitHub API 错误: {e}")
@@ -213,26 +252,31 @@ def fetch_github_trending() -> List[str]:
 @tool
 def fetch_big_tech_papers() -> List[str]:
     """
-    【板块4】大厂论文 (定点爆破版: HF Papers + ArXiv)
+    【板块4】国内外顶级实验室论文（7天内）
     策略：
-    1. 源头去噪：只搜 Hugging Face Papers 和 ArXiv，物理隔绝 SEO 农场。
-    2. 日期严控：基于 Arxiv ID (如 2501) 或 metadata 进行 7 天内校验。
-    3. 官方识别：使用正则 + 排除法，精准识别官方报告，兼容未来版本。
+    1. 源头去噪：只搜 Hugging Face Papers 和 ArXiv
+    2. 时间范围：7天内发布的论文
+    3. 机构筛选：国际顶级实验室（OpenAI/Google/Meta/Anthropic等）+ 国内顶级实验室（DeepSeek/Qwen/百度/字节等）
+    4. 官方识别：使用正则匹配，精准识别官方报告
     """
-    print("   📜 [Tool] 论文搜索 (HuggingFace Papers & ArXiv)...")
+    print("   📜 [Tool] 论文搜索（7天内，国内外顶级实验室）...")
     
     results = []
     seen_urls = set()
     papers = []
     
-    # 核心关注名单（聚焦顶级AI实验室）
+    # 核心关注名单（国内外顶级AI实验室）
     target_orgs = [
-        "OpenAI", "Google", "DeepMind", "Meta", "Anthropic",
-        "Microsoft", "DeepSeek", "Qwen", "Alibaba", "01.AI"
+        # 国际顶级实验室
+        "OpenAI", "Google", "DeepMind", "Meta", "Anthropic", "Microsoft",
+        # 国内顶级实验室
+        "DeepSeek", "Qwen", "Alibaba", "Tencent", "Baidu", "ByteDance",
+        "01.AI", "Zhipu", "智谱", "ERNIE", "文心", "通义",
+        "SenseTime", "商汤", "Megvii", "旷视"
     ]
 
-    # 缩短时间窗口到3天，提高时效性
-    three_days_ago = datetime.now() - timedelta(days=3)
+    # 时间窗口：7天
+    seven_days_ago = datetime.now() - timedelta(days=7)
 
     try:
         # =================================================================
@@ -322,7 +366,7 @@ def fetch_big_tech_papers() -> List[str]:
             elif r.get('published_date'):
                 try:
                     pdate = parser.parse(r['published_date']).replace(tzinfo=None)
-                    if pdate >= three_days_ago:
+                    if pdate >= seven_days_ago:
                         is_new = True
                         display_date = pdate.strftime("%Y-%m-%d")
                 except: pass
