@@ -51,36 +51,36 @@ class AgentState(TypedDict):
 # ================= 2. 定义节点 (Nodes) =================
 
 def init_node(state: AgentState):
-    """初始化：在这里统一生成带日期的搜索词"""
-    print(f"⚙️ [Init] 系统初始化...")
-    
-    # 1. 动态计算日期 (7天前)
-    # 比如今天是 24号，算出来就是 2024-12-17
-    target_date = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
-    
-    # 2. 组装最强搜索词 (中英混合 + 软硬兼施 + 强制近期)
-    # 英文部分
-    en_subjects = '"AI product" OR "AI model" OR "Embodied AI" OR "Humanoid Robot" '
-    en_actions = '"launched" OR "released" OR "unveiled" OR "announced"'
-    
-    # 中文部分 (针对国内大厂和创业公司)
-    cn_subjects = '"AI新品" OR "大模型" OR "具身智能" OR "人形机器人" '
-    cn_actions = '"发布" OR "上线" OR "推出" OR "亮相"'
-    
-    # 组合: (英文词 OR 中文词) AND (英文动作 OR 中文动作) AND (日期限制)
+    """初始化：生成针对高热度+近期的搜索词"""
+    print(f"⚙️ [Init] 系统初始化（聚焦高热度+近期3天）...")
+
+    # 1. 缩短时间窗口到3天，提高时效性
+    target_date = (datetime.now() - timedelta(days=3)).strftime("%Y-%m-%d")
+
+    # 2. 优化搜索词：聚焦大事件（发布、融资、重大更新）
+    # 大公司关键词
+    big_companies = '"OpenAI" OR "Google" OR "Meta" OR "Anthropic" OR "DeepMind" OR "DeepSeek" OR "Qwen" OR "Alibaba"'
+
+    # 重大事件关键词
+    major_events = '"launched" OR "released" OR "funding" OR "融资" OR "发布会" OR "announces"'
+
+    # AI 热门方向
+    hot_topics = '"GPT" OR "Claude" OR "Gemini" OR "大模型" OR "Agent" OR "多模态" OR "Sora"'
+
+    # 组合策略：(大公司 OR 热门话题) + 重大事件 + 近期
     initial_query = f"""
-    ({en_subjects} OR {cn_subjects}) 
-    ({en_actions} OR {cn_actions}) 
+    ({big_companies} OR {hot_topics})
+    {major_events}
     after:{target_date}
     """
-    
-    # 压缩空格，防止 Query 超长
+
     clean_query = " ".join(initial_query.split())
-    
+    print(f"   🔍 搜索策略: {clean_query[:80]}...")
+
     return {
         "product_query": clean_query,
         "product_retries": 0,
-        "product_verified_items": [] 
+        "product_verified_items": []
     }
 # --- 板块 1: 新品 ReAct 循环逻辑 ---
 
@@ -279,17 +279,25 @@ def writer_node(state: AgentState):
         for i, item in enumerate(raw_items):
             items_text += f"\n[{i}] 类型:{item['type']} | 标题:{item['title']} | 描述:{item['description'][:100]}...\n"
 
-        prompt = f"""你是 AI 新闻编辑。请为以下 {len(raw_items)} 条新闻生成中文摘要和标签。
+        prompt = f"""你是资深的 AI 行业分析师。请为以下 {len(raw_items)} 条新闻撰写专业的中文解读。
 
 {items_text}
 
-要求：
-1. 每条新闻生成一句话的中文摘要（50字以内）
-2. 每条新闻提取2-3个中文标签（格式：#标签）
-3. 输出格式必须严格为 JSON 数组：
+⚠️ 重要要求：
+1. 每条新闻写一段详细的中文解读（100-150字），必须包含：
+   - 核心功能/技术特点（是什么）
+   - 技术亮点/创新点（有什么特别之处）
+   - 应用场景（能用在哪里）
+   - 行业意义/影响（为什么重要）
+
+2. 写作风格：客观专业，避免营销词汇，用事实说话
+
+3. 提取3个精准的中文标签（格式：#标签，如 #生成式AI #多模态 #开源）
+
+4. 输出格式必须严格为 JSON 数组：
 [
-  {{"index": 0, "summary": "摘要文本", "tags": ["#标签1", "#标签2"]}},
-  {{"index": 1, "summary": "摘要文本", "tags": ["#标签1", "#标签2"]}}
+  {{"index": 0, "summary": "详细解读文本（100-150字）", "tags": ["#标签1", "#标签2", "#标签3"]}},
+  {{"index": 1, "summary": "详细解读文本（100-150字）", "tags": ["#标签1", "#标签2", "#标签3"]}}
 ]
 
 只输出 JSON，不要其他文字！"""
@@ -334,12 +342,27 @@ def writer_node(state: AgentState):
 
     # 生成每日总结
     if all_news:
-        titles_text = ", ".join([n["title"][:30] for n in all_news[:8]])
-        summary_prompt = f"用一句话总结今天 AI 领域的主要进展（不超过50字）。今日新闻包括：{titles_text}"
+        # 按来源分组统计
+        sources_count = {}
+        for n in all_news:
+            sources_count[n["source"]] = sources_count.get(n["source"], 0) + 1
+
+        titles_text = " | ".join([f"{n['source']}: {n['title'][:40]}" for n in all_news[:8]])
+        summary_prompt = f"""分析今日 AI 领域的主要进展，用一段话总结（80-120字）。
+
+今日新闻（共{len(all_news)}条）：
+{titles_text}
+
+要求：
+1. 总结主要趋势和亮点（如：模型发布、技术突破、行业应用等）
+2. 语言专业客观，避免形容词堆砌
+3. 突出重点，不要流水账
+
+只返回总结文字，不要其他内容！"""
         try:
             daily_summary = llm.invoke(summary_prompt).content.strip()
         except:
-            daily_summary = f"今日共有 {len(all_news)} 条 AI 相关动态。"
+            daily_summary = f"今日AI领域呈现多维度进展，涵盖{', '.join([f'{v}项{k}动态' for k,v in sources_count.items()])}。"
     else:
         daily_summary = "今日暂无重大 AI 进展。"
 
