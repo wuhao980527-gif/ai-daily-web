@@ -217,244 +217,130 @@
   },
   {
     "date": "2026-02-05",
-    "summary": "今日AI领域聚焦于本地化大模型部署与隐私计算技术发展，多家机构推出本地LLM服务器及客户端解决方案，强调离线环境下的模型运行与数据安全。Survivalist.AI等产品凸显边缘计算与个人AI代理的融合趋势，反映行业对低延迟、高隐私场景应用的持续探索。",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 zai-org/GLM-OCR 和 stepfun-ai/Step-3.5-Flash 等，这些模型的推出标志着自然语言处理和计算机视觉领域的技术进步。同时，GitHub 上的开源项目如 jmbarrancoml/awesome-european-ai 和 marimo-team/modernaicourse 也为 AI 研究和开发提供了有价值的资源。这些进展表明 AI 领域正在不断推进和扩展其应用范围。",
     "news": [
-      {
-        "id": "677ad8",
-        "title": "Survivalist.AI",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "Survivalist.AI, an offline AI assistant app for iPhone and iPad, has been updated to include the Dee",
-        "url": "https://apps.apple.com/in/app/private-ai-offline-llm/id6478637114",
-        "date": "2025-02-06"
-      },
-      {
-        "id": "1899d2",
-        "title": "LLM Local Client",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "LLM Local Client 是一款可在移动设备上连接本地运行的大语言模型（LLM）服务器的应用，支持对话历史、语音输入、系统提示设置等功能，最新版本于2025年7月14日更新。",
-        "url": "https://apps.apple.com/ro/app/llm-local-client/id6738433730",
-        "date": "2025-07-14"
-      },
-      {
-        "id": "cf3c20",
-        "title": "Local LLM Server",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "A mobile app that enables iPhone, iPad, and Mac devices to run local large language models with Open",
-        "url": "https://apps.apple.com/us/app/local-llm-server/id6757007308",
-        "date": "2024-01-05"
-      },
-      {
-        "id": "d49bc3",
-        "title": "Local LLM Server",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "A mobile app that enables iPhone, iPad, or Mac devices to run local large language models with OpenA",
-        "url": "https://apps.apple.com/cz/app/local-llm-server/id6757007308",
-        "date": "2024-01-19"
-      },
-      {
-        "id": "677ad8",
-        "title": "Survivalist.AI",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "Survivalist.AI, an offline AI assistant app for iOS devices, has been updated to include the DeepSee",
-        "url": "https://apps.apple.com/in/app/private-ai-offline-llm/id6478637114",
-        "date": "2025-06-02"
-      },
-      {
-        "id": "1899d2",
-        "title": "LLM Local Client",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "LLM Local Client 是一款可在移动设备上通过本地网络连接个人大型语言模型服务器的应用，最新版本于2025年7月14日更新，增加了对话历史、标签管理、系统提示输入、语音输入等功能。",
-        "url": "https://apps.apple.com/ro/app/llm-local-client/id6738433730",
-        "date": "2025-07-14"
-      },
-      {
-        "id": "cf3c20",
-        "title": "Local LLM Server",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "Local LLM Server is an app released on the App Store that enables users to run large language models",
-        "url": "https://apps.apple.com/us/app/local-llm-server/id6757007308",
-        "date": "2024-01-05"
-      },
-      {
-        "id": "d49bc3",
-        "title": "Local LLM Server",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "A mobile app that enables users to run a local LLM server on Apple devices with Apple Intelligence, ",
-        "url": "https://apps.apple.com/cz/app/local-llm-server/id6757007308",
-        "date": "2024-01-19"
-      },
       {
         "id": "284f32",
         "title": "zai-org/GLM-OCR",
         "source": "HuggingFace",
         "tags": [
-          "#AI",
-          "#HuggingFace"
+          "#多语言支持",
+          "#图像识别",
+          "#开源模型"
         ],
-        "summary": "---\nlicense: mit\nlanguage:\n- zh\n- en\n- fr\n- es\n- ru\n- de\n- ja\n- ko\npipeline_tag: image-to-text\nlibra",
+        "summary": "zai-org/GLM-OCR 是一个基于 HuggingFace 的模型，支持多语言，包括中文、英文、法文、西班牙文、俄文、德文、日文和韩文。其核心功能是图像到文本的转换，技术亮点在于其多语言支持和开源特性。该模型可以应用于文档识别、图像翻译等场景，具有重要的行业意义和影响。其开源特性使得开发者可以自由使用和修改，推动了 AI 技术的发展。",
         "url": "https://huggingface.co/zai-org/GLM-OCR",
         "date": "2026-01-30",
-        "likes": 607
+        "likes": 609
       },
       {
         "id": "09bc30",
         "title": "stepfun-ai/Step-3.5-Flash",
         "source": "HuggingFace",
         "tags": [
-          "#AI",
-          "#HuggingFace"
+          "#自然语言处理",
+          "#文本生成",
+          "#高效计算"
         ],
-        "summary": "---\nlicense: apache-2.0\nbase_model:\n- stepfun-ai/step-3.5-flash\nlibrary_name: transformers\n---\n\n# St",
+        "summary": "stepfun-ai/Step-3.5-Flash 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是基于 transformers 库的模型开发，技术亮点在于其高效的计算能力和灵活的应用。该模型可以应用于自然语言处理、文本生成等场景，具有重要的行业意义和影响。其高效的计算能力使得开发者可以快速开发和部署 AI 模型，推动了 AI 技术的发展。",
         "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
         "date": "2026-02-01",
-        "likes": 423
+        "likes": 424
       },
       {
         "id": "724fce",
         "title": "circlestone-labs/Anima",
         "source": "HuggingFace",
         "tags": [
-          "#AI",
-          "#HuggingFace"
+          "#聊天机器人",
+          "#虚拟助手",
+          "#灵活应用"
         ],
-        "summary": "---\nlicense: other\nlicense_name: circlestone-labs-non-commercial-license\nlicense_link: LICENSE.md\nta",
+        "summary": "circlestone-labs/Anima 是一个基于 HuggingFace 的模型，采用其他协议。其核心功能是支持多种 AI 应用，技术亮点在于其灵活的应用和高效的计算能力。该模型可以应用于聊天机器人、虚拟助手等场景，具有重要的行业意义和影响。其灵活的应用使得开发者可以快速开发和部署 AI 模型，推动了 AI 技术的发展。",
         "url": "https://huggingface.co/circlestone-labs/Anima",
         "date": "2026-01-29",
-        "likes": 403
+        "likes": 405
       },
       {
         "id": "7937ae",
         "title": "Qwen/Qwen3-Coder-Next",
         "source": "HuggingFace",
         "tags": [
-          "#AI",
-          "#HuggingFace"
+          "#代码生成",
+          "#编程辅助",
+          "#高效计算"
         ],
-        "summary": "---\nlibrary_name: transformers\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen3-C",
+        "summary": "Qwen/Qwen3-Coder-Next 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是支持代码生成和编码，技术亮点在于其高效的计算能力和准确的代码生成。该模型可以应用于编程辅助、代码审查等场景，具有重要的行业意义和影响。其高效的计算能力使得开发者可以快速开发和部署 AI 模型，推动了 AI 技术的发展。",
         "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
         "date": "2026-01-30",
-        "likes": 381
+        "likes": 387
       },
       {
         "id": "e3bce6",
         "title": "openbmb/MiniCPM-o-4_5",
         "source": "HuggingFace",
         "tags": [
-          "#AI",
-          "#HuggingFace"
+          "#自然语言处理",
+          "#文本生成",
+          "#灵活应用"
         ],
-        "summary": "---\nlicense: apache-2.0\npipeline_tag: any-to-any\nlibrary_name: transformers\ntags:\n- minicpm-o\n- mini",
+        "summary": "openbmb/MiniCPM-o-4_5 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是支持多种语言和任务，技术亮点在于其灵活的应用和高效的计算能力。该模型可以应用于自然语言处理、文本生成等场景，具有重要的行业意义和影响。其灵活的应用使得开发者可以快速开发和部署 AI 模型，推动了 AI 技术的发展。",
         "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
         "date": "2026-02-03",
-        "likes": 218
+        "likes": 251
       },
       {
-        "id": "f4dc78",
-        "title": "f/prompts.chat",
+        "id": "2290af",
+        "title": "jmbarrancoml/awesome-european-ai",
         "source": "GitHub",
         "tags": [
-          "#AI",
-          "#GitHub"
+          "#AI资源",
+          "#项目汇总",
+          "#欧洲AI"
         ],
-        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
-        "url": "https://github.com/f/prompts.chat",
-        "date": "2022-12-05",
-        "stars": 144556
+        "summary": "jmbarrancoml/awesome-european-ai 是一个 GitHub 仓库，收集了欧洲 AI 相关的资源和项目。其核心功能是提供 AI 资源和项目的汇总，技术亮点在于其全面和准确的信息。该仓库可以应用于 AI 研究和开发等场景，具有重要的行业意义和影响。其全面和准确的信息使得开发者可以快速找到所需的资源和项目，推动了 AI 技术的发展。",
+        "url": "https://github.com/jmbarrancoml/awesome-european-ai",
+        "date": "2026-01-31",
+        "stars": 10
       },
       {
-        "id": "9932ba",
-        "title": "ray-project/ray",
+        "id": "64fed7",
+        "title": "marimo-team/modernaicourse",
         "source": "GitHub",
         "tags": [
-          "#AI",
-          "#GitHub"
+          "#AI教育",
+          "#课程资源",
+          "#现代AI"
         ],
-        "summary": "暂无详细介绍",
-        "url": "https://github.com/ray-project/ray",
-        "date": "2016-10-25",
-        "stars": 41144
+        "summary": "marimo-team/modernaicourse 是一个 GitHub 仓库，提供了现代 AI 课程的资源和材料。其核心功能是提供 AI 教育资源，技术亮点在于其全面和准确的信息。该仓库可以应用于 AI 教育和研究等场景，具有重要的行业意义和影响。其全面和准确的信息使得开发者可以快速找到所需的资源和材料，推动了 AI 技术的发展。",
+        "url": "https://github.com/marimo-team/modernaicourse",
+        "date": "2026-01-31",
+        "stars": 7
       },
       {
-        "id": "efa40a",
-        "title": "patchy631/ai-engineering-hub",
-        "source": "GitHub",
-        "tags": [
-          "#AI",
-          "#GitHub"
-        ],
-        "summary": "<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/12800\">\n    <img src=\"assets/TRENDI",
-        "url": "https://github.com/patchy631/ai-engineering-hub",
-        "date": "2024-10-21",
-        "stars": 27927
-      },
-      {
-        "id": "58d4f0",
-        "title": "deepset-ai/haystack",
-        "source": "GitHub",
-        "tags": [
-          "#AI",
-          "#GitHub"
-        ],
-        "summary": "<div align=\"center\">\n  <a href=\"https://haystack.deepset.ai/\"><img src=\"https://raw.githubuserconten",
-        "url": "https://github.com/deepset-ai/haystack",
-        "date": "2019-11-14",
-        "stars": 24081
-      },
-      {
-        "id": "dd95ce",
-        "title": "huggingface/datasets",
-        "source": "GitHub",
-        "tags": [
-          "#AI",
-          "#GitHub"
-        ],
-        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://hugg",
-        "url": "https://github.com/huggingface/datasets",
-        "date": "2020-03-26",
-        "stars": 21171
-      },
-      {
-        "id": "346fe6",
-        "title": "[2601.02780] MiMo-V2-Flash Technical Report",
+        "id": "e4f547",
+        "title": "NorwAI's Large Language Models: Technical Report",
         "source": "Papers",
         "tags": [
-          "#AI",
-          "#Papers"
+          "#大型语言模型",
+          "#自然语言处理",
+          "#高效计算"
         ],
-        "summary": "Authors:Xiaomi LLM-Core Team: Bangjun Xiao, Bingquan Xia, Bo Yang, Bofei Gao, Bowen Shen, Chen Zhang",
-        "url": "https://arxiv.org/abs/2601.02780",
+        "summary": "NorwAI's Large Language Models 是一份技术报告，介绍了 NorwAI 的大型语言模型。其核心功能是支持多种语言和任务，技术亮点在于其高效的计算能力和准确的语言理解。该模型可以应用于自然语言处理、文本生成等场景，具有重要的行业意义和影响。其高效的计算能力使得开发者可以快速开发和部署 AI 模型，推动了 AI 技术的发展。",
+        "url": "https://arxiv.org/abs/2601.03034",
+        "date": "2026-01"
+      },
+      {
+        "id": "e4cda7",
+        "title": "[2601.09012] TranslateGemma Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#翻译技术",
+          "#高效计算",
+          "#准确翻译"
+        ],
+        "summary": "TranslateGemma Technical Report 是一份技术报告，介绍了 TranslateGemma 的翻译技术。其核心功能是支持多种语言的翻译，技术亮点在于其高效的计算能力和准确的翻译结果。该技术可以应用于翻译软件和服务等场景，具有重要的行业意义和影响。其高效的计算能力使得开发者可以快速开发和部署 AI 模型，推动了 AI 技术的发展。",
+        "url": "https://arxiv.org/abs/2601.09012",
         "date": "2026-01"
       },
       {
@@ -462,10 +348,11 @@
         "title": "LongCat-Flash-Thinking-2601 Technical Report",
         "source": "Papers",
         "tags": [
-          "#AI",
-          "#Papers"
+          "#聊天机器人",
+          "#虚拟助手",
+          "#灵活应用"
         ],
-        "summary": "Chen, Zhuowen Han, Zijian Zhang, Ziran Li, Ziwen Wang, Ziyuan Zhuang [...] View PDF HTML (experiment",
+        "summary": "LongCat-Flash-Thinking-2601 Technical Report 是一份技术报告，介绍了 LongCat-Flash-Thinking-2601 的技术。其核心功能是支持多种 AI 应用，技术亮点在于其灵活的应用和高效的计算能力。该技术可以应用于聊天机器人、虚拟助手等场景，具有重要的行业意义和影响。其灵活的应用使得开发者可以快速开发和部署 AI 模型，推动了 AI 技术的发展。",
         "url": "https://arxiv.org/abs/2601.16725",
         "date": "2026-01"
       },
@@ -474,23 +361,12 @@
         "title": "[2601.01792] HyperCLOVA X 8B Omni",
         "source": "Papers",
         "tags": [
-          "#AI",
-          "#Papers"
+          "#大型语言模型",
+          "#自然语言处理",
+          "#高效计算"
         ],
-        "summary": "|  |  |\n --- |\n| Comments: | Technical Report |\n| Subjects: | Machine Learning (cs.LG); Artificial I",
+        "summary": "HyperCLOVA X 8B Omni 是一份技术报告，介绍了 HyperCLOVA X 8B Omni 的技术。其核心功能是支持多种语言和任务，技术亮点在于其高效的计算能力和准确的语言理解。该技术可以应用于自然语言处理、文本生成等场景，具有重要的行业意义和影响。其高效的计算能力使得开发者可以快速开发和部署 AI 模型，推动了 AI 技术的发展。",
         "url": "https://arxiv.org/abs/2601.01792",
-        "date": "2026-01"
-      },
-      {
-        "id": "b0378a",
-        "title": "[2601.09668] STEP3-VL-10B Technical Report",
-        "source": "Papers",
-        "tags": [
-          "#AI",
-          "#Papers"
-        ],
-        "summary": "> Abstract:We present STEP3-VL-10B, a lightweight open-source foundation model designed to redefine ",
-        "url": "https://arxiv.org/abs/2601.09668",
         "date": "2026-01"
       },
       {
@@ -498,10 +374,11 @@
         "title": "[2601.01739] K-EXAONE Technical Report",
         "source": "Papers",
         "tags": [
-          "#AI",
-          "#Papers"
+          "#大型语言模型",
+          "#自然语言处理",
+          "#灵活应用"
         ],
-        "summary": "> Abstract:This technical report presents K-EXAONE, a large-scale multilingual language model develo",
+        "summary": "K-EXAONE Technical Report 是一份技术报告，介绍了 K-EXAONE 的技术。其核心功能是支持多种语言和任务，技术亮点在于其灵活的应用和高效的计算能力。该技术可以应用于自然语言处理、文本生成等场景，具有重要的行业意义和影响。其灵活的应用使得开发者可以快速开发和部署 AI 模型，推动了 AI 技术的发展。",
         "url": "https://arxiv.org/abs/2601.01739",
         "date": "2026-01"
       }
