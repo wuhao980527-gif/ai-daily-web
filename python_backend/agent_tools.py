@@ -185,15 +185,14 @@ def fetch_hf_trending_models() -> List[str]:
 def fetch_github_trending() -> List[str]:
     """
     【板块3】GitHub 近 7 天 AI 项目飙升榜 Top 5。
-    策略：7天内新创建的AI项目，按Stars降序（新项目高stars=飙升快）
+    策略：搜索7天内有更新(push)的热门AI项目，按Stars降序
     """
-    print("   🐙 [Tool] 正在拉取 GitHub 趋势（7天内新项目，Stars倒序）...")
+    print("   🐙 [Tool] 正在拉取 GitHub 趋势（7天活跃项目）...")
     try:
         date_str = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
 
-        # AI相关话题（覆盖广泛）
-        ai_topics = "ai OR machine-learning OR deep-learning OR llm OR gpt OR agent OR transformer OR diffusion OR rag"
-        url = f"https://api.github.com/search/repositories?q=({ai_topics})+created:>{date_str}&sort=stars&order=desc&per_page=20"
+        # 简化查询：使用空格分隔的关键词（GitHub API会自动OR）
+        url = f"https://api.github.com/search/repositories?q=ai+machine-learning+llm+pushed:>{date_str}+stars:>100&sort=stars&order=desc&per_page=10"
         headers = {"Accept": "application/vnd.github.v3+json"}
 
         resp = requests.get(url, headers=headers, timeout=10)
@@ -202,18 +201,15 @@ def fetch_github_trending() -> List[str]:
         results = []
         count = 0
         for item in items:
-            # 筛选：至少5个Stars（避免完全无人关注的项目）
             stars = item['stargazers_count']
-            if stars < 5:
-                continue
-
             full_name = item['full_name']
             repo_url = item['html_url']
             default_branch = item.get('default_branch', 'main')
             language = item.get('language') or "Unknown"
             created_at = item.get('created_at', '')[:10]
+            updated_at = item.get('updated_at', '')[:10]
 
-            print(f"      📥 [GitHub] ({language}) {full_name} (⭐{stars} 7天飙升)...")
+            print(f"      📥 [GitHub] ({language}) {full_name} (⭐{stars} 最近活跃)...")
 
             readme_text = "暂无详细介绍"
             try:
@@ -243,7 +239,58 @@ def fetch_github_trending() -> List[str]:
             count += 1
             if count >= 5: break
 
-        print(f"      ✅ GitHub 抓取成功: {count} 个（7天飙升榜）")
+        # 如果还不足5个，降低Stars要求再搜一次
+        if count < 5:
+            print(f"      ⚠️ Stars>100的项目不足，降低要求再搜索...")
+            url2 = f"https://api.github.com/search/repositories?q=ai+machine-learning+pushed:>{date_str}+stars:>10&sort=stars&order=desc&per_page=10"
+            resp2 = requests.get(url2, headers=headers, timeout=10)
+            items2 = resp2.json().get("items", [])
+
+            for item in items2:
+                if count >= 5:
+                    break
+
+                stars = item['stargazers_count']
+                full_name = item['full_name']
+                repo_url = item['html_url']
+
+                # 跳过已经添加的
+                if any(repo_url in r for r in results):
+                    continue
+
+                default_branch = item.get('default_branch', 'main')
+                language = item.get('language') or "Unknown"
+                created_at = item.get('created_at', '')[:10]
+
+                print(f"      📥 [GitHub] ({language}) {full_name} (⭐{stars})...")
+
+                readme_text = "暂无详细介绍"
+                try:
+                    raw_url = f"https://raw.githubusercontent.com/{full_name}/{default_branch}/README.md"
+                    r = requests.get(raw_url, timeout=5)
+                    if r.status_code == 200:
+                        readme_text = r.text[:3000]
+                    else:
+                        raw_url_m = f"https://raw.githubusercontent.com/{full_name}/master/README.md"
+                        r2 = requests.get(raw_url_m, timeout=5)
+                        if r2.status_code == 200: readme_text = r2.text[:3000]
+                except Exception:
+                    pass
+
+                info = (
+                    f"=== Repo: {full_name} ===\n"
+                    f"URL: {repo_url}\n"
+                    f"Date: {created_at}\n"
+                    f"Language: {language}\n"
+                    f"Stars: {stars} | Desc: {item['description']}\n"
+                    f"--- README snippet ---\n"
+                    f"{readme_text}\n"
+                    f"======================\n"
+                )
+                results.append(info)
+                count += 1
+
+        print(f"      ✅ GitHub 抓取成功: {count} 个（7天活跃项目）")
         return results
     except Exception as e:
         print(f"   ❌ GitHub API 错误: {e}")
@@ -371,14 +418,20 @@ def fetch_big_tech_papers() -> List[str]:
                         display_date = pdate.strftime("%Y-%m-%d")
                 except: pass
             
-            # [逻辑 C] Hugging Face 兜底
+            # [逻辑 C] Hugging Face 兜底（放宽）
             # HF Papers 页面上的通常都是新的，如果没有日期，暂时信任
             elif "huggingface.co/papers" in url:
                 is_new = True
                 display_date = "Recent (HF)"
 
+            # [逻辑 D] 兜底：如果都没有日期但来自可信源，也接受
+            elif "arxiv.org" in url or "huggingface.co" in url:
+                is_new = True
+                display_date = "Recent"
+
             # ❌ 如果不是新的，直接丢弃
             if not is_new:
+                print(f"         - [跳过] 日期过旧: {title[:30]}...")
                 continue
 
             # --- 4. 归属机构与“官方性”判定 (核心升级) ---
