@@ -217,46 +217,139 @@
   },
   {
     "date": "2026-02-05",
-    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 GLM-OCR、Step-3.5-Flash 和 Anima 等，这些模型的推出标志着 AI 技术在自然语言处理和计算机视觉方面的进一步发展。此外，Papers 上的研究成果如 DL-DPO-Dataset 和 DeepSeek-V3 也为 AI 领域的研究提供了新资料和新方法。这些进展表明 AI 技术正在不断推进和应用于各个领域。",
+    "summary": "今日AI领域聚焦于本地化大模型部署与隐私计算技术发展，多家机构推出本地LLM服务器及客户端解决方案，强调离线环境下的模型运行与数据安全。Survivalist.AI等产品凸显边缘计算与个人AI代理的融合趋势，反映行业对低延迟、高隐私场景应用的持续探索。",
     "news": [
+      {
+        "id": "677ad8",
+        "title": "Survivalist.AI",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Survivalist.AI, an offline AI assistant app for iPhone and iPad, has been updated to include the Dee",
+        "url": "https://apps.apple.com/in/app/private-ai-offline-llm/id6478637114",
+        "date": "2025-02-06"
+      },
+      {
+        "id": "1899d2",
+        "title": "LLM Local Client",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "LLM Local Client 是一款可在移动设备上连接本地运行的大语言模型（LLM）服务器的应用，支持对话历史、语音输入、系统提示设置等功能，最新版本于2025年7月14日更新。",
+        "url": "https://apps.apple.com/ro/app/llm-local-client/id6738433730",
+        "date": "2025-07-14"
+      },
+      {
+        "id": "cf3c20",
+        "title": "Local LLM Server",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "A mobile app that enables iPhone, iPad, and Mac devices to run local large language models with Open",
+        "url": "https://apps.apple.com/us/app/local-llm-server/id6757007308",
+        "date": "2024-01-05"
+      },
+      {
+        "id": "d49bc3",
+        "title": "Local LLM Server",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "A mobile app that enables iPhone, iPad, or Mac devices to run local large language models with OpenA",
+        "url": "https://apps.apple.com/cz/app/local-llm-server/id6757007308",
+        "date": "2024-01-19"
+      },
+      {
+        "id": "677ad8",
+        "title": "Survivalist.AI",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Survivalist.AI, an offline AI assistant app for iOS devices, has been updated to include the DeepSee",
+        "url": "https://apps.apple.com/in/app/private-ai-offline-llm/id6478637114",
+        "date": "2025-06-02"
+      },
+      {
+        "id": "1899d2",
+        "title": "LLM Local Client",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "LLM Local Client 是一款可在移动设备上通过本地网络连接个人大型语言模型服务器的应用，最新版本于2025年7月14日更新，增加了对话历史、标签管理、系统提示输入、语音输入等功能。",
+        "url": "https://apps.apple.com/ro/app/llm-local-client/id6738433730",
+        "date": "2025-07-14"
+      },
+      {
+        "id": "cf3c20",
+        "title": "Local LLM Server",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Local LLM Server is an app released on the App Store that enables users to run large language models",
+        "url": "https://apps.apple.com/us/app/local-llm-server/id6757007308",
+        "date": "2024-01-05"
+      },
+      {
+        "id": "d49bc3",
+        "title": "Local LLM Server",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "A mobile app that enables users to run a local LLM server on Apple devices with Apple Intelligence, ",
+        "url": "https://apps.apple.com/cz/app/local-llm-server/id6757007308",
+        "date": "2024-01-19"
+      },
       {
         "id": "284f32",
         "title": "zai-org/GLM-OCR",
         "source": "HuggingFace",
         "tags": [
-          "#多语言支持",
-          "#图像识别",
-          "#开源项目"
+          "#AI",
+          "#HuggingFace"
         ],
-        "summary": "zai-org/GLM-OCR 是一个基于 HuggingFace 的开源项目，主要功能是图像到文本的转换。其技术亮点在于支持多语言，包括中文、英文、法文、西班牙文、俄文、德文、日文和韩文。这种多语言支持使得 GLM-OCR 在全球范围内具有广泛的应用场景，尤其是在需要处理多语言文档或图像的领域。从行业意义上讲，GLM-OCR 的出现有助于推动多语言文本识别技术的发展，进而促进全球信息交流的便捷性。",
+        "summary": "---\nlicense: mit\nlanguage:\n- zh\n- en\n- fr\n- es\n- ru\n- de\n- ja\n- ko\npipeline_tag: image-to-text\nlibra",
         "url": "https://huggingface.co/zai-org/GLM-OCR",
         "date": "2026-01-30",
-        "likes": 605
+        "likes": 607
       },
       {
         "id": "09bc30",
         "title": "stepfun-ai/Step-3.5-Flash",
         "source": "HuggingFace",
         "tags": [
-          "#自然语言处理",
-          "#高效处理",
-          "#transformers"
+          "#AI",
+          "#HuggingFace"
         ],
-        "summary": "stepfun-ai/Step-3.5-Flash 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是利用 transformers 库进行高效的文本处理。技术亮点在于其快速的处理速度和较低的资源占用，适合于需要快速处理大量文本数据的应用场景。这种模型在自然语言处理领域具有重要意义，因为它能够提高文本分析和处理的效率，进而推动相关应用的发展。从行业影响来看，Step-3.5-Flash 有助于加速文本分析和处理的自动化，提高生产效率。",
+        "summary": "---\nlicense: apache-2.0\nbase_model:\n- stepfun-ai/step-3.5-flash\nlibrary_name: transformers\n---\n\n# St",
         "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
         "date": "2026-02-01",
-        "likes": 422
+        "likes": 423
       },
       {
         "id": "724fce",
         "title": "circlestone-labs/Anima",
         "source": "HuggingFace",
         "tags": [
-          "#非商业许可",
-          "#AI模型",
-          "#学术研究"
+          "#AI",
+          "#HuggingFace"
         ],
-        "summary": "circlestone-labs/Anima 是一个基于 HuggingFace 的项目，采用 circlestone-labs-non-commercial-license 协议。其主要功能是提供一个非商业使用的 AI 模型，用于特定的应用场景。技术亮点在于其独特的许可协议，限制了其商业使用范围。这种限制使得 Anima 更适合于学术研究或个人非商业项目。从行业意义上讲，Anima 的出现为非商业用途提供了一个选择，促进了 AI 技术在非盈利领域的应用和发展。",
+        "summary": "---\nlicense: other\nlicense_name: circlestone-labs-non-commercial-license\nlicense_link: LICENSE.md\nta",
         "url": "https://huggingface.co/circlestone-labs/Anima",
         "date": "2026-01-29",
         "likes": 403
@@ -266,93 +359,151 @@
         "title": "Qwen/Qwen3-Coder-Next",
         "source": "HuggingFace",
         "tags": [
-          "#自动化编码",
-          "#文本处理",
-          "#高效编码"
+          "#AI",
+          "#HuggingFace"
         ],
-        "summary": "Qwen/Qwen3-Coder-Next 是一个基于 HuggingFace 的项目，采用 Apache-2.0 协议。其核心功能是提供一个高级的编码器模型，用于文本处理和生成。技术亮点在于其高效的编码能力和多样化的应用场景。这种模型在代码生成、文本摘要和语言翻译等领域具有重要意义，因为它能够提高自动化编码和文本处理的准确性和效率。从行业影响来看，Qwen3-Coder-Next 有助于推动自动化编码和文本处理技术的发展，提高软件开发和文本处理的效率。",
+        "summary": "---\nlibrary_name: transformers\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen3-C",
         "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
         "date": "2026-01-30",
-        "likes": 379
+        "likes": 381
       },
       {
         "id": "e3bce6",
         "title": "openbmb/MiniCPM-o-4_5",
         "source": "HuggingFace",
         "tags": [
-          "#小规模模型",
-          "#多功能",
-          "#边缘计算"
+          "#AI",
+          "#HuggingFace"
         ],
-        "summary": "openbmb/MiniCPM-o-4_5 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其主要功能是提供一个小规模的多功能模型，用于任何到任何的转换任务。技术亮点在于其小规模和多功能的特点，使得 MiniCPM-o-4_5 能够适应多种应用场景，包括但不限于文本、图像和语音的处理。这种模型在资源有限的设备上具有重要意义，因为它能够提供高效的多功能处理能力。从行业意义上讲，MiniCPM-o-4_5 的出现有助于推动小规模多功能模型的发展，进而促进边缘计算和物联网设备的智能化。",
+        "summary": "---\nlicense: apache-2.0\npipeline_tag: any-to-any\nlibrary_name: transformers\ntags:\n- minicpm-o\n- mini",
         "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
         "date": "2026-02-03",
-        "likes": 208
+        "likes": 218
       },
       {
-        "id": "bf2329",
-        "title": "banghua/DL-DPO-Dataset",
-        "source": "Papers",
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
         "tags": [
-          "#深度学习",
-          "#数据集",
-          "#性能优化"
+          "#AI",
+          "#GitHub"
         ],
-        "summary": "banghua/DL-DPO-Dataset 是一个数据集，主要用于深度学习的数据处理优化。其核心功能是提供一个高质量的数据集，用于评估和改进深度学习模型的性能。技术亮点在于其数据的多样性和质量，能够帮助研究人员和开发者更好地理解和优化他们的深度学习模型。这种数据集在深度学习领域具有重要意义，因为它能够促进模型的性能改进和算法的创新。从行业影响来看，DL-DPO-Dataset 有助于推动深度学习技术的发展，进而促进人工智能的进步。",
-        "url": "https://huggingface.co/datasets/banghua/DL-DPO-Dataset",
-        "date": "Recent"
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "2022-12-05",
+        "stars": 144556
       },
       {
-        "id": "5ac592",
-        "title": "deepseek-ai/DeepSeek-V3",
-        "source": "Papers",
+        "id": "9932ba",
+        "title": "ray-project/ray",
+        "source": "GitHub",
         "tags": [
-          "#图像识别",
-          "#文本分析",
-          "#深度学习"
+          "#AI",
+          "#GitHub"
         ],
-        "summary": "deepseek-ai/DeepSeek-V3 是一个基于深度学习的模型，主要用于图像和文本的处理和分析。其技术亮点在于其高效的处理能力和准确的分析结果。这种模型在图像识别、文本分类和信息检索等领域具有重要意义，因为它能够提高自动化处理和分析的效率和准确性。从行业意义上讲，DeepSeek-V3 的出现有助于推动图像和文本处理技术的发展，进而促进相关应用的智能化和自动化。",
-        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
-        "date": "Recent"
+        "summary": "暂无详细介绍",
+        "url": "https://github.com/ray-project/ray",
+        "date": "2016-10-25",
+        "stars": 41144
       },
       {
-        "id": "41a283",
-        "title": "Qwen",
-        "source": "Papers",
+        "id": "efa40a",
+        "title": "patchy631/ai-engineering-hub",
+        "source": "GitHub",
         "tags": [
-          "#自动化编码",
-          "#文本处理",
-          "#语言翻译"
+          "#AI",
+          "#GitHub"
         ],
-        "summary": "Qwen 是一个人工智能模型，主要用于文本处理和生成。其核心功能是提供一个高级的文本处理能力，用于自动化编码、文本摘要和语言翻译等任务。技术亮点在于其高效的文本处理能力和多样化的应用场景。这种模型在软件开发、内容生成和语言翻译等领域具有重要意义，因为它能够提高自动化文本处理的效率和准确性。从行业影响来看，Qwen 有助于推动自动化文本处理技术的发展，进而促进相关应用的智能化和自动化。",
-        "url": "https://huggingface.co/Qwen",
-        "date": "Recent"
+        "summary": "<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/12800\">\n    <img src=\"assets/TRENDI",
+        "url": "https://github.com/patchy631/ai-engineering-hub",
+        "date": "2024-10-21",
+        "stars": 27927
       },
       {
-        "id": "1e7b0a",
-        "title": "tencent/Tencent-Hunyuan-Large",
-        "source": "Papers",
+        "id": "58d4f0",
+        "title": "deepset-ai/haystack",
+        "source": "GitHub",
         "tags": [
-          "#大规模语言模型",
-          "#自然语言处理",
-          "#语言生成"
+          "#AI",
+          "#GitHub"
         ],
-        "summary": "tencent/Tencent-Hunyuan-Large 是一个大规模的语言模型，主要用于自然语言处理和生成。其技术亮点在于其大规模的参数量和高效的处理能力，能够处理复杂的自然语言任务。这种模型在聊天机器人、语言翻译和文本生成等领域具有重要意义，因为它能够提高自动化语言处理的准确性和效率。从行业意义上讲，Tencent-Hunyuan-Large 的出现有助于推动大规模语言模型的发展，进而促进自然语言处理技术的进步。",
-        "url": "https://huggingface.co/tencent/Tencent-Hunyuan-Large",
-        "date": "Recent"
+        "summary": "<div align=\"center\">\n  <a href=\"https://haystack.deepset.ai/\"><img src=\"https://raw.githubuserconten",
+        "url": "https://github.com/deepset-ai/haystack",
+        "date": "2019-11-14",
+        "stars": 24081
       },
       {
-        "id": "aa9b9f",
-        "title": "Trending Papers",
+        "id": "dd95ce",
+        "title": "huggingface/datasets",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://hugg",
+        "url": "https://github.com/huggingface/datasets",
+        "date": "2020-03-26",
+        "stars": 21171
+      },
+      {
+        "id": "346fe6",
+        "title": "[2601.02780] MiMo-V2-Flash Technical Report",
         "source": "Papers",
         "tags": [
-          "#图像识别",
-          "#文本分析",
-          "#自动化处理"
+          "#AI",
+          "#Papers"
         ],
-        "summary": "Trending Papers 中的 DeepSeek-OCR 2 是一个最新的图像识别模型，主要用于图像到文本的转换。其技术亮点在于其高效的处理能力和准确的识别结果。这种模型在图像识别、文本分类和信息检索等领域具有重要意义，因为它能够提高自动化处理和分析的效率和准确性。从行业影响来看，DeepSeek-OCR 2 有助于推动图像识别技术的发展，进而促进相关应用的智能化和自动化。",
-        "url": "https://huggingface.co/papers/trending",
-        "date": "Recent (HF)"
+        "summary": "Authors:Xiaomi LLM-Core Team: Bangjun Xiao, Bingquan Xia, Bo Yang, Bofei Gao, Bowen Shen, Chen Zhang",
+        "url": "https://arxiv.org/abs/2601.02780",
+        "date": "2026-01"
+      },
+      {
+        "id": "6be786",
+        "title": "LongCat-Flash-Thinking-2601 Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Chen, Zhuowen Han, Zijian Zhang, Ziran Li, Ziwen Wang, Ziyuan Zhuang [...] View PDF HTML (experiment",
+        "url": "https://arxiv.org/abs/2601.16725",
+        "date": "2026-01"
+      },
+      {
+        "id": "f54b40",
+        "title": "[2601.01792] HyperCLOVA X 8B Omni",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "|  |  |\n --- |\n| Comments: | Technical Report |\n| Subjects: | Machine Learning (cs.LG); Artificial I",
+        "url": "https://arxiv.org/abs/2601.01792",
+        "date": "2026-01"
+      },
+      {
+        "id": "b0378a",
+        "title": "[2601.09668] STEP3-VL-10B Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "> Abstract:We present STEP3-VL-10B, a lightweight open-source foundation model designed to redefine ",
+        "url": "https://arxiv.org/abs/2601.09668",
+        "date": "2026-01"
+      },
+      {
+        "id": "25973f",
+        "title": "[2601.01739] K-EXAONE Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "> Abstract:This technical report presents K-EXAONE, a large-scale multilingual language model develo",
+        "url": "https://arxiv.org/abs/2601.01739",
+        "date": "2026-01"
       }
     ]
   }

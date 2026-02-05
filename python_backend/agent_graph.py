@@ -199,8 +199,9 @@ def writer_node(state: AgentState):
 
     # 收集所有原始数据
     raw_items = []
+    seen_urls = set()  # 用于去重
 
-    # ==================== 解析新品 ====================
+    # ==================== 解析新品（带去重）====================
     for item_str in p_items:
         try:
             lines = item_str.strip().split('\n')
@@ -210,11 +211,18 @@ def writer_node(state: AgentState):
                     key, val = line.split(":", 1)
                     data[key.strip()] = val.strip()
 
-            if data.get("Product") and data.get("URL"):
+            url = data.get("URL")
+            if data.get("Product") and url:
+                # 去重检查
+                if url in seen_urls:
+                    print(f"   ⚠️ 跳过重复产品: {data.get('Product')}")
+                    continue
+                seen_urls.add(url)
+
                 raw_items.append({
                     "type": "Product",
                     "title": data.get("Product"),
-                    "url": data.get("URL"),
+                    "url": url,
                     "description": data.get("Desc", ""),
                     "date": data.get("Date", "")
                 })

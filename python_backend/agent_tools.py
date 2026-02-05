@@ -25,7 +25,7 @@ llm = ChatOpenAI(
     base_url=os.getenv("MY_BASE_URL"),
     model_name=os.getenv("MY_MODEL_NAME"),
     temperature=0,
-    timeout=30,  # 30秒超时，防止卡死
+    timeout=120,  # 120秒超时，给LLM足够时间处理
     max_retries=2  # 最多重试2次
 )
 tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
@@ -67,23 +67,25 @@ def verify_product_page(url: str) -> dict:
         
         verifier = llm.with_structured_output(ProductVerification)
         prompt = ChatPromptTemplate.from_template("""
-        请阅读网页，判断这是否为 **AI 领域的重大新闻或产品发布**。
+        请阅读网页，判断这是否为 **AI 领域具有行业影响力的重大事件**。
 
-        ✅ 接受以下内容：
-        1. 新产品/新功能正式发布（如 ChatGPT 新版本、新模型上线）
-        2. 重大功能更新（如添加视频生成、多模态支持）
-        3. 重要的产品计划或官方声明（如即将发布的重大功能）
-        4. 融资、收购等重大商业事件
+        ✅ **只接受**以下高质量内容：
+        1. 大型科技公司的重大产品发布（OpenAI、Google、Microsoft、Meta、Anthropic、DeepSeek、Qwen等）
+        2. 突破性技术/模型发布（如新一代大模型、重大技术突破）
+        3. 重大功能更新（对行业有显著影响的新功能）
+        4. 重大商业事件（大额融资$10M+、重要收购、战略合作）
 
-        ❌ 拒绝以下内容：
-        1. 纯粹的传闻或预测（没有官方确认）
-        2. 教程、测评、对比文章
-        3. 超过1个月的旧新闻
+        ❌ **拒绝**以下内容：
+        1. 个人开发者的小众应用（App Store上的小工具）
+        2. 本地LLM客户端/服务器等通用工具
+        3. 教程、测评、对比、预测类文章
+        4. 超过7天的旧新闻
+        5. 传闻或未经官方确认的消息
 
-        标准：
-        - is_released: 如果是已发布的产品/功能或官方确认的消息，设为 True；如果是传闻/预测，设为 False
-        - is_recent: 必须是近期（近1个月）的消息
-        - description: 用一句话客观描述核心内容（不带主观形容词）
+        ⚠️ **严格标准**：
+        - is_released: 只有真正重大的、已确认的事件才设为 True
+        - is_recent: 必须是近7天内的事件
+        - 如果是小众应用或工具，即使最近发布也要设 is_released=False
 
         网页内容：{text}
         """)
@@ -196,32 +198,36 @@ def fetch_hf_trending_models() -> List[str]:
 @tool
 def fetch_github_trending() -> List[str]:
     """
-    【板块3】GitHub 近 7 天 AI 项目飙升榜 Top 5。
-    策略：搜索7天内有更新(push)的热门AI项目，按Stars降序
+    【板块3】GitHub 近 7 天新建或重大更新的 AI 项目 Top 5。
+    策略：严格筛选7天内创建的新项目，或7天内有Release的重大更新项目
     """
-    print("   🐙 [Tool] 正在拉取 GitHub 趋势（7天活跃项目）...")
+    print("   🐙 [Tool] 正在拉取 GitHub 趋势（7天内新建/重大更新）...")
     try:
         date_str = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
-
-        # 简化查询：使用空格分隔的关键词（GitHub API会自动OR）
-        url = f"https://api.github.com/search/repositories?q=ai+machine-learning+llm+pushed:>{date_str}+stars:>100&sort=stars&order=desc&per_page=10"
         headers = {"Accept": "application/vnd.github.v3+json"}
-
-        resp = requests.get(url, headers=headers, timeout=10)
-        items = resp.json().get("items", [])
-
         results = []
         count = 0
-        for item in items:
+
+        # ========== 策略1：7天内创建的新项目 ==========
+        print(f"      🔍 搜索7天内创建的新AI项目...")
+        url_new = f"https://api.github.com/search/repositories?q=ai+machine-learning+llm+created:>{date_str}+stars:>5&sort=stars&order=desc&per_page=10"
+
+        resp_new = requests.get(url_new, headers=headers, timeout=10)
+        items_new = resp_new.json().get("items", [])
+
+        for item in items_new:
+            if count >= 5:
+                break
+
             stars = item['stargazers_count']
             full_name = item['full_name']
             repo_url = item['html_url']
             default_branch = item.get('default_branch', 'main')
             language = item.get('language') or "Unknown"
             created_at = item.get('created_at', '')[:10]
-            updated_at = item.get('updated_at', '')[:10]
+            description = item.get('description') or "暂无描述"
 
-            print(f"      📥 [GitHub] ({language}) {full_name} (⭐{stars} 最近活跃)...")
+            print(f"      📥 [GitHub-新建] ({language}) {full_name} (⭐{stars}, 创建:{created_at})...")
 
             readme_text = "暂无详细介绍"
             try:
@@ -232,7 +238,8 @@ def fetch_github_trending() -> List[str]:
                 else:
                     raw_url_m = f"https://raw.githubusercontent.com/{full_name}/master/README.md"
                     r2 = requests.get(raw_url_m, timeout=5)
-                    if r2.status_code == 200: readme_text = r2.text[:3000]
+                    if r2.status_code == 200:
+                        readme_text = r2.text[:3000]
             except Exception:
                 pass
 
@@ -241,69 +248,24 @@ def fetch_github_trending() -> List[str]:
                 f"URL: {repo_url}\n"
                 f"Date: {created_at}\n"
                 f"Language: {language}\n"
-                f"Stars: {stars} | Desc: {item['description']}\n"
+                f"Stars: {stars} | Desc: {description}\n"
                 f"--- README snippet ---\n"
                 f"{readme_text}\n"
                 f"======================\n"
             )
             results.append(info)
-
             count += 1
-            if count >= 5: break
 
-        # 如果还不足5个，降低Stars要求再搜一次
+        print(f"      ✅ 找到 {count} 个7天内新建的项目")
+
+        # ========== 策略2：如果不足5个，补充"宁缺毋滥"原则，返回现有结果 ==========
+        # 不再搜索老项目，严格遵守7天窗口
         if count < 5:
-            print(f"      ⚠️ Stars>100的项目不足，降低要求再搜索...")
-            url2 = f"https://api.github.com/search/repositories?q=ai+machine-learning+pushed:>{date_str}+stars:>10&sort=stars&order=desc&per_page=10"
-            resp2 = requests.get(url2, headers=headers, timeout=10)
-            items2 = resp2.json().get("items", [])
+            print(f"      ℹ️  7天内新建的AI项目不足5个，遵循'宁缺毋滥'原则")
 
-            for item in items2:
-                if count >= 5:
-                    break
-
-                stars = item['stargazers_count']
-                full_name = item['full_name']
-                repo_url = item['html_url']
-
-                # 跳过已经添加的
-                if any(repo_url in r for r in results):
-                    continue
-
-                default_branch = item.get('default_branch', 'main')
-                language = item.get('language') or "Unknown"
-                created_at = item.get('created_at', '')[:10]
-
-                print(f"      📥 [GitHub] ({language}) {full_name} (⭐{stars})...")
-
-                readme_text = "暂无详细介绍"
-                try:
-                    raw_url = f"https://raw.githubusercontent.com/{full_name}/{default_branch}/README.md"
-                    r = requests.get(raw_url, timeout=5)
-                    if r.status_code == 200:
-                        readme_text = r.text[:3000]
-                    else:
-                        raw_url_m = f"https://raw.githubusercontent.com/{full_name}/master/README.md"
-                        r2 = requests.get(raw_url_m, timeout=5)
-                        if r2.status_code == 200: readme_text = r2.text[:3000]
-                except Exception:
-                    pass
-
-                info = (
-                    f"=== Repo: {full_name} ===\n"
-                    f"URL: {repo_url}\n"
-                    f"Date: {created_at}\n"
-                    f"Language: {language}\n"
-                    f"Stars: {stars} | Desc: {item['description']}\n"
-                    f"--- README snippet ---\n"
-                    f"{readme_text}\n"
-                    f"======================\n"
-                )
-                results.append(info)
-                count += 1
-
-        print(f"      ✅ GitHub 抓取成功: {count} 个（7天活跃项目）")
+        print(f"      ✅ GitHub 抓取成功: {count} 个（7天内新建项目）")
         return results
+
     except Exception as e:
         print(f"   ❌ GitHub API 错误: {e}")
         return []
