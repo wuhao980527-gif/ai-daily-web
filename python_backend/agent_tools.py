@@ -67,12 +67,24 @@ def verify_product_page(url: str) -> dict:
         
         verifier = llm.with_structured_output(ProductVerification)
         prompt = ChatPromptTemplate.from_template("""
-        请阅读网页，客观核实这是否为一个**新发布的 AI 产品**。
+        请阅读网页，判断这是否为 **AI 领域的重大新闻或产品发布**。
+
+        ✅ 接受以下内容：
+        1. 新产品/新功能正式发布（如 ChatGPT 新版本、新模型上线）
+        2. 重大功能更新（如添加视频生成、多模态支持）
+        3. 重要的产品计划或官方声明（如即将发布的重大功能）
+        4. 融资、收购等重大商业事件
+
+        ❌ 拒绝以下内容：
+        1. 纯粹的传闻或预测（没有官方确认）
+        2. 教程、测评、对比文章
+        3. 超过1个月的旧新闻
+
         标准：
-        1. 真实性：必须是官方宣布或权威媒体报道。
-        2. 时效性：必须是近期（近1个月）发生的动作。
-        3. 客观描述：只陈述功能，不要包含营销词汇。
-        
+        - is_released: 如果是已发布的产品/功能或官方确认的消息，设为 True；如果是传闻/预测，设为 False
+        - is_recent: 必须是近期（近1个月）的消息
+        - description: 用一句话客观描述核心内容（不带主观形容词）
+
         网页内容：{text}
         """)
         
@@ -324,18 +336,21 @@ def fetch_big_tech_papers() -> List[str]:
 
     # 时间窗口：7天
     seven_days_ago = datetime.now() - timedelta(days=7)
+    date_str = seven_days_ago.strftime('%Y-%m-%d')
 
     try:
         # =================================================================
-        # 🎯 渠道 1: Hugging Face Papers (核心源，去噪能力最强)
+        # 🎯 新策略：搜索最近7天的AI领域所有重要论文，然后严格筛选机构
         # =================================================================
-        org_query = " OR ".join([f'"{org}"' for org in target_orgs])
-        hf_query = f'site:huggingface.co/papers ({org_query})'
-        
+        # 扩大搜索范围，提高召回率
+        ai_keywords = '"LLM" OR "large language model" OR "multimodal" OR "AI" OR "machine learning"'
+
+        # 渠道 1: HuggingFace Papers（最新trending）
+        hf_query = f'site:huggingface.co/papers {ai_keywords} after:{date_str}'
         try:
             res_hf = tavily_client.search(
-                query=hf_query, 
-                max_results=8, 
+                query=hf_query,
+                max_results=15,
                 search_depth="advanced",
                 include_domains=["huggingface.co"]
             )
@@ -343,14 +358,12 @@ def fetch_big_tech_papers() -> List[str]:
         except Exception as e:
             print(f"      ⚠️ HF 搜索微恙: {e}")
 
-        # =================================================================
-        # 🎯 渠道 2: ArXiv (源头补漏，防止 HF 收录延迟)
-        # =================================================================
-        arxiv_query = f'site:arxiv.org ({org_query}) AND ("Technical Report" OR "Paper")'
+        # 渠道 2: ArXiv（最新发布）
+        arxiv_query = f'site:arxiv.org {ai_keywords} ("2602" OR "2601") "Technical Report"'
         try:
             res_arxiv = tavily_client.search(
-                query=arxiv_query, 
-                max_results=6, 
+                query=arxiv_query,
+                max_results=15,
                 search_depth="advanced",
                 include_domains=["arxiv.org"]
             )
@@ -376,62 +389,59 @@ def fetch_big_tech_papers() -> List[str]:
             title = r['title']
             content = r.get('content', '')
             title_lower = title.lower()
-            
+
             # --- 1. 去重 ---
             if url in seen_urls: continue
             seen_urls.add(url)
 
-            # --- 2. 垃圾词过滤 (防止 SEO 污染) ---
-            # 如果标题包含这些词，说明是营销号预测，直接杀掉
-            bad_words = ["rumor", "prediction", "when is", "release date", "price", "stock", "leak"]
+            # --- 2. 严格URL过滤：只接受真正的论文页面 ---
+            # 只接受 arxiv.org/abs/XXXX.XXXXX 或 huggingface.co/papers/XXXX.XXXXX
+            is_valid_paper_url = False
+            if "arxiv.org/abs/" in url and re.search(r'arxiv\.org/abs/\d{4}\.\d+', url):
+                is_valid_paper_url = True
+            elif "huggingface.co/papers/" in url and re.search(r'huggingface\.co/papers/\d{4}\.\d+', url):
+                is_valid_paper_url = True
+
+            if not is_valid_paper_url:
+                print(f"         - [跳过] 非论文URL: {url[:60]}...")
+                continue
+
+            # --- 3. 垃圾词过滤 (防止 SEO 污染) ---
+            bad_words = ["rumor", "prediction", "when is", "release date", "price", "stock", "leak", "tutorial", "guide"]
             if any(w in title_lower for w in bad_words):
                 continue
 
-            # --- 3. 日期“验尸” (The Grim Reaper Logic) ---
+            # --- 3. 严格日期验证 (只接受7天内的论文) ---
             is_new = False
-            display_date = "Recent"
+            display_date = "Unknown"
 
-            # [逻辑 A] Arxiv ID 检查 (最硬核的校验)
-            # URL 类似 https://arxiv.org/abs/2501.12345 (2501 代表 2025年01月)
-            arxiv_match = re.search(r'/(2[4-9]\d{2})\.', url) 
-            if arxiv_match:
-                date_code = int(arxiv_match.group(1)) # 例如 2501
-                # 计算当前年月 code (例如 2501)
-                now = datetime.now()
-                current_code = int(now.strftime("%y%m"))
-                
-                # 跨年处理逻辑：如果当前是 2501，上一月是 2412，差值是 89 (2501-2412)，所以不能简单相减
-                # 简单判定：只允许当前月(2501) 或 上一个月(2412)
-                # (这里简化处理，假设你只关心最近的)
-                if date_code == current_code or \
-                   (date_code == current_code - 1) or \
-                   (current_code % 100 == 1 and date_code == current_code - 89): # 处理 2501 vs 2412
-                    is_new = True
-                    display_date = f"20{str(date_code)[:2]}-{str(date_code)[2:]} (Arxiv)"
-            
-            # [逻辑 B] API 日期检查
-            elif r.get('published_date'):
+            # [方法 1] API 返回的日期（最可靠）
+            if r.get('published_date'):
                 try:
                     pdate = parser.parse(r['published_date']).replace(tzinfo=None)
                     if pdate >= seven_days_ago:
                         is_new = True
                         display_date = pdate.strftime("%Y-%m-%d")
                 except: pass
-            
-            # [逻辑 C] Hugging Face 兜底（放宽）
-            # HF Papers 页面上的通常都是新的，如果没有日期，暂时信任
-            elif "huggingface.co/papers" in url:
-                is_new = True
-                display_date = "Recent (HF)"
 
-            # [逻辑 D] 兜底：如果都没有日期但来自可信源，也接受
-            elif "arxiv.org" in url or "huggingface.co" in url:
-                is_new = True
-                display_date = "Recent"
-
-            # ❌ 如果不是新的，直接丢弃
+            # [方法 2] 从 Arxiv URL 提取日期验证
+            # URL 类似 https://arxiv.org/abs/2602.12345 (2602 代表 2026年02月)
             if not is_new:
-                print(f"         - [跳过] 日期过旧: {title[:30]}...")
+                arxiv_match = re.search(r'/(2[4-9]\d{2})\.', url)
+                if arxiv_match:
+                    date_code = int(arxiv_match.group(1))
+                    now = datetime.now()
+                    current_code = int(now.strftime("%y%m"))
+
+                    # 只接受当月和上月的论文（严格7天窗口）
+                    prev_month_code = current_code - 1 if current_code % 100 > 1 else current_code - 89
+                    if date_code == current_code or date_code == prev_month_code:
+                        is_new = True
+                        display_date = f"20{str(date_code)[:2]}-{str(date_code)[2:]}"
+
+            # 如果日期无法验证或不在7天内，直接丢弃
+            if not is_new:
+                print(f"         - [跳过] 非7天内或日期不明: {title[:40]}...")
                 continue
 
             # --- 4. 归属机构与“官方性”判定 (核心升级) ---

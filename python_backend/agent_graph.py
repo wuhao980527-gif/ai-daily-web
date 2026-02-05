@@ -57,23 +57,15 @@ def init_node(state: AgentState):
     # 1. 时间窗口：7天
     target_date = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
 
-    # 2. 国际大厂
-    global_companies = '"OpenAI" OR "Google" OR "Meta" OR "Anthropic" OR "DeepMind" OR "Microsoft"'
+    # 2. 简化策略：直接搜索AI产品发布的权威信息
+    # 限定网站域名，提高质量
+    product_keywords = '"AI" OR "artificial intelligence" OR "LLM" OR "model"'
+    action_keywords = '"launch" OR "release" OR "announce" OR "发布" OR "上线"'
+    official_sites = 'site:openai.com OR site:anthropic.com OR site:google.com OR site:microsoft.com OR site:deepseek.com OR site:huggingface.co OR site:github.com'
 
-    # 3. 国内大厂（重点关注）
-    china_companies = '"百度" OR "字节跳动" OR "ByteDance" OR "腾讯" OR "Tencent" OR "阿里" OR "Alibaba" OR "华为" OR "Huawei" OR "商汤" OR "SenseTime" OR "旷视" OR "Megvii" OR "科大讯飞" OR "iFlytek" OR "DeepSeek" OR "智谱AI" OR "Zhipu" OR "Qwen" OR "通义" OR "文心" OR "ERNIE"'
-
-    # 4. 重要AI产品/服务
-    hot_products = '"ChatGPT" OR "Claude" OR "Gemini" OR "GPT" OR "Sora" OR "文心一言" OR "通义千问" OR "Kimi" OR "豆包"'
-
-    # 5. 重大事件关键词
-    major_events = '"launched" OR "released" OR "发布" OR "上线" OR "推出" OR "funding" OR "融资" OR "发布会"'
-
-    # 组合策略：(国际大厂 OR 国内大厂 OR 热门产品) + 重大事件 + 7天内
+    # 组合策略：AI产品 + 发布动作 + 官方网站 + 7天内
     initial_query = f"""
-    ({global_companies} OR {china_companies} OR {hot_products})
-    {major_events}
-    after:{target_date}
+    {product_keywords} {action_keywords} ({official_sites}) after:{target_date}
     """
 
     clean_query = " ".join(initial_query.split())
@@ -190,6 +182,20 @@ def writer_node(state: AgentState):
     h_items = state.get('hf_models', [])
     g_items = state.get('github_repos', [])
     paper_items = state.get('tech_papers', [])
+
+    # 调试输出
+    print(f"\n🔍 [DEBUG] 原始数据统计:")
+    print(f"  - Product: {len(p_items)} 条")
+    print(f"  - HuggingFace: {len(h_items)} 条")
+    print(f"  - GitHub: {len(g_items)} 条")
+    print(f"  - Papers: {len(paper_items)} 条")
+
+    if p_items:
+        print(f"\n📦 Product 第一条原始数据:\n{p_items[0]}\n")
+    if g_items:
+        print(f"\n🐙 GitHub 第一条原始数据:\n{g_items[0][:200]}...\n")
+    if paper_items:
+        print(f"\n📜 Papers 第一条原始数据:\n{paper_items[0][:200]}...\n")
 
     # 收集所有原始数据
     raw_items = []
