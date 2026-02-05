@@ -376,12 +376,47 @@ def fetch_big_tech_papers() -> List[str]:
         # =================================================================
         print(f"      ✅ 聚合命中 {len(results)} 条，开始严格核验...")
 
-        # 映射表：把 url/title 里的词映射回标准机构名
+        # 映射表：把 url/title 里的词映射回标准机构名（扩充版）
         tech_map = {
-            "openai": "OpenAI", "google": "Google", "deepmind": "Google DeepMind", 
-            "meta": "Meta", "anthropic": "Anthropic", "microsoft": "Microsoft", 
-            "qwen": "Qwen", "alibaba": "Alibaba", "deepseek": "DeepSeek", 
-            "tencent": "Tencent", "yi": "01.AI"
+            # 国际顶级实验室
+            "openai": "OpenAI",
+            "google": "Google",
+            "deepmind": "Google DeepMind",
+            "meta": "Meta",
+            "facebook": "Meta",
+            "anthropic": "Anthropic",
+            "microsoft": "Microsoft",
+            # 国内顶级实验室
+            "qwen": "Qwen",
+            "通义": "Qwen",
+            "alibaba": "Alibaba",
+            "阿里": "Alibaba",
+            "deepseek": "DeepSeek",
+            "tencent": "Tencent",
+            "腾讯": "Tencent",
+            "hunyuan": "Tencent",
+            "混元": "Tencent",
+            "baidu": "Baidu",
+            "百度": "Baidu",
+            "ernie": "Baidu",
+            "文心": "Baidu",
+            "bytedance": "ByteDance",
+            "字节": "ByteDance",
+            "doubao": "ByteDance",
+            "豆包": "ByteDance",
+            "01.ai": "01.AI",
+            "yi": "01.AI",
+            "zhipu": "Zhipu AI",
+            "智谱": "Zhipu AI",
+            "glm": "Zhipu AI",
+            "sensetime": "SenseTime",
+            "商汤": "SenseTime",
+            "megvii": "Megvii",
+            "旷视": "Megvii",
+            "iflytek": "iFlytek",
+            "讯飞": "iFlytek",
+            "huawei": "Huawei",
+            "华为": "Huawei"
         }
 
         for r in results:
@@ -470,8 +505,10 @@ def fetch_big_tech_papers() -> List[str]:
 
             # === 其他大厂通用逻辑 ===
             else:
+                url_lower = url.lower()
                 for k, v in tech_map.items():
-                    if k in title_lower or k in content.lower():
+                    # 扩大搜索范围：title + content + url
+                    if k in title_lower or k in content.lower() or k in url_lower:
                         org_label = v
                         # 简单的第三方过滤
                         if any(w in title_lower for w in ["evaluation", "survey", "benchmark", "analysis"]):
