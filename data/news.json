@@ -214,5 +214,81 @@
         "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5"
       }
     ]
+  },
+  {
+    "date": "2026-02-05",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 GLM-OCR、Step-3.5-Flash、Anima、Qwen3-Coder-Next 和 MiniCPM-o-4_5，这些模型在图像识别、编码和自然语言处理等方面取得了技术突破，推动了 AI 在各个行业的应用和发展。",
+    "news": [
+      {
+        "id": "284f32",
+        "title": "zai-org/GLM-OCR",
+        "source": "HuggingFace",
+        "tags": [
+          "#多模态",
+          "#图像识别",
+          "#自然语言处理"
+        ],
+        "summary": "zai-org/GLM-OCR 是一个基于 HuggingFace 的图像到文本模型，支持多语言，包括中文、英文、法文、西班牙文、俄文、德文、日文和韩文。其核心功能是将图像中的文本识别并转换为可编辑的文本。技术亮点在于其多语言支持和高精度的识别能力。应用场景包括文档扫描、图片中的文本提取等。行业意义在于其能够提高文本识别的效率和准确性，特别是在多语言环境中。",
+        "url": "https://huggingface.co/zai-org/GLM-OCR",
+        "date": "2026-01-30",
+        "likes": 603
+      },
+      {
+        "id": "09bc30",
+        "title": "stepfun-ai/Step-3.5-Flash",
+        "source": "HuggingFace",
+        "tags": [
+          "#自然语言处理",
+          "#文本分析",
+          "#高性能计算"
+        ],
+        "summary": "stepfun-ai/Step-3.5-Flash 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是提供高性能的文本处理能力，技术亮点在于其高效的计算和优化。应用场景包括文本分类、情感分析等。行业意义在于其能够为开发者提供一个高效的文本处理工具，提高开发效率和模型性能。",
+        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+        "date": "2026-02-01",
+        "likes": 422
+      },
+      {
+        "id": "724fce",
+        "title": "circlestone-labs/Anima",
+        "source": "HuggingFace",
+        "tags": [
+          "#非商业许可",
+          "#研究模型",
+          "#教育资源"
+        ],
+        "summary": "circlestone-labs/Anima 是一个基于 HuggingFace 的模型，采用 circlestone-labs-non-commercial-license 协议。其核心功能是提供一个非商业使用的模型，技术亮点在于其独特的许可协议。应用场景包括研究和教育等非商业领域。行业意义在于其能够为非商业用户提供一个可用的模型，促进研究和教育的发展。",
+        "url": "https://huggingface.co/circlestone-labs/Anima",
+        "date": "2026-01-29",
+        "likes": 403
+      },
+      {
+        "id": "7937ae",
+        "title": "Qwen/Qwen3-Coder-Next",
+        "source": "HuggingFace",
+        "tags": [
+          "#代码生成",
+          "#自动编码",
+          "#开发工具"
+        ],
+        "summary": "Qwen/Qwen3-Coder-Next 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是提供高性能的代码生成能力，技术亮点在于其高效的代码生成和优化。应用场景包括自动编码、代码补全等。行业意义在于其能够为开发者提供一个高效的代码生成工具，提高开发效率和代码质量。",
+        "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
+        "date": "2026-01-30",
+        "likes": 378
+      },
+      {
+        "id": "e3bce6",
+        "title": "openbmb/MiniCPM-o-4_5",
+        "source": "HuggingFace",
+        "tags": [
+          "#多模态",
+          "#高性能计算",
+          "#模型优化"
+        ],
+        "summary": "openbmb/MiniCPM-o-4_5 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是提供高性能的多模态处理能力，技术亮点在于其高效的多模态计算和优化。应用场景包括图像、文本和语音等多模态处理。行业意义在于其能够为开发者提供一个高效的多模态处理工具，提高开发效率和模型性能。",
+        "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
+        "date": "2026-02-03",
+        "likes": 195
+      }
+    ]
   }
 ]
