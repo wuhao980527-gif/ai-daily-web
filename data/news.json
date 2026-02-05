@@ -217,21 +217,21 @@
   },
   {
     "date": "2026-02-05",
-    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 GLM-OCR、Step-3.5-Flash、Anima、Qwen3-Coder-Next 和 MiniCPM-o-4_5，这些模型在图像识别、编码和自然语言处理等方面取得了技术突破，推动了 AI 在各个行业的应用和发展。",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 GLM-OCR、Step-3.5-Flash 和 Anima 等，这些模型的推出标志着 AI 技术在自然语言处理和计算机视觉方面的进一步发展。此外，Papers 上的研究成果如 DL-DPO-Dataset 和 DeepSeek-V3 也为 AI 领域的研究提供了新资料和新方法。这些进展表明 AI 技术正在不断推进和应用于各个领域。",
     "news": [
       {
         "id": "284f32",
         "title": "zai-org/GLM-OCR",
         "source": "HuggingFace",
         "tags": [
-          "#多模态",
+          "#多语言支持",
           "#图像识别",
-          "#自然语言处理"
+          "#开源项目"
         ],
-        "summary": "zai-org/GLM-OCR 是一个基于 HuggingFace 的图像到文本模型，支持多语言，包括中文、英文、法文、西班牙文、俄文、德文、日文和韩文。其核心功能是将图像中的文本识别并转换为可编辑的文本。技术亮点在于其多语言支持和高精度的识别能力。应用场景包括文档扫描、图片中的文本提取等。行业意义在于其能够提高文本识别的效率和准确性，特别是在多语言环境中。",
+        "summary": "zai-org/GLM-OCR 是一个基于 HuggingFace 的开源项目，主要功能是图像到文本的转换。其技术亮点在于支持多语言，包括中文、英文、法文、西班牙文、俄文、德文、日文和韩文。这种多语言支持使得 GLM-OCR 在全球范围内具有广泛的应用场景，尤其是在需要处理多语言文档或图像的领域。从行业意义上讲，GLM-OCR 的出现有助于推动多语言文本识别技术的发展，进而促进全球信息交流的便捷性。",
         "url": "https://huggingface.co/zai-org/GLM-OCR",
         "date": "2026-01-30",
-        "likes": 603
+        "likes": 605
       },
       {
         "id": "09bc30",
@@ -239,10 +239,10 @@
         "source": "HuggingFace",
         "tags": [
           "#自然语言处理",
-          "#文本分析",
-          "#高性能计算"
+          "#高效处理",
+          "#transformers"
         ],
-        "summary": "stepfun-ai/Step-3.5-Flash 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是提供高性能的文本处理能力，技术亮点在于其高效的计算和优化。应用场景包括文本分类、情感分析等。行业意义在于其能够为开发者提供一个高效的文本处理工具，提高开发效率和模型性能。",
+        "summary": "stepfun-ai/Step-3.5-Flash 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是利用 transformers 库进行高效的文本处理。技术亮点在于其快速的处理速度和较低的资源占用，适合于需要快速处理大量文本数据的应用场景。这种模型在自然语言处理领域具有重要意义，因为它能够提高文本分析和处理的效率，进而推动相关应用的发展。从行业影响来看，Step-3.5-Flash 有助于加速文本分析和处理的自动化，提高生产效率。",
         "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
         "date": "2026-02-01",
         "likes": 422
@@ -253,10 +253,10 @@
         "source": "HuggingFace",
         "tags": [
           "#非商业许可",
-          "#研究模型",
-          "#教育资源"
+          "#AI模型",
+          "#学术研究"
         ],
-        "summary": "circlestone-labs/Anima 是一个基于 HuggingFace 的模型，采用 circlestone-labs-non-commercial-license 协议。其核心功能是提供一个非商业使用的模型，技术亮点在于其独特的许可协议。应用场景包括研究和教育等非商业领域。行业意义在于其能够为非商业用户提供一个可用的模型，促进研究和教育的发展。",
+        "summary": "circlestone-labs/Anima 是一个基于 HuggingFace 的项目，采用 circlestone-labs-non-commercial-license 协议。其主要功能是提供一个非商业使用的 AI 模型，用于特定的应用场景。技术亮点在于其独特的许可协议，限制了其商业使用范围。这种限制使得 Anima 更适合于学术研究或个人非商业项目。从行业意义上讲，Anima 的出现为非商业用途提供了一个选择，促进了 AI 技术在非盈利领域的应用和发展。",
         "url": "https://huggingface.co/circlestone-labs/Anima",
         "date": "2026-01-29",
         "likes": 403
@@ -266,28 +266,93 @@
         "title": "Qwen/Qwen3-Coder-Next",
         "source": "HuggingFace",
         "tags": [
-          "#代码生成",
-          "#自动编码",
-          "#开发工具"
+          "#自动化编码",
+          "#文本处理",
+          "#高效编码"
         ],
-        "summary": "Qwen/Qwen3-Coder-Next 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是提供高性能的代码生成能力，技术亮点在于其高效的代码生成和优化。应用场景包括自动编码、代码补全等。行业意义在于其能够为开发者提供一个高效的代码生成工具，提高开发效率和代码质量。",
+        "summary": "Qwen/Qwen3-Coder-Next 是一个基于 HuggingFace 的项目，采用 Apache-2.0 协议。其核心功能是提供一个高级的编码器模型，用于文本处理和生成。技术亮点在于其高效的编码能力和多样化的应用场景。这种模型在代码生成、文本摘要和语言翻译等领域具有重要意义，因为它能够提高自动化编码和文本处理的准确性和效率。从行业影响来看，Qwen3-Coder-Next 有助于推动自动化编码和文本处理技术的发展，提高软件开发和文本处理的效率。",
         "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
         "date": "2026-01-30",
-        "likes": 378
+        "likes": 379
       },
       {
         "id": "e3bce6",
         "title": "openbmb/MiniCPM-o-4_5",
         "source": "HuggingFace",
         "tags": [
-          "#多模态",
-          "#高性能计算",
-          "#模型优化"
+          "#小规模模型",
+          "#多功能",
+          "#边缘计算"
         ],
-        "summary": "openbmb/MiniCPM-o-4_5 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其核心功能是提供高性能的多模态处理能力，技术亮点在于其高效的多模态计算和优化。应用场景包括图像、文本和语音等多模态处理。行业意义在于其能够为开发者提供一个高效的多模态处理工具，提高开发效率和模型性能。",
+        "summary": "openbmb/MiniCPM-o-4_5 是一个基于 HuggingFace 的模型，采用 Apache-2.0 协议。其主要功能是提供一个小规模的多功能模型，用于任何到任何的转换任务。技术亮点在于其小规模和多功能的特点，使得 MiniCPM-o-4_5 能够适应多种应用场景，包括但不限于文本、图像和语音的处理。这种模型在资源有限的设备上具有重要意义，因为它能够提供高效的多功能处理能力。从行业意义上讲，MiniCPM-o-4_5 的出现有助于推动小规模多功能模型的发展，进而促进边缘计算和物联网设备的智能化。",
         "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
         "date": "2026-02-03",
-        "likes": 195
+        "likes": 208
+      },
+      {
+        "id": "bf2329",
+        "title": "banghua/DL-DPO-Dataset",
+        "source": "Papers",
+        "tags": [
+          "#深度学习",
+          "#数据集",
+          "#性能优化"
+        ],
+        "summary": "banghua/DL-DPO-Dataset 是一个数据集，主要用于深度学习的数据处理优化。其核心功能是提供一个高质量的数据集，用于评估和改进深度学习模型的性能。技术亮点在于其数据的多样性和质量，能够帮助研究人员和开发者更好地理解和优化他们的深度学习模型。这种数据集在深度学习领域具有重要意义，因为它能够促进模型的性能改进和算法的创新。从行业影响来看，DL-DPO-Dataset 有助于推动深度学习技术的发展，进而促进人工智能的进步。",
+        "url": "https://huggingface.co/datasets/banghua/DL-DPO-Dataset",
+        "date": "Recent"
+      },
+      {
+        "id": "5ac592",
+        "title": "deepseek-ai/DeepSeek-V3",
+        "source": "Papers",
+        "tags": [
+          "#图像识别",
+          "#文本分析",
+          "#深度学习"
+        ],
+        "summary": "deepseek-ai/DeepSeek-V3 是一个基于深度学习的模型，主要用于图像和文本的处理和分析。其技术亮点在于其高效的处理能力和准确的分析结果。这种模型在图像识别、文本分类和信息检索等领域具有重要意义，因为它能够提高自动化处理和分析的效率和准确性。从行业意义上讲，DeepSeek-V3 的出现有助于推动图像和文本处理技术的发展，进而促进相关应用的智能化和自动化。",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+        "date": "Recent"
+      },
+      {
+        "id": "41a283",
+        "title": "Qwen",
+        "source": "Papers",
+        "tags": [
+          "#自动化编码",
+          "#文本处理",
+          "#语言翻译"
+        ],
+        "summary": "Qwen 是一个人工智能模型，主要用于文本处理和生成。其核心功能是提供一个高级的文本处理能力，用于自动化编码、文本摘要和语言翻译等任务。技术亮点在于其高效的文本处理能力和多样化的应用场景。这种模型在软件开发、内容生成和语言翻译等领域具有重要意义，因为它能够提高自动化文本处理的效率和准确性。从行业影响来看，Qwen 有助于推动自动化文本处理技术的发展，进而促进相关应用的智能化和自动化。",
+        "url": "https://huggingface.co/Qwen",
+        "date": "Recent"
+      },
+      {
+        "id": "1e7b0a",
+        "title": "tencent/Tencent-Hunyuan-Large",
+        "source": "Papers",
+        "tags": [
+          "#大规模语言模型",
+          "#自然语言处理",
+          "#语言生成"
+        ],
+        "summary": "tencent/Tencent-Hunyuan-Large 是一个大规模的语言模型，主要用于自然语言处理和生成。其技术亮点在于其大规模的参数量和高效的处理能力，能够处理复杂的自然语言任务。这种模型在聊天机器人、语言翻译和文本生成等领域具有重要意义，因为它能够提高自动化语言处理的准确性和效率。从行业意义上讲，Tencent-Hunyuan-Large 的出现有助于推动大规模语言模型的发展，进而促进自然语言处理技术的进步。",
+        "url": "https://huggingface.co/tencent/Tencent-Hunyuan-Large",
+        "date": "Recent"
+      },
+      {
+        "id": "aa9b9f",
+        "title": "Trending Papers",
+        "source": "Papers",
+        "tags": [
+          "#图像识别",
+          "#文本分析",
+          "#自动化处理"
+        ],
+        "summary": "Trending Papers 中的 DeepSeek-OCR 2 是一个最新的图像识别模型，主要用于图像到文本的转换。其技术亮点在于其高效的处理能力和准确的识别结果。这种模型在图像识别、文本分类和信息检索等领域具有重要意义，因为它能够提高自动化处理和分析的效率和准确性。从行业影响来看，DeepSeek-OCR 2 有助于推动图像识别技术的发展，进而促进相关应用的智能化和自动化。",
+        "url": "https://huggingface.co/papers/trending",
+        "date": "Recent (HF)"
       }
     ]
   }
