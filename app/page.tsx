@@ -9,30 +9,35 @@ const getSourceStyle = (source: string) => {
     case 'Product':
       return {
         bgClass: 'bg-gradient-to-br from-blue-500 to-blue-600',
+        text: 'text-blue-600',
         icon: '🚀',
         label: 'Product'
       };
     case 'HuggingFace':
       return {
         bgClass: 'bg-gradient-to-br from-yellow-500 to-orange-500',
+        text: 'text-orange-600',
         icon: '🤗',
         label: 'HuggingFace'
       };
     case 'GitHub':
       return {
         bgClass: 'bg-gradient-to-br from-gray-700 to-gray-900',
+        text: 'text-gray-700',
         icon: '🐙',
         label: 'GitHub'
       };
     case 'Papers':
       return {
         bgClass: 'bg-gradient-to-br from-purple-500 to-indigo-600',
+        text: 'text-purple-600',
         icon: '📜',
         label: 'Research'
       };
     default:
       return {
         bgClass: 'bg-gradient-to-br from-emerald-500 to-teal-600',
+        text: 'text-emerald-600',
         icon: '⚡',
         label: 'News'
       };
@@ -109,37 +114,71 @@ const SmartCover = ({ item }: { item: any }) => {
 };
 
 // --- 3. 新闻卡片组件 ---
-const NewsCard = ({ item }: { item: any }) => (
-  <article
-    className="group bg-white rounded-2xl border border-gray-200/80 overflow-hidden hover:shadow-2xl hover:shadow-blue-900/10 hover:border-blue-300/50 hover:-translate-y-1 transition-all duration-300 flex flex-col sm:flex-row"
-  >
-    <SmartCover item={item} />
+const NewsCard = ({ item }: { item: any }) => {
+  const style = getSourceStyle(item.source);
 
-    <div className="p-6 sm:p-8 flex flex-col justify-between flex-1 relative">
-      <div>
-        <div className="flex justify-between items-start mb-3">
-          <h3 className="text-xl font-bold text-slate-900 leading-snug group-hover:text-blue-600 transition-colors pr-4">
-            <a href={item.url} target="_blank" rel="noopener noreferrer" className="before:absolute before:inset-0 sm:before:inset-auto">
-              {item.title}
-            </a>
-          </h3>
-          <span className="text-gray-300 group-hover:text-blue-500 transition-all opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 text-xl">→</span>
+  return (
+    <article
+      className="group bg-white rounded-2xl border border-gray-200/80 overflow-hidden hover:shadow-2xl hover:shadow-blue-900/10 hover:border-blue-300/50 hover:-translate-y-1 transition-all duration-300 flex flex-col sm:flex-row"
+    >
+      <SmartCover item={item} />
+
+      <div className="p-6 sm:p-8 flex flex-col justify-between flex-1 relative">
+        <div>
+          {/* 标题和热度指标 */}
+          <div className="flex justify-between items-start mb-2">
+            <h3 className="text-xl font-bold text-slate-900 leading-snug group-hover:text-blue-600 transition-colors pr-4 flex-1">
+              <a href={item.url} target="_blank" rel="noopener noreferrer" className="before:absolute before:inset-0 sm:before:inset-auto">
+                {item.title}
+              </a>
+            </h3>
+            <span className="text-gray-300 group-hover:text-blue-500 transition-all opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 text-xl shrink-0">→</span>
+          </div>
+
+          {/* 元数据：日期 + 热度 */}
+          <div className="flex flex-wrap items-center gap-3 mb-3 text-sm">
+            {item.date && (
+              <span className="flex items-center gap-1.5 text-slate-500">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span className="font-medium">{item.date}</span>
+              </span>
+            )}
+
+            {item.likes !== undefined && item.likes > 0 && (
+              <span className={`flex items-center gap-1.5 font-semibold ${style.text}`}>
+                <span>❤️</span>
+                <span>{item.likes.toLocaleString()}</span>
+                <span className="text-slate-400 font-normal">likes</span>
+              </span>
+            )}
+
+            {item.stars !== undefined && item.stars > 0 && (
+              <span className={`flex items-center gap-1.5 font-semibold ${style.text}`}>
+                <span>⭐</span>
+                <span>{item.stars.toLocaleString()}</span>
+                <span className="text-slate-400 font-normal">stars</span>
+              </span>
+            )}
+          </div>
+
+          <p className="text-slate-600 text-[15px] leading-relaxed mb-4">
+            {item.summary}
+          </p>
         </div>
-        <p className="text-slate-600 text-[15px] leading-relaxed mb-4">
-          {item.summary}
-        </p>
-      </div>
 
-      <div className="flex flex-wrap items-center gap-2 mt-auto pt-4">
-        {item.tags.map((tag: string) => (
-          <span key={tag} className="px-3 py-1.5 text-xs font-semibold text-slate-600 bg-slate-50 rounded-lg group-hover:bg-blue-50 group-hover:text-blue-600 transition-all border border-slate-200 group-hover:border-blue-200 uppercase tracking-wide">
-            {tag}
-          </span>
-        ))}
+        <div className="flex flex-wrap items-center gap-2 mt-auto pt-4">
+          {item.tags.map((tag: string) => (
+            <span key={tag} className="px-3 py-1.5 text-xs font-semibold text-slate-600 bg-slate-50 rounded-lg group-hover:bg-blue-50 group-hover:text-blue-600 transition-all border border-slate-200 group-hover:border-blue-200 uppercase tracking-wide">
+              {tag}
+            </span>
+          ))}
+        </div>
       </div>
-    </div>
-  </article>
-);
+    </article>
+  );
+};
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'latest' | 'history' | 'github'>('latest');

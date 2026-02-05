@@ -218,9 +218,11 @@ def writer_node(state: AgentState):
     # ==================== 解析 HF 模型 ====================
     for item_str in h_items:
         try:
-            # 提取 Model ID 和 URL
+            # 提取各个字段
             model_match = re.search(r'Model:\s*(.+?)(?:\n|$)', item_str)
             url_match = re.search(r'URL:\s*(.+?)(?:\n|$)', item_str)
+            date_match = re.search(r'Date:\s*(.+?)(?:\n|$)', item_str)
+            likes_match = re.search(r'Likes:\s*(\d+)', item_str)
             readme_match = re.search(r'README Summary ---\n(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
             if model_match and url_match:
@@ -229,7 +231,8 @@ def writer_node(state: AgentState):
                     "title": model_match.group(1).strip().replace("===", "").strip(),
                     "url": url_match.group(1).strip(),
                     "description": readme_match.group(1).strip()[:500] if readme_match else "",
-                    "date": ""
+                    "date": date_match.group(1).strip() if date_match else "",
+                    "likes": int(likes_match.group(1)) if likes_match else 0
                 })
         except Exception as e:
             print(f"⚠️ 解析 HF 模型出错: {e}")
@@ -239,7 +242,9 @@ def writer_node(state: AgentState):
         try:
             repo_match = re.search(r'Repo:\s*(.+?)(?:\n|$)', item_str)
             url_match = re.search(r'URL:\s*(.+?)(?:\n|$)', item_str)
+            date_match = re.search(r'Date:\s*(.+?)(?:\n|$)', item_str)
             lang_match = re.search(r'Language:\s*(.+?)(?:\n|$)', item_str)
+            stars_match = re.search(r'Stars:\s*(\d+)', item_str)
             readme_match = re.search(r'README snippet ---\n(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
             if repo_match and url_match:
@@ -249,7 +254,8 @@ def writer_node(state: AgentState):
                     "url": url_match.group(1).strip(),
                     "description": readme_match.group(1).strip()[:500] if readme_match else "",
                     "language": lang_match.group(1).strip() if lang_match else "Unknown",
-                    "date": ""
+                    "date": date_match.group(1).strip() if date_match else "",
+                    "stars": int(stars_match.group(1)) if stars_match else 0
                 })
         except Exception as e:
             print(f"⚠️ 解析 GitHub 项目出错: {e}")
@@ -259,6 +265,7 @@ def writer_node(state: AgentState):
         try:
             title_match = re.search(r'Paper:\s*(.+?)(?:\n|$)', item_str)
             url_match = re.search(r'URL:\s*(.+?)(?:\n|$)', item_str)
+            date_match = re.search(r'Date:\s*(.+?)(?:\n|$)', item_str)
             org_match = re.search(r'Organization:\s*(.+?)(?:\n|$)', item_str)
             abstract_match = re.search(r'Abstract:\s*(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
@@ -269,7 +276,7 @@ def writer_node(state: AgentState):
                     "url": url_match.group(1).strip(),
                     "description": abstract_match.group(1).strip()[:300] if abstract_match else "",
                     "organization": org_match.group(1).strip() if org_match else "",
-                    "date": ""
+                    "date": date_match.group(1).strip() if date_match else ""
                 })
         except Exception as e:
             print(f"⚠️ 解析论文出错: {e}")
@@ -333,14 +340,27 @@ def writer_node(state: AgentState):
     all_news = []
     for item in raw_items:
         item_id = hashlib.md5(item["url"].encode()).hexdigest()[:6]
-        all_news.append({
+
+        news_item = {
             "id": item_id,
             "title": item["title"],
             "source": item["type"],
             "tags": item.get("tags", ["#AI"]),
             "summary": item.get("summary", item["description"][:100]),
             "url": item["url"]
-        })
+        }
+
+        # 添加发布时间
+        if item.get("date"):
+            news_item["date"] = item["date"]
+
+        # 添加热度指标
+        if item["type"] == "HuggingFace" and item.get("likes"):
+            news_item["likes"] = item.get("likes")
+        elif item["type"] == "GitHub" and item.get("stars"):
+            news_item["stars"] = item.get("stars")
+
+        all_news.append(news_item)
 
     # 生成每日总结
     if all_news:
