@@ -57,19 +57,36 @@ def init_node(state: AgentState):
     # 1. 时间窗口：7天
     target_date = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
 
-    # 2. 简化策略：直接搜索AI产品发布的权威信息
-    # 限定网站域名，提高质量
-    product_keywords = '"AI" OR "artificial intelligence" OR "LLM" OR "model"'
-    action_keywords = '"launch" OR "release" OR "announce" OR "发布" OR "上线"'
-    official_sites = 'site:openai.com OR site:anthropic.com OR site:google.com OR site:microsoft.com OR site:deepseek.com OR site:huggingface.co OR site:github.com'
+    # 2. 精简策略：核心厂商 + 核心产品 + 权威媒体（控制在400字符以内）
+    # 国际：OpenAI, Google, Anthropic, Meta, Microsoft
+    # 国内：DeepSeek, Kimi/月之暗面, Qwen/通义, 豆包/字节, 智谱
 
-    # 组合策略：AI产品 + 发布动作 + 官方网站 + 7天内
     initial_query = f"""
-    {product_keywords} {action_keywords} ({official_sites}) after:{target_date}
+    ("OpenAI" OR "Anthropic" OR "Claude" OR "ChatGPT" OR
+     "DeepSeek" OR "Kimi" OR "月之暗面" OR "Qwen" OR "通义千问" OR
+     "豆包" OR "Doubao" OR "智谱" OR "GLM")
+    ("发布" OR "上线" OR "launch" OR "release" OR "announce")
+    (site:openai.com OR site:anthropic.com OR site:kimi.ai OR
+     site:36kr.com OR site:infoq.cn OR site:jiqizhixin.com)
+    after:{target_date}
     """
 
     clean_query = " ".join(initial_query.split())
-    print(f"   🔍 搜索策略: 国内外大厂+重要产品，7天内...")
+
+    # 验证查询长度
+    if len(clean_query) > 400:
+        print(f"   ⚠️ 查询长度 {len(clean_query)} 字符，超过限制！正在精简...")
+        # 进一步精简：只保留最核心的
+        initial_query = f"""
+        ("OpenAI" OR "Anthropic" OR "DeepSeek" OR "Kimi" OR "Qwen" OR "豆包")
+        ("launch" OR "release" OR "发布")
+        (site:openai.com OR site:anthropic.com OR site:36kr.com)
+        after:{target_date}
+        """
+        clean_query = " ".join(initial_query.split())
+
+    print(f"   🔍 搜索策略: 核心AI厂商（国际+国内），7天内...")
+    print(f"   📏 查询长度: {len(clean_query)} 字符")
 
     return {
         "product_query": clean_query,
@@ -79,15 +96,62 @@ def init_node(state: AgentState):
 # --- 板块 1: 新品 ReAct 循环逻辑 ---
 
 def product_search_node(state: AgentState):
-    """执行搜索"""
-    results = search_new_products.invoke(state['product_query'])
-    return {"product_raw_items": results}
+    """执行多轮搜索，覆盖国际+国内厂商"""
+    from datetime import datetime, timedelta
+
+    target_date = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+    all_results = []
+
+    # 第1轮：国际大厂
+    query1 = f'("OpenAI" OR "Anthropic" OR "Google AI") ("launch" OR "release") after:{target_date}'
+    print(f"   🔍 [Round 1] 搜索国际大厂...")
+    try:
+        results1 = search_new_products.invoke(query1)
+        all_results.extend(results1)
+    except Exception as e:
+        print(f"      ⚠️ Round 1 失败: {e}")
+
+    # 第2轮：国内头部厂商
+    query2 = f'("DeepSeek" OR "Kimi" OR "月之暗面" OR "Qwen" OR "通义千问") ("发布" OR "上线") after:{target_date}'
+    print(f"   🔍 [Round 2] 搜索国内厂商...")
+    try:
+        results2 = search_new_products.invoke(query2)
+        all_results.extend(results2)
+    except Exception as e:
+        print(f"      ⚠️ Round 2 失败: {e}")
+
+    # 第3轮：字节/豆包等
+    query3 = f'("豆包" OR "Doubao" OR "智谱" OR "GLM") "发布" (site:36kr.com OR site:infoq.cn) after:{target_date}'
+    print(f"   🔍 [Round 3] 搜索其他厂商...")
+    try:
+        results3 = search_new_products.invoke(query3)
+        all_results.extend(results3)
+    except Exception as e:
+        print(f"      ⚠️ Round 3 失败: {e}")
+
+    # 去重（基于URL）
+    seen_urls = set()
+    unique_results = []
+    for item in all_results:
+        url = item.get('url', '')
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            unique_results.append(item)
+
+    print(f"   ✅ 多轮搜索完成: 共 {len(unique_results)} 条（去重后）")
+    return {"product_raw_items": unique_results}
 
 def product_verify_node(state: AgentState):
     """核查搜索结果"""
+    from datetime import datetime, timedelta
+    from dateutil import parser as date_parser
+    import re
+
     raw = state.get('product_raw_items', [])
     verified = []
     print(f"\n🔍 [Graph] 正在核实 {len(raw)} 条新品线索...")
+
+    seven_days_ago = datetime.now() - timedelta(days=7)
 
     for item in raw:
         try:
@@ -96,14 +160,64 @@ def product_verify_node(state: AgentState):
 
             # 只有真正发布且是近期的新品才保留
             if res.get('is_released') and res.get('is_recent'):
-                # 格式化数据，方便主编直接使用
-                info = (
-                    f"Product: {res.get('product_name', 'Unknown')}\n"
-                    f"Date: {res.get('release_date', 'N/A')}\n"
-                    f"Desc: {res.get('description', 'N/A')}\n"
-                    f"URL: {item['url']}"
-                )
-                verified.append(info)
+                # 硬性验证日期：代码层面二次检查
+                release_date_str = res.get('release_date', '')
+                is_truly_recent = False
+
+                try:
+                    # 尝试解析日期字符串
+                    # 提取年月日数字
+                    date_match = re.search(r'202[4-6][-/年]\s*(\d{1,2})[-/月]\s*(\d{1,2})', release_date_str)
+                    if date_match:
+                        parsed_date = date_parser.parse(release_date_str, fuzzy=True)
+                        if parsed_date >= seven_days_ago:
+                            is_truly_recent = True
+                            print(f"      ✅ 日期验证通过: {res.get('product_name', 'Unknown')} ({parsed_date.strftime('%Y-%m-%d')})")
+                        else:
+                            print(f"      ❌ 日期过旧: {res.get('product_name', 'Unknown')} ({parsed_date.strftime('%Y-%m-%d')}) - 跳过")
+                            continue
+                    else:
+                        # 无法解析日期，检查是否包含"今天"、"yesterday"、"本周"等关键词
+                        recent_keywords = ['今天', '昨天', 'today', 'yesterday', '本周', 'this week', '刚刚', 'just now']
+                        if any(kw in release_date_str.lower() for kw in recent_keywords):
+                            is_truly_recent = True
+                            print(f"      ✅ 相对日期验证通过: {res.get('product_name', 'Unknown')} ({release_date_str})")
+                        else:
+                            print(f"      ⚠️ 无法验证日期: {res.get('product_name', 'Unknown')} ({release_date_str}) - 跳过")
+                            continue
+                except Exception as e:
+                    print(f"      ⚠️ 日期解析失败: {release_date_str} - {e}")
+                    continue
+
+                if is_truly_recent:
+                    url_lower = item['url'].lower()
+
+                    # 检查1：URL中不应包含负面市场词汇
+                    negative_keywords = ['wipe', 'crash', 'plunge', 'drop', 'fall', 'decline', 'loss', 'billion', 'stock']
+                    if any(kw in url_lower for kw in negative_keywords):
+                        print(f"      ⚠️ URL包含市场负面词汇: {res.get('product_name', 'Unknown')} - 可能是二手新闻，跳过")
+                        continue
+
+                    # 检查2：拒绝新闻快讯类型（内容太简短）
+                    low_quality_patterns = ['newsflash', 'kuaixun', '快讯', '/news/', '/brief/']
+                    if any(pattern in url_lower for pattern in low_quality_patterns):
+                        print(f"      ⚠️ 低质量快讯类型: {res.get('product_name', 'Unknown')} - 内容过于简短，跳过")
+                        continue
+
+                    # 检查3：描述长度验证（拒绝只言片语）
+                    desc = res.get('description', '')
+                    if len(desc) < 50:
+                        print(f"      ⚠️ 描述过短: {res.get('product_name', 'Unknown')} ({len(desc)}字符) - 可能只是顺带提及，跳过")
+                        continue
+
+                    # 格式化数据，方便主编直接使用
+                    info = (
+                        f"Product: {res.get('product_name', 'Unknown')}\n"
+                        f"Date: {res.get('release_date', 'N/A')}\n"
+                        f"Desc: {res.get('description', 'N/A')}\n"
+                        f"URL: {item['url']}"
+                    )
+                    verified.append(info)
         except Exception as e:
             print(f"      ⚠️ 核查失败 ({item.get('url', 'N/A')}): {e}")
             continue
@@ -111,37 +225,87 @@ def product_verify_node(state: AgentState):
     return {"product_verified_items": verified}
 
 def product_reflect_node(state: AgentState):
-    """反思：如果不够5条，换个角度搜"""
+    """反思：如果高质量内容不足，换个方向搜（硬件、应用、融资等）"""
+    from datetime import datetime, timedelta
+
     new_retries = state['product_retries'] + 1
-    current_q = state['product_query']
-    
-    print(f"🔄 [Reflect] 新品不足 (当前 {len(state['product_verified_items'])} 条)，第 {new_retries} 次重试...")
-    
-    # 让 LLM 生成新词
-    msg = [
-        SystemMessage(content="你是搜索策略专家。我们需要找到更多本周发布的 AI 硬件或应用。"),
-        HumanMessage(content=f"""
-        刚才搜的是: '{current_q}'。
-        
-        请生成一个新的搜索词。策略：
-        1. **语言切换**：如果刚才含中文，这次只用英文；反之亦然。
-        2. **关键词切换**：尝试 'AI Robot', 'AI App', 'LLM Service'。
-        3. **格式要求**：只返回搜索词本身，不要废话。
-        """)
+    items = state.get('product_verified_items', [])
+    target_date = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+
+    print(f"🔄 [Reflect] 高质量内容不足 (当前 {len(items)} 条)，第 {new_retries} 次重试...")
+
+    # 预设多个搜索方向，按重试次数切换
+    search_directions = [
+        {
+            "name": "AI硬件/设备",
+            "query": f'("AI hardware" OR "AI device" OR "AI chip" OR "AI robot" OR "AI glasses" OR "AI终端" OR "AI硬件" OR "AI芯片") ("launch" OR "release" OR "发布") (site:techcrunch.com OR site:theverge.com OR site:36kr.com OR site:pingwest.com) after:{target_date}'
+        },
+        {
+            "name": "AI应用/工具",
+            "query": f'("AI app" OR "AI tool" OR "AI assistant" OR "AI plugin" OR "AI应用" OR "AI工具" OR "AI插件") ("launch" OR "release" OR "上线" OR "发布") (site:producthunt.com OR site:infoq.cn OR site:sspai.com OR site:36kr.com) after:{target_date}'
+        },
+        {
+            "name": "融资/收购/合作",
+            "query": f'("AI startup" OR "AI company" OR "AI厂商") ("funding" OR "acquisition" OR "partnership" OR "融资" OR "收购" OR "合作") (site:techcrunch.com OR site:36kr.com OR site:jiemian.com) after:{target_date}'
+        },
+        {
+            "name": "官方博客深度报道",
+            "query": f'("OpenAI" OR "Anthropic" OR "DeepSeek" OR "Moonshot") (site:openai.com/blog OR site:anthropic.com/news OR site:mp.weixin.qq.com) ("release" OR "发布" OR "introducing" OR "announcement") after:{target_date}'
+        },
+        {
+            "name": "API/服务上线",
+            "query": f'("API" OR "service" OR "platform" OR "服务" OR "平台") ("available" OR "launch" OR "上线" OR "开放") ("AI" OR "LLM") (site:infoq.cn OR site:juejin.cn OR site:developer) after:{target_date}'
+        }
     ]
-    new_query = llm.invoke(msg).content
-    print(f"💡 [Reflect] 新策略: {new_query}")
-    
-    return {"product_query": new_query, "product_retries": new_retries}
+
+    # 根据重试次数选择方向（循环使用）
+    direction = search_directions[(new_retries - 1) % len(search_directions)]
+
+    print(f"💡 [Reflect] 切换搜索方向 #{new_retries}: {direction['name']}")
+    print(f"   新Query: {direction['query'][:100]}...")
+
+    return {"product_query": direction['query'], "product_retries": new_retries}
 
 def should_continue_product(state: AgentState):
-    """决策逻辑：凑够 5 条，或者试了 3 次就停"""
-    count = len(state['product_verified_items'])
+    """
+    决策逻辑：需要足够数量的**高质量**新闻
+    - 评估标准：URL不含快讯关键词、描述足够详细
+    - 停止条件：≥3条高质量 或 重试≥5次
+    """
+    items = state.get('product_verified_items', [])
     retries = state['product_retries']
-    
-    if count >= 5 or retries >= 5:
-        print(f"🛑 [Decision] 停止搜索 (Count: {count}, Retries: {retries})")
+
+    # 质量评估：过滤掉快讯类和只言片语
+    high_quality_items = []
+    for item in items:
+        # 检查URL质量
+        if 'URL:' in item:
+            url = item.split('URL:')[1].strip().lower()
+            # 快讯类关键词
+            if any(kw in url for kw in ['newsflash', 'kuaixun', '快讯']):
+                continue
+
+        # 检查描述长度
+        if 'Desc:' in item:
+            desc = item.split('Desc:')[1].split('\n')[0].strip()
+            if len(desc) < 50:  # 描述太短
+                continue
+
+        high_quality_items.append(item)
+
+    quality_count = len(high_quality_items)
+    total_count = len(items)
+
+    print(f"📊 [Quality Check] 总数: {total_count} | 高质量: {quality_count} | 重试: {retries}")
+
+    # 停止条件：≥3条高质量内容 或 重试次数过多
+    if quality_count >= 3 or retries >= 5:
+        if quality_count < 3 and retries >= 5:
+            print(f"⚠️ [Decision] 达到最大重试次数，但高质量内容不足（仅{quality_count}条）")
+        print(f"🛑 [Decision] 停止搜索 (高质量: {quality_count}, 总数: {total_count}, 重试: {retries})")
         return "join"
+
+    print(f"🔄 [Decision] 高质量内容不足（{quality_count}/3），继续搜索")
     return "reflect"
 
 # --- 板块 2/3/4: API 直连逻辑 ---
@@ -284,12 +448,19 @@ def writer_node(state: AgentState):
             abstract_match = re.search(r'Abstract:\s*(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
             if title_match and url_match:
+                org_name = org_match.group(1).strip() if org_match else ""
+                paper_title = title_match.group(1).strip().replace("===", "").strip()
+
+                # 在标题中添加机构标注（如果标题中还没有）
+                if org_name and org_name not in paper_title:
+                    paper_title = f"[{org_name}] {paper_title}"
+
                 raw_items.append({
                     "type": "Papers",
-                    "title": title_match.group(1).strip().replace("===", "").strip(),
+                    "title": paper_title,
                     "url": url_match.group(1).strip(),
                     "description": abstract_match.group(1).strip()[:300] if abstract_match else "",
-                    "organization": org_match.group(1).strip() if org_match else "",
+                    "organization": org_name,
                     "date": date_match.group(1).strip() if date_match else ""
                 })
         except Exception as e:
@@ -300,7 +471,9 @@ def writer_node(state: AgentState):
         # 构建 prompt
         items_text = ""
         for i, item in enumerate(raw_items):
-            items_text += f"\n[{i}] 类型:{item['type']} | 标题:{item['title']} | 描述:{item['description'][:100]}...\n"
+            # 如果是论文，添加机构信息
+            org_info = f" | 机构:{item.get('organization', 'N/A')}" if item['type'] == 'Papers' and item.get('organization') else ""
+            items_text += f"\n[{i}] 类型:{item['type']}{org_info} | 标题:{item['title']} | 描述:{item['description'][:100]}...\n"
 
         prompt = f"""你是资深的 AI 行业分析师。请为以下 {len(raw_items)} 条新闻撰写专业的中文解读。
 
@@ -312,6 +485,7 @@ def writer_node(state: AgentState):
    - 技术亮点/创新点（有什么特别之处）
    - 应用场景（能用在哪里）
    - 行业意义/影响（为什么重要）
+   - **如果是Papers类型，必须在解读开头明确提及机构名称**（如："Meta发布的..."、"Google提出..."）
 
 2. 写作风格：客观专业，避免营销词汇，用事实说话
 

@@ -119,27 +119,27 @@ const NewsCard = ({ item }: { item: any }) => {
 
   return (
     <article
-      className="group bg-white rounded-2xl border border-gray-200/80 overflow-hidden hover:shadow-2xl hover:shadow-blue-900/10 hover:border-blue-300/50 hover:-translate-y-1 transition-all duration-300 flex flex-col sm:flex-row"
+      className="group bg-white rounded-xl border border-gray-200/80 overflow-hidden hover:shadow-xl hover:shadow-blue-900/10 hover:border-blue-300/50 hover:-translate-y-0.5 transition-all duration-300 flex flex-col sm:flex-row"
     >
       <SmartCover item={item} />
 
-      <div className="p-6 sm:p-8 flex flex-col justify-between flex-1 relative">
+      <div className="p-4 sm:p-5 flex flex-col justify-between flex-1 relative">
         <div>
           {/* 标题和热度指标 */}
-          <div className="flex justify-between items-start mb-2">
-            <h3 className="text-xl font-bold text-slate-900 leading-snug group-hover:text-blue-600 transition-colors pr-4 flex-1">
+          <div className="flex justify-between items-start mb-1.5">
+            <h3 className="text-lg font-bold text-slate-900 leading-tight group-hover:text-blue-600 transition-colors pr-4 flex-1">
               <a href={item.url} target="_blank" rel="noopener noreferrer" className="before:absolute before:inset-0 sm:before:inset-auto">
                 {item.title}
               </a>
             </h3>
-            <span className="text-gray-300 group-hover:text-blue-500 transition-all opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 text-xl shrink-0">→</span>
+            <span className="text-gray-300 group-hover:text-blue-500 transition-all opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 text-lg shrink-0">→</span>
           </div>
 
           {/* 元数据：日期 + 热度 */}
-          <div className="flex flex-wrap items-center gap-3 mb-3 text-sm">
+          <div className="flex flex-wrap items-center gap-2.5 mb-2 text-xs">
             {item.date && (
-              <span className="flex items-center gap-1.5 text-slate-500">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <span className="flex items-center gap-1 text-slate-500">
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
                 <span className="font-medium">{item.date}</span>
@@ -147,30 +147,28 @@ const NewsCard = ({ item }: { item: any }) => {
             )}
 
             {item.likes !== undefined && item.likes > 0 && (
-              <span className={`flex items-center gap-1.5 font-semibold ${style.text}`}>
-                <span>❤️</span>
+              <span className={`flex items-center gap-1 font-semibold ${style.text}`}>
+                <span className="text-sm">❤️</span>
                 <span>{item.likes.toLocaleString()}</span>
-                <span className="text-slate-400 font-normal">likes</span>
               </span>
             )}
 
             {item.stars !== undefined && item.stars > 0 && (
-              <span className={`flex items-center gap-1.5 font-semibold ${style.text}`}>
-                <span>⭐</span>
+              <span className={`flex items-center gap-1 font-semibold ${style.text}`}>
+                <span className="text-sm">⭐</span>
                 <span>{item.stars.toLocaleString()}</span>
-                <span className="text-slate-400 font-normal">stars</span>
               </span>
             )}
           </div>
 
-          <p className="text-slate-600 text-[15px] leading-relaxed mb-4">
+          <p className="text-slate-600 text-sm leading-relaxed mb-3 line-clamp-3">
             {item.summary}
           </p>
         </div>
 
-        <div className="flex flex-wrap items-center gap-2 mt-auto pt-4">
+        <div className="flex flex-wrap items-center gap-1.5 mt-auto pt-2">
           {item.tags.map((tag: string) => (
-            <span key={tag} className="px-3 py-1.5 text-xs font-semibold text-slate-600 bg-slate-50 rounded-lg group-hover:bg-blue-50 group-hover:text-blue-600 transition-all border border-slate-200 group-hover:border-blue-200 uppercase tracking-wide">
+            <span key={tag} className="px-2 py-1 text-[10px] font-semibold text-slate-600 bg-slate-50 rounded-md group-hover:bg-blue-50 group-hover:text-blue-600 transition-all border border-slate-200 group-hover:border-blue-200 uppercase tracking-wide">
               {tag}
             </span>
           ))}
