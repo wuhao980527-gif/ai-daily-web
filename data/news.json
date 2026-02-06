@@ -383,5 +383,216 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-06",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 GLM-OCR 和 Qwen3-Coder-Next，以及 GitHub 上的 NotepadNext 和 qlib。这些模型和项目的发布表明了 AI 技术在自然语言处理、编程辅助和其他领域的持续发展和应用。",
+    "news": [
+      {
+        "id": "284f32",
+        "title": "zai-org/GLM-OCR",
+        "source": "HuggingFace",
+        "tags": [
+          "#图像识别",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的zai-org/GLM-OCR是一个基于MIT许可的开源项目，支持多语言包括中文、英文、法文、西班牙文、俄文、德文、日文和韩文。其核心功能是图像到文本的转换，利用pipeline_tag实现image-to-text的功能。技术亮点在于其多语言支持和开源性，能够应用于文档识别、图像翻译等场景。行业意义在于推动了图像识别和自然语言处理的发展，增强了人机交互的能力。 ",
+        "url": "https://huggingface.co/zai-org/GLM-OCR",
+        "date": "2026-01-30",
+        "likes": 675
+      },
+      {
+        "id": "e3bce6",
+        "title": "openbmb/MiniCPM-o-4_5",
+        "source": "HuggingFace",
+        "tags": [
+          "#数据集成",
+          "#格式转换",
+          "#开源"
+        ],
+        "summary": "HuggingFace的openbmb/MiniCPM-o-4_5是一个基于Apache-2.0许可的开源项目，支持any-to-any的pipeline_tag。其核心功能是实现多种数据格式之间的转换，技术亮点在于其通用性和灵活性。应用场景包括数据集成、格式转换等。行业意义在于简化了数据处理流程，提高了数据利用效率。 ",
+        "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
+        "date": "2026-02-03",
+        "likes": 502
+      },
+      {
+        "id": "7937ae",
+        "title": "Qwen/Qwen3-Coder-Next",
+        "source": "HuggingFace",
+        "tags": [
+          "#代码生成",
+          "#编程辅助",
+          "#智能化"
+        ],
+        "summary": "HuggingFace的Qwen/Qwen3-Coder-Next是一个基于Apache-2.0许可的开源项目，支持多种编程语言。其核心功能是代码生成和编程辅助，技术亮点在于其智能化和自动化。应用场景包括编程学习、代码优化等。行业意义在于提高了编程效率和质量，推动了软件开发的自动化。 ",
+        "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
+        "date": "2026-01-30",
+        "likes": 462
+      },
+      {
+        "id": "09bc30",
+        "title": "stepfun-ai/Step-3.5-Flash",
+        "source": "HuggingFace",
+        "tags": [
+          "#模型训练",
+          "#AI应用",
+          "#开源"
+        ],
+        "summary": "HuggingFace的stepfun-ai/Step-3.5-Flash是一个基于Apache-2.0许可的开源项目，支持多种AI模型。其核心功能是模型训练和优化，技术亮点在于其高效性和可扩展性。应用场景包括模型开发、AI应用等。行业意义在于推动了AI技术的发展和应用，提高了模型的性能和效率。 ",
+        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+        "date": "2026-02-01",
+        "likes": 448
+      },
+      {
+        "id": "ca28ea",
+        "title": "unsloth/Qwen3-Coder-Next-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#代码生成",
+          "#编程辅助",
+          "#智能化"
+        ],
+        "summary": "HuggingFace的unsloth/Qwen3-Coder-Next-GGUF是一个基于Apache-2.0许可的开源项目，支持多种编程语言。其核心功能是代码生成和编程辅助，技术亮点在于其智能化和自动化。应用场景包括编程学习、代码优化等。行业意义在于提高了编程效率和质量，推动了软件开发的自动化。 ",
+        "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
+        "date": "2026-02-03",
+        "likes": 165
+      },
+      {
+        "id": "3e9dc1",
+        "title": "dail8859/NotepadNext",
+        "source": "GitHub",
+        "tags": [
+          "#文本编辑",
+          "#开源",
+          "#免费"
+        ],
+        "summary": "GitHub的dail8859/NotepadNext是一个开源的文本编辑器项目。其核心功能是文本编辑和处理，技术亮点在于其简单性和易用性。应用场景包括文本编辑、笔记记录等。行业意义在于提供了一个免费和开源的文本编辑器，推动了软件开发的民主化。 ",
+        "url": "https://github.com/dail8859/NotepadNext",
+        "date": "Recent (Trending)",
+        "stars": 185
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#金融分析",
+          "#开源"
+        ],
+        "summary": "GitHub的microsoft/qlib是一个开源的量化交易库。其核心功能是量化交易和策略开发，技术亮点在于其高效性和可扩展性。应用场景包括量化交易、金融分析等。行业意义在于推动了量化交易的发展和应用，提高了交易的效率和准确性。 ",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 661
+      },
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#网络安全",
+          "#加密",
+          "#开源"
+        ],
+        "summary": "GitHub的tailscale/tailscale是一个开源的网络安全项目。其核心功能是网络安全和加密，技术亮点在于其安全性和易用性。应用场景包括网络安全、数据保护等。行业意义在于提供了一个安全和可靠的网络解决方案，推动了网络安全的发展和应用。 ",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 378
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#安全检测",
+          "#开源"
+        ],
+        "summary": "GitHub的aquasecurity/trivy是一个开源的漏洞扫描工具。其核心功能是漏洞扫描和安全检测，技术亮点在于其高效性和准确性。应用场景包括安全检测、漏洞修复等。行业意义在于推动了安全检测和漏洞修复的发展和应用，提高了系统的安全性和可靠性。 ",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 156
+      },
+      {
+        "id": "7f6718",
+        "title": "Dao-AILab/flash-attention",
+        "source": "GitHub",
+        "tags": [
+          "#注意力机制",
+          "#深度学习",
+          "#开源"
+        ],
+        "summary": "GitHub的Dao-AILab/flash-attention是一个开源的注意力机制项目。其核心功能是注意力机制和深度学习，技术亮点在于其高效性和可扩展性。应用场景包括深度学习、自然语言处理等。行业意义在于推动了注意力机制和深度学习的发展和应用，提高了模型的性能和效率。 ",
+        "url": "https://github.com/Dao-AILab/flash-attention",
+        "date": "Recent (Trending)",
+        "stars": 159
+      },
+      {
+        "id": "e4f547",
+        "title": "[Google] NorwAI's Large Language Models: Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#大语言模型",
+          "#自然语言处理",
+          "#Google"
+        ],
+        "summary": "Google发布的NorwAI's Large Language Models是一个关于大语言模型的技术报告。其核心功能是语言模型和自然语言处理，技术亮点在于其大规模性和高性能。应用场景包括语言翻译、文本生成等。行业意义在于推动了大语言模型的发展和应用，提高了语言处理的效率和准确性。 ",
+        "url": "https://arxiv.org/abs/2601.03034",
+        "date": "2026-01"
+      },
+      {
+        "id": "e4cda7",
+        "title": "[Google] [2601.09012] TranslateGemma Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#机器翻译",
+          "#语言处理",
+          "#Google"
+        ],
+        "summary": "Google发布的TranslateGemma Technical Report是一个关于机器翻译的技术报告。其核心功能是机器翻译和语言处理，技术亮点在于其高效性和准确性。应用场景包括语言翻译、跨语言通信等。行业意义在于推动了机器翻译的发展和应用，提高了语言处理的效率和准确性。 ",
+        "url": "https://arxiv.org/abs/2601.09012",
+        "date": "2026-01"
+      },
+      {
+        "id": "0a7c4f",
+        "title": "[DeepSeek] A.X K1 Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#人工智能",
+          "#机器学习",
+          "#DeepSeek"
+        ],
+        "summary": "DeepSeek发布的A.X K1 Technical Report是一个关于人工智能的技术报告。其核心功能是人工智能和机器学习，技术亮点在于其创新性和前沿性。应用场景包括人工智能应用、机器学习等。行业意义在于推动了人工智能的发展和应用，提高了智能化和自动化的水平。 ",
+        "url": "https://arxiv.org/html/2601.09200v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "f8a883",
+        "title": "[DeepSeek] Innovator-VL: A Multimodal Large Language Model for ...",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#大语言模型",
+          "#DeepSeek"
+        ],
+        "summary": "DeepSeek发布的Innovator-VL是一个关于多模态大语言模型的技术报告。其核心功能是多模态处理和语言理解，技术亮点在于其多模态性和高性能。应用场景包括多模态交互、语言理解等。行业意义在于推动了多模态大语言模型的发展和应用，提高了人机交互的效率和准确性。 ",
+        "url": "https://arxiv.org/html/2601.19325v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "c914b3",
+        "title": "[DeepSeek] Yuan3.0 Flash: An Open Multimodal Large Language ...",
+        "source": "Papers",
+        "tags": [
+          "#开源",
+          "#多模态",
+          "#大语言模型"
+        ],
+        "summary": "DeepSeek发布的Yuan3.0 Flash是一个关于开源多模态大语言模型的技术报告。其核心功能是多模态处理和语言理解，技术亮点在于其开源性和高性能。应用场景包括多模态交互、语言理解等。行业意义在于推动了开源多模态大语言模型的发展和应用，提高了人机交互的效率和准确性。 ",
+        "url": "https://arxiv.org/html/2601.01718v1",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
