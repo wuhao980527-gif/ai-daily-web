@@ -594,5 +594,216 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-07",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 的 stepfun-ai/Step-3.5-Flash 和 internlm/Intern-S1-Pro，以及 GitHub 上的项目如 microsoft/qlib 和 dail8859/NotepadNext，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "09bc30",
+        "title": "stepfun-ai/Step-3.5-Flash",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的stepfun-ai/Step-3.5-Flash模型是一个基于Transformers的预训练语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够在有限的计算资源下实现高性能的语言理解和生成。该模型可以应用于聊天机器人、语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的语言模型，可以广泛应用于各个领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
+        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+        "date": "2026-02-01",
+        "likes": 490
+      },
+      {
+        "id": "e3bce6",
+        "title": "openbmb/MiniCPM-o-4_5",
+        "source": "HuggingFace",
+        "tags": [
+          "#多模态",
+          "#小规模模型",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的openbmb/MiniCPM-o-4_5模型是一个小规模的多模态预训练语言模型。其核心功能是实现多模态的自然语言处理任务，技术亮点在于其能够处理多种类型的输入数据，包括文本、图像等。该模型可以应用于多模态聊天机器人、图像文本生成等场景。其行业意义在于为开发者提供了一种小规模、灵活的多模态语言模型，可以广泛应用于各个领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
+        "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
+        "date": "2026-02-03",
+        "likes": 538
+      },
+      {
+        "id": "ca28ea",
+        "title": "unsloth/Qwen3-Coder-Next-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#代码生成",
+          "#代码理解",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的unsloth/Qwen3-Coder-Next-GGUF模型是一个基于Transformers的预训练语言模型。其核心功能是实现高效的代码生成和理解任务，技术亮点在于其能够在有限的计算资源下实现高性能的代码生成和理解。该模型可以应用于代码自动完成、代码审查等场景。其行业意义在于为开发者提供了一种高效、灵活的代码生成和理解模型，可以广泛应用于软件开发领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
+        "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
+        "date": "2026-02-03",
+        "likes": 198
+      },
+      {
+        "id": "5a6335",
+        "title": "internlm/Intern-S1-Pro",
+        "source": "HuggingFace",
+        "tags": [
+          "#图像文本生成",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的internlm/Intern-S1-Pro模型是一个基于Transformers的预训练语言模型。其核心功能是实现高效的图像文本生成任务，技术亮点在于其能够在有限的计算资源下实现高性能的图像文本生成。该模型可以应用于图像文本生成、图像描述等场景。其行业意义在于为开发者提供了一种高效、灵活的图像文本生成模型，可以广泛应用于各个领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
+        "url": "https://huggingface.co/internlm/Intern-S1-Pro",
+        "date": "2026-02-02",
+        "likes": 180
+      },
+      {
+        "id": "e75dcb",
+        "title": "stepfun-ai/Step-3.5-Flash-Int4",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的stepfun-ai/Step-3.5-Flash-Int4模型是一个基于Transformers的预训练语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够在有限的计算资源下实现高性能的语言理解和生成。该模型可以应用于聊天机器人、语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的语言模型，可以广泛应用于各个领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
+        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Int4",
+        "date": "2026-02-01",
+        "likes": 103
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#投资分析",
+          "#Python库"
+        ],
+        "summary": "Microsoft发布的qlib库是一个Python库，用于量化交易和投资。其核心功能是提供一个简单、灵活的框架，用于构建和测试量化交易策略。技术亮点在于其能够支持多种数据源和交易平台，包括股票、期货、期权等。该库可以应用于量化交易、投资分析等场景。其行业意义在于为开发者提供了一种简单、灵活的量化交易和投资工具，可以广泛应用于金融领域。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 763
+      },
+      {
+        "id": "3e9dc1",
+        "title": "dail8859/NotepadNext",
+        "source": "GitHub",
+        "tags": [
+          "#文本编辑器",
+          "#开源",
+          "#Electron"
+        ],
+        "summary": "dail8859发布的NotepadNext是一个基于Electron的开源文本编辑器。其核心功能是提供一个简单、灵活的文本编辑器，用于编写和编辑代码。技术亮点在于其能够支持多种编程语言，包括Python、Java、C++等。该编辑器可以应用于代码编写、文本编辑等场景。其行业意义在于为开发者提供了一种简单、灵活的文本编辑器，可以广泛应用于软件开发领域。",
+        "url": "https://github.com/dail8859/NotepadNext",
+        "date": "Recent (Trending)",
+        "stars": 184
+      },
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#VPN",
+          "#网络安全",
+          "#开源"
+        ],
+        "summary": "tailscale发布的Tailscale是一个基于WireGuard的开源VPN解决方案。其核心功能是提供一个简单、安全的VPN连接，用于保护网络通信。技术亮点在于其能够支持多种设备和平台，包括Windows、Mac、Linux等。该解决方案可以应用于远程办公、网络安全等场景。其行业意义在于为用户提供了一种简单、安全的VPN解决方案，可以广泛应用于各个领域。",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 366
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#安全测试",
+          "#开源"
+        ],
+        "summary": "aquasecurity发布的Trivy是一个开源的漏洞扫描工具。其核心功能是提供一个简单、灵活的漏洞扫描框架，用于检测和修复漏洞。技术亮点在于其能够支持多种编程语言，包括Python、Java、C++等。该工具可以应用于漏洞扫描、安全测试等场景。其行业意义在于为开发者提供了一种简单、灵活的漏洞扫描工具，可以广泛应用于软件开发领域。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 293
+      },
+      {
+        "id": "ba6603",
+        "title": "AykutSarac/jsoncrack.com",
+        "source": "GitHub",
+        "tags": [
+          "#JSON编辑",
+          "#数据解析",
+          "#在线工具"
+        ],
+        "summary": "AykutSarac发布的jsoncrack.com是一个在线的JSON编辑器和解析器。其核心功能是提供一个简单、灵活的JSON编辑和解析工具，用于编辑和解析JSON数据。技术亮点在于其能够支持多种JSON格式，包括JSON、JSON5等。该工具可以应用于JSON编辑、数据解析等场景。其行业意义在于为开发者提供了一种简单、灵活的JSON编辑和解析工具，可以广泛应用于软件开发领域。",
+        "url": "https://github.com/AykutSarac/jsoncrack.com",
+        "date": "Recent (Trending)",
+        "stars": 173
+      },
+      {
+        "id": "392592",
+        "title": "[Google] [2602.05879] EuroLLM-22B: Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#多语言模型",
+          "#自然语言处理",
+          "#大规模模型"
+        ],
+        "summary": "Google发布的EuroLLM-22B是一种大规模的多语言语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够支持多种语言，包括英语、法语、德语等。该模型可以应用于语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的多语言语言模型，可以广泛应用于各个领域。",
+        "url": "https://arxiv.org/abs/2602.05879",
+        "date": "2026-02"
+      },
+      {
+        "id": "25973f",
+        "title": "[Google] [2601.01739] K-EXAONE Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#多语言模型",
+          "#自然语言处理",
+          "#大规模模型"
+        ],
+        "summary": "Google发布的K-EXAONE是一种大规模的多语言语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够支持多种语言，包括英语、法语、德语等。该模型可以应用于语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的多语言语言模型，可以广泛应用于各个领域。",
+        "url": "https://arxiv.org/abs/2601.01739",
+        "date": "2026-01"
+      },
+      {
+        "id": "f8a883",
+        "title": "[DeepSeek] Innovator-VL: A Multimodal Large Language Model for ...",
+        "source": "Papers",
+        "tags": [
+          "#多模态模型",
+          "#自然语言处理",
+          "#大规模模型"
+        ],
+        "summary": "DeepSeek发布的Innovator-VL是一种多模态大语言模型。其核心功能是实现高效的多模态自然语言处理任务，技术亮点在于其能够支持多种模态，包括文本、图像等。该模型可以应用于多模态聊天机器人、图像文本生成等场景。其行业意义在于为开发者提供了一种高效、灵活的多模态语言模型，可以广泛应用于各个领域。",
+        "url": "https://arxiv.org/html/2601.19325v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "dbfe37",
+        "title": "[DeepSeek] A.X K1 Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#多语言模型",
+          "#自然语言处理",
+          "#大规模模型"
+        ],
+        "summary": "DeepSeek发布的A.X K1是一种大规模的多语言语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够支持多种语言，包括英语、法语、德语等。该模型可以应用于语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的多语言语言模型，可以广泛应用于各个领域。",
+        "url": "https://arxiv.org/pdf/2601.09200",
+        "date": "2026-01"
+      },
+      {
+        "id": "ebfa37",
+        "title": "[Google] Native LLM and MLLM Inference at Scale on Apple Silicon",
+        "source": "Papers",
+        "tags": [
+          "#语言模型推理",
+          "#Apple Silicon",
+          "#高效解决方案"
+        ],
+        "summary": "Google发布的Native LLM和MLLM推理是在Apple Silicon上实现的。其核心功能是实现高效的语言模型推理，技术亮点在于其能够支持多种语言模型，包括LLM和MLLM等。该技术可以应用于语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的语言模型推理解决方案，可以广泛应用于各个领域。",
+        "url": "https://arxiv.org/html/2601.19139v1",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
