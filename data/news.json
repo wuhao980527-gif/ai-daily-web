@@ -805,5 +805,216 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-08",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 Step-3.5-Flash 和 MiniCPM-o-4_5，以及 GitHub 上的 qlib 和 trivy 等项目的更新，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "09bc30",
+        "title": "stepfun-ai/Step-3.5-Flash",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的stepfun-ai/Step-3.5-Flash模型是一个基于Apache-2.0许可的AI模型。其核心功能是提供高效的文本处理能力，技术亮点在于其能够快速处理大量文本数据。该模型可以应用于自然语言处理、文本分类等场景。从行业意义上讲，stepfun-ai/Step-3.5-Flash模型的发布有助于推动AI技术在文本处理领域的发展。其创新点在于其高效的处理能力和灵活的应用场景。",
+        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+        "date": "2026-02-01",
+        "likes": 514
+      },
+      {
+        "id": "e3bce6",
+        "title": "openbmb/MiniCPM-o-4_5",
+        "source": "HuggingFace",
+        "tags": [
+          "#多语言支持",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的openbmb/MiniCPM-o-4_5模型是一个基于Apache-2.0许可的AI模型。其核心功能是提供多语言支持的文本处理能力，技术亮点在于其能够处理多种语言的文本数据。该模型可以应用于机器翻译、文本分类等场景。从行业意义上讲，openbmb/MiniCPM-o-4_5模型的发布有助于推动AI技术在多语言处理领域的发展。其创新点在于其多语言支持能力和灵活的应用场景。",
+        "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
+        "date": "2026-02-03",
+        "likes": 587
+      },
+      {
+        "id": "ca28ea",
+        "title": "unsloth/Qwen3-Coder-Next-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#代码生成",
+          "#自动化",
+          "#开发工具"
+        ],
+        "summary": "HuggingFace发布的unsloth/Qwen3-Coder-Next-GGUF模型是一个基于Qwen/Qwen3-Coder-Next的AI模型。其核心功能是提供高效的代码生成能力，技术亮点在于其能够快速生成高质量的代码。该模型可以应用于代码自动完成、代码审查等场景。从行业意义上讲，unsloth/Qwen3-Coder-Next-GGUF模型的发布有助于推动AI技术在代码生成领域的发展。其创新点在于其高效的代码生成能力和灵活的应用场景。",
+        "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
+        "date": "2026-02-03",
+        "likes": 209
+      },
+      {
+        "id": "5a6335",
+        "title": "internlm/Intern-S1-Pro",
+        "source": "HuggingFace",
+        "tags": [
+          "#图像识别",
+          "#图像描述",
+          "#多模态"
+        ],
+        "summary": "internlm/Intern-S1-Pro模型是一个基于Apache-2.0许可的AI模型。其核心功能是提供图像到文本的转换能力，技术亮点在于其能够高效地处理图像数据。该模型可以应用于图像识别、图像描述等场景。从行业意义上讲，internlm/Intern-S1-Pro模型的发布有助于推动AI技术在图像处理领域的发展。其创新点在于其高效的图像处理能力和灵活的应用场景。",
+        "url": "https://huggingface.co/internlm/Intern-S1-Pro",
+        "date": "2026-02-02",
+        "likes": 194
+      },
+      {
+        "id": "e75dcb",
+        "title": "stepfun-ai/Step-3.5-Flash-Int4",
+        "source": "HuggingFace",
+        "tags": [
+          "#数学运算",
+          "#数据分析",
+          "#高性能计算"
+        ],
+        "summary": "HuggingFace发布的stepfun-ai/Step-3.5-Flash-Int4模型是一个基于Apache-2.0许可的AI模型。其核心功能是提供高效的整数运算能力，技术亮点在于其能够快速处理整数数据。该模型可以应用于数学运算、数据分析等场景。从行业意义上讲，stepfun-ai/Step-3.5-Flash-Int4模型的发布有助于推动AI技术在数学运算领域的发展。其创新点在于其高效的整数运算能力和灵活的应用场景。",
+        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Int4",
+        "date": "2026-02-01",
+        "likes": 110
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#金融分析",
+          "#Python库"
+        ],
+        "summary": "Microsoft发布的qlib库是一个Python库，用于量化交易和金融分析。其核心功能是提供高效的数据处理和分析能力，技术亮点在于其能够快速处理大量金融数据。该库可以应用于量化交易、风险管理等场景。从行业意义上讲，qlib库的发布有助于推动金融行业的技术发展。其创新点在于其高效的数据处理能力和灵活的应用场景。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 792
+      },
+      {
+        "id": "3e9dc1",
+        "title": "dail8859/NotepadNext",
+        "source": "GitHub",
+        "tags": [
+          "#文本编辑",
+          "#代码编写",
+          "#开源"
+        ],
+        "summary": "NotepadNext是一个基于GitHub的开源项目，用于创建一个新的记事本应用。其核心功能是提供高效的文本编辑能力，技术亮点在于其能够快速处理文本数据。该项目可以应用于文本编辑、代码编写等场景。从行业意义上讲，NotepadNext项目的发布有助于推动开源社区的发展。其创新点在于其高效的文本编辑能力和灵活的应用场景。",
+        "url": "https://github.com/dail8859/NotepadNext",
+        "date": "Recent (Trending)",
+        "stars": 184
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#安全分析",
+          "#开源"
+        ],
+        "summary": "aquasecurity/trivy是一个基于GitHub的开源项目，用于漏洞扫描和安全分析。其核心功能是提供高效的漏洞检测能力，技术亮点在于其能够快速处理大量安全数据。该项目可以应用于安全分析、漏洞扫描等场景。从行业意义上讲，aquasecurity/trivy项目的发布有助于推动安全行业的技术发展。其创新点在于其高效的漏洞检测能力和灵活的应用场景。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 439
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#头部缩放",
+          "#图像处理",
+          "#开源"
+        ],
+        "summary": "juanfont/headscale是一个基于GitHub的开源项目，用于创建一个新的头部缩放工具。其核心功能是提供高效的头部缩放能力，技术亮点在于其能够快速处理头部数据。该项目可以应用于头部缩放、图像处理等场景。从行业意义上讲，juanfont/headscale项目的发布有助于推动图像处理行业的技术发展。其创新点在于其高效的头部缩放能力和灵活的应用场景。",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 294
+      },
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#网络安全",
+          "#数据保护",
+          "#开源"
+        ],
+        "summary": "tailscale/tailscale是一个基于GitHub的开源项目，用于创建一个新的网络安全工具。其核心功能是提供高效的网络安全能力，技术亮点在于其能够快速处理网络数据。该项目可以应用于网络安全、数据保护等场景。从行业意义上讲，tailscale/tailscale项目的发布有助于推动网络安全行业的技术发展。其创新点在于其高效的网络安全能力和灵活的应用场景。",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 340
+      },
+      {
+        "id": "392592",
+        "title": "[Google] [2602.05879] EuroLLM-22B: Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#语言理解",
+          "#自然语言处理",
+          "#技术报告"
+        ],
+        "summary": "Google发布的EuroLLM-22B模型是一个基于技术报告的AI模型。其核心功能是提供高效的语言理解能力，技术亮点在于其能够快速处理大量语言数据。该模型可以应用于自然语言处理、语言翻译等场景。从行业意义上讲，EuroLLM-22B模型的发布有助于推动AI技术在语言理解领域的发展。其创新点在于其高效的语言理解能力和灵活的应用场景。",
+        "url": "https://arxiv.org/abs/2602.05879",
+        "date": "2026-02"
+      },
+      {
+        "id": "4bba0c",
+        "title": "[Zhipu AI] NorwAI's Large Language Models: Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#语言生成",
+          "#文本摘要",
+          "#技术报告"
+        ],
+        "summary": "Zhipu AI发布的NorwAI模型是一个基于技术报告的AI模型。其核心功能是提供高效的语言生成能力，技术亮点在于其能够快速生成高质量的语言数据。该模型可以应用于语言生成、文本摘要等场景。从行业意义上讲，NorwAI模型的发布有助于推动AI技术在语言生成领域的发展。其创新点在于其高效的语言生成能力和灵活的应用场景。",
+        "url": "https://arxiv.org/pdf/2601.03034",
+        "date": "2026-01"
+      },
+      {
+        "id": "f8a883",
+        "title": "[DeepSeek] Innovator-VL: A Multimodal Large Language Model for ...",
+        "source": "Papers",
+        "tags": [
+          "#多模态理解",
+          "#图像识别",
+          "#技术报告"
+        ],
+        "summary": "DeepSeek发布的Innovator-VL模型是一个基于技术报告的AI模型。其核心功能是提供高效的多模态理解能力，技术亮点在于其能够快速处理多种模态数据。该模型可以应用于多模态分析、图像识别等场景。从行业意义上讲，Innovator-VL模型的发布有助于推动AI技术在多模态理解领域的发展。其创新点在于其高效的多模态理解能力和灵活的应用场景。",
+        "url": "https://arxiv.org/html/2601.19325v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "1fad4f",
+        "title": "[Google] Large Language Models in Software Documentation and ...",
+        "source": "Papers",
+        "tags": [
+          "#语言理解",
+          "#自然语言处理",
+          "#技术报告"
+        ],
+        "summary": "Google发布的Large Language Models模型是一个基于技术报告的AI模型。其核心功能是提供高效的语言理解能力，技术亮点在于其能够快速处理大量语言数据。该模型可以应用于自然语言处理、语言翻译等场景。从行业意义上讲，Large Language Models模型的发布有助于推动AI技术在语言理解领域的发展。其创新点在于其高效的语言理解能力和灵活的应用场景。",
+        "url": "https://arxiv.org/html/2602.04938v1",
+        "date": "2026-02"
+      },
+      {
+        "id": "9abff1",
+        "title": "[Meta] A Multi-Model Consensus Reasoning Engine for Large ...",
+        "source": "Papers",
+        "tags": [
+          "#推理分析",
+          "#决策支持",
+          "#技术报告"
+        ],
+        "summary": "Meta发布的Multi-Model Consensus Reasoning Engine模型是一个基于技术报告的AI模型。其核心功能是提供高效的推理能力，技术亮点在于其能够快速处理复杂的推理任务。该模型可以应用于推理分析、决策支持等场景。从行业意义上讲，Multi-Model Consensus Reasoning Engine模型的发布有助于推动AI技术在推理领域的发展。其创新点在于其高效的推理能力和灵活的应用场景。",
+        "url": "https://www.arxiv.org/pdf/2601.07245",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
