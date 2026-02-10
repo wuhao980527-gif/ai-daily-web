@@ -1227,5 +1227,163 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-10",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 MiniCPM-o-4_5 和 Eva-4B-V2，以及 GitHub 上的开源项目如 headscale 和 trivy，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "e3bce6",
+        "title": "openbmb/MiniCPM-o-4_5",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#多语言处理",
+          "#开源模型"
+        ],
+        "summary": "HuggingFace发布的openbmb/MiniCPM-o-4_5模型是一个基于transformers库的any-to-any管道模型。其核心功能是实现多语言和多任务的处理能力。技术亮点在于其miniCPM-o模型的优化和扩展，能够更好地适应不同场景的需求。应用场景包括但不限于机器翻译、文本分类等。行业意义在于其开源和高效的特点，为开发者提供了一个强大的工具。该模型的发布推动了自然语言处理领域的发展。",
+        "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
+        "date": "2026-02-03",
+        "likes": 642
+      },
+      {
+        "id": "ca28ea",
+        "title": "unsloth/Qwen3-Coder-Next-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#代码生成",
+          "#编程辅助",
+          "#AI编程"
+        ],
+        "summary": "HuggingFace上的unsloth/Qwen3-Coder-Next-GGUF模型是一个基于Qwen3-Coder-Next的扩展模型。其核心功能是提高代码生成和理解的能力。技术亮点在于其对Qwen3模型的优化和扩展，能够更好地处理编码任务。应用场景包括代码自动完成、代码审查等。行业意义在于其能够提高开发者的效率和代码质量。该模型的发布推动了编程辅助工具的发展。",
+        "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
+        "date": "2026-02-03",
+        "likes": 245
+      },
+      {
+        "id": "9e948c",
+        "title": "FutureMa/Eva-4B-V2",
+        "source": "HuggingFace",
+        "tags": [
+          "#文本分类",
+          "#情感分析",
+          "#高精度模型"
+        ],
+        "summary": "HuggingFace上的FutureMa/Eva-4B-V2模型是一个基于transformers库的文本分类模型。其核心功能是实现高精度的文本分类。技术亮点在于其Eva-4B-V2模型的优化和扩展，能够更好地适应不同场景的需求。应用场景包括但不限于情感分析、主题分类等。行业意义在于其高效和准确的特点，为开发者提供了一个强大的工具。该模型的发布推动了自然语言处理领域的发展。",
+        "url": "https://huggingface.co/FutureMa/Eva-4B-V2",
+        "date": "2026-02-04",
+        "likes": 87
+      },
+      {
+        "id": "9af9b9",
+        "title": "Comfy-Org/ace_step_1.5_ComfyUI_files",
+        "source": "HuggingFace",
+        "tags": [
+          "#文本处理",
+          "#ComfyUI",
+          "#高效模型"
+        ],
+        "summary": "HuggingFace上的Comfy-Org/ace_step_1.5_ComfyUI_files模型是一个基于ACE模型的扩展模型。其核心功能是实现高效的文本处理能力。技术亮点在于其对ACE模型的优化和扩展，能够更好地适应ComfyUI的需求。应用场景包括但不限于文本编辑、文本分析等。行业意义在于其能够提高开发者的效率和用户体验。该模型的发布推动了文本处理工具的发展。",
+        "url": "https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files",
+        "date": "2026-02-03",
+        "likes": 80
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#头部识别",
+          "#计算机视觉",
+          "#开源项目"
+        ],
+        "summary": "GitHub上的juanfont/headscale项目是一个开源的头部识别和跟踪系统。其核心功能是实现高精度的头部识别和跟踪。技术亮点在于其使用了深度学习算法和计算机视觉技术，能够更好地适应不同场景的需求。应用场景包括但不限于安全监控、人脸识别等。行业意义在于其能够提高安全性和效率。该项目的发布推动了计算机视觉领域的发展。",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 246
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#Python库",
+          "#开源项目"
+        ],
+        "summary": "GitHub上的microsoft/qlib项目是一个开源的量化交易库。其核心功能是实现高效的量化交易能力。技术亮点在于其使用了Python语言和多种算法，能够更好地适应不同场景的需求。应用场景包括但不限于股票交易、期货交易等。行业意义在于其能够提高交易效率和准确性。该项目的发布推动了量化交易领域的发展。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 892
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#安全工具",
+          "#开源项目"
+        ],
+        "summary": "GitHub上的aquasecurity/trivy项目是一个开源的漏洞扫描工具。其核心功能是实现高效的漏洞扫描能力。技术亮点在于其使用了多种算法和数据源，能够更好地适应不同场景的需求。应用场景包括但不限于安全审计、漏洞修复等。行业意义在于其能够提高安全性和效率。该项目的发布推动了安全领域的发展。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 615
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#音乐流媒体",
+          "#客户端",
+          "#开源项目"
+        ],
+        "summary": "GitHub上的KRTirtho/spotube项目是一个开源的音乐流媒体客户端。其核心功能是实现高效的音乐流媒体播放能力。技术亮点在于其使用了多种技术和协议，能够更好地适应不同场景的需求。应用场景包括但不限于音乐播放、播客播放等。行业意义在于其能够提高用户体验和效率。该项目的发布推动了音乐流媒体领域的发展。",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 259
+      },
+      {
+        "id": "3e9dc1",
+        "title": "dail8859/NotepadNext",
+        "source": "GitHub",
+        "tags": [
+          "#文本编辑器",
+          "#开源项目",
+          "#高效编辑"
+        ],
+        "summary": "GitHub上的dail8859/NotepadNext项目是一个开源的文本编辑器。其核心功能是实现高效的文本编辑能力。技术亮点在于其使用了多种技术和算法，能够更好地适应不同场景的需求。应用场景包括但不限于文本编辑、代码编辑等。行业意义在于其能够提高开发者的效率和用户体验。该项目的发布推动了文本编辑器领域的发展。",
+        "url": "https://github.com/dail8859/NotepadNext",
+        "date": "Recent (Trending)",
+        "stars": 134
+      },
+      {
+        "id": "8d7060",
+        "title": "[DeepSeek] A.X K1 Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#深度学习",
+          "#技术报告",
+          "#DeepSeek"
+        ],
+        "summary": "DeepSeek机构发布的A.X K1 Technical Report是一份关于深度学习的技术报告。其核心功能是总结和分析深度学习的发展和应用。技术亮点在于其对深度学习的全面分析和评估，能够更好地帮助开发者和研究者了解深度学习的发展趋势。应用场景包括但不限于深度学习研究、开发和应用等。行业意义在于其能够推动深度学习领域的发展和应用。",
+        "url": "https://arxiv.org/html/2601.09200v4",
+        "date": "2026-01"
+      },
+      {
+        "id": "807167",
+        "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL ...",
+        "source": "Papers",
+        "tags": [
+          "#安全报告",
+          "#GPT-5.2",
+          "#Qwen"
+        ],
+        "summary": "Qwen机构发布的A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL是一份关于GPT-5.2、Gemini 3 Pro和Qwen3-VL的安全报告。其核心功能是评估和分析这些模型的安全性和风险。技术亮点在于其对这些模型的全面安全评估和分析，能够更好地帮助开发者和用户了解这些模型的安全性和风险。应用场景包括但不限于模型开发、部署和应用等。行业意义在于其能够提高模型的安全性和可靠性。",
+        "url": "https://arxiv.org/html/2601.10527v1",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
