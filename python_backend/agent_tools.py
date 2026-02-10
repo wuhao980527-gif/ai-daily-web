@@ -1,6 +1,6 @@
 import os
 import requests
-from typing import List, Dict
+from typing import List, Dict, Optional
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from dateutil import parser
@@ -11,7 +11,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.tools import tool
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import WebBaseLoader
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 # 第三方客户端
 from tavily import TavilyClient
@@ -30,16 +30,132 @@ llm = ChatOpenAI(
 )
 tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
+# Groq 免费模型（用于 ReAct 推理）
+groq_llm = ChatOpenAI(
+    openai_api_key=os.getenv("GROQ_API_KEY"),
+    base_url="https://api.groq.com/openai/v1",
+    model_name="llama-3.3-70b-versatile",
+    temperature=0,
+    timeout=30,
+)
+
 # ================= 1. 结构化校验 =================
 class ProductVerification(BaseModel):
     """用于校验搜索到的新品是否真实、是否近期发布"""
-    product_name: str = Field(description="产品名称")
-    is_released: bool = Field(description="是否已正式发布/上线 (非传闻)")
-    is_recent: bool = Field(description="是否为近期(近1个月)发布")
-    release_date: str = Field(description="具体的发布日期或时间证据")
-    description: str = Field(description="一句话客观描述产品功能(不带形容词)")
+    product_name: Optional[str] = Field(default="", description="产品名称")
+    is_released: bool = Field(default=False, description="是否已正式发布/上线 (非传闻)")
+    is_recent: bool = Field(default=False, description="是否为近期(近1个月)发布")
+    release_date: Optional[str] = Field(default="", description="具体的发布日期或时间证据")
+    description: Optional[str] = Field(default="", description="一句话客观描述产品功能(不带形容词)")
+
+class ProductExtractionResult(BaseModel):
+    """单条snippet的产品提取结果"""
+    index: int = Field(description="对应搜索结果的序号")
+    product_name: str = Field(default="", description="提取到的AI产品/模型/工具名称，无则留空")
+    is_product_launch: bool = Field(default=False, description="是否为产品发布/上线/开源的新闻")
+    is_recent: bool = Field(default=False, description="从snippet内容判断，该产品是否为近7天内发布的")
+
+class ProductExtractionList(BaseModel):
+    """批量提取结果"""
+    items: List[ProductExtractionResult] = Field(default_factory=list, description="提取结果列表")
+
+class ReActDecision(BaseModel):
+    """ReAct 推理决策"""
+    reasoning: str = Field(default="", description="对当前结果的分析：覆盖了什么、缺什么、质量如何")
+    should_continue: bool = Field(default=False, description="是否需要继续搜索")
+    next_query: str = Field(default="", description="下一轮搜索的 query（仅当 should_continue=True 时有效）")
+    gap_category: str = Field(default="", description="缺失的类别（字符串），如：国内产品、AI应用、硬件、融资")
+
+    @field_validator('gap_category', mode='before')
+    @classmethod
+    def coerce_gap_category(cls, v):
+        if isinstance(v, list):
+            return ', '.join(str(i) for i in v)
+        return v or ""
 
 # ================= 2. 工具集 (完整增强版) =================
+
+@tool
+def react_reason(current_items: List[str], retry_count: int, search_history: str = "") -> dict:
+    """【ReAct推理】评估当前搜索结果的覆盖面和质量，决定下一步搜索策略"""
+    print(f"   🧠 [Tool] ReAct 推理中（当前 {len(current_items)} 条，第 {retry_count} 轮）...")
+
+    target_date = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+    items_text = "\n".join(current_items) if current_items else "（暂无结果）"
+    history_text = search_history if search_history else "（首轮搜索）"
+
+    reasoner = groq_llm.with_structured_output(ReActDecision, method="json_mode")
+    prompt = ChatPromptTemplate.from_template("""你是一个 AI 日报的搜索策略助手。你的任务是评估当前搜到的 AI 新闻，判断是否需要继续搜索。
+
+当前已搜到的新闻（{count} 条）：
+{items}
+
+已尝试的搜索历史：
+{search_history}
+
+请分析：
+1. **覆盖面**：是否覆盖了以下类别？
+   - 大模型/基座模型发布（如 GPT-5, Claude 4, Qwen 3 等）
+   - AI 应用/产品上线（如 AI 助手、AI 工具、新 App）
+   - AI 硬件/终端（如 AI 眼镜、AI 芯片、机器人）
+   - 重大商业事件（融资、收购、合作）
+   - 国内 + 国际是否都有覆盖
+
+2. **质量**：每条新闻是否有实质内容（非快讯、非标题党）
+
+3. **决策**：
+   - 如果已有 3+ 条高质量、多类别的新闻 → should_continue=False
+   - 如果不足 3 条，或者类别太单一 → should_continue=True，并生成下一轮搜索 query
+   - 最多搜 3 轮（当前第 {retry} 轮），第 3 轮必须停止
+
+4. **下一轮策略要求**（如果继续）：
+
+   🚨 **核心原则：绝对禁止重复！**
+   - 仔细阅读上面的「已尝试的搜索历史」，如果某个方向已经搜过（不管产出多少），**该方向视为已用尽，必须完全放弃**
+   - 如果你生成的 query 和搜索历史中的任何一轮的角度相似，就是错误的！
+   - 同一个 site: 组合搜过一次就不要再用了
+
+   🔄 **换赛道策略（按优先级选一个没搜过的方向）**：
+   - "大模型厂商"搜不到 → 换"AI SaaS/开发者工具"（site:producthunt.com OR site:sspai.com）
+   - "AI应用"搜不到 → 换"AI硬件/机器人/芯片"（site:theverge.com OR site:36kr.com）
+   - 中文媒体搜不到 → 换英文媒体（site:techcrunch.com OR site:wired.com OR site:arstechnica.com）
+   - 英文媒体搜不到 → 换中文媒体（site:36kr.com OR site:sspai.com OR site:ithome.com）
+   - 通用AI搜不到 → 换垂直领域（AI医疗/AI教育/AI金融/自动驾驶）
+
+   📏 **格式要求**：
+   - 必须包含 after:{date} 限制7天
+   - 必须用 site: 限制到权威来源（避免社交媒体噪音）
+   - 控制在 300 字符以内
+
+   ✅ 好的 query 示例：
+   AI ("发布" OR "上线") (site:36kr.com OR site:jiqizhixin.com) after:{date}
+   ("OpenAI" OR "Anthropic") ("launch" OR "release") (site:techcrunch.com OR site:theverge.com) after:{date}
+   AI 硬件 OR AI芯片 OR 机器人 (site:36kr.com OR site:jiqizhixin.com) after:{date}
+   AI tool OR AI app (site:producthunt.com OR site:sspai.com) after:{date}
+
+   ❌ 不好的 query（会返回垃圾）：
+   大模型发布 OR AI产品上线 OR 融资收购（无site限制，返回社交媒体噪音）
+   ("OpenAI" OR "Anthropic" OR "DeepSeek" OR "Kimi") ("launch" OR "发布")（太多OR，无site限制）
+   和上一轮搜索角度相同的任何 query（浪费搜索次数）
+
+请严格以 JSON 格式输出，包含 reasoning, should_continue, next_query, gap_category 四个字段。""")
+
+    result = (prompt | reasoner).invoke({
+        "count": len(current_items),
+        "items": items_text,
+        "retry": retry_count,
+        "date": target_date,
+        "search_history": history_text
+    })
+
+    data = result.model_dump()
+    print(f"      💭 推理结论: {data['reasoning'][:80]}...")
+    print(f"      📋 缺失类别: {data['gap_category']}")
+    if data['should_continue']:
+        print(f"      🔍 下一轮 Query: {data['next_query'][:80]}...")
+    else:
+        print(f"      ✅ 判断: 结果已足够，停止搜索")
+    return data
 
 @tool
 def search_new_products(query: str) -> List[Dict]:
@@ -47,13 +163,61 @@ def search_new_products(query: str) -> List[Dict]:
     print(f"   🕵️ [Tool] 正在搜索新品: {query}")
     try:
         q = f"{query} -tutorial -review -list -best"
-        results = tavily_client.search(q, max_results=5).get('results', [])
+        results = tavily_client.search(q, max_results=10).get('results', [])
         
         print(f"      ✅ 初筛命中 {len(results)} 条")
         return results
     except Exception as e:
         print(f"      ❌ 搜索报错: {e}")
         return []
+
+@tool
+def batch_extract_products(search_results: List[dict]) -> List[dict]:
+    """从搜索结果snippet中批量提取AI产品名，过滤掉无关结果和旧产品"""
+    if not search_results:
+        return []
+
+    target_date = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+
+    snippets_text = ""
+    for i, r in enumerate(search_results):
+        snippets_text += f"[{i}] {r.get('title','')} | {r.get('content','')[:200]}\n"
+
+    # 一次LLM调用处理全部snippet（~4500 token）
+    extractor = groq_llm.with_structured_output(ProductExtractionList, method="json_mode")
+    prompt = ChatPromptTemplate.from_template("""你要从搜索结果snippet中完成两件事：
+1. 提取AI相关的产品/模型/工具名称
+2. 判断该产品是否为近7天内（{cutoff_date}之后）发布的
+
+⚠️ 关键区分：「文章发布日期」≠「产品发布日期」！
+- 一篇2月9日发表的文章可能在介绍一个去年的老产品 → is_recent=False
+- 只有snippet中明确提到产品在近7天内"发布/上线/开源/推出"才算 is_recent=True
+- 如果snippet中没有提到具体的产品发布时间，默认 is_recent=False
+
+只提取明确提到具体产品发布/上线/开源的条目。
+忽略教程、评测、榜单、股价新闻、旧产品回顾等非近期产品发布内容。
+
+搜索结果：
+{snippets}
+
+请以JSON格式输出，包含 items 数组，每个元素含：
+- index（序号）
+- product_name（产品名）
+- is_product_launch（是否为产品发布新闻）
+- is_recent（该产品是否为近7天内发布的，不是文章日期，是产品本身的发布日期）
+
+只需要输出 is_product_launch=true 且 is_recent=true 的条目。""")
+
+    try:
+        result = (prompt | extractor).invoke({"snippets": snippets_text, "cutoff_date": target_date})
+        matched_indices = [item.index for item in result.items
+                          if item.is_product_launch and item.is_recent and item.product_name]
+        candidates = [search_results[i] for i in matched_indices if i < len(search_results)]
+        print(f"   🧪 [snippet提取] {len(search_results)}条 → {len(candidates)}条（近7天产品发布）")
+        return candidates
+    except Exception as e:
+        print(f"   ⚠️ snippet提取失败: {e}，保留全部结果")
+        return search_results
 
 @tool
 def verify_product_page(url: str) -> dict:
@@ -65,7 +229,11 @@ def verify_product_page(url: str) -> dict:
         docs = loader.load()
         content = docs[0].page_content[:4000]
         
-        verifier = llm.with_structured_output(ProductVerification)
+        # 动态计算7天前的日期
+        cutoff_date = (datetime.now() - timedelta(days=7)).strftime("%Y年%-m月%-d日")
+        cutoff_date_iso = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+
+        verifier = groq_llm.with_structured_output(ProductVerification, method="json_mode")
         prompt = ChatPromptTemplate.from_template("""
         请阅读网页，判断这是否为 **AI 领域具有行业影响力的重大事件**。
 
@@ -80,24 +248,29 @@ def verify_product_page(url: str) -> dict:
         1. 个人开发者的小众应用（App Store上的小工具）
         2. 本地LLM客户端/服务器等通用工具
         3. 教程、测评、对比、预测类文章
-        4. **超过7天的旧新闻**（必须是2026年1月29日之后的）
+        4. **超过7天的旧新闻**（必须是{cutoff_date}之后的）
         5. 传闻或未经官方确认的消息
         6. **非直接相关的新闻**（比如报道某公司发布产品导致竞争对手股价下跌的新闻）
 
         ⚠️ **严格标准**：
         - is_released: 只有真正重大的、已确认的事件才设为 True
-        - is_recent: **必须是近7天内（2026年1月29日之后）的事件**
-        - release_date: 必须明确写出具体日期（格式：2026年X月X日 或 YYYY-MM-DD），不要用模糊表述
-        - description: **必须从原文中直接提取**，不要扩充、推测或补充信息！如果原文对该产品的描述不足30字，说明只是顺带提及，设 is_released=False
+        - is_recent: **必须是近7天内（{cutoff_date}之后）的事件**
+        - release_date: **必须是产品/模型/服务的实际发布日期，不是文章的发表日期！** 如果原文只有文章发表时间而没有明确写出产品的发布/上线日期，设 is_recent=False
+          - 格式：YYYY-MM-DD
+          - 必须从原文中找到明确的日期证据（如"于2月7日正式发布"、"launched on Feb 7"）
+          - 如果原文没有写具体日期，只说"近日"、"recently"，也设 is_recent=False
+        - description: **必须从原文中直接提取**，不要扩充、推测或补充信息！
         - product_name: 必须是具体的产品名称，不要写"某公司产品"
         - 如果是小众应用或工具，即使最近发布也要设 is_released=False
         - **如果网页主要讲的不是产品本身，而是产品发布的影响（如股价、竞争等），设 is_released=False**
         - **如果文章是综述类型，产品只占很小篇幅（如在十几个产品列表中只有一句话），设 is_released=False**
 
+        请以 JSON 格式输出，包含 product_name, is_released, is_recent, release_date, description 五个字段。
+
         网页内容：{text}
         """)
         
-        res = (prompt | verifier).invoke({"text": content})
+        res = (prompt | verifier).invoke({"text": content, "cutoff_date": cutoff_date, "cutoff_date_iso": cutoff_date_iso})
         data = res.model_dump()
         
         status = "🟢通过" if (data['is_released'] and data['is_recent']) else "🔴拒绝"
@@ -564,4 +737,4 @@ def fetch_big_tech_papers() -> List[str]:
         return []
 
 # 导出
-ALL_TOOLS = [search_new_products, verify_product_page, fetch_hf_trending_models, fetch_github_trending, fetch_big_tech_papers]
+ALL_TOOLS = [search_new_products, batch_extract_products, verify_product_page, fetch_hf_trending_models, fetch_github_trending, fetch_big_tech_papers]

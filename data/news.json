@@ -596,22 +596,47 @@
     ]
   },
   {
-    "date": "2026-02-07",
-    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 的 stepfun-ai/Step-3.5-Flash 和 internlm/Intern-S1-Pro，以及 GitHub 上的项目如 microsoft/qlib 和 dail8859/NotepadNext，这些进展表明 AI 技术在不断发展和应用。",
+    "date": "2026-02-09",
+    "summary": "今日AI领域以开源模型迭代和垂直应用优化为主导，HuggingFace平台集中发布多款轻量化、专业化模型，涵盖代码生成、小型化部署等方向，体现模型高效化与场景适配趋势。GPT-5.3 Codex更新凸显代码能力强化，千问推出大规模免费活动或意在加速用户生态扩张，行业竞争聚焦实用性与普及性提升。",
     "news": [
       {
-        "id": "09bc30",
-        "title": "stepfun-ai/Step-3.5-Flash",
-        "source": "HuggingFace",
+        "id": "f07803",
+        "title": "GPT-5.3 Codex",
+        "source": "Product",
         "tags": [
-          "#生成式AI",
-          "#自然语言处理",
-          "#开源"
+          "#大语言模型",
+          "#代码生成",
+          "#性能优化"
         ],
-        "summary": "HuggingFace发布的stepfun-ai/Step-3.5-Flash模型是一个基于Transformers的预训练语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够在有限的计算资源下实现高性能的语言理解和生成。该模型可以应用于聊天机器人、语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的语言模型，可以广泛应用于各个领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
-        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
-        "date": "2026-02-01",
-        "likes": 490
+        "summary": "GPT-5.3 Codex在性能上较前代提升25%，显著优化了复杂任务处理与实时指令响应能力。其核心亮点在于推理效率的提升与低延迟响应，适用于代码生成、自动化脚本编写及实时交互式编程场景。该版本强化了AI在开发流程中的实时辅助能力，推动编程自动化向更高效率演进，对提升开发者生产力具有重要意义。",
+        "url": "https://tickernews.co/openai-and-anthropic-launch-faster-smarter-ai-tools-for-enterprise-coding/",
+        "date": "2026-02-06"
+      },
+      {
+        "id": "4a6c90",
+        "title": "GPT-5.3 Codex",
+        "source": "Product",
+        "tags": [
+          "#AI编程助手",
+          "#大语言模型",
+          "#开发工具"
+        ],
+        "summary": "GPT-5.3 Codex已集成至Codex应用，将其全面升级为智能编程助手。该模型具备理解上下文、生成高质量代码及解释技术文档的能力，亮点在于端到端任务闭环支持。适用于个人开发、团队协作与教育场景，显著降低编程门槛。此举标志着AI编程助手从工具向平台化演进，推动软件开发范式变革。",
+        "url": "https://forklog.com/en/openai-counters-anthropic-with-the-release-of-gpt-5-3-codex/",
+        "date": "2026-02-05"
+      },
+      {
+        "id": "1a4ef3",
+        "title": "千问春节30亿免单活动",
+        "source": "Product",
+        "tags": [
+          "#AI营销",
+          "#自然语言处理",
+          "#用户增长"
+        ],
+        "summary": "阿里千问推出‘春节30亿免单’活动，以0.01元价格引导用户通过AI语音点单奶茶，9小时内订单超1000万单。其核心功能是自然语言理解与任务自动化，亮点在于大规模用户行为引导与AI消费场景融合。适用于营销推广、用户增长与AI交互训练。该活动验证了AI在C端场景的爆发式应用潜力，推动AI普惠化落地。",
+        "url": "https://m.36kr.com/p/3674907009348356",
+        "date": "2026年2月6日"
       },
       {
         "id": "e3bce6",
@@ -619,13 +644,13 @@
         "source": "HuggingFace",
         "tags": [
           "#多模态",
-          "#小规模模型",
+          "#轻量化模型",
           "#开源"
         ],
-        "summary": "HuggingFace发布的openbmb/MiniCPM-o-4_5模型是一个小规模的多模态预训练语言模型。其核心功能是实现多模态的自然语言处理任务，技术亮点在于其能够处理多种类型的输入数据，包括文本、图像等。该模型可以应用于多模态聊天机器人、图像文本生成等场景。其行业意义在于为开发者提供了一种小规模、灵活的多模态语言模型，可以广泛应用于各个领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
+        "summary": "MiniCPM-o-4_5是OpenBMB发布的轻量级多模态模型，支持任意模态输入输出，采用Apache 2.0开源协议。其技术亮点在于any-to-any架构设计，实现跨模态灵活转换，适用于图像描述、视觉问答与多模态内容生成。该模型推动多模态系统在边缘设备部署，降低研发门槛，促进开源生态多样性发展。",
         "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
         "date": "2026-02-03",
-        "likes": 538
+        "likes": 657
       },
       {
         "id": "ca28ea",
@@ -633,55 +658,111 @@
         "source": "HuggingFace",
         "tags": [
           "#代码生成",
-          "#代码理解",
-          "#开源"
+          "#模型量化",
+          "#本地推理"
         ],
-        "summary": "HuggingFace发布的unsloth/Qwen3-Coder-Next-GGUF模型是一个基于Transformers的预训练语言模型。其核心功能是实现高效的代码生成和理解任务，技术亮点在于其能够在有限的计算资源下实现高性能的代码生成和理解。该模型可以应用于代码自动完成、代码审查等场景。其行业意义在于为开发者提供了一种高效、灵活的代码生成和理解模型，可以广泛应用于软件开发领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
+        "summary": "unsloth/Qwen3-Coder-Next-GGUF是基于通义千问Qwen3-Coder-Next的量化版本，适配GGUF格式以支持本地高效推理。其亮点在于结合Unsloth优化技术实现快速推理与低资源消耗，适用于本地代码生成、私有化部署与离线开发环境。该模型推动大模型在终端侧应用，增强开发者对模型控制力，助力AI去中心化部署。",
         "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
         "date": "2026-02-03",
-        "likes": 198
+        "likes": 236
       },
       {
         "id": "5a6335",
         "title": "internlm/Intern-S1-Pro",
         "source": "HuggingFace",
         "tags": [
-          "#图像文本生成",
-          "#自然语言处理",
+          "#多模态",
+          "#图文理解",
           "#开源"
         ],
-        "summary": "HuggingFace发布的internlm/Intern-S1-Pro模型是一个基于Transformers的预训练语言模型。其核心功能是实现高效的图像文本生成任务，技术亮点在于其能够在有限的计算资源下实现高性能的图像文本生成。该模型可以应用于图像文本生成、图像描述等场景。其行业意义在于为开发者提供了一种高效、灵活的图像文本生成模型，可以广泛应用于各个领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
+        "summary": "Intern-S1-Pro是上海AI实验室推出的图像-文本到文本多模态模型，支持图文理解与生成任务，采用Apache 2.0开源协议。其技术亮点在于高精度视觉语义对齐与复杂推理能力，适用于图像描述、文档理解与智能客服场景。该模型丰富了开源多模态体系，推动通用视觉语言系统发展，增强国产模型国际竞争力。",
         "url": "https://huggingface.co/internlm/Intern-S1-Pro",
         "date": "2026-02-02",
-        "likes": 180
+        "likes": 215
       },
       {
-        "id": "e75dcb",
-        "title": "stepfun-ai/Step-3.5-Flash-Int4",
+        "id": "9e948c",
+        "title": "FutureMa/Eva-4B-V2",
         "source": "HuggingFace",
         "tags": [
-          "#生成式AI",
+          "#文本分类",
           "#自然语言处理",
           "#开源"
         ],
-        "summary": "HuggingFace发布的stepfun-ai/Step-3.5-Flash-Int4模型是一个基于Transformers的预训练语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够在有限的计算资源下实现高性能的语言理解和生成。该模型可以应用于聊天机器人、语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的语言模型，可以广泛应用于各个领域。该模型的开源性也使得开发者可以自由修改和扩展其功能。",
-        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Int4",
-        "date": "2026-02-01",
-        "likes": 103
+        "summary": "FutureMa/Eva-4B-V2是参数量达40亿的英文文本分类模型，支持情感分析、主题识别等任务，基于Transformers架构并采用Apache 2.0协议开源。其亮点在于高精度与轻量化平衡，适用于内容审核、舆情监控与信息过滤场景。该模型为中小企业提供低成本NLP解决方案，推动文本分类技术普及化应用。",
+        "url": "https://huggingface.co/FutureMa/Eva-4B-V2",
+        "date": "2026-02-04",
+        "likes": 80
+      },
+      {
+        "id": "9af9b9",
+        "title": "Comfy-Org/ace_step_1.5_ComfyUI_files",
+        "source": "HuggingFace",
+        "tags": [
+          "#AIGC",
+          "#图像生成",
+          "#工作流工具"
+        ],
+        "summary": "Comfy-Org发布的ace_step_1.5_ComfyUI_files是对ACE系列模型的ComfyUI适配封装，便于用户在可视化流程中调用。其核心功能是简化AI图像生成工作流，亮点在于模块化与可复用性，适用于艺术创作、设计辅助与AI绘画教学。该工具降低AIGC使用门槛，推动生成式AI在创意产业的工程化落地。",
+        "url": "https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files",
+        "date": "2026-02-03",
+        "likes": 72
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#网络安全",
+          "#零信任",
+          "#开源"
+        ],
+        "summary": "headscale是Juan Font主导的开源项目，实现Headscale协议的服务器端，用于管理Tailscale风格的零信任网络。其技术亮点在于轻量部署与兼容WireGuard协议，适用于企业远程访问、IoT设备组网与个人隐私保护。该项目推动去中心化网络安全架构发展，为零信任网络提供开源替代方案。",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 301
       },
       {
         "id": "34fc9d",
         "title": "microsoft/qlib",
         "source": "GitHub",
         "tags": [
-          "#量化交易",
-          "#投资分析",
-          "#Python库"
+          "#量化金融",
+          "#机器学习",
+          "#开源"
         ],
-        "summary": "Microsoft发布的qlib库是一个Python库，用于量化交易和投资。其核心功能是提供一个简单、灵活的框架，用于构建和测试量化交易策略。技术亮点在于其能够支持多种数据源和交易平台，包括股票、期货、期权等。该库可以应用于量化交易、投资分析等场景。其行业意义在于为开发者提供了一种简单、灵活的量化交易和投资工具，可以广泛应用于金融领域。",
+        "summary": "Microsoft开源的Qlib是一个面向量化金融的机器学习平台，支持股票预测、因子分析与回测系统构建。其亮点在于模块化设计与高性能计算支持，适用于金融研究机构、对冲基金与个人投资者。该平台推动AI在金融领域的标准化应用，降低量化建模门槛，促进金融科技透明化发展。",
         "url": "https://github.com/microsoft/qlib",
         "date": "Recent (Trending)",
-        "stars": 763
+        "stars": 844
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#云原生安全",
+          "#漏洞扫描",
+          "#DevSecOps"
+        ],
+        "summary": "Trivy是Aqua Security开发的开源漏洞扫描工具，支持容器、Kubernetes与云配置的安全检测。其技术亮点在于快速识别CVE漏洞与合规风险，适用于DevSecOps流程、CI/CD集成与云原生安全审计。该工具推动安全左移实践，提升软件供应链安全性，已成为云原生安全生态的关键组件。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 564
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#开源应用",
+          "#音乐流媒体",
+          "#隐私保护"
+        ],
+        "summary": "Spotube是KRTirtho开发的开源音乐客户端，整合Spotify与YouTube音乐服务，提供无广告播放体验。其核心功能是跨平台音乐聚合，亮点在于隐私保护与离线播放支持，适用于个人音乐消费与跨平台内容整合场景。该项目体现用户对去中心化数字内容服务的需求，推动开源替代商业平台的发展趋势。",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 247
       },
       {
         "id": "3e9dc1",
@@ -689,66 +770,24 @@
         "source": "GitHub",
         "tags": [
           "#文本编辑器",
-          "#开源",
-          "#Electron"
+          "#开源软件",
+          "#开发者工具"
         ],
-        "summary": "dail8859发布的NotepadNext是一个基于Electron的开源文本编辑器。其核心功能是提供一个简单、灵活的文本编辑器，用于编写和编辑代码。技术亮点在于其能够支持多种编程语言，包括Python、Java、C++等。该编辑器可以应用于代码编写、文本编辑等场景。其行业意义在于为开发者提供了一种简单、灵活的文本编辑器，可以广泛应用于软件开发领域。",
+        "summary": "NotepadNext是dail8859开发的跨平台文本编辑器，定位为Notepad++的现代替代品，支持语法高亮与插件扩展。其技术亮点在于轻量快速与Qt框架重构，适用于代码编辑、日志查看与日常文本处理。该项目填补开源轻量编辑器生态空白，满足开发者对高性能本地工具的需求，推动桌面应用开源化进程。",
         "url": "https://github.com/dail8859/NotepadNext",
         "date": "Recent (Trending)",
-        "stars": 184
-      },
-      {
-        "id": "475033",
-        "title": "tailscale/tailscale",
-        "source": "GitHub",
-        "tags": [
-          "#VPN",
-          "#网络安全",
-          "#开源"
-        ],
-        "summary": "tailscale发布的Tailscale是一个基于WireGuard的开源VPN解决方案。其核心功能是提供一个简单、安全的VPN连接，用于保护网络通信。技术亮点在于其能够支持多种设备和平台，包括Windows、Mac、Linux等。该解决方案可以应用于远程办公、网络安全等场景。其行业意义在于为用户提供了一种简单、安全的VPN解决方案，可以广泛应用于各个领域。",
-        "url": "https://github.com/tailscale/tailscale",
-        "date": "Recent (Trending)",
-        "stars": 366
-      },
-      {
-        "id": "7fdb3d",
-        "title": "aquasecurity/trivy",
-        "source": "GitHub",
-        "tags": [
-          "#漏洞扫描",
-          "#安全测试",
-          "#开源"
-        ],
-        "summary": "aquasecurity发布的Trivy是一个开源的漏洞扫描工具。其核心功能是提供一个简单、灵活的漏洞扫描框架，用于检测和修复漏洞。技术亮点在于其能够支持多种编程语言，包括Python、Java、C++等。该工具可以应用于漏洞扫描、安全测试等场景。其行业意义在于为开发者提供了一种简单、灵活的漏洞扫描工具，可以广泛应用于软件开发领域。",
-        "url": "https://github.com/aquasecurity/trivy",
-        "date": "Recent (Trending)",
-        "stars": 293
-      },
-      {
-        "id": "ba6603",
-        "title": "AykutSarac/jsoncrack.com",
-        "source": "GitHub",
-        "tags": [
-          "#JSON编辑",
-          "#数据解析",
-          "#在线工具"
-        ],
-        "summary": "AykutSarac发布的jsoncrack.com是一个在线的JSON编辑器和解析器。其核心功能是提供一个简单、灵活的JSON编辑和解析工具，用于编辑和解析JSON数据。技术亮点在于其能够支持多种JSON格式，包括JSON、JSON5等。该工具可以应用于JSON编辑、数据解析等场景。其行业意义在于为开发者提供了一种简单、灵活的JSON编辑和解析工具，可以广泛应用于软件开发领域。",
-        "url": "https://github.com/AykutSarac/jsoncrack.com",
-        "date": "Recent (Trending)",
-        "stars": 173
+        "stars": 177
       },
       {
         "id": "392592",
         "title": "[Google] [2602.05879] EuroLLM-22B: Technical Report",
         "source": "Papers",
         "tags": [
-          "#多语言模型",
-          "#自然语言处理",
-          "#大规模模型"
+          "#大语言模型",
+          "#多语言",
+          "#欧洲语言"
         ],
-        "summary": "Google发布的EuroLLM-22B是一种大规模的多语言语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够支持多种语言，包括英语、法语、德语等。该模型可以应用于语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的多语言语言模型，可以广泛应用于各个领域。",
+        "summary": "Google提出的EuroLLM-22B是专为欧洲语言设计的220亿参数大模型，从零训练以支持多语言理解与生成。其创新点在于聚焦低资源欧洲语言的均衡建模，适用于跨国政务、本地化服务与多语言客服。该模型弥补主流大模型在欧洲语言覆盖上的不足，推动语言多样性保护与区域AI自主发展。",
         "url": "https://arxiv.org/abs/2602.05879",
         "date": "2026-02"
       },
@@ -758,10 +797,10 @@
         "source": "Papers",
         "tags": [
           "#多语言模型",
-          "#自然语言处理",
-          "#大规模模型"
+          "#知识迁移",
+          "#大语言模型"
         ],
-        "summary": "Google发布的K-EXAONE是一种大规模的多语言语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够支持多种语言，包括英语、法语、德语等。该模型可以应用于语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的多语言语言模型，可以广泛应用于各个领域。",
+        "summary": "Google提出的K-EXAONE是大规模多语言大模型，支持跨语言知识迁移与复杂推理任务。其技术亮点在于统一架构处理多种语言并保持高质量输出，适用于全球搜索、翻译增强与跨文化内容生成。该模型提升谷歌在全球市场的语言服务能力，推动多语言AI系统的标准化与规模化落地。",
         "url": "https://arxiv.org/abs/2601.01739",
         "date": "2026-01"
       },
@@ -770,222 +809,11 @@
         "title": "[DeepSeek] Innovator-VL: A Multimodal Large Language Model for ...",
         "source": "Papers",
         "tags": [
-          "#多模态模型",
-          "#自然语言处理",
-          "#大规模模型"
+          "#多模态",
+          "#视觉语言模型",
+          "#大模型"
         ],
-        "summary": "DeepSeek发布的Innovator-VL是一种多模态大语言模型。其核心功能是实现高效的多模态自然语言处理任务，技术亮点在于其能够支持多种模态，包括文本、图像等。该模型可以应用于多模态聊天机器人、图像文本生成等场景。其行业意义在于为开发者提供了一种高效、灵活的多模态语言模型，可以广泛应用于各个领域。",
-        "url": "https://arxiv.org/html/2601.19325v1",
-        "date": "2026-01"
-      },
-      {
-        "id": "dbfe37",
-        "title": "[DeepSeek] A.X K1 Technical Report",
-        "source": "Papers",
-        "tags": [
-          "#多语言模型",
-          "#自然语言处理",
-          "#大规模模型"
-        ],
-        "summary": "DeepSeek发布的A.X K1是一种大规模的多语言语言模型。其核心功能是实现高效的自然语言处理任务，技术亮点在于其能够支持多种语言，包括英语、法语、德语等。该模型可以应用于语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的多语言语言模型，可以广泛应用于各个领域。",
-        "url": "https://arxiv.org/pdf/2601.09200",
-        "date": "2026-01"
-      },
-      {
-        "id": "ebfa37",
-        "title": "[Google] Native LLM and MLLM Inference at Scale on Apple Silicon",
-        "source": "Papers",
-        "tags": [
-          "#语言模型推理",
-          "#Apple Silicon",
-          "#高效解决方案"
-        ],
-        "summary": "Google发布的Native LLM和MLLM推理是在Apple Silicon上实现的。其核心功能是实现高效的语言模型推理，技术亮点在于其能够支持多种语言模型，包括LLM和MLLM等。该技术可以应用于语言翻译、文本摘要等场景。其行业意义在于为开发者提供了一种高效、灵活的语言模型推理解决方案，可以广泛应用于各个领域。",
-        "url": "https://arxiv.org/html/2601.19139v1",
-        "date": "2026-01"
-      }
-    ]
-  },
-  {
-    "date": "2026-02-08",
-    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 Step-3.5-Flash 和 MiniCPM-o-4_5，以及 GitHub 上的 qlib 和 trivy 等项目的更新，这些进展表明 AI 技术在不断发展和应用。",
-    "news": [
-      {
-        "id": "09bc30",
-        "title": "stepfun-ai/Step-3.5-Flash",
-        "source": "HuggingFace",
-        "tags": [
-          "#生成式AI",
-          "#自然语言处理",
-          "#开源"
-        ],
-        "summary": "HuggingFace发布的stepfun-ai/Step-3.5-Flash模型是一个基于Apache-2.0许可的AI模型。其核心功能是提供高效的文本处理能力，技术亮点在于其能够快速处理大量文本数据。该模型可以应用于自然语言处理、文本分类等场景。从行业意义上讲，stepfun-ai/Step-3.5-Flash模型的发布有助于推动AI技术在文本处理领域的发展。其创新点在于其高效的处理能力和灵活的应用场景。",
-        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
-        "date": "2026-02-01",
-        "likes": 514
-      },
-      {
-        "id": "e3bce6",
-        "title": "openbmb/MiniCPM-o-4_5",
-        "source": "HuggingFace",
-        "tags": [
-          "#多语言支持",
-          "#自然语言处理",
-          "#开源"
-        ],
-        "summary": "HuggingFace发布的openbmb/MiniCPM-o-4_5模型是一个基于Apache-2.0许可的AI模型。其核心功能是提供多语言支持的文本处理能力，技术亮点在于其能够处理多种语言的文本数据。该模型可以应用于机器翻译、文本分类等场景。从行业意义上讲，openbmb/MiniCPM-o-4_5模型的发布有助于推动AI技术在多语言处理领域的发展。其创新点在于其多语言支持能力和灵活的应用场景。",
-        "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
-        "date": "2026-02-03",
-        "likes": 587
-      },
-      {
-        "id": "ca28ea",
-        "title": "unsloth/Qwen3-Coder-Next-GGUF",
-        "source": "HuggingFace",
-        "tags": [
-          "#代码生成",
-          "#自动化",
-          "#开发工具"
-        ],
-        "summary": "HuggingFace发布的unsloth/Qwen3-Coder-Next-GGUF模型是一个基于Qwen/Qwen3-Coder-Next的AI模型。其核心功能是提供高效的代码生成能力，技术亮点在于其能够快速生成高质量的代码。该模型可以应用于代码自动完成、代码审查等场景。从行业意义上讲，unsloth/Qwen3-Coder-Next-GGUF模型的发布有助于推动AI技术在代码生成领域的发展。其创新点在于其高效的代码生成能力和灵活的应用场景。",
-        "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
-        "date": "2026-02-03",
-        "likes": 209
-      },
-      {
-        "id": "5a6335",
-        "title": "internlm/Intern-S1-Pro",
-        "source": "HuggingFace",
-        "tags": [
-          "#图像识别",
-          "#图像描述",
-          "#多模态"
-        ],
-        "summary": "internlm/Intern-S1-Pro模型是一个基于Apache-2.0许可的AI模型。其核心功能是提供图像到文本的转换能力，技术亮点在于其能够高效地处理图像数据。该模型可以应用于图像识别、图像描述等场景。从行业意义上讲，internlm/Intern-S1-Pro模型的发布有助于推动AI技术在图像处理领域的发展。其创新点在于其高效的图像处理能力和灵活的应用场景。",
-        "url": "https://huggingface.co/internlm/Intern-S1-Pro",
-        "date": "2026-02-02",
-        "likes": 194
-      },
-      {
-        "id": "e75dcb",
-        "title": "stepfun-ai/Step-3.5-Flash-Int4",
-        "source": "HuggingFace",
-        "tags": [
-          "#数学运算",
-          "#数据分析",
-          "#高性能计算"
-        ],
-        "summary": "HuggingFace发布的stepfun-ai/Step-3.5-Flash-Int4模型是一个基于Apache-2.0许可的AI模型。其核心功能是提供高效的整数运算能力，技术亮点在于其能够快速处理整数数据。该模型可以应用于数学运算、数据分析等场景。从行业意义上讲，stepfun-ai/Step-3.5-Flash-Int4模型的发布有助于推动AI技术在数学运算领域的发展。其创新点在于其高效的整数运算能力和灵活的应用场景。",
-        "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Int4",
-        "date": "2026-02-01",
-        "likes": 110
-      },
-      {
-        "id": "34fc9d",
-        "title": "microsoft/qlib",
-        "source": "GitHub",
-        "tags": [
-          "#量化交易",
-          "#金融分析",
-          "#Python库"
-        ],
-        "summary": "Microsoft发布的qlib库是一个Python库，用于量化交易和金融分析。其核心功能是提供高效的数据处理和分析能力，技术亮点在于其能够快速处理大量金融数据。该库可以应用于量化交易、风险管理等场景。从行业意义上讲，qlib库的发布有助于推动金融行业的技术发展。其创新点在于其高效的数据处理能力和灵活的应用场景。",
-        "url": "https://github.com/microsoft/qlib",
-        "date": "Recent (Trending)",
-        "stars": 792
-      },
-      {
-        "id": "3e9dc1",
-        "title": "dail8859/NotepadNext",
-        "source": "GitHub",
-        "tags": [
-          "#文本编辑",
-          "#代码编写",
-          "#开源"
-        ],
-        "summary": "NotepadNext是一个基于GitHub的开源项目，用于创建一个新的记事本应用。其核心功能是提供高效的文本编辑能力，技术亮点在于其能够快速处理文本数据。该项目可以应用于文本编辑、代码编写等场景。从行业意义上讲，NotepadNext项目的发布有助于推动开源社区的发展。其创新点在于其高效的文本编辑能力和灵活的应用场景。",
-        "url": "https://github.com/dail8859/NotepadNext",
-        "date": "Recent (Trending)",
-        "stars": 184
-      },
-      {
-        "id": "7fdb3d",
-        "title": "aquasecurity/trivy",
-        "source": "GitHub",
-        "tags": [
-          "#漏洞扫描",
-          "#安全分析",
-          "#开源"
-        ],
-        "summary": "aquasecurity/trivy是一个基于GitHub的开源项目，用于漏洞扫描和安全分析。其核心功能是提供高效的漏洞检测能力，技术亮点在于其能够快速处理大量安全数据。该项目可以应用于安全分析、漏洞扫描等场景。从行业意义上讲，aquasecurity/trivy项目的发布有助于推动安全行业的技术发展。其创新点在于其高效的漏洞检测能力和灵活的应用场景。",
-        "url": "https://github.com/aquasecurity/trivy",
-        "date": "Recent (Trending)",
-        "stars": 439
-      },
-      {
-        "id": "639075",
-        "title": "juanfont/headscale",
-        "source": "GitHub",
-        "tags": [
-          "#头部缩放",
-          "#图像处理",
-          "#开源"
-        ],
-        "summary": "juanfont/headscale是一个基于GitHub的开源项目，用于创建一个新的头部缩放工具。其核心功能是提供高效的头部缩放能力，技术亮点在于其能够快速处理头部数据。该项目可以应用于头部缩放、图像处理等场景。从行业意义上讲，juanfont/headscale项目的发布有助于推动图像处理行业的技术发展。其创新点在于其高效的头部缩放能力和灵活的应用场景。",
-        "url": "https://github.com/juanfont/headscale",
-        "date": "Recent (Trending)",
-        "stars": 294
-      },
-      {
-        "id": "475033",
-        "title": "tailscale/tailscale",
-        "source": "GitHub",
-        "tags": [
-          "#网络安全",
-          "#数据保护",
-          "#开源"
-        ],
-        "summary": "tailscale/tailscale是一个基于GitHub的开源项目，用于创建一个新的网络安全工具。其核心功能是提供高效的网络安全能力，技术亮点在于其能够快速处理网络数据。该项目可以应用于网络安全、数据保护等场景。从行业意义上讲，tailscale/tailscale项目的发布有助于推动网络安全行业的技术发展。其创新点在于其高效的网络安全能力和灵活的应用场景。",
-        "url": "https://github.com/tailscale/tailscale",
-        "date": "Recent (Trending)",
-        "stars": 340
-      },
-      {
-        "id": "392592",
-        "title": "[Google] [2602.05879] EuroLLM-22B: Technical Report",
-        "source": "Papers",
-        "tags": [
-          "#语言理解",
-          "#自然语言处理",
-          "#技术报告"
-        ],
-        "summary": "Google发布的EuroLLM-22B模型是一个基于技术报告的AI模型。其核心功能是提供高效的语言理解能力，技术亮点在于其能够快速处理大量语言数据。该模型可以应用于自然语言处理、语言翻译等场景。从行业意义上讲，EuroLLM-22B模型的发布有助于推动AI技术在语言理解领域的发展。其创新点在于其高效的语言理解能力和灵活的应用场景。",
-        "url": "https://arxiv.org/abs/2602.05879",
-        "date": "2026-02"
-      },
-      {
-        "id": "4bba0c",
-        "title": "[Zhipu AI] NorwAI's Large Language Models: Technical Report",
-        "source": "Papers",
-        "tags": [
-          "#语言生成",
-          "#文本摘要",
-          "#技术报告"
-        ],
-        "summary": "Zhipu AI发布的NorwAI模型是一个基于技术报告的AI模型。其核心功能是提供高效的语言生成能力，技术亮点在于其能够快速生成高质量的语言数据。该模型可以应用于语言生成、文本摘要等场景。从行业意义上讲，NorwAI模型的发布有助于推动AI技术在语言生成领域的发展。其创新点在于其高效的语言生成能力和灵活的应用场景。",
-        "url": "https://arxiv.org/pdf/2601.03034",
-        "date": "2026-01"
-      },
-      {
-        "id": "f8a883",
-        "title": "[DeepSeek] Innovator-VL: A Multimodal Large Language Model for ...",
-        "source": "Papers",
-        "tags": [
-          "#多模态理解",
-          "#图像识别",
-          "#技术报告"
-        ],
-        "summary": "DeepSeek发布的Innovator-VL模型是一个基于技术报告的AI模型。其核心功能是提供高效的多模态理解能力，技术亮点在于其能够快速处理多种模态数据。该模型可以应用于多模态分析、图像识别等场景。从行业意义上讲，Innovator-VL模型的发布有助于推动AI技术在多模态理解领域的发展。其创新点在于其高效的多模态理解能力和灵活的应用场景。",
+        "summary": "DeepSeek发布的Innovator-VL是面向多模态任务的大语言模型，支持图像与文本联合理解与生成。其创新点在于高分辨率视觉编码与细粒度图文对齐机制，适用于视觉问答、图像描述与跨模态检索。该模型增强国产多模态技术竞争力，推动中国企业在AIGC核心技术领域的自主创新。",
         "url": "https://arxiv.org/html/2601.19325v1",
         "date": "2026-01"
       },
@@ -994,11 +822,11 @@
         "title": "[Google] Large Language Models in Software Documentation and ...",
         "source": "Papers",
         "tags": [
-          "#语言理解",
-          "#自然语言处理",
-          "#技术报告"
+          "#软件工程",
+          "#文档生成",
+          "#大语言模型"
         ],
-        "summary": "Google发布的Large Language Models模型是一个基于技术报告的AI模型。其核心功能是提供高效的语言理解能力，技术亮点在于其能够快速处理大量语言数据。该模型可以应用于自然语言处理、语言翻译等场景。从行业意义上讲，Large Language Models模型的发布有助于推动AI技术在语言理解领域的发展。其创新点在于其高效的语言理解能力和灵活的应用场景。",
+        "summary": "Google提出大语言模型在软件文档中的应用框架，利用LLM自动生成、补全与维护技术文档。其亮点在于结合代码语义理解与自然语言生成，适用于API文档生成、代码注释补全与知识库构建。该研究推动软件工程自动化，提升开发协作效率，为AI驱动的软件生命周期管理提供实践路径。",
         "url": "https://arxiv.org/html/2602.04938v1",
         "date": "2026-02"
       },
@@ -1007,244 +835,85 @@
         "title": "[Meta] A Multi-Model Consensus Reasoning Engine for Large ...",
         "source": "Papers",
         "tags": [
-          "#推理分析",
-          "#决策支持",
-          "#技术报告"
+          "#多模型融合",
+          "#推理引擎",
+          "#系统工程"
         ],
-        "summary": "Meta发布的Multi-Model Consensus Reasoning Engine模型是一个基于技术报告的AI模型。其核心功能是提供高效的推理能力，技术亮点在于其能够快速处理复杂的推理任务。该模型可以应用于推理分析、决策支持等场景。从行业意义上讲，Multi-Model Consensus Reasoning Engine模型的发布有助于推动AI技术在推理领域的发展。其创新点在于其高效的推理能力和灵活的应用场景。",
+        "summary": "Meta提出的多模型共识推理引擎通过集成多个LLM输出提升决策可靠性，采用投票与加权机制减少幻觉。其创新点在于系统级架构设计而非单一模型优化，适用于高可靠性场景如医疗咨询、法律辅助与金融分析。该研究推动LLM从单体智能向协同智能演进，为安全可控AI系统提供新范式。",
         "url": "https://www.arxiv.org/pdf/2601.07245",
-        "date": "2026-01"
-      }
-    ]
-  },
-  {
-    "date": "2026-02-09",
-    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 MiniCPM-o-4_5 和 Qwen3-Coder-Next-GGUF，以及 GitHub 上的 qlib 和 NotepadNext 等项目的更新，这些进展表明 AI 技术在不断发展和应用。",
-    "news": [
-      {
-        "id": "e3bce6",
-        "title": "openbmb/MiniCPM-o-4_5",
-        "source": "HuggingFace",
-        "tags": [
-          "#生成式AI",
-          "#多模态",
-          "#开源"
-        ],
-        "summary": "HuggingFace发布的openbmb/MiniCPM-o-4_5模型是一个基于transformers的any-to-any管道模型，采用Apache-2.0许可证。其核心功能是实现多种任务的自动化处理，技术亮点在于其灵活的管道设计，能够适应不同任务的需求。应用场景包括自然语言处理、机器翻译等领域。行业意义在于其开源性质，能够促进AI研究的发展和应用。特别之处在于其MiniCPM-o系列的持续更新和优化。",
-        "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
-        "date": "2026-02-03",
-        "likes": 633
-      },
-      {
-        "id": "ca28ea",
-        "title": "unsloth/Qwen3-Coder-Next-GGUF",
-        "source": "HuggingFace",
-        "tags": [
-          "#编码模型",
-          "#AI编程",
-          "#自动化"
-        ],
-        "summary": "HuggingFace发布的unsloth/Qwen3-Coder-Next-GGUF模型是一个基于Qwen/Qwen3-Coder-Next的编码模型，采用transformers库。其核心功能是实现编码任务的自动化，技术亮点在于其对编码任务的深入理解和处理能力。应用场景包括代码生成、代码优化等领域。行业意义在于其能够提高编码效率和质量。特别之处在于其对GGUF算法的应用和优化。",
-        "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
-        "date": "2026-02-03",
-        "likes": 227
-      },
-      {
-        "id": "5a6335",
-        "title": "internlm/Intern-S1-Pro",
-        "source": "HuggingFace",
-        "tags": [
-          "#多模态",
-          "#图像处理",
-          "#开源"
-        ],
-        "summary": "HuggingFace发布的internlm/Intern-S1-Pro模型是一个基于transformers的image-text-to-text管道模型，采用Apache-2.0许可证。其核心功能是实现图像和文本之间的转换，技术亮点在于其对多模态任务的处理能力。应用场景包括图像描述、图像生成等领域。行业意义在于其能够促进多模态AI的发展和应用。特别之处在于其Intern-S1-Pro系列的持续更新和优化。",
-        "url": "https://huggingface.co/internlm/Intern-S1-Pro",
-        "date": "2026-02-02",
-        "likes": 206
-      },
-      {
-        "id": "282edb",
-        "title": "Qwen/Qwen3-Coder-Next-GGUF",
-        "source": "HuggingFace",
-        "tags": [
-          "#编码模型",
-          "#AI编程",
-          "#自动化"
-        ],
-        "summary": "HuggingFace发布的Qwen/Qwen3-Coder-Next-GGUF模型是一个基于transformers的编码模型，采用Apache-2.0许可证。其核心功能是实现编码任务的自动化，技术亮点在于其对编码任务的深入理解和处理能力。应用场景包括代码生成、代码优化等领域。行业意义在于其能够提高编码效率和质量。特别之处在于其对GGUF算法的应用和优化。",
-        "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next-GGUF",
-        "date": "2026-02-02",
-        "likes": 114
-      },
-      {
-        "id": "9e948c",
-        "title": "FutureMa/Eva-4B-V2",
-        "source": "HuggingFace",
-        "tags": [
-          "#文本分类",
-          "#自然语言处理",
-          "#开源"
-        ],
-        "summary": "HuggingFace发布的FutureMa/Eva-4B-V2模型是一个基于transformers的文本分类模型，采用Apache-2.0许可证。其核心功能是实现文本分类任务的自动化，技术亮点在于其对文本特征的提取和处理能力。应用场景包括文本分类、情感分析等领域。行业意义在于其能够提高文本分析的准确性和效率。特别之处在于其Eva-4B-V2系列的持续更新和优化。",
-        "url": "https://huggingface.co/FutureMa/Eva-4B-V2",
-        "date": "2026-02-04",
-        "likes": 77
-      },
-      {
-        "id": "34fc9d",
-        "title": "microsoft/qlib",
-        "source": "GitHub",
-        "tags": [
-          "#量化交易",
-          "#金融分析",
-          "#Python"
-        ],
-        "summary": "GitHub上的microsoft/qlib仓库是一个Python库，用于量化交易和金融分析。其核心功能是提供一个灵活的框架，用于构建和测试量化交易策略。技术亮点在于其对Python的支持和扩展性。应用场景包括量化交易、风险管理等领域。行业意义在于其能够促进量化交易的发展和应用。特别之处在于其对Python的深入支持和优化。",
-        "url": "https://github.com/microsoft/qlib",
-        "date": "Recent (Trending)",
-        "stars": 844
-      },
-      {
-        "id": "3e9dc1",
-        "title": "dail8859/NotepadNext",
-        "source": "GitHub",
-        "tags": [
-          "#文本编辑",
-          "#代码编辑",
-          "#Notepad"
-        ],
-        "summary": "GitHub上的dail8859/NotepadNext仓库是一个Notepad的替代品，提供了更强大的编辑功能。其核心功能是实现文本编辑任务的自动化，技术亮点在于其对文本特征的提取和处理能力。应用场景包括文本编辑、代码编辑等领域。行业意义在于其能够提高编辑效率和质量。特别之处在于其对Notepad的替代和优化。",
-        "url": "https://github.com/dail8859/NotepadNext",
-        "date": "Recent (Trending)",
-        "stars": 177
-      },
-      {
-        "id": "c14a9c",
-        "title": "HotCakeX/Harden-Windows-Security",
-        "source": "GitHub",
-        "tags": [
-          "#Windows安全",
-          "#安全加固",
-          "#脚本"
-        ],
-        "summary": "GitHub上的HotCakeX/Harden-Windows-Security仓库是一个Windows安全加固脚本，用于提高Windows系统的安全性。其核心功能是实现Windows安全加固任务的自动化，技术亮点在于其对Windows安全漏洞的检测和修复能力。应用场景包括Windows安全加固、漏洞修复等领域。行业意义在于其能够提高Windows系统的安全性和稳定性。特别之处在于其对Windows安全的深入支持和优化。",
-        "url": "https://github.com/HotCakeX/Harden-Windows-Security",
-        "date": "Recent (Trending)",
-        "stars": 53
-      },
-      {
-        "id": "7fdb3d",
-        "title": "aquasecurity/trivy",
-        "source": "GitHub",
-        "tags": [
-          "#容器安全",
-          "#安全扫描",
-          "#漏洞修复"
-        ],
-        "summary": "GitHub上的aquasecurity/trivy仓库是一个容器安全扫描工具，用于检测容器中的安全漏洞。其核心功能是实现容器安全扫描任务的自动化，技术亮点在于其对容器安全漏洞的检测和修复能力。应用场景包括容器安全扫描、漏洞修复等领域。行业意义在于其能够提高容器安全性和稳定性。特别之处在于其对容器安全的深入支持和优化。",
-        "url": "https://github.com/aquasecurity/trivy",
-        "date": "Recent (Trending)",
-        "stars": 564
-      },
-      {
-        "id": "475033",
-        "title": "tailscale/tailscale",
-        "source": "GitHub",
-        "tags": [
-          "#私有网络",
-          "#WireGuard",
-          "#网络管理"
-        ],
-        "summary": "GitHub上的tailscale/tailscale仓库是一个WireGuard网络工具，用于构建和管理私有网络。其核心功能是实现私有网络的构建和管理，技术亮点在于其对WireGuard协议的支持和优化。应用场景包括私有网络构建、网络管理等领域。行业意义在于其能够提高网络安全性和稳定性。特别之处在于其对WireGuard协议的深入支持和优化。",
-        "url": "https://github.com/tailscale/tailscale",
-        "date": "Recent (Trending)",
-        "stars": 349
-      },
-      {
-        "id": "392592",
-        "title": "[Google] [2602.05879] EuroLLM-22B: Technical Report",
-        "source": "Papers",
-        "tags": [
-          "#大规模语言模型",
-          "#自然语言处理",
-          "#机器学习"
-        ],
-        "summary": "Google发布的EuroLLM-22B模型是一个大规模语言模型，用于自然语言处理和机器学习任务。其核心功能是实现自然语言处理任务的自动化，技术亮点在于其对语言特征的提取和处理能力。应用场景包括自然语言处理、机器翻译等领域。行业意义在于其能够提高自然语言处理的准确性和效率。特别之处在于其EuroLLM-22B系列的持续更新和优化。",
-        "url": "https://arxiv.org/abs/2602.05879",
-        "date": "2026-02"
-      },
-      {
-        "id": "f8a883",
-        "title": "[DeepSeek] Innovator-VL: A Multimodal Large Language Model for ...",
-        "source": "Papers",
-        "tags": [
-          "#多模态大语言模型",
-          "#多模态处理",
-          "#图像描述"
-        ],
-        "summary": "DeepSeek发布的Innovator-VL模型是一个多模态大语言模型，用于多模态任务的处理。其核心功能是实现多模态任务的自动化，技术亮点在于其对多模态特征的提取和处理能力。应用场景包括多模态处理、图像描述等领域。行业意义在于其能够提高多模态处理的准确性和效率。特别之处在于其Innovator-VL系列的持续更新和优化。",
-        "url": "https://arxiv.org/html/2601.19325v1",
-        "date": "2026-01"
-      },
-      {
-        "id": "1fad4f",
-        "title": "[Google] Large Language Models in Software Documentation and ...",
-        "source": "Papers",
-        "tags": [
-          "#大规模语言模型",
-          "#软件文档",
-          "#维护"
-        ],
-        "summary": "Google发布的Large Language Models in Software Documentation and Maintenance模型是一个大规模语言模型，用于软件文档和维护任务。其核心功能是实现软件文档和维护任务的自动化，技术亮点在于其对软件文档和维护特征的提取和处理能力。应用场景包括软件文档、维护等领域。行业意义在于其能够提高软件文档和维护的准确性和效率。特别之处在于其Large Language Models系列的持续更新和优化。",
-        "url": "https://arxiv.org/html/2602.04938v1",
-        "date": "2026-02"
-      },
-      {
-        "id": "9abff1",
-        "title": "[Meta] A Multi-Model Consensus Reasoning Engine for Large ...",
-        "source": "Papers",
-        "tags": [
-          "#多模型共识推理",
-          "#大规模语言模型",
-          "#推理任务"
-        ],
-        "summary": "Meta发布的A Multi-Model Consensus Reasoning Engine for Large Language Models模型是一个多模型共识推理引擎，用于大规模语言模型的推理任务。其核心功能是实现大规模语言模型的推理任务的自动化，技术亮点在于其对多模型共识推理的支持和优化。应用场景包括大规模语言模型、推理任务等领域。行业意义在于其能够提高大规模语言模型的推理准确性和效率。特别之处在于其对多模型共识推理的深入支持和优化。",
-        "url": "https://www.arxiv.org/pdf/2601.07245",
-        "date": "2026-01"
-      },
-      {
-        "id": "81b733",
-        "title": "[DeepSeek] Generalizable Multimodal Large Language Model Editing ...",
-        "source": "Papers",
-        "tags": [
-          "#多模态大语言模型编辑",
-          "#多模态处理",
-          "#图像描述"
-        ],
-        "summary": "DeepSeek发布的Generalizable Multimodal Large Language Model Editing模型是一个多模态大语言模型编辑器，用于多模态任务的编辑和优化。其核心功能是实现多模态任务的编辑和优化，技术亮点在于其对多模态特征的提取和处理能力。应用场景包括多模态处理、图像描述等领域。行业意义在于其能够提高多模态处理的准确性和效率。特别之处在于其Generalizable Multimodal Large Language Model Editing系列的持续更新和优化。",
-        "url": "https://arxiv.org/html/2601.19700v2",
         "date": "2026-01"
       }
     ]
   },
   {
     "date": "2026-02-10",
-    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 MiniCPM-o-4_5 和 Eva-4B-V2，以及 GitHub 上的开源项目如 headscale 和 trivy，这些进展表明 AI 技术在不断发展和应用。",
+    "summary": "今日AI领域以开源模型迭代与垂直应用创新为主导，HuggingFace集中发布多款轻量化、专业化模型，涵盖视觉、代码生成等方向，体现对推理效率与场景适配的聚焦。Anthropic更新Claude Opus版本，强化复杂任务处理能力，同时开源社区推进网络架构与部署工具优化，推动AI基础设施向高效化、实用化发展。",
     "news": [
+      {
+        "id": "539a49",
+        "title": "OpenScholar",
+        "source": "Product",
+        "tags": [
+          "#科研AI",
+          "#RAG",
+          "#开源"
+        ],
+        "summary": "OpenScholar是全球首个专为科研设计的全开源检索增强生成（RAG）语言模型，整合4500万篇开放获取论文，支持精准文献检索与自动引用生成。其创新的自反馈机制可优化检索与生成质量，提升学术写作的准确性与可追溯性。适用于科研人员撰写论文、文献综述等场景，显著降低信息过载带来的负担。该模型推动科研AI工具的透明化与可复现性，对开放科学生态具有重要促进作用。",
+        "url": "https://m.36kr.com/p/3669183047590535",
+        "date": "2026-02-04"
+      },
+      {
+        "id": "8ea1f3",
+        "title": "Claude Opus 4.6",
+        "source": "Product",
+        "tags": [
+          "#多智能体系统",
+          "#任务自动化",
+          "#企业AI"
+        ],
+        "summary": "Anthropic发布的Claude Opus 4.6支持多个AI智能体并行协作，可分工处理长期复杂任务。其核心突破在于多智能体协同架构，通过任务分解与状态同步机制实现高效协作。适用于自动化项目管理、复杂数据分析与长期客户服务等场景。该版本标志着AI从单体智能向群体智能演进，为构建自主AI工作流提供了关键技术路径，推动企业级AI应用向更高层级发展。",
+        "url": "https://m.36kr.com/p/3671680075096968",
+        "date": "2026-02-05"
+      },
+      {
+        "id": "12ddd4",
+        "title": "UI-TARS",
+        "source": "Product",
+        "tags": [
+          "#GUI Agent",
+          "#多模态",
+          "#自动化"
+        ],
+        "summary": "字节跳动开源的UI-TARS是一个多模态GUI智能体，可通过自然语言指令操控鼠标、键盘，实现浏览器内自动操作。其核心技术在于视觉-动作联合建模，支持端到端的界面交互理解与执行。适用于自动化测试、辅助操作、无障碍访问等场景。该模型登顶GitHub热榜，反映GUI Agent成为AI落地的重要方向，推动AI从‘看懂’到‘操作’的跨越，具有广泛工业应用潜力。",
+        "url": "https://hub.baai.ac.cn/view/52451",
+        "date": "2026-02-10"
+      },
+      {
+        "id": "16426d",
+        "title": "Seedream 5.0",
+        "source": "Product",
+        "tags": [
+          "#图像生成",
+          "#AIGC",
+          "#创意工具"
+        ],
+        "summary": "字节跳动推出的Seedream 5.0是其图像生成模型，已集成至剪映视频编辑应用。该模型支持高保真图像生成与风格控制，提升视频内容创作效率。其技术亮点在于与视频工作流深度集成，实现文本到图像的快速生成与编辑。主要应用于短视频制作、广告设计等创意领域。此举强化了AIGC在消费级创作工具中的渗透，推动内容生产 democratization。",
+        "url": "https://eu.36kr.com/en/p/3677025348395653",
+        "date": "2026-02-10"
+      },
       {
         "id": "e3bce6",
         "title": "openbmb/MiniCPM-o-4_5",
         "source": "HuggingFace",
         "tags": [
-          "#生成式AI",
-          "#多语言处理",
-          "#开源模型"
+          "#多模态",
+          "#轻量化模型",
+          "#开源"
         ],
-        "summary": "HuggingFace发布的openbmb/MiniCPM-o-4_5模型是一个基于transformers库的any-to-any管道模型。其核心功能是实现多语言和多任务的处理能力。技术亮点在于其miniCPM-o模型的优化和扩展，能够更好地适应不同场景的需求。应用场景包括但不限于机器翻译、文本分类等。行业意义在于其开源和高效的特点，为开发者提供了一个强大的工具。该模型的发布推动了自然语言处理领域的发展。",
+        "summary": "Hugging Face上发布的openbmb/MiniCPM-o-4_5是MiniCPM系列的多模态开源模型，支持任意模态输入输出转换。其采用Apache 2.0许可，具备高度可定制性与可扩展性。技术亮点在于轻量化设计与跨模态对齐能力，适用于多模态推理、教育辅助与低资源部署场景。该模型丰富了开源多模态生态，为研究者提供灵活实验平台，促进模型透明性与社区协作。",
         "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
         "date": "2026-02-03",
-        "likes": 642
+        "likes": 684
       },
       {
         "id": "ca28ea",
@@ -1252,13 +921,13 @@
         "source": "HuggingFace",
         "tags": [
           "#代码生成",
-          "#编程辅助",
-          "#AI编程"
+          "#模型量化",
+          "#本地推理"
         ],
-        "summary": "HuggingFace上的unsloth/Qwen3-Coder-Next-GGUF模型是一个基于Qwen3-Coder-Next的扩展模型。其核心功能是提高代码生成和理解的能力。技术亮点在于其对Qwen3模型的优化和扩展，能够更好地处理编码任务。应用场景包括代码自动完成、代码审查等。行业意义在于其能够提高开发者的效率和代码质量。该模型的发布推动了编程辅助工具的发展。",
+        "summary": "unsloth/Qwen3-Coder-Next-GGUF是Qwen3-Coder-Next的量化版本，专为本地高效推理优化。采用GGUF格式，可在消费级硬件运行，降低使用门槛。技术亮点在于推理速度优化与内存压缩，同时保持代码生成能力。适用于本地代码辅助、离线开发环境等场景。该发布推动大模型在开发者工具中的普及，增强代码生成模型的可访问性与实用性。",
         "url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
         "date": "2026-02-03",
-        "likes": 245
+        "likes": 254
       },
       {
         "id": "9e948c",
@@ -1266,38 +935,24 @@
         "source": "HuggingFace",
         "tags": [
           "#文本分类",
-          "#情感分析",
-          "#高精度模型"
+          "#NLP",
+          "#开源"
         ],
-        "summary": "HuggingFace上的FutureMa/Eva-4B-V2模型是一个基于transformers库的文本分类模型。其核心功能是实现高精度的文本分类。技术亮点在于其Eva-4B-V2模型的优化和扩展，能够更好地适应不同场景的需求。应用场景包括但不限于情感分析、主题分类等。行业意义在于其高效和准确的特点，为开发者提供了一个强大的工具。该模型的发布推动了自然语言处理领域的发展。",
+        "summary": "FutureMa/Eva-4B-V2是基于Transformer架构的英文文本分类模型，采用Apache 2.0许可开源。其技术特点在于4B参数规模与高效分类能力，适用于情感分析、内容审核与信息过滤等任务。创新点在于在中等规模下实现高精度与低延迟平衡。该模型为NLP应用提供可靠基础组件，支持企业构建定制化文本处理系统，推动文本智能服务发展。",
         "url": "https://huggingface.co/FutureMa/Eva-4B-V2",
         "date": "2026-02-04",
-        "likes": 87
-      },
-      {
-        "id": "9af9b9",
-        "title": "Comfy-Org/ace_step_1.5_ComfyUI_files",
-        "source": "HuggingFace",
-        "tags": [
-          "#文本处理",
-          "#ComfyUI",
-          "#高效模型"
-        ],
-        "summary": "HuggingFace上的Comfy-Org/ace_step_1.5_ComfyUI_files模型是一个基于ACE模型的扩展模型。其核心功能是实现高效的文本处理能力。技术亮点在于其对ACE模型的优化和扩展，能够更好地适应ComfyUI的需求。应用场景包括但不限于文本编辑、文本分析等。行业意义在于其能够提高开发者的效率和用户体验。该模型的发布推动了文本处理工具的发展。",
-        "url": "https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files",
-        "date": "2026-02-03",
-        "likes": 80
+        "likes": 91
       },
       {
         "id": "639075",
         "title": "juanfont/headscale",
         "source": "GitHub",
         "tags": [
-          "#头部识别",
-          "#计算机视觉",
-          "#开源项目"
+          "#零信任",
+          "#网络安",
+          "#开源"
         ],
-        "summary": "GitHub上的juanfont/headscale项目是一个开源的头部识别和跟踪系统。其核心功能是实现高精度的头部识别和跟踪。技术亮点在于其使用了深度学习算法和计算机视觉技术，能够更好地适应不同场景的需求。应用场景包括但不限于安全监控、人脸识别等。行业意义在于其能够提高安全性和效率。该项目的发布推动了计算机视觉领域的发展。",
+        "summary": "headscale是Headscale项目维护的开源Tailscale控制服务器实现，支持WireGuard协议构建零信任网络。其核心功能为设备身份管理与安全组网，技术亮点在于自托管与多平台兼容性。适用于企业远程办公、IoT设备互联与私有云网络构建。该项目增强网络基础设施的自主可控性，推动零信任架构在中小组织中的落地，具有重要安全与运维价值。",
         "url": "https://github.com/juanfont/headscale",
         "date": "Recent (Trending)",
         "stars": 246
@@ -1307,11 +962,11 @@
         "title": "microsoft/qlib",
         "source": "GitHub",
         "tags": [
-          "#量化交易",
-          "#Python库",
-          "#开源项目"
+          "#量化金融",
+          "#AI投资",
+          "#开源"
         ],
-        "summary": "GitHub上的microsoft/qlib项目是一个开源的量化交易库。其核心功能是实现高效的量化交易能力。技术亮点在于其使用了Python语言和多种算法，能够更好地适应不同场景的需求。应用场景包括但不限于股票交易、期货交易等。行业意义在于其能够提高交易效率和准确性。该项目的发布推动了量化交易领域的发展。",
+        "summary": "microsoft/qlib是微软开源的量化投资研究平台，支持金融数据处理、因子分析与模型训练。其技术架构模块化，集成多种机器学习算法，适用于股票预测、风险建模与投资组合优化。亮点在于提供标准化研究框架，提升金融AI实验可复现性。该平台降低量化研究门槛，推动AI在金融科技领域的学术与工业协同，促进透明化金融模型开发。",
         "url": "https://github.com/microsoft/qlib",
         "date": "Recent (Trending)",
         "stars": 892
@@ -1321,11 +976,11 @@
         "title": "aquasecurity/trivy",
         "source": "GitHub",
         "tags": [
-          "#漏洞扫描",
-          "#安全工具",
-          "#开源项目"
+          "#云原生安全",
+          "#DevSecOps",
+          "#开源"
         ],
-        "summary": "GitHub上的aquasecurity/trivy项目是一个开源的漏洞扫描工具。其核心功能是实现高效的漏洞扫描能力。技术亮点在于其使用了多种算法和数据源，能够更好地适应不同场景的需求。应用场景包括但不限于安全审计、漏洞修复等。行业意义在于其能够提高安全性和效率。该项目的发布推动了安全领域的发展。",
+        "summary": "aquasecurity/trivy是Aqua Security开发的开源安全扫描工具，用于检测容器、代码与依赖中的漏洞与配置风险。其技术优势在于快速扫描与广泛覆盖，支持CI/CD集成。适用于DevSecOps流程中的自动化安全检测。该工具提升软件供应链安全性，推动安全左移实践，已成为云原生安全生态的关键组件，广泛应用于企业级开发环境。",
         "url": "https://github.com/aquasecurity/trivy",
         "date": "Recent (Trending)",
         "stars": 615
@@ -1335,11 +990,11 @@
         "title": "KRTirtho/spotube",
         "source": "GitHub",
         "tags": [
-          "#音乐流媒体",
-          "#客户端",
-          "#开源项目"
+          "#开源应用",
+          "#隐私保护",
+          "#音乐"
         ],
-        "summary": "GitHub上的KRTirtho/spotube项目是一个开源的音乐流媒体客户端。其核心功能是实现高效的音乐流媒体播放能力。技术亮点在于其使用了多种技术和协议，能够更好地适应不同场景的需求。应用场景包括但不限于音乐播放、播客播放等。行业意义在于其能够提高用户体验和效率。该项目的发布推动了音乐流媒体领域的发展。",
+        "summary": "KRTirtho/spotube是一个开源音乐播放器，整合Spotify与YouTube音乐服务，提供跨平台音频体验。其核心功能为无广告播放与离线支持，技术亮点在于API聚合与界面简洁性。适用于个人音乐收听与隐私保护场景。该项目反映用户对去中心化、无追踪数字服务的需求增长，推动开源替代商业平台的发展，具有典型社区驱动创新特征。",
         "url": "https://github.com/KRTirtho/spotube",
         "date": "Recent (Trending)",
         "stars": 259
@@ -1349,38 +1004,64 @@
         "title": "dail8859/NotepadNext",
         "source": "GitHub",
         "tags": [
-          "#文本编辑器",
-          "#开源项目",
-          "#高效编辑"
+          "#文本编辑",
+          "#开发者工具",
+          "#开源"
         ],
-        "summary": "GitHub上的dail8859/NotepadNext项目是一个开源的文本编辑器。其核心功能是实现高效的文本编辑能力。技术亮点在于其使用了多种技术和算法，能够更好地适应不同场景的需求。应用场景包括但不限于文本编辑、代码编辑等。行业意义在于其能够提高开发者的效率和用户体验。该项目的发布推动了文本编辑器领域的发展。",
+        "summary": "dail8859/NotepadNext是Notepad++的跨平台现代替代品，基于Qt框架开发，支持多语言语法高亮与插件扩展。其技术特点在于轻量、快速与高兼容性，适用于代码编辑与文本处理。创新点在于现代化UI与持续维护的开源模式。该项目满足开发者对高效文本编辑器的需求，推动传统工具更新换代，是开源桌面软件生态的重要组成部分。",
         "url": "https://github.com/dail8859/NotepadNext",
         "date": "Recent (Trending)",
         "stars": 134
       },
       {
-        "id": "8d7060",
-        "title": "[DeepSeek] A.X K1 Technical Report",
+        "id": "e4f547",
+        "title": "[Google] [2601.03034] NorwAI's Large Language Models: Technical Report",
         "source": "Papers",
         "tags": [
-          "#深度学习",
-          "#技术报告",
-          "#DeepSeek"
+          "#模型评估",
+          "#基准测试",
+          "#大模型"
         ],
-        "summary": "DeepSeek机构发布的A.X K1 Technical Report是一份关于深度学习的技术报告。其核心功能是总结和分析深度学习的发展和应用。技术亮点在于其对深度学习的全面分析和评估，能够更好地帮助开发者和研究者了解深度学习的发展趋势。应用场景包括但不限于深度学习研究、开发和应用等。行业意义在于其能够推动深度学习领域的发展和应用。",
-        "url": "https://arxiv.org/html/2601.09200v4",
+        "summary": "Google发布的NorwAI大语言模型技术报告系统评估了多种主流模型（如Mistral-7B-Instruct、Mixtral-8x7B-Instruct）在多任务场景下的性能表现。报告聚焦模型推理效率、稳定性与泛化能力，提供可复现的基准测试方法。其价值在于为学术与工业界提供客观评估框架，推动模型透明化与标准化比较，有助于指导高效模型设计与部署决策。",
+        "url": "https://arxiv.org/abs/2601.03034",
+        "date": "2026-01"
+      },
+      {
+        "id": "c914b3",
+        "title": "[DeepSeek] Yuan3.0 Flash: An Open Multimodal Large Language Model ... - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#大模型",
+          "#开源"
+        ],
+        "summary": "DeepSeek提出的Yuan3.0 Flash是一个开源多模态大语言模型，支持文本与图像联合理解与生成。其技术亮点在于高效训练架构与跨模态对齐能力，实现快速推理与高质量输出。适用于图文内容生成、视觉问答与教育辅助等场景。该模型丰富了开源多模态生态，降低研究与应用门槛，推动多模态AI在中文环境下的发展与落地。",
+        "url": "https://arxiv.org/html/2601.01718v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "f8a883",
+        "title": "[DeepSeek] Innovator-VL: A Multimodal Large Language Model for Scientific ...",
+        "source": "Papers",
+        "tags": [
+          "#科学AI",
+          "#多模态",
+          "#复杂推理"
+        ],
+        "summary": "DeepSeek发布的Innovator-VL是一个面向科学领域的多模态大语言模型，专注于复杂科学推理任务。其创新点在于优化训练策略以缩短收敛时间，并提升在科学图表、公式理解等任务上的表现。适用于科研数据分析、学术论文辅助与科学教育场景。该模型推动AI在高门槛专业领域的应用，提升科研自动化水平，具有重要学术与产业价值。",
+        "url": "https://arxiv.org/html/2601.19325v1",
         "date": "2026-01"
       },
       {
         "id": "807167",
-        "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL ...",
+        "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8 ...",
         "source": "Papers",
         "tags": [
-          "#安全报告",
-          "#GPT-5.2",
-          "#Qwen"
+          "#AI安全",
+          "#模型评估",
+          "#多模态"
         ],
-        "summary": "Qwen机构发布的A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL是一份关于GPT-5.2、Gemini 3 Pro和Qwen3-VL的安全报告。其核心功能是评估和分析这些模型的安全性和风险。技术亮点在于其对这些模型的全面安全评估和分析，能够更好地帮助开发者和用户了解这些模型的安全性和风险。应用场景包括但不限于模型开发、部署和应用等。行业意义在于其能够提高模型的安全性和可靠性。",
+        "summary": "Qwen发布的安全报告系统评估了GPT-5.2、Gemini 3 Pro、Qwen3-VL、Doubao 1.8等主流多模态大模型在多语言、多政策背景下的安全表现。报告涵盖偏见、有害内容与政策合规性，提供跨模型对比分析。其意义在于建立综合性安全评估框架，推动大模型负责任发展，为监管与企业部署提供决策依据，促进AI治理标准化。",
         "url": "https://arxiv.org/html/2601.10527v1",
         "date": "2026-01"
       }

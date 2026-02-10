@@ -8,11 +8,12 @@
 ![Architecture](https://img.shields.io/badge/Architecture-ReAct-purple?style=flat-square)
 ![Next.js](https://img.shields.io/badge/Frontend-Next.js_14-black?style=flat-square)
 ![LangGraph](https://img.shields.io/badge/Backend-LangGraph-orange?style=flat-square)
+![Groq](https://img.shields.io/badge/LLM-Groq_Llama3.3--70B-green?style=flat-square)
 ![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=flat-square)
 
 ## 📖 简介 (Introduction)
 
-**AI Daily Insight** 是一个自动化的 AI 趋势聚合工具。它利用 **LLM Agent** 每天并行抓取各大科技源（Product Hunt, Hugging Face, GitHub, Arxiv），经由 ReAct 认知架构清洗、去重、翻译，最终生成结构化的中文简报。
+**AI Daily Insight** 是一个自动化的 AI 趋势聚合工具。它利用 **LLM Agent** 每天并行抓取各大科技源（Tavily Web Search, Hugging Face, GitHub Trending, Arxiv），经由 ReAct 认知架构清洗、去重、验证，最终生成结构化的中文简报。
 
 **🌐 在线访问**: https://ai-daily-web-r.vercel.app/
 
@@ -28,21 +29,23 @@ graph TD
     classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
     classDef output fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
 
-    Start((🚀 Start)) --> Init[⚙️ Init Node]
+    Start((🚀 Start)) --> Init[⚙️ Init Node<br/>7个定向Query]
     Init --> Parallel{⚡ Parallel Fetch}
-    
-    Parallel -->|API| HF[🤗 HuggingFace]
-    Parallel -->|API| GH[🐙 GitHub]
-    Parallel -->|API| Papers[📜 Arxiv]
-    Parallel -->|ReAct| Search[🔍 Tavily Search]
 
-    Search --> Verify[🛡️ Verify]
+    Parallel -->|API| HF[🤗 HuggingFace]
+    Parallel -->|API| GH[🐙 GitHub Trending]
+    Parallel -->|API| Papers[📜 Arxiv]
+    Parallel -->|ReAct| Search[🔍 Multi-Query Search<br/>Tavily × 10/query]
+
+    Search --> DateFilter[📅 Date Filter<br/>7天外直接丢弃]
+    DateFilter --> SnippetExtract[🧪 Snippet Extract<br/>LLM批量提取产品名]
+    SnippetExtract --> Verify[🛡️ Verify<br/>深度网页核实]
     Verify --> Check{Quality Check?}
-    
-    Check -- No --> Reflect[🧠 Reflect & Retry]
+
+    Check -- 不足 --> Reflect[🧠 Reflect<br/>换赛道生成新Query]
     Reflect --> Search
-    
-    Check -- Yes --> Writer
+
+    Check -- 足够 --> Writer
     HF --> Writer
     GH --> Writer
     Papers --> Writer
@@ -51,16 +54,18 @@ graph TD
     JSON --> Deploy[🚀 Auto Deploy]
     Deploy --> End((✅ End))
 
-    class Init,Search,Verify,Reflect,HF,GH,Papers,Writer process;
+    class Init,Search,DateFilter,SnippetExtract,Verify,Reflect,HF,GH,Papers,Writer process;
     class Parallel,Check decision;
     class JSON,Deploy output;
 ```
 
 ### 核心设计 (Core Philosophy)
 
-* **Cyclic State Graph**: 采用有环图结构，赋予 Agent **自我修正 (Self-Correction)** 能力。当检索信息量不足时，自动触发反思并扩展查询词。
-* **Parallel Execution**: 针对 API 数据源（GitHub/HF/Arxiv）采用异步并行调度，显著降低聚合延迟。
-* **Decoupled Architecture**: Python 后端与 Next.js 前端通过 JSON 协议完全解耦，支持边缘网络部署。
+* **Multi-Query Cold Start**: 首轮发起 7 个定向搜索（中文媒体、英文媒体、国际厂商、国内厂商、AI应用、AI硬件、商业事件），覆盖面远超单 query 广搜。
+* **三级过滤漏斗**: Date Filter（免费）→ Snippet Extract（1次LLM调用）→ Verify（精准但贵），逐级收窄，控制 token 开销。
+* **ReAct with Lane-Switching**: Reflect 节点携带完整搜索历史，自动识别已尝试过的方向并切换到新角度，避免重复搜索。
+* **Parallel Execution**: API 数据源（GitHub/HF/Arxiv）与 Product 搜索并行调度，显著降低聚合延迟。
+* **100% Groq 免费推理**: 全部 LLM 调用使用 Groq Llama-3.3-70B，零 LLM 费用。
 
 ---
 
@@ -80,16 +85,12 @@ cd ai-daily-web && make install
 在 `python_backend` 目录下新建 `.env` 文件，填入 API Key：
 
 ```ini
-# LLM Provider
-MY_API_KEY=sk-xxxxxx
-MY_BASE_URL=https://api.openai.com/v1
-MY_MODEL_NAME=gpt-4o
+# Groq (免费LLM推理)
+GROQ_API_KEY=gsk_xxxxxx
 
 # Search Tools
 TAVILY_API_KEY=tvly-xxxxxx
 ```
-
-**注意**: GitHub Actions 自动运行需要使用 **公网可访问** 的 API（如 OpenAI、Groq 等），不能使用内网网关。
 
 ### 3. 一键运行
 执行全流程（抓取 -> 清洗 -> 生成 -> 预览）：
@@ -117,23 +118,19 @@ make run
 ### 配置要求
 在 GitHub 仓库的 **Settings → Secrets and variables → Actions** 中配置以下 Secrets：
 
-| Secret | 说明 |
-|--------|------|
-| `MY_API_KEY` | LLM API 密钥 (支持 OpenAI, Groq, Together.ai 等) |
-| `MY_BASE_URL` | API 地址 (如 `https://api.openai.com/v1`) |
-| `MY_MODEL_NAME` | 模型名称 (如 `gpt-4o-mini`) |
-| `TAVILY_API_KEY` | Tavily 搜索 API 密钥 |
+| Secret | 必填 | 说明 |
+|--------|------|------|
+| `GROQ_API_KEY` | ✅ | Groq API 密钥 (免费，[申请地址](https://console.groq.com)) |
+| `TAVILY_API_KEY` | ✅ | Tavily 搜索 API 密钥 ([申请地址](https://tavily.com)) |
 
 ---
 
 ## 🛠 技术栈 (Tech Stack)
 
-* **Backend**: LangGraph, LangChain, LLM (GPT-4o, Claude, etc.), Tavily API
+* **Backend**: LangGraph, LangChain, Groq (Llama-3.3-70B), Tavily Search API
 * **Frontend**: Next.js 14 (App Router), Tailwind CSS
-* **DevOps**: GitHub Actions, Vercel
+* **DevOps**: GitHub Actions (每日定时), Vercel (自动部署)
 * **数据存储**: JSON 文件 (data/news.json)
-
----
 
 ---
 
@@ -143,10 +140,14 @@ make run
 .
 ├── app/                  # Next.js 前端逻辑
 ├── python_backend/       # LangGraph Agent 核心代码
-│   ├── agent_graph.py    # 工作流定义
-│   ├── agent_tools.py    # 搜索与验证工具
+│   ├── agent_graph.py    # 工作流定义 (状态图 + 节点)
+│   ├── agent_tools.py    # 搜索、提取、验证工具集
+│   └── .env              # API 密钥 (不入库)
 ├── data/
 │   └── news.json         # 数据交换协议
+├── .github/
+│   └── workflows/
+│       └── daily.yml     # GitHub Actions 定时任务
 ├── Makefile              # 自动化指令
 └── README.md             # 说明文档
 ```
