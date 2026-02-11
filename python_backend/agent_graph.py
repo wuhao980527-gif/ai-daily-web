@@ -67,12 +67,12 @@ def init_node(state: AgentState):
         f'("OpenAI" OR "Anthropic" OR "Google" OR "Meta AI") ("launch" OR "release" OR "new model") after:{target_date}',
         # 角度4: 头部AI厂商定向（国内）
         f'("DeepSeek" OR "Kimi" OR "Qwen" OR "智谱" OR "豆包") ("发布" OR "上线" OR "开源") after:{target_date}',
-        # 角度5: AI应用/工具
-        f'AI ("新功能" OR "new feature" OR "new app" OR "AI助手") (site:36kr.com OR site:techcrunch.com) after:{target_date}',
-        # 角度6: AI硬件/机器人
-        f'(AI 硬件 OR AI芯片 OR 机器人 OR "AI glasses" OR "AI chip") (site:36kr.com OR site:jiqizhixin.com OR site:theverge.com) after:{target_date}',
-        # 角度7: 商业事件（融资/收购）
-        f'AI ("融资" OR "收购" OR "合作" OR "funding" OR "acquisition") (site:36kr.com OR site:techcrunch.com) after:{target_date}',
+        # 角度5: AI应用/工具（放开限制，依赖三级过滤）
+        f'AI ("新功能" OR "视频生成" OR "图像生成" OR "new feature" OR "AI助手") after:{target_date}',
+        # 角度6: AI硬件/机器人（放开限制，依赖三级过滤）
+        f'(AI 硬件 OR AI芯片 OR 机器人 OR "AI glasses" OR "AI chip" OR "humanoid robot") after:{target_date}',
+        # 角度7: 商业事件（放开限制，依赖三级过滤）
+        f'AI ("融资" OR "收购" OR "合作" OR "funding" OR "acquisition" OR "partnership") after:{target_date}',
     ]
 
     print(f"⚙️ [Init] 首轮多角度搜索: {len(initial_queries)} 个定向query, 7天内")

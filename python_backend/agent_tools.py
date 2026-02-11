@@ -163,8 +163,8 @@ def search_new_products(query: str) -> List[Dict]:
     print(f"   🕵️ [Tool] 正在搜索新品: {query}")
     try:
         q = f"{query} -tutorial -review -list -best"
-        results = tavily_client.search(q, max_results=10).get('results', [])
-        
+        results = tavily_client.search(q, max_results=20).get('results', [])
+
         print(f"      ✅ 初筛命中 {len(results)} 条")
         return results
     except Exception as e:
