@@ -1066,5 +1066,212 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-11",
+    "summary": "今日 AI 领域的主要进展包括新模型发布，如 Claude Opus 4.6 和 Qwen-Image-2.0，以及开源项目的更新，如 HuggingFace 的 FutureMa/Eva-4B-V2 和 GitHub 的 aquasecurity/trivy 等。这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "8ea1f3",
+        "title": "Claude Opus 4.6",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多智能体",
+          "#并行计算"
+        ],
+        "summary": "Anthropic发布新一代模型Claude Opus 4.6，允许多个AI智能体并行协作、分工完成长期复杂任务。这种技术可以显著提高AI的工作效率和任务完成率。Claude Opus 4.6的核心功能是其并行协作能力，能够让多个AI智能体同时工作，实现更高的生产力。这种技术可以应用于各个领域，如科学研究、金融分析等。其行业意义在于提高AI的工作效率和智能化水平。",
+        "url": "https://m.36kr.com/p/3671680075096968",
+        "date": "2026-02-05"
+      },
+      {
+        "id": "928377",
+        "title": "OpenAI Frontier",
+        "source": "Product",
+        "tags": [
+          "#企业AI",
+          "#智能体管理",
+          "#AI平台"
+        ],
+        "summary": "OpenAI推出企业AI平台Frontier，统一管理AI智能体，帮助企业构建、部署和管理AI智能体。Frontier的核心功能是其统一管理能力，能够让企业更容易地管理和部署AI智能体。这种技术可以应用于各个领域，如客户服务、营销分析等。其行业意义在于帮助企业更好地利用AI技术。",
+        "url": "https://m.36kr.com/p/3671292881281925",
+        "date": "2026-02-05"
+      },
+      {
+        "id": "c7a7c4",
+        "title": "Qwen-Image-2.0",
+        "source": "Product",
+        "tags": [
+          "#图像生成",
+          "#AI艺术",
+          "#深度学习"
+        ],
+        "summary": "千问发布最新图像模型Qwen-Image-2.0，作为千问大模型的图像生成模型底座，Qwen-Image-2.0集生图和编辑于一体。在AI Arena文生图评测中获得1029分，超过Seedream4。Qwen-Image-2.0的核心功能是其图像生成和编辑能力，能够生成高质量的图像。这种技术可以应用于各个领域，如广告设计、艺术创作等。其行业意义在于提高图像生成和编辑的质量和效率。",
+        "url": "https://www.stdaily.com/web/gdxw/2026-02/10/content_472818.html",
+        "date": "2026-02-10"
+      },
+      {
+        "id": "e80d7b",
+        "title": "OpenAI Frontier",
+        "source": "Product",
+        "tags": [
+          "#企业AI",
+          "#智能体管理",
+          "#AI平台"
+        ],
+        "summary": "OpenAI Frontier是一个单一平台，用于控制AI智能体，帮助企业构建、部署和管理AI智能体。Frontier的核心功能是其统一管理能力，能够让企业更容易地管理和部署AI智能体。这种技术可以应用于各个领域，如客户服务、营销分析等。其行业意义在于帮助企业更好地利用AI技术。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/874258/openai-frontier-ai-agent-platform-management",
+        "date": "2026-02-05"
+      },
+      {
+        "id": "9e948c",
+        "title": "FutureMa/Eva-4B-V2",
+        "source": "HuggingFace",
+        "tags": [
+          "#文本分类",
+          "#transformers",
+          "#开源"
+        ],
+        "summary": "FutureMa/Eva-4B-V2是一个基于transformers的文本分类模型，使用apache-2.0许可证。其核心功能是其文本分类能力，能够高精度地分类文本。这种技术可以应用于各个领域，如情感分析、主题模型等。其行业意义在于提高文本分类的准确性和效率。",
+        "url": "https://huggingface.co/FutureMa/Eva-4B-V2",
+        "date": "2026-02-04",
+        "likes": 103
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#开源",
+          "#安全"
+        ],
+        "summary": "aquasecurity/trivy是一个开源的漏洞扫描工具，能够扫描容器、镜像和文件系统中的漏洞。其核心功能是其漏洞扫描能力，能够高效地扫描出潜在的安全风险。这种技术可以应用于各个领域，如云计算、网络安全等。其行业意义在于提高系统的安全性和稳定性。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 630
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#开源",
+          "#金融"
+        ],
+        "summary": "microsoft/qlib是一个开源的量化交易库，能够支持多种编程语言和交易平台。其核心功能是其量化交易能力，能够高效地执行交易策略。这种技术可以应用于各个领域，如金融交易、投资分析等。其行业意义在于提高量化交易的效率和准确性。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 843
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#VPN",
+          "#开源",
+          "#可扩展"
+        ],
+        "summary": "juanfont/headscale是一个开源的头部可扩展的VPN解决方案，能够支持多种设备和平台。其核心功能是其可扩展性，能够高效地支持大量的VPN连接。这种技术可以应用于各个领域，如网络安全、远程办公等。其行业意义在于提高VPN的可扩展性和稳定性。",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 235
+      },
+      {
+        "id": "7f6718",
+        "title": "Dao-AILab/flash-attention",
+        "source": "GitHub",
+        "tags": [
+          "#注意力机制",
+          "#开源",
+          "#深度学习"
+        ],
+        "summary": "Dao-AILab/flash-attention是一个开源的注意力机制实现，能够高效地处理长序列数据。其核心功能是其注意力机制，能够高效地聚焦于重要的数据特征。这种技术可以应用于各个领域，如自然语言处理、计算机视觉等。其行业意义在于提高注意力机制的效率和准确性。",
+        "url": "https://github.com/Dao-AILab/flash-attention",
+        "date": "Recent (Trending)",
+        "stars": 144
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#音乐流媒体",
+          "#开源",
+          "#娱乐"
+        ],
+        "summary": "KRTirtho/spotube是一个开源的音乐流媒体客户端，能够支持多种音乐平台和设备。其核心功能是其音乐流媒体能力，能够高效地播放音乐。这种技术可以应用于各个领域，如音乐娱乐、流媒体等。其行业意义在于提高音乐流媒体的质量和便捷性。",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 252
+      },
+      {
+        "id": "392592",
+        "title": "[Google] [2602.05879] EuroLLM-22B: Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#语言模型",
+          "#多语言",
+          "#深度学习"
+        ],
+        "summary": "Google提出了一种新的语言模型EuroLLM-22B，能够支持多种语言和任务。其核心功能是其多语言支持能力，能够高效地处理多种语言的文本。这种技术可以应用于各个领域，如机器翻译、语言理解等。其行业意义在于提高语言模型的多语言支持能力和准确性。",
+        "url": "https://arxiv.org/abs/2602.05879",
+        "date": "2026-02"
+      },
+      {
+        "id": "25973f",
+        "title": "[Google] [2601.01739] K-EXAONE Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#语言模型",
+          "#多语言",
+          "#深度学习"
+        ],
+        "summary": "Google提出了一种新的多语言语言模型K-EXAONE，能够支持多种语言和任务。其核心功能是其多语言支持能力，能够高效地处理多种语言的文本。这种技术可以应用于各个领域，如机器翻译、语言理解等。其行业意义在于提高语言模型的多语言支持能力和准确性。",
+        "url": "https://arxiv.org/abs/2601.01739",
+        "date": "2026-01"
+      },
+      {
+        "id": "76f9be",
+        "title": "[OpenAI] Step3-VL-10B Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#语言模型",
+          "#深度学习"
+        ],
+        "summary": "OpenAI提出了一种新的多模态语言模型Step3-VL-10B，能够支持多种模态和任务。其核心功能是其多模态支持能力，能够高效地处理多种模态的数据。这种技术可以应用于各个领域，如视听觉、多模态交互等。其行业意义在于提高语言模型的多模态支持能力和准确性。",
+        "url": "https://arxiv.org/html/2601.09668v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "dbfe37",
+        "title": "[DeepSeek] [PDF] A.X K1 Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#数据处理",
+          "#数据分析",
+          "#科学研究"
+        ],
+        "summary": "DeepSeek提出了一种新的数据处理管道A.X K1，能够高效地处理和分析数据。其核心功能是其数据处理能力，能够高效地处理和分析大量的数据。这种技术可以应用于各个领域，如数据分析、科学研究等。其行业意义在于提高数据处理和分析的效率和准确性。",
+        "url": "https://arxiv.org/pdf/2601.09200",
+        "date": "2026-01"
+      },
+      {
+        "id": "6be786",
+        "title": "[Google] [2601.16725] LongCat-Flash-Thinking-2601 Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#数据处理",
+          "#数据分析",
+          "#科学研究"
+        ],
+        "summary": "Google提出了一种新的技术LongCat-Flash-Thinking-2601，能够高效地处理和分析数据。其核心功能是其数据处理能力，能够高效地处理和分析大量的数据。这种技术可以应用于各个领域，如数据分析、科学研究等。其行业意义在于提高数据处理和分析的效率和准确性。",
+        "url": "https://arxiv.org/abs/2601.16725",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
