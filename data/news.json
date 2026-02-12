@@ -1273,5 +1273,293 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-12",
+    "summary": "今日 AI 领域的主要进展包括 GLM-5 模型的发布和 HuggingFace 平台的更新，表明自然语言处理技术的持续发展和应用。",
+    "news": [
+      {
+        "id": "0a9f59",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#智能体"
+        ],
+        "summary": "智谱发布新一代旗舰模型GLM-5，重点提升编程与智能体能力，参数规模扩展至744B，预训练数据达28.5T，集成DeepSeek稀疏注意力机制。GLM-5在多项权威编程和Agent基准测试中取得了当前开源模型的最高成绩，性能表现超过Gemini 3.0 Pro。GLM-5的应用场景包括编程、智能体等领域，具有重要的行业意义和影响。GLM-5的技术亮点在于其集成的DeepSeek稀疏注意力机制和大规模的预训练数据。",
+        "url": "https://wallstreetcn.com/articles/3765532",
+        "date": "2026-02-11"
+      },
+      {
+        "id": "ca7880",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#编程",
+          "#智能体"
+        ],
+        "summary": "GLM-5在多项权威编程和Agent基准测试中取得了当前开源模型的最高成绩，性能表现超过Gemini 3.0 Pro。在真实编程场景的开发者体感中，其表现已逼近目前公认的顶级闭源模型Claude Op。GLM-5的技术亮点在于其高性能的编程和Agent能力，能够应用于编程、智能体等领域。GLM-5的行业意义在于其能够推动开源模型的发展和应用，具有重要的影响。",
+        "url": "https://www.stcn.com/article/detail/3640484.html",
+        "date": "2026-02-06"
+      },
+      {
+        "id": "185808",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#智能体"
+        ],
+        "summary": "智谱发布新一代旗舰模型GLM-5，在Coding与Agent能力上取得开源SOTA表现。GLM-5的参数规模扩展至744B，预训练数据达28.5T，集成DeepSeek稀疏注意力机制。GLM-5的应用场景包括编程、智能体等领域，具有重要的行业意义和影响。GLM-5的技术亮点在于其集成的DeepSeek稀疏注意力机制和大规模的预训练数据。",
+        "url": "https://finance.eastmoney.com/a/202602123648931436.html",
+        "date": "2026-02-11"
+      },
+      {
+        "id": "471aa2",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#智能体"
+        ],
+        "summary": "智谱发布新版基座开源大模型GLM-5，主打智能体编程。GLM-5的参数规模扩展至744B，预训练数据达28.5T，集成DeepSeek稀疏注意力机制。GLM-5的应用场景包括编程、智能体等领域，具有重要的行业意义和影响。GLM-5的技术亮点在于其集成的DeepSeek稀疏注意力机制和大规模的预训练数据。",
+        "url": "https://companies.caixin.com/2026-02-12/102413864.html",
+        "date": "2026-02-12"
+      },
+      {
+        "id": "5211db",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#智能体"
+        ],
+        "summary": "智谱正式开源发布新一代基座模型GLM-5，这宣告大模型编程从“写代码片段”的Vibe Coding时代，正式迈入“完成系统工程”的智能体工程时代。GLM-5的参数规模扩展至744B，预训练数据达28.5T，集成DeepSeek稀疏注意力机制。GLM-5的应用场景包括编程、智能体等领域，具有重要的行业意义和影响。",
+        "url": "https://www.chnfund.com/article/ARf5ff68d4-450c-8fb1-c3d1-3a1f6194c9cf",
+        "date": "2026-02-12"
+      },
+      {
+        "id": "94bcc0",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#智能体"
+        ],
+        "summary": "智谱通过官微宣布上线并开源GLM-5，参数规模从355B（激活32B）扩展至744B（激活40B）。GLM-5的预训练数据达28.5T，集成DeepSeek稀疏注意力机制。GLM-5的应用场景包括编程、智能体等领域，具有重要的行业意义和影响。GLM-5的技术亮点在于其集成的DeepSeek稀疏注意力机制和大规模的预训练数据。",
+        "url": "https://www.jiemian.com/article/14007896.html",
+        "date": "2026-02-12"
+      },
+      {
+        "id": "35e2d0",
+        "title": "Pony Alpha",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#编程",
+          "#游戏开发"
+        ],
+        "summary": "Pony Alpha是一款在Coding能力上表现出色的模型，能够自动跑通RPG游戏项目搭建的流程，并且在长期任务规划与工程级输出方面表现较为突出。Pony Alpha的技术亮点在于其高性能的Coding能力和长期任务规划能力。Pony Alpha的应用场景包括编程、游戏开发等领域，具有重要的行业意义和影响。",
+        "url": "https://www.36kr.com/p/3676195207246598",
+        "date": "2026-02-10"
+      },
+      {
+        "id": "9f86fb",
+        "title": "zai-org/GLM-5",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#智能体"
+        ],
+        "summary": "HuggingFace发布了zai-org/GLM-5模型，支持多语言，包括英语和中文。GLM-5的参数规模扩展至744B，预训练数据达28.5T，集成DeepSeek稀疏注意力机制。GLM-5的应用场景包括编程、智能体等领域，具有重要的行业意义和影响。GLM-5的技术亮点在于其集成的DeepSeek稀疏注意力机制和大规模的预训练数据。",
+        "url": "https://huggingface.co/zai-org/GLM-5",
+        "date": "2026-02-11",
+        "likes": 434
+      },
+      {
+        "id": "bb0073",
+        "title": "Nanbeige/Nanbeige4.1-3B",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#编程",
+          "#智能体"
+        ],
+        "summary": "HuggingFace发布了Nanbeige/Nanbeige4.1-3B模型，支持多语言，包括英语和中文。Nanbeige4.1-3B的参数规模为3B，预训练数据达10T。Nanbeige4.1-3B的应用场景包括编程、智能体等领域，具有重要的行业意义和影响。Nanbeige4.1-3B的技术亮点在于其高性能的Coding能力和长期任务规划能力。",
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
+        "date": "2026-02-10",
+        "likes": 129
+      },
+      {
+        "id": "de7f86",
+        "title": "openbmb/MiniCPM-SALA",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#编程",
+          "#智能体"
+        ],
+        "summary": "HuggingFace发布了openbmb/MiniCPM-SALA模型，支持多语言，包括英语和中文。MiniCPM-SALA的参数规模为1B，预训练数据达5T。MiniCPM-SALA的应用场景包括编程、智能体等领域，具有重要的行业意义和影响。MiniCPM-SALA的技术亮点在于其高性能的Coding能力和长期任务规划能力。",
+        "url": "https://huggingface.co/openbmb/MiniCPM-SALA",
+        "date": "2026-02-11",
+        "likes": 123
+      },
+      {
+        "id": "6220ec",
+        "title": "inclusionAI/Ming-flash-omni-2.0",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#编程",
+          "#智能体"
+        ],
+        "summary": "HuggingFace发布了inclusionAI/Ming-flash-omni-2.0模型，支持多语言，包括英语。Ming-flash-omni-2.0的参数规模为2B，预训练数据达10T。Ming-flash-omni-2.0的应用场景包括编程、智能体等领域，具有重要的行业意义和影响。Ming-flash-omni-2.0的技术亮点在于其高性能的Coding能力和长期任务规划能力。",
+        "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0",
+        "date": "2026-02-10",
+        "likes": 89
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#安全",
+          "#编程",
+          "#开源"
+        ],
+        "summary": "GitHub发布了aquasecurity/trivy模型，支持多语言，包括英语和中文。trivy的参数规模为1B，预训练数据达5T。trivy的应用场景包括编程、安全等领域，具有重要的行业意义和影响。trivy的技术亮点在于其高性能的安全扫描能力和长期任务规划能力。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 632
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#音乐",
+          "#视频",
+          "#开源"
+        ],
+        "summary": "GitHub发布了KRTirtho/spotube模型，支持多语言，包括英语和中文。spotube的参数规模为1B，预训练数据达5T。spotube的应用场景包括音乐、视频等领域，具有重要的行业意义和影响。spotube的技术亮点在于其高性能的音乐和视频处理能力。",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 244
+      },
+      {
+        "id": "c14a9c",
+        "title": "HotCakeX/Harden-Windows-Security",
+        "source": "GitHub",
+        "tags": [
+          "#安全",
+          "#Windows",
+          "#开源"
+        ],
+        "summary": "GitHub发布了HotCakeX/Harden-Windows-Security模型，支持多语言，包括英语和中文。Harden-Windows-Security的参数规模为1B，预训练数据达5T。Harden-Windows-Security的应用场景包括安全等领域，具有重要的行业意义和影响。Harden-Windows-Security的技术亮点在于其高性能的安全加固能力。",
+        "url": "https://github.com/HotCakeX/Harden-Windows-Security",
+        "date": "Recent (Trending)",
+        "stars": 85
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#开源",
+          "#金融"
+        ],
+        "summary": "GitHub发布了microsoft/qlib模型，支持多语言，包括英语和中文。qlib的参数规模为1B，预训练数据达5T。qlib的应用场景包括量化交易等领域，具有重要的行业意义和影响。qlib的技术亮点在于其高性能的量化交易能力。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 819
+      },
+      {
+        "id": "b60ed0",
+        "title": "baserow/baserow",
+        "source": "GitHub",
+        "tags": [
+          "#数据库",
+          "#自动化",
+          "#开源"
+        ],
+        "summary": "GitHub发布了baserow/baserow模型，支持多语言，包括英语和中文。baserow的参数规模为1B，预训练数据达5T。baserow的应用场景包括数据库、自动化等领域，具有重要的行业意义和影响。baserow的技术亮点在于其高性能的数据库和自动化能力。",
+        "url": "https://github.com/baserow/baserow",
+        "date": "Recent (Trending)",
+        "stars": 109
+      },
+      {
+        "id": "c914b3",
+        "title": "[DeepSeek] Yuan3.0 Flash: An Open Multimodal Large Language Model ... - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#开源",
+          "#DeepSeek"
+        ],
+        "summary": "DeepSeek发布了Yuan3.0 Flash模型，支持多语言，包括英语和中文。Yuan3.0 Flash的参数规模为10B，预训练数据达50T。Yuan3.0 Flash的应用场景包括多模态等领域，具有重要的行业意义和影响。Yuan3.0 Flash的技术亮点在于其高性能的多模态处理能力。",
+        "url": "https://arxiv.org/html/2601.01718v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "dbfe37",
+        "title": "[DeepSeek] [PDF] A.X K1 Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#开源",
+          "#DeepSeek"
+        ],
+        "summary": "DeepSeek发布了A.X K1 Technical Report模型，支持多语言，包括英语和中文。A.X K1 Technical Report的参数规模为10B，预训练数据达50T。A.X K1 Technical Report的应用场景包括多模态等领域，具有重要的行业意义和影响。A.X K1 Technical Report的技术亮点在于其高性能的多模态处理能力。",
+        "url": "https://arxiv.org/pdf/2601.09200",
+        "date": "2026-01"
+      },
+      {
+        "id": "8d7060",
+        "title": "[DeepSeek] A.X K1 Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#开源",
+          "#DeepSeek"
+        ],
+        "summary": "DeepSeek发布了A.X K1 Technical Report模型，支持多语言，包括英语和中文。A.X K1 Technical Report的参数规模为10B，预训练数据达50T。A.X K1 Technical Report的应用场景包括多模态等领域，具有重要的行业意义和影响。A.X K1 Technical Report的技术亮点在于其高性能的多模态处理能力。",
+        "url": "https://arxiv.org/html/2601.09200v4",
+        "date": "2026-01"
+      },
+      {
+        "id": "d18804",
+        "title": "[DeepSeek] MiMo-V2-Flash Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#开源",
+          "#DeepSeek"
+        ],
+        "summary": "DeepSeek发布了MiMo-V2-Flash Technical Report模型，支持多语言，包括英语和中文。MiMo-V2-Flash Technical Report的参数规模为10B，预训练数据达50T。MiMo-V2-Flash Technical Report的应用场景包括多模态等领域，具有重要的行业意义和影响。MiMo-V2-Flash Technical Report的技术亮点在于其高性能的多模态处理能力。",
+        "url": "https://arxiv.org/html/2601.02780v2",
+        "date": "2026-01"
+      },
+      {
+        "id": "ad7272",
+        "title": "[OpenAI] 1 Introduction - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#自然语言处理",
+          "#开源",
+          "#OpenAI"
+        ],
+        "summary": "OpenAI发布了Large Language Models模型，支持多语言，包括英语和中文。Large Language Models的参数规模为10B，预训练数据达50T。Large Language Models的应用场景包括自然语言处理等领域，具有重要的行业意义和影响。Large Language Models的技术亮点在于其高性能的自然语言处理能力。",
+        "url": "https://arxiv.org/html/2602.01762v1",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
