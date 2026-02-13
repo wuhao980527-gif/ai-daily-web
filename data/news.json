@@ -1561,5 +1561,237 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-02-13",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 GLM-5、MiniMax 2.5 和 Nanbeige4.1-3B，这些模型在 HuggingFace 平台上可用。此外，Seedance 2.0 和 Ming-flash-omni-2.0 也被发布，表明 AI 技术在不断更新和发展。这些进展可能推动 AI 在各个行业的应用和技术突破。",
+    "news": [
+      {
+        "id": "27ae97",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "智谱开源GLM-5，参数规模从355B（激活32B）扩展至744B（激活40B）",
+        "url": "https://www.jiemian.com/article/14012087.html",
+        "date": "2026-02-12"
+      },
+      {
+        "id": "dd36db",
+        "title": "GLM-5、Minimax 2.5、DeepSeek-V4、Qwen 3、SeeDance 2.0",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "国产AI大模型集中发布，包括GLM-5、Minimax 2.5、DeepSeek-V4、Qwen 3、SeeDance 2.0等",
+        "url": "https://tech.sina.cn/2026-02-11/detail-inhmnhqy0295173.d.html",
+        "date": "2026-02-11"
+      },
+      {
+        "id": "35872f",
+        "title": "GLM-5、DeepSeek V系列、MiniMax M2.5",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Deepseek、智谱、MiniMax 集体宣布上新，包括智谱的GLM-5、DeepSeek的V系列模型更新和MiniMax的M2.5模型",
+        "url": "https://www.stcn.com/article/detail/3640328.html",
+        "date": "2026-02-11"
+      },
+      {
+        "id": "bbcd5b",
+        "title": "Seedance 2.0",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "字节跳动发布最新视频生成模型Seedance2.0，旗下AI产品豆包和即梦宣布接入。Seedance2.0能够支持图像、视频、音频、文本四种模态输入，表达方式更丰富，生成也更可控。",
+        "url": "https://www.stdaily.com/web/gdxw/2026-02/12/content_473735.html",
+        "date": "2026-02-12"
+      },
+      {
+        "id": "9f86fb",
+        "title": "zai-org/GLM-5",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlanguage:\n  - en\n  - zh\nlibrary_name: transformers\nlicense: mit\npipeline_tag: text-generation\n--",
+        "url": "https://huggingface.co/zai-org/GLM-5",
+        "date": "2026-02-11",
+        "likes": 816
+      },
+      {
+        "id": "de7f86",
+        "title": "openbmb/MiniCPM-SALA",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlicense: apache-2.0\nlanguage:\n- zh\n- en\npipeline_tag: text-generation\nlibrary_name: transformers",
+        "url": "https://huggingface.co/openbmb/MiniCPM-SALA",
+        "date": "2026-02-11",
+        "likes": 515
+      },
+      {
+        "id": "bb0073",
+        "title": "Nanbeige/Nanbeige4.1-3B",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlicense: apache-2.0\nlanguage:\n- en\n- zh\nlibrary_name: transformers\npipeline_tag: text-generation",
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
+        "date": "2026-02-10",
+        "likes": 214
+      },
+      {
+        "id": "6220ec",
+        "title": "inclusionAI/Ming-flash-omni-2.0",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlicense: mit\nlanguage:\n- en\npipeline_tag: any-to-any\n---\n\n# Ming-flash-omni 2.0\n\n<p align=\"cente",
+        "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0",
+        "date": "2026-02-10",
+        "likes": 145
+      },
+      {
+        "id": "165aa3",
+        "title": "unsloth/GLM-5-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlanguage:\n- en\n- zh\nlibrary_name: transformers\nlicense: mit\npipeline_tag: text-generation\nbase_m",
+        "url": "https://huggingface.co/unsloth/GLM-5-GGUF",
+        "date": "2026-02-10",
+        "likes": 93
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![Python Versions](https://img.shields.io/pypi/pyversions/pyqlib.svg?logo=python&logoColor=white)](",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 562
+      },
+      {
+        "id": "b60ed0",
+        "title": "baserow/baserow",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "## Baserow: build databases, automations, apps & agents with AI — no code\n\nBaserow is the secure, op",
+        "url": "https://github.com/baserow/baserow",
+        "date": "Recent (Trending)",
+        "stars": 117
+      },
+      {
+        "id": "c14a9c",
+        "title": "HotCakeX/Harden-Windows-Security",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n<img src=\"https://raw.githubusercontent.com/HotCakeX/.github/ada341c67b0c94ff7",
+        "url": "https://github.com/HotCakeX/Harden-Windows-Security",
+        "date": "Recent (Trending)",
+        "stars": 86
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <img width=\"600\" src=\"assets/branding/spotube_banner.png\" alt=\"Spotube Logo\">",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 223
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 606
+      },
+      {
+        "id": "25973f",
+        "title": "[Google] [2601.01739] K-EXAONE Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "> Abstract:This technical report presents K-EXAONE, a large-scale multilingual language model develo",
+        "url": "https://arxiv.org/abs/2601.01739",
+        "date": "2026-01"
+      },
+      {
+        "id": "c777ec",
+        "title": "[OpenAI] [PDF] EuroLLM-22B: Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Answer assessment.\nAll tasks are evaluated using LLM-as-a-judge. For non-translation tasks, this app",
+        "url": "https://arxiv.org/pdf/2602.05879",
+        "date": "2026-02"
+      },
+      {
+        "id": "f54b40",
+        "title": "[Google] [2601.01792] HyperCLOVA X 8B Omni - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "|  |  |\n --- |\n| Comments: | Technical Report |\n| Subjects: | Machine Learning (cs.LG); Artificial I",
+        "url": "https://arxiv.org/abs/2601.01792",
+        "date": "2026-01"
+      },
+      {
+        "id": "c914b3",
+        "title": "[DeepSeek] Yuan3.0 Flash: An Open Multimodal Large Language Model ... - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language models (LLMs) have been applied to a wide range of tasks and domains (yin2024survey; ",
+        "url": "https://arxiv.org/html/2601.01718v1",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
