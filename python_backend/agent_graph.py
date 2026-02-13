@@ -154,6 +154,7 @@ def product_verify_node(state: AgentState):
 
     # verify前URL去重，避免同一URL浪费多次verify调用
     seen_urls = set()
+    seen_product_names = set()  # 新增：基于提取后的产品名去重
     deduped = []
     for item in raw:
         url = item.get('url', '')
@@ -204,23 +205,33 @@ def product_verify_node(state: AgentState):
                     continue
 
                 if is_truly_recent:
+                    # 🔥 关键：基于提取后的产品名去重
+                    product_name = res.get('product_name', 'Unknown')
+                    product_name_normalized = product_name.strip().lower()
+
+                    if product_name_normalized in seen_product_names:
+                        print(f"      ⚠️ 产品名重复: {product_name} - 跳过（不同媒体报道同一产品）")
+                        continue
+
+                    seen_product_names.add(product_name_normalized)
+
                     url_lower = item['url'].lower()
 
                     # 检查1：URL中不应包含负面市场词汇
                     negative_keywords = ['wipe', 'crash', 'plunge', 'drop', 'fall', 'decline', 'loss', 'billion', 'stock']
                     if any(kw in url_lower for kw in negative_keywords):
-                        print(f"      ⚠️ URL包含市场负面词汇: {res.get('product_name', 'Unknown')} - 可能是二手新闻，跳过")
+                        print(f"      ⚠️ URL包含市场负面词汇: {product_name} - 可能是二手新闻，跳过")
                         continue
 
                     # 检查2：拒绝新闻快讯类型（内容太简短）
                     low_quality_patterns = ['newsflash', 'kuaixun', '快讯', '/news/', '/brief/']
                     if any(pattern in url_lower for pattern in low_quality_patterns):
-                        print(f"      ⚠️ 低质量快讯类型: {res.get('product_name', 'Unknown')} - 内容过于简短，跳过")
+                        print(f"      ⚠️ 低质量快讯类型: {product_name} - 内容过于简短，跳过")
                         continue
 
                     # 格式化数据，方便主编直接使用
                     info = (
-                        f"Product: {res.get('product_name', 'Unknown')}\n"
+                        f"Product: {product_name}\n"
                         f"Date: {res.get('release_date', 'N/A')}\n"
                         f"Desc: {res.get('description', 'N/A')}\n"
                         f"URL: {item['url']}"
@@ -343,7 +354,8 @@ def writer_node(state: AgentState):
 
     # 收集所有原始数据
     raw_items = []
-    seen_urls = set()  # 用于去重
+    seen_urls = set()  # 用于URL去重
+    seen_titles = set()  # 用于标题去重（避免不同来源的相同产品）
 
     # ==================== 解析新品（带去重）====================
     for item_str in p_items:
@@ -356,16 +368,25 @@ def writer_node(state: AgentState):
                     data[key.strip()] = val.strip()
 
             url = data.get("URL")
-            if data.get("Product") and url:
-                # 去重检查
+            title = data.get("Product", "")
+            if title and url:
+                # URL去重检查
                 if url in seen_urls:
-                    print(f"   ⚠️ 跳过重复产品: {data.get('Product')}")
+                    print(f"   ⚠️ 跳过重复URL: {title}")
                     continue
+
+                # 标题去重检查（标准化后比较）
+                title_normalized = title.strip().lower()
+                if title_normalized in seen_titles:
+                    print(f"   ⚠️ 跳过重复标题: {title}")
+                    continue
+
                 seen_urls.add(url)
+                seen_titles.add(title_normalized)
 
                 raw_items.append({
                     "type": "Product",
-                    "title": data.get("Product"),
+                    "title": title,
                     "url": url,
                     "description": data.get("Desc", ""),
                     "date": data.get("Date", "")
@@ -384,10 +405,22 @@ def writer_node(state: AgentState):
             readme_match = re.search(r'README Summary ---\n(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
             if model_match and url_match:
+                url = url_match.group(1).strip()
+                title = model_match.group(1).strip().replace("===", "").strip()
+                title_normalized = title.lower()
+
+                # 去重检查
+                if url in seen_urls or title_normalized in seen_titles:
+                    print(f"   ⚠️ 跳过重复HF模型: {title}")
+                    continue
+
+                seen_urls.add(url)
+                seen_titles.add(title_normalized)
+
                 raw_items.append({
                     "type": "HuggingFace",
-                    "title": model_match.group(1).strip().replace("===", "").strip(),
-                    "url": url_match.group(1).strip(),
+                    "title": title,
+                    "url": url,
                     "description": readme_match.group(1).strip()[:500] if readme_match else "",
                     "date": date_match.group(1).strip() if date_match else "",
                     "likes": int(likes_match.group(1)) if likes_match else 0
@@ -406,10 +439,22 @@ def writer_node(state: AgentState):
             readme_match = re.search(r'README snippet ---\n(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
             if repo_match and url_match:
+                url = url_match.group(1).strip()
+                title = repo_match.group(1).strip().replace("===", "").strip()
+                title_normalized = title.lower()
+
+                # 去重检查
+                if url in seen_urls or title_normalized in seen_titles:
+                    print(f"   ⚠️ 跳过重复GitHub项目: {title}")
+                    continue
+
+                seen_urls.add(url)
+                seen_titles.add(title_normalized)
+
                 raw_items.append({
                     "type": "GitHub",
-                    "title": repo_match.group(1).strip().replace("===", "").strip(),
-                    "url": url_match.group(1).strip(),
+                    "title": title,
+                    "url": url,
                     "description": readme_match.group(1).strip()[:500] if readme_match else "",
                     "language": lang_match.group(1).strip() if lang_match else "Unknown",
                     "date": date_match.group(1).strip() if date_match else "",
@@ -428,6 +473,7 @@ def writer_node(state: AgentState):
             abstract_match = re.search(r'Abstract:\s*(.+?)(?:\n=|$)', item_str, re.DOTALL)
 
             if title_match and url_match:
+                url = url_match.group(1).strip()
                 org_name = org_match.group(1).strip() if org_match else ""
                 paper_title = title_match.group(1).strip().replace("===", "").strip()
 
@@ -435,10 +481,20 @@ def writer_node(state: AgentState):
                 if org_name and org_name not in paper_title:
                     paper_title = f"[{org_name}] {paper_title}"
 
+                title_normalized = paper_title.lower()
+
+                # 去重检查
+                if url in seen_urls or title_normalized in seen_titles:
+                    print(f"   ⚠️ 跳过重复论文: {paper_title}")
+                    continue
+
+                seen_urls.add(url)
+                seen_titles.add(title_normalized)
+
                 raw_items.append({
                     "type": "Papers",
                     "title": paper_title,
-                    "url": url_match.group(1).strip(),
+                    "url": url,
                     "description": abstract_match.group(1).strip()[:300] if abstract_match else "",
                     "organization": org_name,
                     "date": date_match.group(1).strip() if date_match else ""
