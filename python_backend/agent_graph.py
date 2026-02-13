@@ -152,9 +152,20 @@ def product_verify_node(state: AgentState):
     raw = state.get('product_raw_items', [])
     verified = []
 
-    # verify前URL去重，避免同一URL浪费多次verify调用
+    # 🔥 关键修复：从已验证的产品中提取产品名，避免跨轮次重复
     seen_urls = set()
-    seen_product_names = set()  # 新增：基于提取后的产品名去重
+    seen_product_names = set()
+
+    # 从之前轮次已验证的产品中提取产品名
+    for prev_item in state.get('product_verified_items', []):
+        # 格式: "Product: XXX\nDate: ...\n..."
+        if prev_item.startswith("Product: "):
+            product_name = prev_item.split('\n')[0].replace("Product: ", "").strip()
+            seen_product_names.add(product_name.lower())
+
+    if seen_product_names:
+        print(f"   📝 [跨轮次去重] 已有 {len(seen_product_names)} 个产品名")
+
     deduped = []
     for item in raw:
         url = item.get('url', '')
