@@ -1564,56 +1564,8 @@
   },
   {
     "date": "2026-02-13",
-    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 GLM-5、MiniMax 2.5 和 Nanbeige4.1-3B，这些模型在 HuggingFace 平台上可用。此外，Seedance 2.0 和 Ming-flash-omni-2.0 也被发布，表明 AI 技术在不断更新和发展。这些进展可能推动 AI 在各个行业的应用和技术突破。",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 上的 zai-org/GLM-5 和 Nanbeige/Nanbeige4.1-3B，以及 GitHub 上的 microsoft/qlib 和 baserow/baserow。这些模型和项目的发布表明了 AI 技术在各个领域的持续发展和应用。",
     "news": [
-      {
-        "id": "27ae97",
-        "title": "GLM-5",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "智谱开源GLM-5，参数规模从355B（激活32B）扩展至744B（激活40B）",
-        "url": "https://www.jiemian.com/article/14012087.html",
-        "date": "2026-02-12"
-      },
-      {
-        "id": "dd36db",
-        "title": "GLM-5、Minimax 2.5、DeepSeek-V4、Qwen 3、SeeDance 2.0",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "国产AI大模型集中发布，包括GLM-5、Minimax 2.5、DeepSeek-V4、Qwen 3、SeeDance 2.0等",
-        "url": "https://tech.sina.cn/2026-02-11/detail-inhmnhqy0295173.d.html",
-        "date": "2026-02-11"
-      },
-      {
-        "id": "35872f",
-        "title": "GLM-5、DeepSeek V系列、MiniMax M2.5",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "Deepseek、智谱、MiniMax 集体宣布上新，包括智谱的GLM-5、DeepSeek的V系列模型更新和MiniMax的M2.5模型",
-        "url": "https://www.stcn.com/article/detail/3640328.html",
-        "date": "2026-02-11"
-      },
-      {
-        "id": "bbcd5b",
-        "title": "Seedance 2.0",
-        "source": "Product",
-        "tags": [
-          "#AI",
-          "#Product"
-        ],
-        "summary": "字节跳动发布最新视频生成模型Seedance2.0，旗下AI产品豆包和即梦宣布接入。Seedance2.0能够支持图像、视频、音频、文本四种模态输入，表达方式更丰富，生成也更可控。",
-        "url": "https://www.stdaily.com/web/gdxw/2026-02/12/content_473735.html",
-        "date": "2026-02-12"
-      },
       {
         "id": "9f86fb",
         "title": "zai-org/GLM-5",
@@ -1625,7 +1577,7 @@
         "summary": "---\nlanguage:\n  - en\n  - zh\nlibrary_name: transformers\nlicense: mit\npipeline_tag: text-generation\n--",
         "url": "https://huggingface.co/zai-org/GLM-5",
         "date": "2026-02-11",
-        "likes": 816
+        "likes": 827
       },
       {
         "id": "de7f86",
@@ -1638,7 +1590,7 @@
         "summary": "---\nlicense: apache-2.0\nlanguage:\n- zh\n- en\npipeline_tag: text-generation\nlibrary_name: transformers",
         "url": "https://huggingface.co/openbmb/MiniCPM-SALA",
         "date": "2026-02-11",
-        "likes": 515
+        "likes": 518
       },
       {
         "id": "bb0073",
@@ -1651,7 +1603,7 @@
         "summary": "---\nlicense: apache-2.0\nlanguage:\n- en\n- zh\nlibrary_name: transformers\npipeline_tag: text-generation",
         "url": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
         "date": "2026-02-10",
-        "likes": 214
+        "likes": 216
       },
       {
         "id": "6220ec",
@@ -1664,7 +1616,7 @@
         "summary": "---\nlicense: mit\nlanguage:\n- en\npipeline_tag: any-to-any\n---\n\n# Ming-flash-omni 2.0\n\n<p align=\"cente",
         "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0",
         "date": "2026-02-10",
-        "likes": 145
+        "likes": 146
       },
       {
         "id": "165aa3",
@@ -1677,7 +1629,7 @@
         "summary": "---\nlanguage:\n- en\n- zh\nlibrary_name: transformers\nlicense: mit\npipeline_tag: text-generation\nbase_m",
         "url": "https://huggingface.co/unsloth/GLM-5-GGUF",
         "date": "2026-02-10",
-        "likes": 93
+        "likes": 96
       },
       {
         "id": "34fc9d",
@@ -1745,39 +1697,15 @@
         "stars": 606
       },
       {
-        "id": "25973f",
-        "title": "[Google] [2601.01739] K-EXAONE Technical Report - arXiv",
+        "id": "889c44",
+        "title": "[Meta] Agentic Reasoning for Large Language Models - Hugging Face",
         "source": "Papers",
         "tags": [
           "#AI",
           "#Papers"
         ],
-        "summary": "> Abstract:This technical report presents K-EXAONE, a large-scale multilingual language model develo",
-        "url": "https://arxiv.org/abs/2601.01739",
-        "date": "2026-01"
-      },
-      {
-        "id": "c777ec",
-        "title": "[OpenAI] [PDF] EuroLLM-22B: Technical Report - arXiv",
-        "source": "Papers",
-        "tags": [
-          "#AI",
-          "#Papers"
-        ],
-        "summary": "Answer assessment.\nAll tasks are evaluated using LLM-as-a-judge. For non-translation tasks, this app",
-        "url": "https://arxiv.org/pdf/2602.05879",
-        "date": "2026-02"
-      },
-      {
-        "id": "f54b40",
-        "title": "[Google] [2601.01792] HyperCLOVA X 8B Omni - arXiv",
-        "source": "Papers",
-        "tags": [
-          "#AI",
-          "#Papers"
-        ],
-        "summary": "|  |  |\n --- |\n| Comments: | Technical Report |\n| Subjects: | Machine Learning (cs.LG); Artificial I",
-        "url": "https://arxiv.org/abs/2601.01792",
+        "summary": "Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-mak",
+        "url": "https://huggingface.co/papers/2601.12538",
         "date": "2026-01"
       },
       {
@@ -1790,6 +1718,30 @@
         ],
         "summary": "Large language models (LLMs) have been applied to a wide range of tasks and domains (yin2024survey; ",
         "url": "https://arxiv.org/html/2601.01718v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "f8a883",
+        "title": "[Qwen] Innovator-VL: A Multimodal Large Language Model for Scientific ...",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Xie et al.   Yin Xie, Kaicheng Yang, Xiang An, Kun Wu, Yongle Zhao, Weimo Deng, Zimin Ran, Yumeng Wa",
+        "url": "https://arxiv.org/html/2601.19325v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "807167",
+        "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8 ...",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "In this report, we present a comprehensive, multimodal, multilingual, and policy-oriented safety eva",
+        "url": "https://arxiv.org/html/2601.10527v1",
         "date": "2026-01"
       }
     ]
