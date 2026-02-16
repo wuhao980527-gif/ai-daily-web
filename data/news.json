@@ -2258,5 +2258,333 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-16",
+    "summary": "今日 AI 领域的主要进展包括多款新产品的发布，如 Pony Alpha、GLM-5 和 ChatGPT 等，这些产品代表了当前 AI 技术的最新成果和应用方向。",
+    "news": [
+      {
+        "id": "9a1de5",
+        "title": "Pony Alpha",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Pony Alpha是一款在Coding能力上表现出色的模型，能够自动跑通RPG游戏项目搭建的流程，并且在长期任务规划与工程级输出方面表现较为突出。",
+        "url": "https://m.36kr.com/p/3676195207246598",
+        "date": "2026-02-10"
+      },
+      {
+        "id": "0ffaba",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "智谱 AI 的春节大招——GLM-5，是一个开源的 AI 模型，能够直接生成代码和完成复杂的编程任务。",
+        "url": "https://m.36kr.com/p/3679762791182213",
+        "date": "2026-02-12"
+      },
+      {
+        "id": "acfdf2",
+        "title": "Qwen-Image-2.0",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "阿里巴巴 Qwen-Image-2.0 与字节跳动 Seedream 5.0 预览版同日登场，掀起了春节档前夕的AI生图大战",
+        "url": "https://m.36kr.com/p/3680007626747776",
+        "date": "2026-02-10"
+      },
+      {
+        "id": "680398",
+        "title": "Gemini 3 Deep Think",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "谷歌发布了 Gemini 3 Deep Think 的重大升级，作为专门用于复杂任务的推理模式，Deep Think 代表 AI 前沿的最强智能水平，旨在解决科学、工程领域的诸多挑战。",
+        "url": "https://m.36kr.com/p/3681041743720324",
+        "date": "2026-02-13"
+      },
+      {
+        "id": "8c2d93",
+        "title": "Teamily AI",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Teamily AI 推出\"北美元宝派\"加强版，支持多人与多个AI Agents实时社交",
+        "url": "https://eu.36kr.com/zh/p/3678646020940422",
+        "date": "2026-02-13"
+      },
+      {
+        "id": "155b3a",
+        "title": "DeepSeek-V4-Lite",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek悄悄在官网和移动端开启了新模型的灰度测试，新模型的参数规模可能只有200B左右，且并未使用DeepSeek与北大联合研发的Engram条件记忆机制，支持百万级上下文定义长文本处理边界",
+        "url": "https://m.36kr.com/p/3680976425152390",
+        "date": "2026-02-13"
+      },
+      {
+        "id": "f308e8",
+        "title": "ChatGPT",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "ChatGPT’s deep research tool adds a built-in document viewer so you can read its reports",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/876775/openai-deep-research-chatgpt-full-screen-report-viewer",
+        "date": "2026-02-10"
+      },
+      {
+        "id": "305b8a",
+        "title": "Cart Assistant",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Uber Eats adds AI assistant to help with grocery shopping, works with text or image prompts, and can",
+        "url": "https://www.theverge.com/transportation/876540/uber-eats-ai-chatbot-cart-assistant-grocery-shopping",
+        "date": "2026-02-11"
+      },
+      {
+        "id": "32b74a",
+        "title": "Dear Algo",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Threads is introducing an AI-powered feature that lets users personalize their feed, the Meta-owned ",
+        "url": "https://techcrunch.com/2026/02/11/threads-new-dear-algo-ai-feature-lets-you-personalize-your-feed/",
+        "date": "2026-02-11"
+      },
+      {
+        "id": "f5ec85",
+        "title": "Facebook AI features",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Facebook announced new AI-powered features, including animated profile pictures, photo-restyling too",
+        "url": "https://techcrunch.com/2026/02/10/facebook-adds-new-ai-features-animated-profile-photos-and-backgrounds-for-text-posts",
+        "date": "2026-02-10"
+      },
+      {
+        "id": "a89ecc",
+        "title": "Discord",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Discord released an update clarifying that the \"vast majority of people can continue using Discord e",
+        "url": "https://www.theverge.com/tech/876575/discord-age-verification-vast-majority-users-inference",
+        "date": "2026-02-10"
+      },
+      {
+        "id": "9f86fb",
+        "title": "zai-org/GLM-5",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlanguage:\n  - en\n  - zh\nlibrary_name: transformers\nlicense: mit\npipeline_tag: text-generation\n--",
+        "url": "https://huggingface.co/zai-org/GLM-5",
+        "date": "2026-02-11",
+        "likes": 1204
+      },
+      {
+        "id": "4a1409",
+        "title": "MiniMaxAI/MiniMax-M2.5",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\npipeline_tag: text-generation\nlicense: other\nlicense_name: modified-mit\nlicense_link: https://gi",
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+        "date": "2026-02-12",
+        "likes": 612
+      },
+      {
+        "id": "de7f86",
+        "title": "openbmb/MiniCPM-SALA",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlicense: apache-2.0\nlanguage:\n- zh\n- en\npipeline_tag: text-generation\nlibrary_name: transformers",
+        "url": "https://huggingface.co/openbmb/MiniCPM-SALA",
+        "date": "2026-02-11",
+        "likes": 443
+      },
+      {
+        "id": "bb0073",
+        "title": "Nanbeige/Nanbeige4.1-3B",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlicense: apache-2.0\nlanguage:\n- en\n- zh\nlibrary_name: transformers\npipeline_tag: text-generation",
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
+        "date": "2026-02-10",
+        "likes": 421
+      },
+      {
+        "id": "6220ec",
+        "title": "inclusionAI/Ming-flash-omni-2.0",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlicense: mit\nlanguage:\n- en\npipeline_tag: any-to-any\n---\n\n# Ming-flash-omni 2.0\n\n<p align=\"cente",
+        "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0",
+        "date": "2026-02-10",
+        "likes": 211
+      },
+      {
+        "id": "b60ed0",
+        "title": "baserow/baserow",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "## Baserow: build databases, automations, apps & agents with AI — no code\n\nBaserow is the secure, op",
+        "url": "https://github.com/baserow/baserow",
+        "date": "Recent (Trending)",
+        "stars": 193
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Whisper\n\n[[Blog]](https://openai.com/blog/whisper)\n[[Paper]](https://arxiv.org/abs/2212.04356)\n[[M",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 364
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 172
+      },
+      {
+        "id": "c14a9c",
+        "title": "HotCakeX/Harden-Windows-Security",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n<img src=\"https://raw.githubusercontent.com/HotCakeX/.github/ada341c67b0c94ff7",
+        "url": "https://github.com/HotCakeX/Harden-Windows-Security",
+        "date": "Recent (Trending)",
+        "stars": 49
+      },
+      {
+        "id": "f26965",
+        "title": "PaperMC/Paper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "Paper [![Paper Build Status](https://img.shields.io/github/actions/workflow/status/PaperMC/Paper/bui",
+        "url": "https://github.com/PaperMC/Paper",
+        "date": "Recent (Trending)",
+        "stars": 33
+      },
+      {
+        "id": "e4f547",
+        "title": "[Google] [2601.03034] NorwAI's Large Language Models: Technical Report",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "View PDF HTML (experimental) [...] (e.g., Mistral-7B-Instruct and Mixtral-8x7B-Instruct) showcase st",
+        "url": "https://arxiv.org/abs/2601.03034",
+        "date": "2026-01"
+      },
+      {
+        "id": "c914b3",
+        "title": "[DeepSeek] Yuan3.0 Flash: An Open Multimodal Large Language Model ... - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language models (LLMs) have been applied to a wide range of tasks and domains (yin2024survey; ",
+        "url": "https://arxiv.org/html/2601.01718v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "7422e2",
+        "title": "[Qwen] MedMO: Grounding and Understanding Multimodal Large ... - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Although the technical report is general-domain, these grounding primitives transfer to clinical dat",
+        "url": "https://arxiv.org/html/2602.06965v1",
+        "date": "2026-02"
+      },
+      {
+        "id": "ebfa37",
+        "title": "[Google] Native LLM and MLLM Inference at Scale on Apple Silicon - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Our evaluation on Apple M4 Max demonstrates throughput of up to 525 tokens per second on text models",
+        "url": "https://arxiv.org/html/2601.19139v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "f9d113",
+        "title": "[OpenAI] Chain-of-caption: training-free improvement of multimodal large ...",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang, Jing Li, and Jian Sun,   “",
+        "url": "https://arxiv.org/html/2602.08211v1",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
