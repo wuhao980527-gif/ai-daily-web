@@ -2586,5 +2586,307 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-02-17",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 GLM-5 和豆包大模型2.0，以及新产品如 Teamily AI 和 Google Docs Audio Summaries 的推出，表明 AI 技术在各个领域的应用和发展。",
+    "news": [
+      {
+        "id": "b7c13c",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#语言模型"
+        ],
+        "summary": "智谱新发布的GLM-5是一款高性能的语言模型，其核心功能是能够理解和生成自然语言。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。GLM-5的发布标志着语言模型技术的又一次突破。",
+        "url": "https://eu.36kr.com/zh/p/3679762791182213",
+        "date": "2026-02-12"
+      },
+      {
+        "id": "39882a",
+        "title": "CodeBrain-1",
+        "source": "Product",
+        "tags": [
+          "#代码生成",
+          "#编程辅助",
+          "#AI编程"
+        ],
+        "summary": "Feeling AI的CodeBrain-1是在Terminal-Bench 2.0中强势突围，位居全球第二，仅次于OpenAI最新旗舰。这意味着CodeBrain-1具有非常高的代码生成和理解能力。技术亮点在于其能够处理复杂的编程任务，具有高效的推理和生成能力。应用场景包括代码生成、代码审查等领域。行业意义在于其能够提高编程效率和质量，推动编程技术的发展。",
+        "url": "https://eu.36kr.com/zh/p/3678583640810112",
+        "date": "2026-02-11"
+      },
+      {
+        "id": "95f54c",
+        "title": "Teamily AI",
+        "source": "Product",
+        "tags": [
+          "#社交AI",
+          "#自然语言处理",
+          "#群聊机器人"
+        ],
+        "summary": "Teamily AI是一个全球首个AI社交通用平台，能够让AI Agent直接参与群聊，理解群体与个人的真实意图，辅助决策、主动推进任务。其核心功能是能够理解和处理自然语言，具有高效的推理和生成能力。技术亮点在于其能够处理复杂的社交任务，具有高效的推理和生成能力。应用场景包括社交网络、客户服务等领域。行业意义在于其能够提高社交效率和质量，推动社交技术的发展。",
+        "url": "https://m.36kr.com/p/3681503338835586",
+        "date": "2026-02-13"
+      },
+      {
+        "id": "56e2c3",
+        "title": "豆包大模型2.0",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#语言模型"
+        ],
+        "summary": "豆包大模型2.0是一款高性能的语言模型，其核心功能是能够理解和生成自然语言。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。豆包2.0的发布标志着语言模型技术的又一次突破。",
+        "url": "https://www.tmtpost.com/7880242.html",
+        "date": "2026-02-14"
+      },
+      {
+        "id": "289257",
+        "title": "豆包2.0",
+        "source": "Product",
+        "tags": [
+          "#内容创作",
+          "#音视频生成",
+          "#图像生成"
+        ],
+        "summary": "豆包2.0将于情人节发布，包括音视频创作工具Seedance2.0与图像创作工具Seedream5.0Preview。其核心功能是能够生成高质量的音视频和图像内容。技术亮点在于其能够处理复杂的创作任务，具有高效的生成能力。应用场景包括内容创作、广告制作等领域。行业意义在于其能够提高内容创作效率和质量，推动创作技术的发展。",
+        "url": "https://www.aibase.com/zh/daily/25497",
+        "date": "2026-02-14"
+      },
+      {
+        "id": "7a4bed",
+        "title": "Google Docs Audio Summaries",
+        "source": "Product",
+        "tags": [
+          "#文档管理",
+          "#自然语言处理",
+          "#语音摘要"
+        ],
+        "summary": "Google Docs Audio Summaries是一款能够生成文档摘要的工具，其核心功能是能够理解和生成自然语言。技术亮点在于其能够处理复杂的文档任务，具有高效的推理和生成能力。应用场景包括文档管理、信息检索等领域。行业意义在于其能够提高文档管理效率和质量，推动信息技术的发展。",
+        "url": "https://www.theverge.com/tech/878640/google-adds-ai-audio-summarization-to-docs",
+        "date": "2026-02-13"
+      },
+      {
+        "id": "305b8a",
+        "title": "Cart Assistant",
+        "source": "Product",
+        "tags": [
+          "#电子商务",
+          "#购物助手",
+          "#自然语言处理"
+        ],
+        "summary": "Cart Assistant是一款能够帮助用户购物的AI助手，其核心功能是能够理解和处理自然语言。技术亮点在于其能够处理复杂的购物任务，具有高效的推理和生成能力。应用场景包括电子商务、客户服务等领域。行业意义在于其能够提高购物效率和质量，推动电子商务技术的发展。",
+        "url": "https://www.theverge.com/transportation/876540/uber-eats-ai-chatbot-cart-assistant-grocery-shopping",
+        "date": "2026-02-11"
+      },
+      {
+        "id": "9f86fb",
+        "title": "zai-org/GLM-5",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源语言模型"
+        ],
+        "summary": "zai-org/GLM-5是一个开源的语言模型，其核心功能是能够理解和生成自然语言。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://huggingface.co/zai-org/GLM-5",
+        "date": "2026-02-11",
+        "likes": 1255
+      },
+      {
+        "id": "4a1409",
+        "title": "MiniMaxAI/MiniMax-M2.5",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源语言模型"
+        ],
+        "summary": "MiniMaxAI/MiniMax-M2.5是一个开源的语言模型，其核心功能是能够理解和生成自然语言。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+        "date": "2026-02-12",
+        "likes": 669
+      },
+      {
+        "id": "bb0073",
+        "title": "Nanbeige/Nanbeige4.1-3B",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源语言模型"
+        ],
+        "summary": "Nanbeige/Nanbeige4.1-3B是一个开源的语言模型，其核心功能是能够理解和生成自然语言。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
+        "date": "2026-02-10",
+        "likes": 503
+      },
+      {
+        "id": "73806f",
+        "title": "Qwen/Qwen3.5-397B-A17B",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源语言模型"
+        ],
+        "summary": "Qwen/Qwen3.5-397B-A17B是一个开源的语言模型，其核心功能是能够理解和生成自然语言。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+        "date": "2026-02-16",
+        "likes": 465
+      },
+      {
+        "id": "de7f86",
+        "title": "openbmb/MiniCPM-SALA",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源语言模型"
+        ],
+        "summary": "openbmb/MiniCPM-SALA是一个开源的语言模型，其核心功能是能够理解和生成自然语言。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://huggingface.co/openbmb/MiniCPM-SALA",
+        "date": "2026-02-11",
+        "likes": 450
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源模型",
+          "#语音转录"
+        ],
+        "summary": "OpenAI的Whisper是一个开源的语音识别模型，其核心功能是能够识别和转录语音。技术亮点在于其能够处理复杂的语音任务，具有高效的识别和转录能力。应用场景包括语音识别、语音转录等领域。行业意义在于其能够推动语音技术的发展，提高语音识别的性能和效率。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 358
+      },
+      {
+        "id": "b60ed0",
+        "title": "baserow/baserow",
+        "source": "GitHub",
+        "tags": [
+          "#数据库管理",
+          "#自动化",
+          "#开源平台"
+        ],
+        "summary": "Baserow是一个开源的数据库和自动化平台，其核心功能是能够构建和管理数据库和自动化任务。技术亮点在于其能够处理复杂的数据库和自动化任务，具有高效的构建和管理能力。应用场景包括数据库管理、自动化等领域。行业意义在于其能够提高数据库管理和自动化效率，推动数据库技术的发展。",
+        "url": "https://github.com/baserow/baserow",
+        "date": "Recent (Trending)",
+        "stars": 185
+      },
+      {
+        "id": "76353d",
+        "title": "autogluon/autogluon",
+        "source": "GitHub",
+        "tags": [
+          "#自动机器学习",
+          "#开源平台",
+          "#机器学习"
+        ],
+        "summary": "Autogluon是一个开源的自动机器学习平台，其核心功能是能够自动构建和优化机器学习模型。技术亮点在于其能够处理复杂的机器学习任务，具有高效的构建和优化能力。应用场景包括机器学习、深度学习等领域。行业意义在于其能够提高机器学习效率，推动机器学习技术的发展。",
+        "url": "https://github.com/autogluon/autogluon",
+        "date": "Recent (Trending)",
+        "stars": 87
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#自然语言处理",
+          "#开源库",
+          "#语言模型"
+        ],
+        "summary": "Hugging Face的Transformers是一个开源的自然语言处理库，其核心功能是能够提供预训练的语言模型和工具。技术亮点在于其能够处理复杂的自然语言处理任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 331
+      },
+      {
+        "id": "4eb75f",
+        "title": "run-llama/llama_index",
+        "source": "GitHub",
+        "tags": [
+          "#信息检索",
+          "#索引和检索",
+          "#开源平台"
+        ],
+        "summary": "LlamaIndex是一个开源的索引和检索平台，其核心功能是能够构建和管理索引和检索任务。技术亮点在于其能够处理复杂的索引和检索任务，具有高效的构建和管理能力。应用场景包括信息检索、数据管理等领域。行业意义在于其能够提高信息检索和数据管理效率，推动信息技术的发展。",
+        "url": "https://github.com/run-llama/llama_index",
+        "date": "Recent (Trending)",
+        "stars": 165
+      },
+      {
+        "id": "889c44",
+        "title": "[Meta] Agentic Reasoning for Large Language Models - Hugging Face",
+        "source": "Papers",
+        "tags": [
+          "#自然语言处理",
+          "#大型语言模型",
+          "#推理和决策"
+        ],
+        "summary": "Meta发布的Agentic Reasoning for Large Language Models是一篇关于大型语言模型的推理和决策能力的研究论文。其核心功能是能够理解和生成自然语言，具有高效的推理和决策能力。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和决策能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://huggingface.co/papers/2601.12538",
+        "date": "2026-01"
+      },
+      {
+        "id": "25973f",
+        "title": "[Google] [2601.01739] K-EXAONE Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多语言模型",
+          "#自然语言处理",
+          "#语言模型"
+        ],
+        "summary": "Google发布的K-EXAONE Technical Report是一篇关于大型多语言语言模型的技术报告。其核心功能是能够理解和生成多种语言，具有高效的推理和生成能力。技术亮点在于其能够处理复杂的多语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://arxiv.org/abs/2601.01739",
+        "date": "2026-01"
+      },
+      {
+        "id": "ebfa37",
+        "title": "[Google] Native LLM and MLLM Inference at Scale on Apple Silicon - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#自然语言处理",
+          "#大型语言模型",
+          "#Apple Silicon"
+        ],
+        "summary": "Google发布的Native LLM and MLLM Inference at Scale on Apple Silicon是一篇关于大型语言模型在Apple Silicon上的推理和生成能力的研究论文。其核心功能是能够理解和生成自然语言，具有高效的推理和生成能力。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://arxiv.org/html/2601.19139v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "c6b603",
+        "title": "[2601.21337] Qwen3-ASR Technical Report - arXiv.org",
+        "source": "Papers",
+        "tags": [
+          "#语音识别",
+          "#语音转录",
+          "#技术报告"
+        ],
+        "summary": "Qwen发布的Qwen3-ASR Technical Report是一篇关于语音识别模型的技术报告。其核心功能是能够识别和转录语音，具有高效的识别和转录能力。技术亮点在于其能够处理复杂的语音任务，具有高效的识别和转录能力。应用场景包括语音识别、语音转录等领域。行业意义在于其能够推动语音技术的发展，提高语音识别的性能和效率。",
+        "url": "https://arxiv.org/abs/2601.21337",
+        "date": "2026-01"
+      },
+      {
+        "id": "1cc685",
+        "title": "[DeepSeek] 1 Introduction - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#自然语言处理",
+          "#大型模型",
+          "#介绍性论文"
+        ],
+        "summary": "DeepSeek发布的1 Introduction是一篇关于大型模型的介绍性论文。其核心功能是能够理解和生成自然语言，具有高效的推理和生成能力。技术亮点在于其能够处理复杂的语言任务，具有高效的推理和生成能力。应用场景包括自然语言处理、文本生成等领域。行业意义在于其能够推动自然语言处理技术的发展，提高语言模型的性能和效率。",
+        "url": "https://arxiv.org/html/2602.08019v1",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
