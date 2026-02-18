@@ -2888,5 +2888,268 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-02-18",
+    "summary": "今日 AI 领域的主要进展包括多个新型模型的发布，如 GLM-5 和 MiniMax-M2.5，以及 WordPress AI 助手和 Google Docs 音频摘要等产品的推出，表明 AI 技术在自然语言处理和行业应用方面取得了显著进展。",
+    "news": [
+      {
+        "id": "0ffaba",
+        "title": "GLM-5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#自然语言处理"
+        ],
+        "summary": "智谱发布的GLM-5是其春节大招，直接开源了。GLM-5的核心功能是体验完毕后让硅谷猜破了头，技术亮点在于其开源性和强大的语言处理能力。应用场景包括自然语言处理、文本生成等。行业意义在于其开源性可以让更多开发者参与和改进，推动AI技术的发展。GLM-5的发布对AI行业有着重要影响，标志着AI技术的进一步发展和普及。",
+        "url": "https://m.36kr.com/p/3679762791182213",
+        "date": "2026-02-12"
+      },
+      {
+        "id": "1ed179",
+        "title": "豆包2.0",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#高效推理",
+          "#对话系统"
+        ],
+        "summary": "字节跳动发布的豆包2.0是其旗舰版Pro，全面对标GPT-5.2与Gemini 3 Pro。豆包2.0的核心功能是推理成本降低约一个数量级，技术亮点在于其高效的推理能力。应用场景包括文本生成、对话系统等。行业意义在于其高效的推理能力可以让AI应用更广泛，降低成本。豆包2.0的发布对AI行业有着重要影响，标志着AI技术的进一步发展和应用。",
+        "url": "https://wallstreetcn.com/articles/3765736",
+        "date": "2026-02-14"
+      },
+      {
+        "id": "6d0f0b",
+        "title": "WordPress AI assistant",
+        "source": "Product",
+        "tags": [
+          "#内容创作",
+          "#AI助手",
+          "#网站建设"
+        ],
+        "summary": "WordPress AI助手可以生成图片、编辑和翻译文本、重新组织WordPress站点。其核心功能是提供AI驱动的内容创作和编辑能力，技术亮点在于其集成度和易用性。应用场景包括内容创作、网站建设等。行业意义在于其可以让更多用户轻松创建和编辑内容，提高效率。WordPress AI助手的发布对内容创作行业有着重要影响，标志着AI技术在内容创作领域的应用。",
+        "url": "https://www.theverge.com/tech/880223/wordpress-launches-ai-assistant",
+        "date": "2026-02-20"
+      },
+      {
+        "id": "7a4bed",
+        "title": "Google Docs Audio Summaries",
+        "source": "Product",
+        "tags": [
+          "#音频摘要",
+          "#文档阅读",
+          "#信息提取"
+        ],
+        "summary": "Google Docs音频摘要可以给用户提供文档的浓缩概述，而不需要阅读整个文档。其核心功能是提供音频摘要能力，技术亮点在于其能够自动提取文档的关键信息。应用场景包括文档阅读、信息提取等。行业意义在于其可以让用户更快速地获取信息，提高效率。Google Docs音频摘要的发布对办公软件行业有着重要影响，标志着AI技术在办公软件领域的应用。",
+        "url": "https://www.theverge.com/tech/878640/google-adds-ai-audio-summarization-to-docs",
+        "date": "2026-02-13"
+      },
+      {
+        "id": "9f86fb",
+        "title": "zai-org/GLM-5",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#多语言支持"
+        ],
+        "summary": "Hugging Face的zai-org/GLM-5是一个开源的语言模型，支持多种语言和任务。其核心功能是提供高质量的语言处理能力，技术亮点在于其开源性和多语言支持。应用场景包括自然语言处理、文本生成等。行业意义在于其可以让更多开发者参与和改进，推动AI技术的发展。zai-org/GLM-5的发布对AI行业有着重要影响，标志着AI技术的进一步发展和普及。",
+        "url": "https://huggingface.co/zai-org/GLM-5",
+        "date": "2026-02-11",
+        "likes": 1310
+      },
+      {
+        "id": "4a1409",
+        "title": "MiniMaxAI/MiniMax-M2.5",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#高效推理",
+          "#对话系统"
+        ],
+        "summary": "Hugging Face的MiniMaxAI/MiniMax-M2.5是一个语言模型，支持文本生成和对话系统等任务。其核心功能是提供高质量的语言处理能力，技术亮点在于其高效的推理能力。应用场景包括文本生成、对话系统等。行业意义在于其可以让AI应用更广泛，降低成本。MiniMaxAI/MiniMax-M2.5的发布对AI行业有着重要影响，标志着AI技术的进一步发展和应用。",
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+        "date": "2026-02-12",
+        "likes": 711
+      },
+      {
+        "id": "73806f",
+        "title": "Qwen/Qwen3.5-397B-A17B",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#多语言支持"
+        ],
+        "summary": "Hugging Face的Qwen/Qwen3.5-397B-A17B是一个语言模型，支持多种语言和任务。其核心功能是提供高质量的语言处理能力，技术亮点在于其开源性和多语言支持。应用场景包括自然语言处理、文本生成等。行业意义在于其可以让更多开发者参与和改进，推动AI技术的发展。Qwen/Qwen3.5-397B-A17B的发布对AI行业有着重要影响，标志着AI技术的进一步发展和普及。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+        "date": "2026-02-16",
+        "likes": 618
+      },
+      {
+        "id": "de7f86",
+        "title": "openbmb/MiniCPM-SALA",
+        "source": "HuggingFace",
+        "tags": [
+          "#生成式AI",
+          "#高效推理",
+          "#对话系统"
+        ],
+        "summary": "Hugging Face的openbmb/MiniCPM-SALA是一个语言模型，支持文本生成和对话系统等任务。其核心功能是提供高质量的语言处理能力，技术亮点在于其高效的推理能力。应用场景包括文本生成、对话系统等。行业意义在于其可以让AI应用更广泛，降低成本。openbmb/MiniCPM-SALA的发布对AI行业有着重要影响，标志着AI技术的进一步发展和应用。",
+        "url": "https://huggingface.co/openbmb/MiniCPM-SALA",
+        "date": "2026-02-11",
+        "likes": 459
+      },
+      {
+        "id": "1f5033",
+        "title": "FireRedTeam/FireRed-Image-Edit-1.0",
+        "source": "HuggingFace",
+        "tags": [
+          "#图像编辑",
+          "#高效推理",
+          "#生成式AI"
+        ],
+        "summary": "Hugging Face的FireRedTeam/FireRed-Image-Edit-1.0是一个图像编辑模型，支持图像编辑和生成等任务。其核心功能是提供高质量的图像处理能力，技术亮点在于其高效的推理能力。应用场景包括图像编辑、生成等。行业意义在于其可以让AI应用更广泛，降低成本。FireRedTeam/FireRed-Image-Edit-1.0的发布对AI行业有着重要影响，标志着AI技术的进一步发展和应用。",
+        "url": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.0",
+        "date": "2026-02-12",
+        "likes": 162
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#多语言支持"
+        ],
+        "summary": "OpenAI的Whisper是一个开源的语音识别系统，支持多种语言和任务。其核心功能是提供高质量的语音识别能力，技术亮点在于其开源性和多语言支持。应用场景包括语音识别、语音转文本等。行业意义在于其可以让更多开发者参与和改进，推动AI技术的发展。Whisper的发布对AI行业有着重要影响，标志着AI技术的进一步发展和普及。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 363
+      },
+      {
+        "id": "0556d8",
+        "title": "d3/d3",
+        "source": "GitHub",
+        "tags": [
+          "#数据可视化",
+          "#灵活性",
+          "#可定制性"
+        ],
+        "summary": "D3是一个数据可视化库，支持多种数据可视化任务。其核心功能是提供高质量的数据可视化能力，技术亮点在于其灵活性和可定制性。应用场景包括数据分析、可视化等。行业意义在于其可以让数据分析和可视化更容易，提高效率。D3的发布对数据可视化行业有着重要影响，标志着数据可视化技术的进一步发展和应用。",
+        "url": "https://github.com/d3/d3",
+        "date": "Recent (Trending)",
+        "stars": 94
+      },
+      {
+        "id": "b60ed0",
+        "title": "baserow/baserow",
+        "source": "GitHub",
+        "tags": [
+          "#低代码开发",
+          "#易用性",
+          "#高效开发"
+        ],
+        "summary": "Baserow是一个低代码开发平台，支持多种开发任务。其核心功能是提供高质量的开发能力，技术亮点在于其低代码性和易用性。应用场景包括开发、部署等。行业意义在于其可以让开发更容易，提高效率。Baserow的发布对低代码开发行业有着重要影响，标志着低代码开发技术的进一步发展和应用。",
+        "url": "https://github.com/baserow/baserow",
+        "date": "Recent (Trending)",
+        "stars": 176
+      },
+      {
+        "id": "76353d",
+        "title": "autogluon/autogluon",
+        "source": "GitHub",
+        "tags": [
+          "#自动机器学习",
+          "#高效性",
+          "#深度学习"
+        ],
+        "summary": "Autogluon是一个自动机器学习库，支持多种机器学习任务。其核心功能是提供高质量的机器学习能力，技术亮点在于其自动性和高效性。应用场景包括机器学习、深度学习等。行业意义在于其可以让机器学习更容易，提高效率。Autogluon的发布对机器学习行业有着重要影响，标志着机器学习技术的进一步发展和应用。",
+        "url": "https://github.com/autogluon/autogluon",
+        "date": "Recent (Trending)",
+        "stars": 91
+      },
+      {
+        "id": "4eb75f",
+        "title": "run-llama/llama_index",
+        "source": "GitHub",
+        "tags": [
+          "#索引库",
+          "#高效性",
+          "#可扩展性"
+        ],
+        "summary": "LlamaIndex是一个索引库，支持多种索引任务。其核心功能是提供高质量的索引能力，技术亮点在于其高效性和可扩展性。应用场景包括索引、搜索等。行业意义在于其可以让索引和搜索更容易，提高效率。LlamaIndex的发布对索引行业有着重要影响，标志着索引技术的进一步发展和应用。",
+        "url": "https://github.com/run-llama/llama_index",
+        "date": "Recent (Trending)",
+        "stars": 164
+      },
+      {
+        "id": "28ba53",
+        "title": "[OpenAI] LLM-based Multimodal Feedback Produces Equivalent Learning ...",
+        "source": "Papers",
+        "tags": [
+          "#多模态反馈",
+          "#LLM",
+          "#教育技术"
+        ],
+        "summary": "OpenAI提出了一种基于LLM的多模态反馈方法，能够产生等同于人类的学习效果。其核心功能是提供高质量的多模态反馈能力，技术亮点在于其能够模拟人类的学习过程。应用场景包括教育、培训等。行业意义在于其可以让教育和培训更有效，提高学习效果。OpenAI的研究成果对教育行业有着重要影响，标志着教育技术的进一步发展和应用。",
+        "url": "https://arxiv.org/html/2601.15280v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "c914b3",
+        "title": "[DeepSeek] Yuan3.0 Flash: An Open Multimodal Large Language Model ... - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多模态大语言模型",
+          "#开源",
+          "#多模态支持"
+        ],
+        "summary": "DeepSeek提出了一种基于Yuan3.0 Flash的开源多模态大语言模型，能够支持多种任务和应用。其核心功能是提供高质量的多模态处理能力，技术亮点在于其开源性和多模态支持。应用场景包括自然语言处理、计算机视觉等。行业意义在于其可以让更多开发者参与和改进，推动AI技术的发展。DeepSeek的研究成果对AI行业有着重要影响，标志着AI技术的进一步发展和普及。",
+        "url": "https://arxiv.org/html/2601.01718v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "dd225f",
+        "title": "[Google] Language Models Struggle to Use Representations Learned In ...",
+        "source": "Papers",
+        "tags": [
+          "#语言模型",
+          "#表示学习",
+          "#自然语言处理"
+        ],
+        "summary": "Google提出了一种语言模型，能够学习和使用表示，但其在使用表示时存在困难。其核心功能是提供高质量的语言处理能力，技术亮点在于其能够学习和使用表示。应用场景包括自然语言处理、文本生成等。行业意义在于其可以让语言模型更好地理解和使用表示，提高语言处理能力。Google的研究成果对AI行业有着重要影响，标志着AI技术的进一步发展和应用。",
+        "url": "https://arxiv.org/html/2602.04212v1",
+        "date": "2026-02"
+      },
+      {
+        "id": "002d28",
+        "title": "[Google] Challenges and Research Directions for Large Language Model ...",
+        "source": "Papers",
+        "tags": [
+          "#大语言模型",
+          "#挑战",
+          "#研究方向"
+        ],
+        "summary": "Google提出了一种大语言模型的挑战和研究方向，包括硬件、软件和应用等方面。其核心功能是提供高质量的大语言模型能力，技术亮点在于其能够提出挑战和研究方向。应用场景包括自然语言处理、文本生成等。行业意义在于其可以让大语言模型更好地发展和应用，提高语言处理能力。Google的研究成果对AI行业有着重要影响，标志着AI技术的进一步发展和应用。",
+        "url": "https://arxiv.org/abs/2601.05047",
+        "date": "2026-01"
+      },
+      {
+        "id": "807167",
+        "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8 ...",
+        "source": "Papers",
+        "tags": [
+          "#安全报告",
+          "#多模态",
+          "#多语言"
+        ],
+        "summary": "Qwen提出了一种关于GPT-5.2、Gemini 3 Pro、Qwen3-VL和Doubao 1.8等模型的安全报告，包括多模态、多语言和政策导向的安全评估。其核心功能是提供高质量的安全评估能力，技术亮点在于其能够进行多模态和多语言的安全评估。应用场景包括安全评估、风险管理等。行业意义在于其可以让模型更安全，降低风险。Qwen的研究成果对AI行业有着重要影响，标志着AI技术的进一步发展和应用。",
+        "url": "https://arxiv.org/html/2601.10527v1",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
