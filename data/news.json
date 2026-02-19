@@ -3151,5 +3151,268 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-19",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 FARS、豆包大模型 2.0 和 Lyria 3，以及 Google Docs Audio Summaries 和 WordPress AI assistant 的推出。同时，HuggingFace 平台也发布了多个新模型和工具，如 MiniMaxAI 和 Qwen。这些进展表明 AI 技术在不断发展和应用于各个领域。",
+    "news": [
+      {
+        "id": "012908",
+        "title": "FARS",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多智能体",
+          "#学术研究"
+        ],
+        "summary": "FARS是一个多智能体系统，包括Ideation、Planning、Experiment、Writing四个模块，旨在连续产出100篇完整的研究论文。其核心功能是通过多智能体协同工作，自动完成研究论文的生成。技术亮点在于其能够模拟人类的研究过程，具有很强的创新性。应用场景主要在学术研究领域，能够大大提高研究效率。行业意义在于其可能颠覆传统的研究方式，带来新的研究范式。 ",
+        "url": "https://eu.36kr.com/zh/p/3680086801936003",
+        "date": "2026-02-13"
+      },
+      {
+        "id": "2bdaed",
+        "title": "豆包大模型2.0",
+        "source": "Product",
+        "tags": [
+          "#大数据",
+          "#工业应用",
+          "#商业智能"
+        ],
+        "summary": "豆包大模型2.0针对大规模生产环境的使用需求进行系统性优化，旨在更好地完成真实世界的复杂任务。其核心功能是大规模数据处理和分析。技术亮点在于其能够处理海量数据，具有很强的扩展性。应用场景主要在工业和商业领域，能够大大提高数据处理效率。行业意义在于其可能带来新的商业模式和工业应用。 ",
+        "url": "https://www.cnr.cn/mspd/zhsh/20260214/t20260214_527526933.shtml",
+        "date": "2026-02-14"
+      },
+      {
+        "id": "b17eb7",
+        "title": "Lyria 3",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#音乐创作",
+          "#娱乐"
+        ],
+        "summary": "Lyria 3是Google的AI音乐制作工具，能够生成30秒的音乐片段。其核心功能是音乐生成和编辑。技术亮点在于其能够模拟人类的音乐创作过程，具有很强的创新性。应用场景主要在音乐和娱乐领域，能够大大提高音乐创作效率。行业意义在于其可能带来新的音乐创作方式和娱乐体验。 ",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/880584/google-gemini-ai-music-maker-lyria-3-beta",
+        "date": "2026-02-18"
+      },
+      {
+        "id": "7a4bed",
+        "title": "Google Docs Audio Summaries",
+        "source": "Product",
+        "tags": [
+          "#自然语言处理",
+          "#文档分析",
+          "#办公自动化"
+        ],
+        "summary": "Google Docs Audio Summaries是Google Docs的一个新功能，能够自动生成文档摘要。其核心功能是文档摘要和分析。技术亮点在于其能够快速准确地生成文档摘要，具有很强的实用性。应用场景主要在办公和商业领域，能够大大提高文档处理效率。行业意义在于其可能带来新的办公方式和商业应用。 ",
+        "url": "https://www.theverge.com/tech/878640/google-adds-ai-audio-summarization-to-docs",
+        "date": "2026-02-13"
+      },
+      {
+        "id": "6d0f0b",
+        "title": "WordPress AI assistant",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#内容创作",
+          "#网站建设"
+        ],
+        "summary": "WordPress AI助手是一个能够生成图片、编辑和翻译文本、重新组织WordPress网站的工具。其核心功能是内容生成和编辑。技术亮点在于其能够自动完成内容生成和编辑，具有很强的创新性。应用场景主要在网站建设和内容创作领域，能够大大提高内容创作效率。行业意义在于其可能带来新的网站建设和内容创作方式。 ",
+        "url": "https://www.theverge.com/tech/880223/wordpress-launches-ai-assistant",
+        "date": "2026-02-20"
+      },
+      {
+        "id": "4a1409",
+        "title": "MiniMaxAI/MiniMax-M2.5",
+        "source": "HuggingFace",
+        "tags": [
+          "#自然语言处理",
+          "#文本生成",
+          "#语言翻译"
+        ],
+        "summary": "MiniMaxAI/MiniMax-M2.5是一个基于Hugging Face的文本生成模型。其核心功能是文本生成和编辑。技术亮点在于其能够生成高质量的文本，具有很强的实用性。应用场景主要在内容创作和语言翻译领域，能够大大提高文本处理效率。行业意义在于其可能带来新的内容创作和语言翻译方式。 ",
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+        "date": "2026-02-12",
+        "likes": 751
+      },
+      {
+        "id": "73806f",
+        "title": "Qwen/Qwen3.5-397B-A17B",
+        "source": "HuggingFace",
+        "tags": [
+          "#自然语言处理",
+          "#语言模型",
+          "#语言翻译"
+        ],
+        "summary": "Qwen/Qwen3.5-397B-A17B是一个基于Hugging Face的语言模型。其核心功能是语言理解和生成。技术亮点在于其能够理解和生成多种语言，具有很强的扩展性。应用场景主要在语言翻译和内容创作领域，能够大大提高语言处理效率。行业意义在于其可能带来新的语言翻译和内容创作方式。 ",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+        "date": "2026-02-16",
+        "likes": 682
+      },
+      {
+        "id": "1f5033",
+        "title": "FireRedTeam/FireRed-Image-Edit-1.0",
+        "source": "HuggingFace",
+        "tags": [
+          "#计算机视觉",
+          "#图像编辑",
+          "#设计"
+        ],
+        "summary": "FireRedTeam/FireRed-Image-Edit-1.0是一个基于Hugging Face的图像编辑模型。其核心功能是图像编辑和生成。技术亮点在于其能够自动完成图像编辑，具有很强的创新性。应用场景主要在图像处理和设计领域，能够大大提高图像处理效率。行业意义在于其可能带来新的图像处理和设计方式。 ",
+        "url": "https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.0",
+        "date": "2026-02-12",
+        "likes": 191
+      },
+      {
+        "id": "bdbaa6",
+        "title": "nineninesix/kani-tts-2-en",
+        "source": "HuggingFace",
+        "tags": [
+          "#语音合成",
+          "#语音助手",
+          "#播音"
+        ],
+        "summary": "nineninesix/kani-tts-2-en是一个基于Hugging Face的语音合成模型。其核心功能是语音合成和编辑。技术亮点在于其能够生成高质量的语音，具有很强的实用性。应用场景主要在语音助手和播音领域，能够大大提高语音处理效率。行业意义在于其可能带来新的语音助手和播音方式。 ",
+        "url": "https://huggingface.co/nineninesix/kani-tts-2-en",
+        "date": "2026-02-12",
+        "likes": 141
+      },
+      {
+        "id": "c808dc",
+        "title": "unsloth/Qwen3.5-397B-A17B-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#自然语言处理",
+          "#语言模型",
+          "#语言翻译"
+        ],
+        "summary": "unsloth/Qwen3.5-397B-A17B-GGUF是一个基于Hugging Face的语言模型。其核心功能是语言理解和生成。技术亮点在于其能够理解和生成多种语言，具有很强的扩展性。应用场景主要在语言翻译和内容创作领域，能够大大提高语言处理效率。行业意义在于其可能带来新的语言翻译和内容创作方式。 ",
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF",
+        "date": "2026-02-16",
+        "likes": 140
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#语音转录",
+          "#开源"
+        ],
+        "summary": "OpenAI的Whisper是一个开源的语音识别系统。其核心功能是语音识别和转录。技术亮点在于其能够准确地识别和转录语音，具有很强的实用性。应用场景主要在语音助手和播音领域，能够大大提高语音处理效率。行业意义在于其可能带来新的语音助手和播音方式。 ",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 351
+      },
+      {
+        "id": "13c249",
+        "title": "mindsdb/mindsdb",
+        "source": "GitHub",
+        "tags": [
+          "#数据库管理",
+          "#数据分析",
+          "#商业智能"
+        ],
+        "summary": "MindsDB是一个基于GitHub的数据库管理系统。其核心功能是数据库管理和分析。技术亮点在于其能够自动完成数据库管理，具有很强的创新性。应用场景主要在数据分析和商业智能领域，能够大大提高数据处理效率。行业意义在于其可能带来新的数据分析和商业智能方式。 ",
+        "url": "https://github.com/mindsdb/mindsdb",
+        "date": "Recent (Trending)",
+        "stars": 110
+      },
+      {
+        "id": "b60ed0",
+        "title": "baserow/baserow",
+        "source": "GitHub",
+        "tags": [
+          "#数据库构建",
+          "#数据分析",
+          "#商业智能"
+        ],
+        "summary": "Baserow是一个基于GitHub的数据库构建工具。其核心功能是数据库构建和管理。技术亮点在于其能够自动完成数据库构建，具有很强的实用性。应用场景主要在数据分析和商业智能领域，能够大大提高数据处理效率。行业意义在于其可能带来新的数据分析和商业智能方式。 ",
+        "url": "https://github.com/baserow/baserow",
+        "date": "Recent (Trending)",
+        "stars": 145
+      },
+      {
+        "id": "76353d",
+        "title": "autogluon/autogluon",
+        "source": "GitHub",
+        "tags": [
+          "#自动机器学习",
+          "#机器学习",
+          "#人工智能"
+        ],
+        "summary": "Autogluon是一个基于GitHub的自动机器学习平台。其核心功能是机器学习模型训练和部署。技术亮点在于其能够自动完成机器学习模型训练，具有很强的创新性。应用场景主要在机器学习和人工智能领域，能够大大提高模型训练效率。行业意义在于其可能带来新的机器学习和人工智能应用。 ",
+        "url": "https://github.com/autogluon/autogluon",
+        "date": "Recent (Trending)",
+        "stars": 81
+      },
+      {
+        "id": "ec06c5",
+        "title": "iCHAIT/awesome-macOS",
+        "source": "GitHub",
+        "tags": [
+          "#macOS",
+          "#应用推荐",
+          "#用户体验"
+        ],
+        "summary": "iCHAIT/awesome-macOS是一个基于GitHub的macOS应用集合。其核心功能是macOS应用推荐和管理。技术亮点在于其能够提供大量的macOS应用，具有很强的实用性。应用场景主要在macOS使用领域，能够大大提高用户体验。行业意义在于其可能带来新的macOS应用和使用方式。 ",
+        "url": "https://github.com/iCHAIT/awesome-macOS",
+        "date": "Recent (Trending)",
+        "stars": 207
+      },
+      {
+        "id": "c914b3",
+        "title": "[DeepSeek] Yuan3.0 Flash: An Open Multimodal Large Language Model ... - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#语言模型",
+          "#开源"
+        ],
+        "summary": "DeepSeek发布的Yuan3.0 Flash是一个开源的多模态大语言模型。其核心功能是多模态语言理解和生成。技术亮点在于其能够理解和生成多种语言和模态，具有很强的扩展性。应用场景主要在语言翻译和内容创作领域，能够大大提高语言处理效率。行业意义在于其可能带来新的语言翻译和内容创作方式。 ",
+        "url": "https://arxiv.org/html/2601.01718v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "002d28",
+        "title": "[Google] Challenges and Research Directions for Large Language Model ...",
+        "source": "Papers",
+        "tags": [
+          "#大语言模型",
+          "#语言模型",
+          "#人工智能"
+        ],
+        "summary": "Google发布的Challenges and Research Directions for Large Language Model是一个关于大语言模型的研究论文。其核心功能是大语言模型的研究和分析。技术亮点在于其能够提供大语言模型的最新研究进展，具有很强的参考价值。应用场景主要在语言模型和人工智能领域，能够大大提高研究效率。行业意义在于其可能带来新的语言模型和人工智能应用。 ",
+        "url": "https://arxiv.org/abs/2601.05047",
+        "date": "2026-01"
+      },
+      {
+        "id": "ad7272",
+        "title": "[Google] 1 Introduction - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#大语言模型",
+          "#语言模型",
+          "#人工智能"
+        ],
+        "summary": "Google发布的1 Introduction是一个关于大语言模型的研究论文。其核心功能是大语言模型的研究和分析。技术亮点在于其能够提供大语言模型的最新研究进展，具有很强的参考价值。应用场景主要在语言模型和人工智能领域，能够大大提高研究效率。行业意义在于其可能带来新的语言模型和人工智能应用。 ",
+        "url": "https://arxiv.org/html/2602.01762v1",
+        "date": "2026-02"
+      },
+      {
+        "id": "807167",
+        "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8 ...",
+        "source": "Papers",
+        "tags": [
+          "#语言模型安全性",
+          "#人工智能",
+          "#安全性"
+        ],
+        "summary": "Qwen发布的A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8是一个关于语言模型安全性的研究报告。其核心功能是语言模型安全性分析和评估。技术亮点在于其能够提供语言模型安全性的最新研究进展，具有很强的参考价值。应用场景主要在语言模型和人工智能领域，能够大大提高安全性和可靠性。行业意义在于其可能带来新的语言模型安全性标准和应用。 ",
+        "url": "https://arxiv.org/html/2601.10527v1",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
