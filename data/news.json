@@ -3414,5 +3414,280 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-20",
+    "summary": "今日 AI 领域的主要进展包括多个新型 AI 模型的发布，如 Claude Sonnet 4.6、Gemini 3.1 Pro 和 Qwen3.5 等，这些模型的推出标志着 AI 技术的持续进步和应用范围的扩大。",
+    "news": [
+      {
+        "id": "2a54ec",
+        "title": "Claude Sonnet 4.6",
+        "source": "Product",
+        "tags": [
+          "#语言模型",
+          "#人工智能",
+          "#价格竞争"
+        ],
+        "summary": "Anthropic发布新的中档模型Claude Sonnet 4.6，具有与竞品齐平的性能，但价格大降80%。这意味着用户可以以更低的成本获得高质量的语言模型服务。Claude Sonnet 4.6的技术亮点在于其能够在保持性能的同时大幅降低价格，这使得其在市场上具有竞争优势。应用场景包括但不限于文本生成、语言翻译等。行业意义在于为用户提供了更为经济的选择，推动了语言模型服务的普及。",
+        "url": "https://www.36kr.com/p/3688350823100935",
+        "date": "2026-02-18"
+      },
+      {
+        "id": "af5df1",
+        "title": "Gemini 3.1 Pro",
+        "source": "Product",
+        "tags": [
+          "#人工智能",
+          "#自然语言处理",
+          "#语音识别"
+        ],
+        "summary": "Gemini 3.1 Pro拥有翻倍的推理能力，价格不变，Google选择了一个近乎『反商业』的策略：价格不涨，相当于给所有API用户免费升级了推理能力。这种策略表明Google致力于为用户提供更好的服务，而不仅仅是追求利润。Gemini 3.1 Pro的技术亮点在于其推理能力的显著提升，这将使得其在各类应用场景中表现更佳。应用场景包括但不限于自然语言处理、语音识别等。行业意义在于推动了人工智能技术的发展和应用。",
+        "url": "https://m.36kr.com/p/3690993650609795",
+        "date": "2026-02-19"
+      },
+      {
+        "id": "2e3420",
+        "title": "Sarvam 30B 和 105B 模型",
+        "source": "Product",
+        "tags": [
+          "#语言模型",
+          "#人工智能",
+          "#多语言支持"
+        ],
+        "summary": "Indian AI lab Sarvam推出新一代大语言模型，包括30亿和105亿参数模型、文本转语音模型、语音转文本模型和视觉模型，旨在与更大的美国和中国对手竞争，支持实时应用，包括印度语。Sarvam的技术亮点在于其多样化的模型产品线，这使得其能够满足不同用户的需求。应用场景包括但不限于语言翻译、语音合成等。行业意义在于为印度语等语言提供了更好的支持，推动了语言模型的多样化发展。",
+        "url": "https://techcrunch.com/2026/02/18/indian-ai-lab-sarvams-new-models-are-a-major-bet-on-the-viability-of-open-source-ai/",
+        "date": "2026-02-18"
+      },
+      {
+        "id": "1ea7f3",
+        "title": "Qwen3.5",
+        "source": "Product",
+        "tags": [
+          "#语言模型",
+          "#人工智能",
+          "#自然语言处理"
+        ],
+        "summary": "阿里在chat.qwen.ai页面低调上线了Qwen3.5-Plus和Qwen3.5-397B-A17B两款新模型，Qwen3.5 Plus定位为Qwen 3.5系列最新大语言模型，具有更强大的语言理解和生成能力。Qwen3.5-Plus的技术亮点在于其语言理解和生成能力的显著提升，这将使得其在各类应用场景中表现更佳。应用场景包括但不限于文本生成、语言翻译等。行业意义在于推动了语言模型的发展和应用。",
+        "url": "https://www.ithome.com/0/922/114.htm",
+        "date": "2026-02-16"
+      },
+      {
+        "id": "582a1d",
+        "title": "豆包大模型2.0",
+        "source": "Product",
+        "tags": [
+          "#多模态",
+          "#人工智能",
+          "#智能客服"
+        ],
+        "summary": "豆包大模型2.0是字节跳动最新推出的多模态Agent模型，也是豆包大模型自2024年5月正式发布以来首次大版本的跨代升级。豆包大模型2.0的技术亮点在于其多模态能力的显著提升，这使得其能够更好地处理多种类型的数据。应用场景包括但不限于智能客服、虚拟助手等。行业意义在于推动了多模态人工智能技术的发展和应用。",
+        "url": "https://m.bjnews.com.cn/detail/1771053533129963.html",
+        "date": "2026-02-14"
+      },
+      {
+        "id": "b17eb7",
+        "title": "Lyria 3",
+        "source": "Product",
+        "tags": [
+          "#音乐创作",
+          "#人工智能",
+          "#音频编辑"
+        ],
+        "summary": "Google的AI音乐制作工具Lyria 3即将登陆Gemini应用，允许用户生成30秒的音乐曲目。Lyria 3的技术亮点在于其能够自动生成音乐，这使得其在音乐创作领域具有广阔的应用前景。应用场景包括但不限于音乐创作、音频编辑等。行业意义在于推动了音乐创作的自动化和智能化。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/880584/google-gemini-ai-music-maker-lyria-3-beta",
+        "date": "2026-02-18"
+      },
+      {
+        "id": "6d0f0b",
+        "title": "WordPress AI assistant",
+        "source": "Product",
+        "tags": [
+          "#网站建设",
+          "#人工智能",
+          "#内容创作"
+        ],
+        "summary": "WordPress推出AI助手，可以生成图像、编辑和翻译文本、重新组织WordPress站点。WordPress AI助手的技术亮点在于其能够自动完成多种任务，这使得其在网站建设和管理领域具有广阔的应用前景。应用场景包括但不限于网站建设、内容创作等。行业意义在于推动了网站建设和管理的自动化和智能化。",
+        "url": "https://www.theverge.com/tech/880223/wordpress-launches-ai-assistant",
+        "date": "2026-02-20"
+      },
+      {
+        "id": "73806f",
+        "title": "Qwen/Qwen3.5-397B-A17B",
+        "source": "HuggingFace",
+        "tags": [
+          "#自然语言处理",
+          "#人工智能",
+          "#语言模型"
+        ],
+        "summary": "Hugging Face发布了Qwen/Qwen3.5-397B-A17B模型，提供了一个预训练的语言模型，可以用于多种自然语言处理任务。Qwen/Qwen3.5-397B-A17B模型的技术亮点在于其能够在多种任务中表现出色，这使得其在自然语言处理领域具有广阔的应用前景。应用场景包括但不限于语言翻译、文本生成等。行业意义在于推动了自然语言处理技术的发展和应用。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+        "date": "2026-02-16",
+        "likes": 737
+      },
+      {
+        "id": "c808dc",
+        "title": "unsloth/Qwen3.5-397B-A17B-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#自然语言处理",
+          "#人工智能",
+          "#语言模型"
+        ],
+        "summary": "Hugging Face发布了unsloth/Qwen3.5-397B-A17B-GGUF模型，提供了一个预训练的语言模型，可以用于多种自然语言处理任务。unsloth/Qwen3.5-397B-A17B-GGUF模型的技术亮点在于其能够在多种任务中表现出色，这使得其在自然语言处理领域具有广阔的应用前景。应用场景包括但不限于语言翻译、文本生成等。行业意义在于推动了自然语言处理技术的发展和应用。",
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF",
+        "date": "2026-02-16",
+        "likes": 151
+      },
+      {
+        "id": "45506a",
+        "title": "unsloth/MiniMax-M2.5-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#自然语言处理",
+          "#人工智能",
+          "#语言模型"
+        ],
+        "summary": "Hugging Face发布了unsloth/MiniMax-M2.5-GGUF模型，提供了一个预训练的语言模型，可以用于多种自然语言处理任务。unsloth/MiniMax-M2.5-GGUF模型的技术亮点在于其能够在多种任务中表现出色，这使得其在自然语言处理领域具有广阔的应用前景。应用场景包括但不限于语言翻译、文本生成等。行业意义在于推动了自然语言处理技术的发展和应用。",
+        "url": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF",
+        "date": "2026-02-14",
+        "likes": 128
+      },
+      {
+        "id": "0430f3",
+        "title": "xgen-universe/Capybara",
+        "source": "HuggingFace",
+        "tags": [
+          "#自然语言处理",
+          "#人工智能",
+          "#语言模型"
+        ],
+        "summary": "Hugging Face发布了xgen-universe/Capybara模型，提供了一个预训练的语言模型，可以用于多种自然语言处理任务。xgen-universe/Capybara模型的技术亮点在于其能够在多种任务中表现出色，这使得其在自然语言处理领域具有广阔的应用前景。应用场景包括但不限于语言翻译、文本生成等。行业意义在于推动了自然语言处理技术的发展和应用。",
+        "url": "https://huggingface.co/xgen-universe/Capybara",
+        "date": "2026-02-17",
+        "likes": 122
+      },
+      {
+        "id": "25fcd8",
+        "title": "jdopensource/JoyAI-LLM-Flash",
+        "source": "HuggingFace",
+        "tags": [
+          "#自然语言处理",
+          "#人工智能",
+          "#语言模型"
+        ],
+        "summary": "Hugging Face发布了jdopensource/JoyAI-LLM-Flash模型，提供了一个预训练的语言模型，可以用于多种自然语言处理任务。jdopensource/JoyAI-LLM-Flash模型的技术亮点在于其能够在多种任务中表现出色，这使得其在自然语言处理领域具有广阔的应用前景。应用场景包括但不限于语言翻译、文本生成等。行业意义在于推动了自然语言处理技术的发展和应用。",
+        "url": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash",
+        "date": "2026-02-14",
+        "likes": 117
+      },
+      {
+        "id": "b60ed0",
+        "title": "baserow/baserow",
+        "source": "GitHub",
+        "tags": [
+          "#数据库",
+          "#自动化",
+          "#开源"
+        ],
+        "summary": "Baserow是一个开源的数据库和自动化平台，允许用户构建数据库、自动化、应用和代理，无需编码。Baserow的技术亮点在于其能够让用户无需编码即可构建复杂的应用，这使得其在数据库和自动化领域具有广阔的应用前景。应用场景包括但不限于数据库管理、自动化等。行业意义在于推动了数据库和自动化技术的发展和应用。",
+        "url": "https://github.com/baserow/baserow",
+        "date": "Recent (Trending)",
+        "stars": 140
+      },
+      {
+        "id": "4f041f",
+        "title": "getwud/wud",
+        "source": "GitHub",
+        "tags": [
+          "#容器管理",
+          "#Docker",
+          "#监控"
+        ],
+        "summary": "WUD是一个Docker容器管理工具，允许用户轻松地管理和监控Docker容器。WUD的技术亮点在于其能够让用户轻松地管理和监控Docker容器，这使得其在容器管理领域具有广阔的应用前景。应用场景包括但不限于容器管理、监控等。行业意义在于推动了容器管理技术的发展和应用。",
+        "url": "https://github.com/getwud/wud",
+        "date": "Recent (Trending)",
+        "stars": 60
+      },
+      {
+        "id": "13c249",
+        "title": "mindsdb/mindsdb",
+        "source": "GitHub",
+        "tags": [
+          "#数据库",
+          "#AI",
+          "#开源"
+        ],
+        "summary": "MindsDB是一个开源的数据库和AI平台，允许用户构建数据库、自动化、应用和代理，无需编码。MindsDB的技术亮点在于其能够让用户无需编码即可构建复杂的应用，这使得其在数据库和AI领域具有广阔的应用前景。应用场景包括但不限于数据库管理、自动化等。行业意义在于推动了数据库和AI技术的发展和应用。",
+        "url": "https://github.com/mindsdb/mindsdb",
+        "date": "Recent (Trending)",
+        "stars": 114
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#语音转文本"
+        ],
+        "summary": "OpenAI的Whisper是一个开源的语音识别系统，允许用户识别和转录语音。Whisper的技术亮点在于其能够高精度地识别和转录语音，这使得其在语音识别领域具有广阔的应用前景。应用场景包括但不限于语音识别、语音转文本等。行业意义在于推动了语音识别技术的发展和应用。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 347
+      },
+      {
+        "id": "4bba0c",
+        "title": "[Zhipu AI] [PDF] NorwAI's Large Language Models: Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#自然语言处理",
+          "#人工智能",
+          "#语言模型"
+        ],
+        "summary": "Zhipu AI发布了一篇关于NorwAI的大语言模型技术报告，介绍了tokenizer和后训练策略来优化性能、增强鲁棒性和提高效率。NorwAI的大语言模型的技术亮点在于其能够在多种任务中表现出色，这使得其在自然语言处理领域具有广阔的应用前景。应用场景包括但不限于语言翻译、文本生成等。行业意义在于推动了自然语言处理技术的发展和应用。",
+        "url": "https://arxiv.org/pdf/2601.03034",
+        "date": "2026-01"
+      },
+      {
+        "id": "25973f",
+        "title": "[Google] [2601.01739] K-EXAONE Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#自然语言处理",
+          "#人工智能",
+          "#语言模型"
+        ],
+        "summary": "Google发布了一篇关于K-EXAONE的大语言模型技术报告，介绍了一个大规模的多语言语言模型的开发。K-EXAONE的大语言模型的技术亮点在于其能够在多种语言中表现出色，这使得其在自然语言处理领域具有广阔的应用前景。应用场景包括但不限于语言翻译、文本生成等。行业意义在于推动了自然语言处理技术的发展和应用。",
+        "url": "https://arxiv.org/abs/2601.01739",
+        "date": "2026-01"
+      },
+      {
+        "id": "f8a883",
+        "title": "[DeepSeek] Innovator-VL: A Multimodal Large Language Model for Scientific ...",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#人工智能",
+          "#图像识别"
+        ],
+        "summary": "DeepSeek发布了一篇关于Innovator-VL的多模态大语言模型技术报告，介绍了一个多模态语言模型的开发。Innovator-VL的技术亮点在于其能够处理多种类型的数据，这使得其在多模态领域具有广阔的应用前景。应用场景包括但不限于图像识别、语音识别等。行业意义在于推动了多模态技术的发展和应用。",
+        "url": "https://arxiv.org/html/2601.19325v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "c914b3",
+        "title": "[DeepSeek] Yuan3.0 Flash: An Open Multimodal Large Language Model ... - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#多模态",
+          "#人工智能",
+          "#图像识别"
+        ],
+        "summary": "DeepSeek发布了一篇关于Yuan3.0 Flash的开源多模态大语言模型技术报告，介绍了一个开源的多模态语言模型的开发。Yuan3.0 Flash的技术亮点在于其能够处理多种类型的数据，这使得其在多模态领域具有广阔的应用前景。应用场景包括但不限于图像识别、语音识别等。行业意义在于推动了多模态技术的发展和应用。",
+        "url": "https://arxiv.org/html/2601.01718v1",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
