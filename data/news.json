@@ -3912,5 +3912,176 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-02-22",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 Gemini 3.1 Pro、Claude Sonnet 4.6、智谱GLM-5.0 及阿里千问（Qwen3.5），以及 HuggingFace 上的多个 Qwen3.5 模型变体。这些发布表明了 AI 技术的持续发展和应用的扩展。",
+    "news": [
+      {
+        "id": "f800c3",
+        "title": "Gemini 3.1 Pro",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "谷歌正式发布其新一代旗舰模型Gemini 3.1 Pro，具有更强的推理能力和多模态理解能力，能够更好地应对高难度工作场景。",
+        "url": "https://eu.36kr.com/zh/p/3691070216449923",
+        "date": "2026-02-20"
+      },
+      {
+        "id": "af51cd",
+        "title": "Claude Sonnet 4.6",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic发布新的中档模型Claude Sonnet 4.6，性能持平价格大降80%。",
+        "url": "https://m.36kr.com/p/3688350823100935",
+        "date": "2026-02-18"
+      },
+      {
+        "id": "2720e6",
+        "title": "智谱GLM-5.0及阿里千问（Qwen3.5）",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "国产AI芯片企业太初（无锡）电子科技有限公司（又称“太初元碁”）完成多款国产主流开源大模型的深度适配工作，包括智谱GLM-5.0、阿里千问Qwen3.5-397B-A17B及DeepSeek- OCR",
+        "url": "https://finance.eastmoney.com/a/202602183651452763.html",
+        "date": "2026-02-18"
+      },
+      {
+        "id": "73806f",
+        "title": "Qwen/Qwen3.5-397B-A17B",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlibrary_name: transformers\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen3.5",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+        "date": "2026-02-16",
+        "likes": 837
+      },
+      {
+        "id": "c808dc",
+        "title": "unsloth/Qwen3.5-397B-A17B-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\ntags:\n- unsloth\n- qwen3_5_moe\nbase_model:\n- Qwen/Qwen3.5-397B-A17B\nlibrary_name: transformers\nli",
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF",
+        "date": "2026-02-16",
+        "likes": 173
+      },
+      {
+        "id": "0430f3",
+        "title": "xgen-universe/Capybara",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlicense: mit\npipeline_tag: any-to-any\n---\n<p align=\"center\">\n<img src=\"./assets/misc/logo.png\" s",
+        "url": "https://huggingface.co/xgen-universe/Capybara",
+        "date": "2026-02-17",
+        "likes": 147
+      },
+      {
+        "id": "bd009a",
+        "title": "Qwen/Qwen3.5-397B-A17B-FP8",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlibrary_name: transformers\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen3.5",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B-FP8",
+        "date": "2026-02-18",
+        "likes": 50
+      },
+      {
+        "id": "fe4e0a",
+        "title": "KittenML/kitten-tts-mini-0.8",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI",
+          "#HuggingFace"
+        ],
+        "summary": "---\nlicense: apache-2.0\n---\n# Kitten TTS Mini 0.8 😻\n\nKitten TTS is an open-source realistic text-to-",
+        "url": "https://huggingface.co/KittenML/kitten-tts-mini-0.8",
+        "date": "2026-02-19",
+        "likes": 45
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 475
+      },
+      {
+        "id": "9b4313",
+        "title": "fastfetch-cli/fastfetch",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Fastfetch\n\n[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/",
+        "url": "https://github.com/fastfetch-cli/fastfetch",
+        "date": "Recent (Trending)",
+        "stars": 240
+      },
+      {
+        "id": "8cdd4a",
+        "title": "qdrant/qdrant",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "## How to interview using this template\n\nOpen ONLY the `shared/` folder within VSCode and in the Ext",
+        "url": "https://github.com/qdrant/qdrant",
+        "date": "Recent (Trending)",
+        "stars": 216
+      },
+      {
+        "id": "13c249",
+        "title": "mindsdb/mindsdb",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<a name=\"readme-top\"></a>\n\n<div align=\"center\">\n\t<a href=\"https://pypi.org/project/MindsDB/\" target=",
+        "url": "https://github.com/mindsdb/mindsdb",
+        "date": "Recent (Trending)",
+        "stars": 120
+      },
+      {
+        "id": "25973f",
+        "title": "[Google] [2601.01739] K-EXAONE Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "> Abstract:This technical report presents K-EXAONE, a large-scale multilingual language model develo",
+        "url": "https://arxiv.org/abs/2601.01739",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
