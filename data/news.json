@@ -4083,5 +4083,176 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-23",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 Gemini 3.1 Pro 和 Qwen3.5-397B-A17B 等，这些模型的推出标志着 AI 技术的持续发展和应用范围的扩大。同时，GitHub 上的项目如 PostHog 和 prompts.chat 也在不断更新，反映出 AI 在各个行业中的应用和技术的进步。",
+    "news": [
+      {
+        "id": "458879",
+        "title": "Gemini 3.1 Pro",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#语言理解",
+          "#AI竞争"
+        ],
+        "summary": "谷歌发布的Gemini 3.1 Pro是一款能力翻倍、价格不变的AI产品。其核心功能是提供更强大的语言理解和生成能力。技术亮点在于其能够处理更复杂的任务和对话，具有更高的准确性和效率。应用场景包括但不限于客户服务、语言翻译和内容生成。行业意义在于重新定义AI竞争规则，推动AI技术的发展和应用。Gemini 3.1 Pro的发布将对AI行业产生重大影响，促进更多企业和机构采用AI技术。",
+        "url": "https://www.36kr.com/p/3690993650609795",
+        "date": "2026-02-19"
+      },
+      {
+        "id": "73806f",
+        "title": "Qwen/Qwen3.5-397B-A17B",
+        "source": "HuggingFace",
+        "tags": [
+          "#语言模型",
+          "#transformers",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的Qwen/Qwen3.5-397B-A17B是一个基于transformers的语言模型。其核心功能是提供高质量的文本生成和语言理解能力。技术亮点在于其采用了先进的transformers架构和大量的训练数据。应用场景包括但不限于语言翻译、文本生成和问答系统。行业意义在于提供一个高质量的开源语言模型，促进AI研究和应用的发展。Qwen/Qwen3.5-397B-A17B的发布将对AI研究和应用产生积极影响，促进更多的创新和发展。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+        "date": "2026-02-16",
+        "likes": 895
+      },
+      {
+        "id": "c808dc",
+        "title": "unsloth/Qwen3.5-397B-A17B-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#语言模型",
+          "#transformers",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的unsloth/Qwen3.5-397B-A17B-GGUF是一个基于Qwen/Qwen3.5-397B-A17B的语言模型。其核心功能是提供更强大的文本生成和语言理解能力。技术亮点在于其采用了先进的transformers架构和大量的训练数据。应用场景包括但不限于语言翻译、文本生成和问答系统。行业意义在于提供一个高质量的开源语言模型，促进AI研究和应用的发展。unsloth/Qwen3.5-397B-A17B-GGUF的发布将对AI研究和应用产生积极影响，促进更多的创新和发展。",
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF",
+        "date": "2026-02-16",
+        "likes": 180
+      },
+      {
+        "id": "0430f3",
+        "title": "xgen-universe/Capybara",
+        "source": "HuggingFace",
+        "tags": [
+          "#多模态",
+          "#生成模型",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的xgen-universe/Capybara是一个多模态生成模型。其核心功能是提供高质量的多模态生成能力。技术亮点在于其采用了先进的生成模型架构和大量的训练数据。应用场景包括但不限于图像生成、视频生成和音乐生成。行业意义在于提供一个高质量的开源多模态生成模型，促进AI研究和应用的发展。xgen-universe/Capybara的发布将对AI研究和应用产生积极影响，促进更多的创新和发展。",
+        "url": "https://huggingface.co/xgen-universe/Capybara",
+        "date": "2026-02-17",
+        "likes": 157
+      },
+      {
+        "id": "fe4e0a",
+        "title": "KittenML/kitten-tts-mini-0.8",
+        "source": "HuggingFace",
+        "tags": [
+          "#文本转语音",
+          "#transformers",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的KittenML/kitten-tts-mini-0.8是一个基于transformers的文本转语音模型。其核心功能是提供高质量的文本转语音能力。技术亮点在于其采用了先进的transformers架构和大量的训练数据。应用场景包括但不限于语音助手、播音系统和语言学习。行业意义在于提供一个高质量的开源文本转语音模型，促进AI研究和应用的发展。KittenML/kitten-tts-mini-0.8的发布将对AI研究和应用产生积极影响，促进更多的创新和发展。",
+        "url": "https://huggingface.co/KittenML/kitten-tts-mini-0.8",
+        "date": "2026-02-19",
+        "likes": 70
+      },
+      {
+        "id": "bd009a",
+        "title": "Qwen/Qwen3.5-397B-A17B-FP8",
+        "source": "HuggingFace",
+        "tags": [
+          "#语言模型",
+          "#transformers",
+          "#开源"
+        ],
+        "summary": "HuggingFace发布的Qwen/Qwen3.5-397B-A17B-FP8是一个基于transformers的语言模型。其核心功能是提供高质量的文本生成和语言理解能力。技术亮点在于其采用了先进的transformers架构和大量的训练数据。应用场景包括但不限于语言翻译、文本生成和问答系统。行业意义在于提供一个高质量的开源语言模型，促进AI研究和应用的发展。Qwen/Qwen3.5-397B-A17B-FP8的发布将对AI研究和应用产生积极影响，促进更多的创新和发展。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B-FP8",
+        "date": "2026-02-18",
+        "likes": 65
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#产品分析",
+          "#开源",
+          "#数据分析"
+        ],
+        "summary": "GitHub发布的PostHog/posthog是一个开源的产品分析平台。其核心功能是提供高质量的产品分析和用户行为跟踪能力。技术亮点在于其采用了先进的数据分析和机器学习算法。应用场景包括但不限于产品开发、营销和用户体验优化。行业意义在于提供一个高质量的开源产品分析平台，促进产品开发和营销的创新和发展。PostHog/posthog的发布将对产品开发和营销产生积极影响，促进更多的创新和发展。",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 482
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#对话式AI",
+          "#开源",
+          "#自然语言处理"
+        ],
+        "summary": "GitHub发布的f/prompts.chat是一个开源的对话式AI平台。其核心功能是提供高质量的对话式AI能力。技术亮点在于其采用了先进的自然语言处理和机器学习算法。应用场景包括但不限于客户服务、语言翻译和内容生成。行业意义在于提供一个高质量的开源对话式AI平台，促进AI研究和应用的发展。f/prompts.chat的发布将对AI研究和应用产生积极影响，促进更多的创新和发展。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1381
+      },
+      {
+        "id": "8cdd4a",
+        "title": "qdrant/qdrant",
+        "source": "GitHub",
+        "tags": [
+          "#向量数据库",
+          "#开源",
+          "#向量搜索"
+        ],
+        "summary": "GitHub发布的qdrant/qdrant是一个开源的向量数据库。其核心功能是提供高质量的向量搜索和存储能力。技术亮点在于其采用了先进的向量搜索和存储算法。应用场景包括但不限于推荐系统、图像搜索和自然语言处理。行业意义在于提供一个高质量的开源向量数据库，促进AI研究和应用的发展。qdrant/qdrant的发布将对AI研究和应用产生积极影响，促进更多的创新和发展。",
+        "url": "https://github.com/qdrant/qdrant",
+        "date": "Recent (Trending)",
+        "stars": 212
+      },
+      {
+        "id": "440df4",
+        "title": "ImranR98/Obtainium",
+        "source": "GitHub",
+        "tags": [
+          "#自动化工具",
+          "#开源",
+          "#软件开发"
+        ],
+        "summary": "GitHub发布的ImranR98/Obtainium是一个开源的自动化工具。其核心功能是提供高质量的自动化能力。技术亮点在于其采用了先进的自动化算法和脚本语言。应用场景包括但不限于软件开发、测试和部署。行业意义在于提供一个高质量的开源自动化工具，促进软件开发和测试的创新和发展。ImranR98/Obtainium的发布将对软件开发和测试产生积极影响，促进更多的创新和发展。",
+        "url": "https://github.com/ImranR98/Obtainium",
+        "date": "Recent (Trending)",
+        "stars": 216
+      },
+      {
+        "id": "5022a5",
+        "title": "[DeepSeek] Buy versus Build an LLM: A Decision Framework for Governments",
+        "source": "Papers",
+        "tags": [
+          "#大语言模型",
+          "#决策框架",
+          "#政府机构"
+        ],
+        "summary": "DeepSeek发布的论文《Buy versus Build an LLM: A Decision Framework for Governments》提出了一种政府机构采购或建设大语言模型的决策框架。其核心功能是提供一个系统的决策过程。技术亮点在于其采用了先进的决策理论和机器学习算法。应用场景包括但不限于政府机构的语言模型采购和建设。行业意义在于提供一个系统的决策框架，促进政府机构的语言模型采购和建设的创新和发展。DeepSeek的论文发布将对政府机构的语言模型采购和建设产生积极影响，促进更多的创新和发展。",
+        "url": "https://arxiv.org/html/2602.13033v1",
+        "date": "2026-02"
+      },
+      {
+        "id": "002d28",
+        "title": "[Google] Challenges and Research Directions for Large Language Model ...",
+        "source": "Papers",
+        "tags": [
+          "#大语言模型",
+          "#研究方向",
+          "#自然语言处理"
+        ],
+        "summary": "Google发布的论文《Challenges and Research Directions for Large Language Model》提出了一种大语言模型的挑战和研究方向。其核心功能是提供一个系统的研究方向。技术亮点在于其采用了先进的自然语言处理和机器学习算法。应用场景包括但不限于大语言模型的研究和开发。行业意义在于提供一个系统的研究方向，促进大语言模型的研究和开发的创新和发展。Google的论文发布将对大语言模型的研究和开发产生积极影响，促进更多的创新和发展。",
+        "url": "https://arxiv.org/abs/2601.05047",
+        "date": "2026-01"
+      }
+    ]
   }
 ]
