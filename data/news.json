@@ -4254,5 +4254,267 @@
         "date": "2026-01"
       }
     ]
+  },
+  {
+    "date": "2026-02-24",
+    "summary": "今日 AI 领域的主要进展包括多个新产品和模型的发布，如 MiniMax M2.5、Wispr Flow 和 Sarvam 30B/105B 模型等，同时也出现了新的 AI 应用和技术，如 Indus AI 聊天应用和 DeepSeek-V2。这些进展表明 AI 领域正在不断推出新的技术和产品，扩展其在各个行业的应用。",
+    "news": [
+      {
+        "id": "6e3749",
+        "title": "MiniMax M2.5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#语言模型"
+        ],
+        "summary": "MiniMax 发布新一代模型 M2.5，周调用量暴涨至 3.07T tokens，超过 Kimi K2.5、GLM-5 与 DeepSeek V3.2 三家的总和。M2.5 模型采用了先进的技术，能够显著提高语言处理能力。其核心功能是处理大量文本数据，技术亮点在于其高效的处理能力和低延迟。应用场景包括自然语言处理、文本生成等。行业意义在于其能够为各类应用提供高质量的语言处理服务，推动 AI 技术的发展。",
+        "url": "https://www.36kr.com/p/3695375427268486",
+        "date": "2026-02-20"
+      },
+      {
+        "id": "6992b2",
+        "title": "Wispr Flow",
+        "source": "Product",
+        "tags": [
+          "#语音识别",
+          "#移动应用",
+          "#AI助手"
+        ],
+        "summary": "Wispr Flow 推出 Android 应用，提供 AI 驱动的语音输入功能。该应用能够实时转录语音为文本，具有高准确率和快速响应。其核心功能是语音转文本，技术亮点在于其实时处理能力和高精度。应用场景包括手机输入、语音助手等。行业意义在于其能够提高用户的输入效率和体验，推动移动设备的智能化发展。",
+        "url": "https://techcrunch.com/2026/02/23/wispr-flow-launches-an-android-app-for-ai-powered-dictation/",
+        "date": "2026-02-23"
+      },
+      {
+        "id": "2e3420",
+        "title": "Sarvam 30B 和 105B 模型",
+        "source": "Product",
+        "tags": [
+          "#语言模型",
+          "#自然语言处理",
+          "#混合架构"
+        ],
+        "summary": "Sarvam 实验室推出新一代大型语言模型，包括 30 亿和 105 亿参数模型。这些模型采用混合专家架构，能够显著降低计算成本。其核心功能是处理大量文本数据，技术亮点在于其高效的处理能力和低延迟。应用场景包括自然语言处理、文本生成等。行业意义在于其能够为各类应用提供高质量的语言处理服务，推动 AI 技术的发展。",
+        "url": "https://techcrunch.com/2026/02/18/indian-ai-lab-sarvams-new-models-are-a-major-bet-on-the-viability-of-open-source-ai/",
+        "date": "2026-02-18"
+      },
+      {
+        "id": "c6f5f8",
+        "title": "Steerling-8B",
+        "source": "Product",
+        "tags": [
+          "#语言模型",
+          "#开源",
+          "#自然语言处理"
+        ],
+        "summary": "Guide Labs 开源 8 亿参数的语言模型 Steerling-8B，采用新型架构。该模型能够处理大量文本数据，具有高准确率和快速响应。其核心功能是处理文本数据，技术亮点在于其高效的处理能力和低延迟。应用场景包括自然语言处理、文本生成等。行业意义在于其能够为各类应用提供高质量的语言处理服务，推动 AI 技术的发展。",
+        "url": "https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/",
+        "date": "2026-02-20"
+      },
+      {
+        "id": "93ece4",
+        "title": "Indus AI chat app",
+        "source": "Product",
+        "tags": [
+          "#聊天机器人",
+          "#AI助手",
+          "#移动应用"
+        ],
+        "summary": "Sarvam 推出 Indus AI 聊天应用，提供 web 和移动用户的智能聊天服务。该应用能够实时响应用户输入，具有高准确率和快速响应。其核心功能是智能聊天，技术亮点在于其实时处理能力和高精度。应用场景包括客户服务、语言学习等。行业意义在于其能够提高用户的体验和效率，推动 AI 技术的发展。",
+        "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
+        "date": "2026-02-20"
+      },
+      {
+        "id": "92b419",
+        "title": "DeepSeek-V2",
+        "source": "Product",
+        "tags": [
+          "#语言模型",
+          "#开源",
+          "#自然语言处理"
+        ],
+        "summary": "DeepSeek-V2 模型开源发布，具有 236B 参数，仅激活 16B。该模型能够处理大量文本数据，具有高准确率和快速响应。其核心功能是处理文本数据，技术亮点在于其高效的处理能力和低延迟。应用场景包括自然语言处理、文本生成等。行业意义在于其能够为各类应用提供高质量的语言处理服务，推动 AI 技术的发展。",
+        "url": "https://www.winzheng.com/article/deepseek-v2-0224f70",
+        "date": "2026-02-24"
+      },
+      {
+        "id": "0430f3",
+        "title": "xgen-universe/Capybara",
+        "source": "HuggingFace",
+        "tags": [
+          "#多模态",
+          "#生成式AI",
+          "#开源"
+        ],
+        "summary": "Hugging Face 的 xgen-universe/Capybara 项目是一个开源的多模态生成模型。该模型能够处理文本、图像和音频数据，具有高准确率和快速响应。其核心功能是多模态生成，技术亮点在于其能够处理多种类型的数据。应用场景包括生成式 AI、多模态处理等。行业意义在于其能够为各类应用提供高质量的多模态处理服务，推动 AI 技术的发展。",
+        "url": "https://huggingface.co/xgen-universe/Capybara",
+        "date": "2026-02-17",
+        "likes": 163
+      },
+      {
+        "id": "fe4e0a",
+        "title": "KittenML/kitten-tts-mini-0.8",
+        "source": "HuggingFace",
+        "tags": [
+          "#语音合成",
+          "#开源",
+          "#文本转语音"
+        ],
+        "summary": "Hugging Face 的 KittenML/kitten-tts-mini-0.8 项目是一个开源的文本转语音模型。该模型能够实时转换文本为语音，具有高准确率和快速响应。其核心功能是文本转语音，技术亮点在于其实时处理能力和高精度。应用场景包括语音助手、播音等。行业意义在于其能够提高用户的体验和效率，推动 AI 技术的发展。",
+        "url": "https://huggingface.co/KittenML/kitten-tts-mini-0.8",
+        "date": "2026-02-19",
+        "likes": 94
+      },
+      {
+        "id": "bd009a",
+        "title": "Qwen/Qwen3.5-397B-A17B-FP8",
+        "source": "HuggingFace",
+        "tags": [
+          "#语言模型",
+          "#开源",
+          "#自然语言处理"
+        ],
+        "summary": "Hugging Face 的 Qwen/Qwen3.5-397B-A17B-FP8 项目是一个开源的语言模型。该模型能够处理大量文本数据，具有高准确率和快速响应。其核心功能是处理文本数据，技术亮点在于其高效的处理能力和低延迟。应用场景包括自然语言处理、文本生成等。行业意义在于其能够为各类应用提供高质量的语言处理服务，推动 AI 技术的发展。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B-FP8",
+        "date": "2026-02-18",
+        "likes": 79
+      },
+      {
+        "id": "87bdd9",
+        "title": "mmnga-o/NVIDIA-Nemotron-Nano-9B-v2-Japanese-gguf",
+        "source": "HuggingFace",
+        "tags": [
+          "#语言模型",
+          "#开源",
+          "#自然语言处理"
+        ],
+        "summary": "Hugging Face 的 mmnga-o/NVIDIA-Nemotron-Nano-9B-v2-Japanese-gguf 项目是一个开源的语言模型。该模型能够处理大量文本数据，具有高准确率和快速响应。其核心功能是处理文本数据，技术亮点在于其高效的处理能力和低延迟。应用场景包括自然语言处理、文本生成等。行业意义在于其能够为各类应用提供高质量的语言处理服务，推动 AI 技术的发展。",
+        "url": "https://huggingface.co/mmnga-o/NVIDIA-Nemotron-Nano-9B-v2-Japanese-gguf",
+        "date": "2026-02-18",
+        "likes": 41
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#产品分析",
+          "#开源",
+          "#用户行为"
+        ],
+        "summary": "PostHog/posthog 项目是一个开源的产品分析平台。该平台能够提供实时的用户行为分析，具有高准确率和快速响应。其核心功能是用户行为分析，技术亮点在于其实时处理能力和高精度。应用场景包括产品管理、用户研究等。行业意义在于其能够提高产品的用户体验和效率，推动产品的发展。",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 507
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#聊天机器人",
+          "#开源",
+          "#AI助手"
+        ],
+        "summary": "f/prompts.chat 项目是一个开源的聊天机器人平台。该平台能够提供实时的聊天服务，具有高准确率和快速响应。其核心功能是智能聊天，技术亮点在于其实时处理能力和高精度。应用场景包括客户服务、语言学习等。行业意义在于其能够提高用户的体验和效率，推动 AI 技术的发展。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1600
+      },
+      {
+        "id": "8cdd4a",
+        "title": "qdrant/qdrant",
+        "source": "GitHub",
+        "tags": [
+          "#向量数据库",
+          "#开源",
+          "#推荐系统"
+        ],
+        "summary": "qdrant/qdrant 项目是一个开源的向量数据库。该数据库能够提供高效的向量搜索，具有高准确率和快速响应。其核心功能是向量搜索，技术亮点在于其高效的处理能力和低延迟。应用场景包括推荐系统、自然语言处理等。行业意义在于其能够提高应用的效率和准确率，推动 AI 技术的发展。",
+        "url": "https://github.com/qdrant/qdrant",
+        "date": "Recent (Trending)",
+        "stars": 226
+      },
+      {
+        "id": "440df4",
+        "title": "ImranR98/Obtainium",
+        "source": "GitHub",
+        "tags": [
+          "#数据获取",
+          "#开源",
+          "#数据分析"
+        ],
+        "summary": "ImranR98/Obtainium 项目是一个开源的数据获取平台。该平台能够提供实时的数据获取，具有高准确率和快速响应。其核心功能是数据获取，技术亮点在于其实时处理能力和高精度。应用场景包括数据分析、机器学习等。行业意义在于其能够提高应用的效率和准确率，推动数据驱动的发展。",
+        "url": "https://github.com/ImranR98/Obtainium",
+        "date": "Recent (Trending)",
+        "stars": 216
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#开源",
+          "#安全检查"
+        ],
+        "summary": "aquasecurity/trivy 项目是一个开源的漏洞扫描工具。该工具能够提供实时的漏洞扫描，具有高准确率和快速响应。其核心功能是漏洞扫描，技术亮点在于其实时处理能力和高精度。应用场景包括安全检查、漏洞修复等。行业意义在于其能够提高应用的安全性和可靠性，推动安全技术的发展。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 295
+      },
+      {
+        "id": "5022a5",
+        "title": "[Qwen] Buy versus Build an LLM: A Decision Framework for Governments",
+        "source": "Papers",
+        "tags": [
+          "#语言模型",
+          "#决策支持",
+          "#政府应用"
+        ],
+        "summary": "Qwen 发布的论文《Buy versus Build an LLM: A Decision Framework for Governments》提出了一种决策框架，用于帮助政府决定是否购买或构建大型语言模型。该框架能够提供实时的决策支持，具有高准确率和快速响应。其核心功能是决策支持，技术亮点在于其实时处理能力和高精度。应用场景包括政府决策、语言模型选择等。行业意义在于其能够提高政府的决策效率和准确率，推动语言模型的发展。",
+        "url": "https://arxiv.org/html/2602.13033v1",
+        "date": "2026-02"
+      },
+      {
+        "id": "ad7272",
+        "title": "[OpenAI] 1 Introduction - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#语言模型",
+          "#自然语言处理",
+          "#OpenAI"
+        ],
+        "summary": "OpenAI 发布的论文《1 Introduction - arXiv》提出了一种新的语言模型架构，能够提高语言模型的性能和效率。该架构能够提供实时的语言处理，具有高准确率和快速响应。其核心功能是语言处理，技术亮点在于其实时处理能力和高精度。应用场景包括自然语言处理、文本生成等。行业意义在于其能够提高语言模型的性能和效率，推动 AI 技术的发展。",
+        "url": "https://arxiv.org/html/2602.01762v1",
+        "date": "2026-02"
+      },
+      {
+        "id": "807167",
+        "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8 ...",
+        "source": "Papers",
+        "tags": [
+          "#语言模型",
+          "#安全评估",
+          "#Qwen"
+        ],
+        "summary": "Qwen 发布的论文《A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8 ...》提出了一种安全评估框架，用于评估大型语言模型的安全性。该框架能够提供实时的安全评估，具有高准确率和快速响应。其核心功能是安全评估，技术亮点在于其实时处理能力和高精度。应用场景包括语言模型安全、风险评估等。行业意义在于其能够提高语言模型的安全性和可靠性，推动安全技术的发展。",
+        "url": "https://arxiv.org/html/2601.10527v1",
+        "date": "2026-01"
+      },
+      {
+        "id": "1cc685",
+        "title": "[Meta] 1 Introduction - arXiv.org",
+        "source": "Papers",
+        "tags": [
+          "#AI技术",
+          "#自然语言处理",
+          "#Meta"
+        ],
+        "summary": "Meta 发布的论文《1 Introduction - arXiv.org》提出了一种新的 AI 技术架构，能够提高 AI 模型的性能和效率。该架构能够提供实时的 AI 处理，具有高准确率和快速响应。其核心功能是 AI 处理，技术亮点在于其实时处理能力和高精度。应用场景包括自然语言处理、计算机视觉等。行业意义在于其能够提高 AI 模型的性能和效率，推动 AI 技术的发展。",
+        "url": "https://arxiv.org/html/2602.08019v1",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
