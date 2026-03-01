@@ -4940,5 +4940,189 @@
         "stars": 223
       }
     ]
+  },
+  {
+    "date": "2026-03-01",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 HuggingFace 的 Qwen 和 LocoOperator，以及 Adobe Firefly 等产品的推出，表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "c48d75",
+        "title": "阿里云Coding Plan",
+        "source": "Product",
+        "tags": [
+          "#开源模型",
+          "#API服务",
+          "#云计算"
+        ],
+        "summary": "阿里云百炼推出的Coding Plan包含四大顶尖开源模型API服务，包括Qwen3.5、GLM-5、MiniMax M2.5和Kimi K2.5。该套餐提供了开发者快速集成和使用这些模型的能力，具有高性能和低成本的特点。Coding Plan可以应用于自然语言处理、语音识别和图像处理等领域，具有广泛的行业意义和影响。",
+        "url": "https://wap.eastmoney.com/a/202602253654275512.html",
+        "date": "2026-02-25"
+      },
+      {
+        "id": "c7a886",
+        "title": "Adobe Firefly",
+        "source": "Product",
+        "tags": [
+          "#AI视频编辑",
+          "#自动化编辑",
+          "#多媒体处理"
+        ],
+        "summary": "Adobe Firefly可以使用AI将原始视频转换为初步编辑的视频，具有快速和高效的特点。该功能可以应用于视频编辑和制作领域，具有广泛的行业意义和影响。Adobe Firefly的技术亮点在于其能够自动化视频编辑过程，减少人工编辑的时间和成本。",
+        "url": "https://9to5mac.com/2026/02/25/adobe-firefly-can-now-use-ai-to-turn-raw-footage-into-a-first-cut-video/",
+        "date": "2026-02-25"
+      },
+      {
+        "id": "908d76",
+        "title": "安徽神玑",
+        "source": "Product",
+        "tags": [
+          "#AI解决方案",
+          "#机器学习",
+          "#融资"
+        ],
+        "summary": "安徽神玑完成首轮股权融资协议签署，首轮融资超22亿元，投后估值近百亿。安徽神玑是一家专注于AI和机器学习的公司，具有广泛的行业意义和影响。该公司的技术亮点在于其能够提供高性能和低成本的AI解决方案，应用于各个行业。",
+        "url": "https://m.36kr.com/p/3700928162410120",
+        "date": "2026-02-26"
+      },
+      {
+        "id": "9832e1",
+        "title": "Qwen/Qwen3.5-35B-A3B",
+        "source": "HuggingFace",
+        "tags": [
+          "#开源语言模型",
+          "#自然语言处理",
+          "#语音识别"
+        ],
+        "summary": "Qwen/Qwen3.5-35B-A3B是一个开源的语言模型，具有高性能和低成本的特点。该模型可以应用于自然语言处理和语音识别等领域，具有广泛的行业意义和影响。Qwen/Qwen3.5-35B-A3B的技术亮点在于其能够提供高质量的语言理解和生成能力。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+        "date": "2026-02-24",
+        "likes": 690
+      },
+      {
+        "id": "bcc2a3",
+        "title": "Qwen/Qwen3.5-27B",
+        "source": "HuggingFace",
+        "tags": [
+          "#开源语言模型",
+          "#自然语言处理",
+          "#语音识别"
+        ],
+        "summary": "Qwen/Qwen3.5-27B是一个开源的语言模型，具有高性能和低成本的特点。该模型可以应用于自然语言处理和语音识别等领域，具有广泛的行业意义和影响。Qwen/Qwen3.5-27B的技术亮点在于其能够提供高质量的语言理解和生成能力。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-27B",
+        "date": "2026-02-24",
+        "likes": 445
+      },
+      {
+        "id": "55c4f0",
+        "title": "unsloth/Qwen3.5-35B-A3B-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#开源语言模型",
+          "#自然语言处理",
+          "#语音识别"
+        ],
+        "summary": "unsloth/Qwen3.5-35B-A3B-GGUF是一个开源的语言模型，具有高性能和低成本的特点。该模型可以应用于自然语言处理和语音识别等领域，具有广泛的行业意义和影响。unsloth/Qwen3.5-35B-A3B-GGUF的技术亮点在于其能够提供高质量的语言理解和生成能力。",
+        "url": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF",
+        "date": "2026-02-24",
+        "likes": 371
+      },
+      {
+        "id": "4cb18e",
+        "title": "Qwen/Qwen3.5-122B-A10B",
+        "source": "HuggingFace",
+        "tags": [
+          "#开源语言模型",
+          "#自然语言处理",
+          "#语音识别"
+        ],
+        "summary": "Qwen/Qwen3.5-122B-A10B是一个开源的语言模型，具有高性能和低成本的特点。该模型可以应用于自然语言处理和语音识别等领域，具有广泛的行业意义和影响。Qwen/Qwen3.5-122B-A10B的技术亮点在于其能够提供高质量的语言理解和生成能力。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B",
+        "date": "2026-02-24",
+        "likes": 348
+      },
+      {
+        "id": "c29a75",
+        "title": "LocoreMind/LocoOperator-4B",
+        "source": "HuggingFace",
+        "tags": [
+          "#开源语言模型",
+          "#自然语言处理",
+          "#语音识别"
+        ],
+        "summary": "LocoreMind/LocoOperator-4B是一个开源的语言模型，具有高性能和低成本的特点。该模型可以应用于自然语言处理和语音识别等领域，具有广泛的行业意义和影响。LocoreMind/LocoOperator-4B的技术亮点在于其能够提供高质量的语言理解和生成能力。",
+        "url": "https://huggingface.co/LocoreMind/LocoOperator-4B",
+        "date": "2026-02-23",
+        "likes": 238
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#开源金融平台",
+          "#金融分析",
+          "#预测"
+        ],
+        "summary": "OpenBB-finance/OpenBB是一个开源的金融平台，具有高性能和低成本的特点。该平台可以应用于金融分析和预测等领域，具有广泛的行业意义和影响。OpenBB-finance/OpenBB的技术亮点在于其能够提供高质量的金融数据和分析能力。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 1783
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#开源聊天平台",
+          "#聊天",
+          "#对话"
+        ],
+        "summary": "f/prompts.chat是一个开源的聊天平台，具有高性能和低成本的特点。该平台可以应用于聊天和对话等领域，具有广泛的行业意义和影响。f/prompts.chat的技术亮点在于其能够提供高质量的聊天和对话能力。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 3072
+      },
+      {
+        "id": "5fc099",
+        "title": "NVIDIA/Megatron-LM",
+        "source": "GitHub",
+        "tags": [
+          "#开源语言模型",
+          "#自然语言处理",
+          "#语音识别"
+        ],
+        "summary": "NVIDIA/Megatron-LM是一个开源的语言模型，具有高性能和低成本的特点。该模型可以应用于自然语言处理和语音识别等领域，具有广泛的行业意义和影响。NVIDIA/Megatron-LM的技术亮点在于其能够提供高质量的语言理解和生成能力。",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "date": "Recent (Trending)",
+        "stars": 229
+      },
+      {
+        "id": "4bd11f",
+        "title": "Drakkar-Software/OctoBot",
+        "source": "GitHub",
+        "tags": [
+          "#开源加密货币平台",
+          "#加密货币交易",
+          "#风险管理"
+        ],
+        "summary": "Drakkar-Software/OctoBot是一个开源的加密货币交易平台，具有高性能和低成本的特点。该平台可以应用于加密货币交易等领域，具有广泛的行业意义和影响。Drakkar-Software/OctoBot的技术亮点在于其能够提供高质量的交易能力和风险管理。",
+        "url": "https://github.com/Drakkar-Software/OctoBot",
+        "date": "Recent (Trending)",
+        "stars": 164
+      },
+      {
+        "id": "5022a5",
+        "title": "[Qwen] Buy versus Build an LLM: A Decision Framework for Governments",
+        "source": "Papers",
+        "tags": [
+          "#语言模型",
+          "#决策框架",
+          "#政府应用"
+        ],
+        "summary": "Qwen发布的论文《Buy versus Build an LLM: A Decision Framework for Governments》提出了一种决策框架，用于帮助政府决定是否购买或构建大型语言模型。该框架考虑了多种因素，包括成本、性能和安全性等。Qwen的技术亮点在于其能够提供高质量的语言理解和生成能力。",
+        "url": "https://arxiv.org/html/2602.13033v1",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
