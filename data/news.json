@@ -5124,5 +5124,190 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-03-02",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 Qwen 和 LFM2-24B-A2B，这些模型在 HuggingFace 平台上推出，展现了 AI 技术在自然语言处理方面的持续进步。同时，开源项目如 OpenBB-finance/OpenBB 也在 GitHub 上发布，推动了 AI 在金融领域的应用。这些进展表明 AI 技术在各个领域的应用日益广泛。",
+    "news": [
+      {
+        "id": "df8596",
+        "title": "Perplexity Computer",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#全流程AI",
+          "#软件开发"
+        ],
+        "summary": "Perplexity Computer是一个通用AI系统，能够从研究、设计、写代码，到部署、管理，一个项目全流程跑完。其核心功能是提供一个全流程的AI解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括软件开发、数据分析等。行业意义在于其能够提高开发效率和降低成本。Perplexity Computer的出现标志着AI技术在软件开发领域的深入应用。",
+        "url": "https://m.36kr.com/p/3700290493034369",
+        "date": "2026-02-26"
+      },
+      {
+        "id": "45574a",
+        "title": "Nano Banana 2",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#图像生成",
+          "#Google"
+        ],
+        "summary": "Google推出的Nano Banana 2模型能够更快速地生成更真实的图像。其技术亮点在于其能够提高图像生成的速度和质量，应用场景包括图像编辑、生成式AI等。行业意义在于其能够推动图像生成技术的发展。Nano Banana 2模型的出现标志着Google在生成式AI领域的持续创新。",
+        "url": "https://techcrunch.com/2026/02/26/google-launches-nano-banana-2-model-with-faster-image-generation/",
+        "date": "2026-02-26"
+      },
+      {
+        "id": "9832e1",
+        "title": "Qwen/Qwen3.5-35B-A3B",
+        "source": "HuggingFace",
+        "tags": [
+          "#HuggingFace",
+          "#transformers",
+          "#AI模型"
+        ],
+        "summary": "HuggingFace的Qwen/Qwen3.5-35B-A3B模型是一个基于transformers的AI模型。其核心功能是提供一个高性能的AI解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括自然语言处理、生成式AI等。行业意义在于其能够提高AI模型的性能和效率。Qwen/Qwen3.5-35B-A3B模型的出现标志着HuggingFace在AI模型开发领域的持续创新。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+        "date": "2026-02-24",
+        "likes": 753
+      },
+      {
+        "id": "bcc2a3",
+        "title": "Qwen/Qwen3.5-27B",
+        "source": "HuggingFace",
+        "tags": [
+          "#HuggingFace",
+          "#transformers",
+          "#AI模型"
+        ],
+        "summary": "HuggingFace的Qwen/Qwen3.5-27B模型是一个基于transformers的AI模型。其核心功能是提供一个高性能的AI解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括自然语言处理、生成式AI等。行业意义在于其能够提高AI模型的性能和效率。Qwen/Qwen3.5-27B模型的出现标志着HuggingFace在AI模型开发领域的持续创新。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-27B",
+        "date": "2026-02-24",
+        "likes": 483
+      },
+      {
+        "id": "55c4f0",
+        "title": "unsloth/Qwen3.5-35B-A3B-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#HuggingFace",
+          "#transformers",
+          "#AI模型"
+        ],
+        "summary": "HuggingFace的unsloth/Qwen3.5-35B-A3B-GGUF模型是一个基于transformers的AI模型。其核心功能是提供一个高性能的AI解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括自然语言处理、生成式AI等。行业意义在于其能够提高AI模型的性能和效率。unsloth/Qwen3.5-35B-A3B-GGUF模型的出现标志着HuggingFace在AI模型开发领域的持续创新。",
+        "url": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF",
+        "date": "2026-02-24",
+        "likes": 412
+      },
+      {
+        "id": "4cb18e",
+        "title": "Qwen/Qwen3.5-122B-A10B",
+        "source": "HuggingFace",
+        "tags": [
+          "#HuggingFace",
+          "#transformers",
+          "#AI模型"
+        ],
+        "summary": "HuggingFace的Qwen/Qwen3.5-122B-A10B模型是一个基于transformers的AI模型。其核心功能是提供一个高性能的AI解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括自然语言处理、生成式AI等。行业意义在于其能够提高AI模型的性能和效率。Qwen/Qwen3.5-122B-A10B模型的出现标志着HuggingFace在AI模型开发领域的持续创新。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B",
+        "date": "2026-02-24",
+        "likes": 360
+      },
+      {
+        "id": "b714e2",
+        "title": "LiquidAI/LFM2-24B-A2B",
+        "source": "HuggingFace",
+        "tags": [
+          "#HuggingFace",
+          "#transformers",
+          "#AI模型"
+        ],
+        "summary": "HuggingFace的LiquidAI/LFM2-24B-A2B模型是一个基于transformers的AI模型。其核心功能是提供一个高性能的AI解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括自然语言处理、生成式AI等。行业意义在于其能够提高AI模型的性能和效率。LiquidAI/LFM2-24B-A2B模型的出现标志着HuggingFace在AI模型开发领域的持续创新。",
+        "url": "https://huggingface.co/LiquidAI/LFM2-24B-A2B",
+        "date": "2026-02-24",
+        "likes": 221
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#金融数据分析",
+          "#投资决策"
+        ],
+        "summary": "OpenBB-finance/OpenBB是一个开源的金融数据分析平台。其核心功能是提供一个全面的金融数据分析解决方案，技术亮点在于其能够集成多个数据源和分析工具，应用场景包括金融数据分析、投资决策等。行业意义在于其能够提高金融数据分析的效率和准确性。OpenBB-finance/OpenBB的出现标志着开源金融数据分析平台的发展。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 1577
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#生成式AI",
+          "#对话平台",
+          "#客户服务"
+        ],
+        "summary": "f/prompts.chat是一个基于AI的对话平台。其核心功能是提供一个智能的对话解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括客户服务、语言翻译等。行业意义在于其能够提高对话效率和准确性。f/prompts.chat的出现标志着AI在对话领域的深入应用。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2999
+      },
+      {
+        "id": "5fc099",
+        "title": "NVIDIA/Megatron-LM",
+        "source": "GitHub",
+        "tags": [
+          "#NVIDIA",
+          "#transformers",
+          "#AI模型"
+        ],
+        "summary": "NVIDIA/Megatron-LM是一个基于transformers的AI模型。其核心功能是提供一个高性能的AI解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括自然语言处理、生成式AI等。行业意义在于其能够提高AI模型的性能和效率。NVIDIA/Megatron-LM的出现标志着NVIDIA在AI模型开发领域的持续创新。",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "date": "Recent (Trending)",
+        "stars": 226
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#AI开发",
+          "#研究"
+        ],
+        "summary": "openai/openai-cookbook是一个开源的AI开发平台。其核心功能是提供一个全面的AI开发解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括AI开发、研究等。行业意义在于其能够提高AI开发的效率和准确性。openai/openai-cookbook的出现标志着开源AI开发平台的发展。",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 187
+      },
+      {
+        "id": "4bd11f",
+        "title": "Drakkar-Software/OctoBot",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#加密货币交易",
+          "#投资决策"
+        ],
+        "summary": "Drakkar-Software/OctoBot是一个开源的加密货币交易平台。其核心功能是提供一个全面的加密货币交易解决方案，技术亮点在于其能够集成多个交易策略和工具，应用场景包括加密货币交易、投资决策等。行业意义在于其能够提高加密货币交易的效率和准确性。Drakkar-Software/OctoBot的出现标志着开源加密货币交易平台的发展。",
+        "url": "https://github.com/Drakkar-Software/OctoBot",
+        "date": "Recent (Trending)",
+        "stars": 107
+      },
+      {
+        "id": "1cc685",
+        "title": "[Meta] 1 Introduction - arXiv.org",
+        "source": "Papers",
+        "tags": [
+          "#Meta",
+          "#人工智能",
+          "#大型模型"
+        ],
+        "summary": "Meta发布的论文介绍了大型模型在人工智能技术中的应用。其核心功能是提供一个全面的AI解决方案，技术亮点在于其能够集成多个AI功能，应用场景包括自然语言处理、生成式AI等。行业意义在于其能够提高AI模型的性能和效率。Meta的研究标志着人工智能技术的发展和应用。",
+        "url": "https://arxiv.org/html/2602.08019v1",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
