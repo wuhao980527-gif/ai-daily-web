@@ -5309,5 +5309,177 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-03-03",
+    "summary": "今日AI领域的主要进展包括多个新模型的发布，如Qwen和LFM2-24B-A2B，以及AI浏览器和金融平台的推出，表明AI技术在各个领域的应用和发展。",
+    "news": [
+      {
+        "id": "59a884",
+        "title": "Tabbit AI浏览器",
+        "source": "Product",
+        "tags": [
+          "#AI浏览器",
+          "#个性化推荐",
+          "#智能搜索"
+        ],
+        "summary": "美团旗下光年之外团队推出的Tabbit AI浏览器支持macOS和Windows双平台，采用免费且无需邀请码的开放策略。其核心功能包括AI驱动的浏览体验，能够提供个性化的内容推荐和智能搜索。技术亮点在于其对用户行为的深度分析和学习能力，能够不断优化用户体验。应用场景广泛，包括日常浏览、工作研究等。行业意义在于其推动了AI技术在浏览器领域的应用和发展，可能改变传统的浏览方式。",
+        "url": "https://www.36kr.com/p/3705563927572865",
+        "date": "2026-03-02"
+      },
+      {
+        "id": "5e2034",
+        "title": "PureblueAI清蓝",
+        "source": "Product",
+        "tags": [
+          "#AI营销",
+          "#口碑营销",
+          "#数字员工"
+        ],
+        "summary": "PureblueAI清蓝完成数千万元天使轮融资，并发布首款AI口碑营销数字员工。其核心功能是利用AI技术自动化口碑营销，能够模拟真实的客户互动和反馈。技术亮点在于其对自然语言处理的应用，能够生成高质量的口碑内容。应用场景包括企业营销、客户服务等。行业意义在于其推动了AI在营销领域的应用，可能提高营销效率和客户满意度。",
+        "url": "https://www.36kr.com/p/3705907852800136",
+        "date": "2026-03-03"
+      },
+      {
+        "id": "9832e1",
+        "title": "Qwen/Qwen3.5-35B-A3B",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI模型",
+          "#自然语言处理",
+          "#transformers"
+        ],
+        "summary": "Qwen发布的Qwen3.5-35B-A3B模型是一个基于transformers的AI模型，采用apache-2.0许可协议。其核心功能包括文本生成和理解，能够处理多种自然语言任务。技术亮点在于其大规模参数和高性能计算能力，能够实现高质量的文本生成和理解。应用场景广泛，包括语言翻译、文本摘要等。行业意义在于其推动了AI技术在自然语言处理领域的发展，可能提高语言任务的自动化程度。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+        "date": "2026-02-24",
+        "likes": 832
+      },
+      {
+        "id": "bcc2a3",
+        "title": "Qwen/Qwen3.5-27B",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI模型",
+          "#自然语言处理",
+          "#transformers"
+        ],
+        "summary": "Qwen发布的Qwen3.5-27B模型也是一个基于transformers的AI模型，同样采用apache-2.0许可协议。其核心功能和技术亮点与Qwen3.5-35B-A3B模型类似，但参数规模较小。应用场景也包括语言翻译、文本摘要等。行业意义在于其提供了一个较小规模的AI模型选项，可能更适合资源有限的应用场景。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-27B",
+        "date": "2026-02-24",
+        "likes": 525
+      },
+      {
+        "id": "55c4f0",
+        "title": "unsloth/Qwen3.5-35B-A3B-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI模型",
+          "#自然语言处理",
+          "#模型优化"
+        ],
+        "summary": "unsloth发布的Qwen3.5-35B-A3B-GGUF模型是基于Qwen3.5-35B-A3B模型的改进版本，采用apache-2.0许可协议。其核心功能包括文本生成和理解，能够处理多种自然语言任务。技术亮点在于其对原始模型的优化和扩展，能够实现更好的性能和效果。应用场景广泛，包括语言翻译、文本摘要等。行业意义在于其推动了AI技术在自然语言处理领域的持续发展和改进。",
+        "url": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF",
+        "date": "2026-02-24",
+        "likes": 461
+      },
+      {
+        "id": "4cb18e",
+        "title": "Qwen/Qwen3.5-122B-A10B",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI模型",
+          "#自然语言处理",
+          "#大规模模型"
+        ],
+        "summary": "Qwen发布的Qwen3.5-122B-A10B模型是一个大规模的AI模型，采用apache-2.0许可协议。其核心功能包括文本生成和理解，能够处理多种自然语言任务。技术亮点在于其极大的参数规模和高性能计算能力，能够实现最高质量的文本生成和理解。应用场景广泛，包括语言翻译、文本摘要等。行业意义在于其推动了AI技术在自然语言处理领域的发展，可能达到新的性能和效果水平。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B",
+        "date": "2026-02-24",
+        "likes": 378
+      },
+      {
+        "id": "b714e2",
+        "title": "LiquidAI/LFM2-24B-A2B",
+        "source": "HuggingFace",
+        "tags": [
+          "#AI模型",
+          "#自然语言处理",
+          "#transformers"
+        ],
+        "summary": "LiquidAI发布的LFM2-24B-A2B模型是一个基于transformers的AI模型，采用lfm1.0许可协议。其核心功能包括文本生成和理解，能够处理多种自然语言任务。技术亮点在于其大规模参数和高性能计算能力，能够实现高质量的文本生成和理解。应用场景广泛，包括语言翻译、文本摘要等。行业意义在于其推动了AI技术在自然语言处理领域的发展，可能提高语言任务的自动化程度。",
+        "url": "https://huggingface.co/LiquidAI/LFM2-24B-A2B",
+        "date": "2026-02-24",
+        "likes": 236
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#开源金融",
+          "#数据分析",
+          "#机器学习"
+        ],
+        "summary": "OpenBB-finance发布的OpenBB是一个开源的金融平台，提供多种金融工具和数据分析功能。其核心功能包括股票交易、数据可视化和机器学习模型训练。技术亮点在于其开源性和可扩展性，能够让用户自定义和扩展平台功能。应用场景包括个人投资、金融研究等。行业意义在于其推动了金融领域的开源和协作，可能提高金融分析和决策的效率和准确性。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 1226
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI对话",
+          "#自然语言处理",
+          "#对话平台"
+        ],
+        "summary": "f发布的prompts.chat是一个基于AI的对话平台，提供多种对话场景和语言模型。其核心功能包括文本生成和对话管理，能够模拟真实的对话体验。技术亮点在于其对自然语言处理的应用，能够生成高质量的对话内容。应用场景包括客户服务、语言学习等。行业意义在于其推动了AI在对话领域的应用，可能提高对话效率和用户体验。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2938
+      },
+      {
+        "id": "5fc099",
+        "title": "NVIDIA/Megatron-LM",
+        "source": "GitHub",
+        "tags": [
+          "#AI模型",
+          "#自然语言处理",
+          "#大规模模型"
+        ],
+        "summary": "NVIDIA发布的Megatron-LM是一个大规模的语言模型，采用开源许可协议。其核心功能包括文本生成和理解，能够处理多种自然语言任务。技术亮点在于其极大的参数规模和高性能计算能力，能够实现最高质量的文本生成和理解。应用场景广泛，包括语言翻译、文本摘要等。行业意义在于其推动了AI技术在自然语言处理领域的发展，可能达到新的性能和效果水平。",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "date": "Recent (Trending)",
+        "stars": 227
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI知识图谱",
+          "#自然语言处理",
+          "#图谱算法"
+        ],
+        "summary": "khoj-ai发布的khoj是一个基于AI的知识图谱平台，提供多种知识检索和分析功能。其核心功能包括实体识别、关系抽取和知识图谱构建。技术亮点在于其对自然语言处理和图谱算法的应用，能够构建高质量的知识图谱。应用场景包括知识检索、决策支持等。行业意义在于其推动了AI在知识图谱领域的应用，可能提高知识检索和分析的效率和准确性。",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 208
+      },
+      {
+        "id": "7aed3f",
+        "title": "skypilot-org/skypilot",
+        "source": "GitHub",
+        "tags": [
+          "#AI云计算",
+          "#云资源管理",
+          "#机器学习"
+        ],
+        "summary": "skypilot-org发布的skypilot是一个基于AI的云计算平台，提供多种云计算和机器学习功能。其核心功能包括云资源管理、模型训练和部署。技术亮点在于其对云计算和AI的集成，能够提供高效和可扩展的云计算服务。应用场景包括云计算、机器学习等。行业意义在于其推动了云计算和AI的融合，可能提高云计算的效率和智能化程度。",
+        "url": "https://github.com/skypilot-org/skypilot",
+        "date": "Recent (Trending)",
+        "stars": 41
+      }
+    ]
   }
 ]
