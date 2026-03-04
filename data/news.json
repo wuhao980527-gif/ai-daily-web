@@ -5481,5 +5481,203 @@
         "stars": 41
       }
     ]
+  },
+  {
+    "date": "2026-03-04",
+    "summary": "今日 AI 领域的主要进展包括多个新型模型的发布，如 Tabbit、千问3.5 和 Qwen3.5 等，这些模型在自然语言处理和理解方面取得了显著的进步。同时，HuggingFace 平台也推出了多个版本的 Qwen 模型，体现了 AI 技术在行业应用中的不断深化和扩展。这些进展表明 AI 领域正在快速发展，新技术和新应用不断涌现。",
+    "news": [
+      {
+        "id": "603717",
+        "title": "Tabbit",
+        "source": "Product",
+        "tags": [
+          "#智能搜索",
+          "#人机交互",
+          "#AI应用"
+        ],
+        "summary": "美团旗下光年之外团队宣布其AI搜索产品Tabbit进入公测阶段。Tabbit的核心功能是将网页浏览、搜索、AI对话及复杂任务执行融为一体，旨在将浏览器从被动的信息展示工具转变为主动的智能工作伙伴。其技术亮点在于能够智能地理解用户需求并提供相应的解决方案。Tabbit的应用场景广泛，包括但不限于个人信息管理、工作协助等。其行业意义在于推动了人机交互的智能化和个性化，具有重要的影响力。",
+        "url": "https://www.36kr.com/p/3706987077955713",
+        "date": "2026-03-02"
+      },
+      {
+        "id": "adfdbb",
+        "title": "千问3.5",
+        "source": "Product",
+        "tags": [
+          "#小模型",
+          "#NLP",
+          "#开源"
+        ],
+        "summary": "阿里开源千问3.5系列小模型，包括Qwen3.5-0.8B/2B/4B/9B，具有强劲的性能，获得马斯克的赞赏，认为其智能密度高。千问3.5系列小模型的核心功能是提供高效的自然语言处理能力。其技术亮点在于能够在较小的模型规模下实现高性能的语言理解和生成。这些模型的应用场景包括但不限于聊天机器人、语言翻译等。其行业意义在于推动了小模型在NLP领域的发展，具有重要的影响力。",
+        "url": "https://eu.36kr.com/zh/p/3706916646580358",
+        "date": "2026-03-03"
+      },
+      {
+        "id": "194ca2",
+        "title": "DualPath",
+        "source": "Product",
+        "tags": [
+          "#大语言模型",
+          "#推理系统",
+          "#优化"
+        ],
+        "summary": "DeepSeek发布了一项名为DualPath的全新推理系统方案，旨在解决当前大语言模型在智能体应用场景下遭遇的KV缓存存储I/O瓶颈。DualPath的核心功能是优化大语言模型的推理效率。其技术亮点在于能够有效地缓解I/O瓶颈，提高模型的推理速度。DualPath的应用场景包括但不限于智能助手、自动驾驶等。其行业意义在于推动了大语言模型在实际应用中的部署效率，具有重要的影响力。",
+        "url": "https://m.36kr.com/p/3701088020721285",
+        "date": "2026-02-27"
+      },
+      {
+        "id": "49342b",
+        "title": "GPT-5.3 Instant",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#文本生成",
+          "#质量控制"
+        ],
+        "summary": "OpenAI发布GPT-5.3 Instant，全面改进了之前版本的性能，尤其是减少了幻觉率，达到了27%的降低。GPT-5.3 Instant的核心功能是提供高质量的文本生成能力。其技术亮点在于能够有效地控制生成文本的质量和相关性。GPT-5.3 Instant的应用场景包括但不限于内容创作、文本摘要等。其行业意义在于推动了生成式AI的发展，具有重要的影响力。",
+        "url": "https://eu.36kr.com/zh/p/3707790041362568",
+        "date": "2026-03-04"
+      },
+      {
+        "id": "41443c",
+        "title": "Qwen/Qwen3.5-9B",
+        "source": "HuggingFace",
+        "tags": [
+          "#NLP",
+          "#语言模型",
+          "#HuggingFace"
+        ],
+        "summary": "HuggingFace发布了Qwen/Qwen3.5-9B模型，提供了一个强大的自然语言处理工具。Qwen/Qwen3.5-9B的核心功能是提供高性能的语言理解和生成能力。其技术亮点在于能够在多种NLP任务中取得优异的表现。Qwen/Qwen3.5-9B的应用场景包括但不限于语言翻译、文本分类等。其行业意义在于推动了NLP领域的发展，具有重要的影响力。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+        "date": "2026-02-27",
+        "likes": 324
+      },
+      {
+        "id": "b07334",
+        "title": "Qwen/Qwen3.5-0.8B",
+        "source": "HuggingFace",
+        "tags": [
+          "#小模型",
+          "#NLP",
+          "#HuggingFace"
+        ],
+        "summary": "HuggingFace发布了Qwen/Qwen3.5-0.8B模型，提供了一个小规模但高效的自然语言处理工具。Qwen/Qwen3.5-0.8B的核心功能是提供快速的语言理解和生成能力。其技术亮点在于能够在较小的模型规模下实现高性能的语言处理。Qwen/Qwen3.5-0.8B的应用场景包括但不限于聊天机器人、语言翻译等。其行业意义在于推动了小模型在NLP领域的发展，具有重要的影响力。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+        "date": "2026-02-28",
+        "likes": 196
+      },
+      {
+        "id": "9934e6",
+        "title": "Qwen/Qwen3.5-4B",
+        "source": "HuggingFace",
+        "tags": [
+          "#NLP",
+          "#语言模型",
+          "#HuggingFace"
+        ],
+        "summary": "HuggingFace发布了Qwen/Qwen3.5-4B模型，提供了一个中规模的自然语言处理工具。Qwen/Qwen3.5-4B的核心功能是提供平衡的语言理解和生成能力。其技术亮点在于能够在多种NLP任务中取得良好的表现。Qwen/Qwen3.5-4B的应用场景包括但不限于语言翻译、文本分类等。其行业意义在于推动了NLP领域的发展，具有重要的影响力。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-4B",
+        "date": "2026-02-27",
+        "likes": 193
+      },
+      {
+        "id": "b27d80",
+        "title": "huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
+        "source": "HuggingFace",
+        "tags": [
+          "#NLP",
+          "#语言模型",
+          "#HuggingFace"
+        ],
+        "summary": "HuggingFace发布了huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated模型，提供了一个大规模的自然语言处理工具。huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated的核心功能是提供高性能的语言理解和生成能力。其技术亮点在于能够在多种NLP任务中取得优异的表现。huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated的应用场景包括但不限于语言翻译、文本分类等。其行业意义在于推动了NLP领域的发展，具有重要的影响力。",
+        "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
+        "date": "2026-02-27",
+        "likes": 146
+      },
+      {
+        "id": "64ed7c",
+        "title": "unsloth/Qwen3.5-9B-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#NLP",
+          "#语言模型",
+          "#HuggingFace"
+        ],
+        "summary": "HuggingFace发布了unsloth/Qwen3.5-9B-GGUF模型，提供了一个高性能的自然语言处理工具。unsloth/Qwen3.5-9B-GGUF的核心功能是提供高质量的语言理解和生成能力。其技术亮点在于能够有效地控制生成文本的质量和相关性。unsloth/Qwen3.5-9B-GGUF的应用场景包括但不限于语言翻译、文本分类等。其行业意义在于推动了NLP领域的发展，具有重要的影响力。",
+        "url": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF",
+        "date": "2026-02-28",
+        "likes": 144
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#生成式AI",
+          "#提示生成",
+          "#交互式"
+        ],
+        "summary": "GitHub上的f/prompts.chat项目提供了一个交互式的提示生成工具。prompts.chat的核心功能是帮助用户生成高质量的提示文本。其技术亮点在于能够理解用户的需求并提供相应的提示建议。prompts.chat的应用场景包括但不限于内容创作、语言翻译等。其行业意义在于推动了生成式AI的发展，具有重要的影响力。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2580
+      },
+      {
+        "id": "5fc099",
+        "title": "NVIDIA/Megatron-LM",
+        "source": "GitHub",
+        "tags": [
+          "#NLP",
+          "#语言模型",
+          "#大规模训练"
+        ],
+        "summary": "NVIDIA的Megatron-LM项目提供了一个大规模的语言模型训练框架。Megatron-LM的核心功能是提供高效的语言模型训练能力。其技术亮点在于能够支持大规模的模型训练和部署。Megatron-LM的应用场景包括但不限于语言翻译、文本分类等。其行业意义在于推动了NLP领域的发展，具有重要的影响力。",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "date": "Recent (Trending)",
+        "stars": 227
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#知识图谱",
+          "#图谱构建",
+          "#开源"
+        ],
+        "summary": "khoj-ai/khoj项目提供了一个开源的知识图谱构建工具。khoj的核心功能是帮助用户构建和管理知识图谱。其技术亮点在于能够理解用户的需求并提供相应的图谱构建建议。khoj的应用场景包括但不限于知识管理、决策支持等。其行业意义在于推动了知识图谱的发展，具有重要的影响力。",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 241
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#金融数据分析",
+          "#开源",
+          "#可视化"
+        ],
+        "summary": "OpenBB-finance/OpenBB项目提供了一个开源的金融数据分析工具。OpenBB的核心功能是帮助用户分析和可视化金融数据。其技术亮点在于能够理解用户的需求并提供相应的数据分析和可视化能力。OpenBB的应用场景包括但不限于金融分析、投资决策等。其行业意义在于推动了金融数据分析的发展，具有重要的影响力。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 766
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#NLP",
+          "#语言模型",
+          "#开源"
+        ],
+        "summary": "huggingface/transformers项目提供了一个开源的自然语言处理工具库。transformers的核心功能是提供高性能的语言理解和生成能力。其技术亮点在于能够支持多种NLP任务和模型。transformers的应用场景包括但不限于语言翻译、文本分类等。其行业意义在于推动了NLP领域的发展，具有重要的影响力。",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 481
+      }
+    ]
   }
 ]
