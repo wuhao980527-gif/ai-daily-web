@@ -5679,5 +5679,203 @@
         "stars": 481
       }
     ]
+  },
+  {
+    "date": "2026-03-05",
+    "summary": "今日 AI 领域的主要进展包括多个新模型的发布，如 Qwen3.5 系列和 Huihui-Qwen3.5-35B-A3B-abliter，表明了模型规模和性能的持续提升。此外，GitHub 上的项目如 prompts.chat 和 khoj-ai/khoj 也展示了 AI 在各个领域的应用和技术探索。这些进展反映了 AI 领域的快速发展和创新。",
+    "news": [
+      {
+        "id": "1bef5b",
+        "title": "DualPath",
+        "source": "Product",
+        "tags": [
+          "#智能体",
+          "#大模型",
+          "#推理加速"
+        ],
+        "summary": "DeepSeek联合北大、清华发布新论文，推出智能体推理框架DualPath。DualPath针对智能体大模型推理的存储带宽瓶颈，创新双路径KV-Cache加载机制，让数据读取与GPU计算并行，彻底解决传统架构算力空闲问题。这种技术可以应用于大规模智能体系统的推理加速，具有很高的行业意义和影响力。DualPath的出现可以大大提高智能体系统的效率和性能，推动AI技术的进一步发展。",
+        "url": "https://www.stdaily.com/web/gdxw/2026-02/28/content_478103.html",
+        "date": "2026-02-28"
+      },
+      {
+        "id": "41443c",
+        "title": "Qwen/Qwen3.5-9B",
+        "source": "HuggingFace",
+        "tags": [
+          "#NLP",
+          "#预训练模型",
+          "#HuggingFace"
+        ],
+        "summary": "HuggingFace发布了Qwen/Qwen3.5-9B模型，属于transformers库，采用apache-2.0许可。这个模型可以用于自然语言处理任务，具有很高的性能和准确率。Qwen/Qwen3.5-9B模型可以应用于聊天机器人、语言翻译、文本分类等领域，具有很广泛的应用前景。HuggingFace的模型发布可以为开发者提供高质量的预训练模型，推动NLP技术的发展。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+        "date": "2026-02-27",
+        "likes": 402
+      },
+      {
+        "id": "b07334",
+        "title": "Qwen/Qwen3.5-0.8B",
+        "source": "HuggingFace",
+        "tags": [
+          "#NLP",
+          "#预训练模型",
+          "#HuggingFace"
+        ],
+        "summary": "HuggingFace发布了Qwen/Qwen3.5-0.8B模型，属于transformers库，采用apache-2.0许可。这个模型可以用于自然语言处理任务，具有很高的性能和准确率。Qwen/Qwen3.5-0.8B模型可以应用于聊天机器人、语言翻译、文本分类等领域，具有很广泛的应用前景。HuggingFace的模型发布可以为开发者提供高质量的预训练模型，推动NLP技术的发展。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+        "date": "2026-02-28",
+        "likes": 242
+      },
+      {
+        "id": "9934e6",
+        "title": "Qwen/Qwen3.5-4B",
+        "source": "HuggingFace",
+        "tags": [
+          "#NLP",
+          "#预训练模型",
+          "#HuggingFace"
+        ],
+        "summary": "HuggingFace发布了Qwen/Qwen3.5-4B模型，属于transformers库，采用apache-2.0许可。这个模型可以用于自然语言处理任务，具有很高的性能和准确率。Qwen/Qwen3.5-4B模型可以应用于聊天机器人、语言翻译、文本分类等领域，具有很广泛的应用前景。HuggingFace的模型发布可以为开发者提供高质量的预训练模型，推动NLP技术的发展。",
+        "url": "https://huggingface.co/Qwen/Qwen3.5-4B",
+        "date": "2026-02-27",
+        "likes": 224
+      },
+      {
+        "id": "64ed7c",
+        "title": "unsloth/Qwen3.5-9B-GGUF",
+        "source": "HuggingFace",
+        "tags": [
+          "#NLP",
+          "#预训练模型",
+          "#unsloth"
+        ],
+        "summary": "unsloth发布了Qwen3.5-9B-GGUF模型，属于transformers库，采用apache-2.0许可。这个模型可以用于自然语言处理任务，具有很高的性能和准确率。Qwen3.5-9B-GGUF模型可以应用于聊天机器人、语言翻译、文本分类等领域，具有很广泛的应用前景。unsloth的模型发布可以为开发者提供高质量的预训练模型，推动NLP技术的发展。",
+        "url": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF",
+        "date": "2026-02-28",
+        "likes": 163
+      },
+      {
+        "id": "b27d80",
+        "title": "huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
+        "source": "HuggingFace",
+        "tags": [
+          "#NLP",
+          "#预训练模型",
+          "#huihui-ai"
+        ],
+        "summary": "huihui-ai发布了Huihui-Qwen3.5-35B-A3B-abliterated模型，属于transformers库，采用apache-2.0许可。这个模型可以用于自然语言处理任务，具有很高的性能和准确率。Huihui-Qwen3.5-35B-A3B-abliterated模型可以应用于聊天机器人、语言翻译、文本分类等领域，具有很广泛的应用前景。huihui-ai的模型发布可以为开发者提供高质量的预训练模型，推动NLP技术的发展。",
+        "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-35B-A3B-abliterated",
+        "date": "2026-02-27",
+        "likes": 159
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#聊天机器人",
+          "#NLP",
+          "#GitHub"
+        ],
+        "summary": "prompts.chat是一个GitHub项目，提供了一个聊天机器人平台，允许用户创建和训练自己的聊天机器人模型。这个项目可以应用于聊天机器人、语言翻译、文本分类等领域，具有很广泛的应用前景。prompts.chat的出现可以为开发者提供一个便捷的聊天机器人开发平台，推动NLP技术的发展。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2402
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub",
+          "#khoj-ai"
+        ],
+        "summary": "khoj-ai/khoj是一个GitHub项目，提供了一个AI平台，允许用户创建和训练自己的AI模型。这个项目可以应用于图像识别、自然语言处理等领域，具有很广泛的应用前景。khoj-ai/khoj的出现可以为开发者提供一个便捷的AI开发平台，推动AI技术的发展。",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 336
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#浏览器",
+          "#GitHub",
+          "#servo"
+        ],
+        "summary": "servo/servo是一个GitHub项目，提供了一个浏览器引擎，允许用户创建和开发自己的浏览器。这个项目可以应用于浏览器开发、网页渲染等领域，具有很广泛的应用前景。servo/servo的出现可以为开发者提供一个便捷的浏览器开发平台，推动浏览器技术的发展。",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 340
+      },
+      {
+        "id": "5fc099",
+        "title": "NVIDIA/Megatron-LM",
+        "source": "GitHub",
+        "tags": [
+          "#NLP",
+          "#大规模语言模型",
+          "#NVIDIA"
+        ],
+        "summary": "NVIDIA/Megatron-LM是一个GitHub项目，提供了一个大规模语言模型，允许用户训练和部署自己的语言模型。这个项目可以应用于自然语言处理、语言翻译等领域，具有很广泛的应用前景。NVIDIA/Megatron-LM的出现可以为开发者提供一个便捷的大规模语言模型开发平台，推动NLP技术的发展。",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "date": "Recent (Trending)",
+        "stars": 216
+      },
+      {
+        "id": "3fa0f7",
+        "title": "snakers4/silero-vad",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#GitHub",
+          "#snakers4"
+        ],
+        "summary": "snakers4/silero-vad是一个GitHub项目，提供了一个语音活动检测模型，允许用户检测语音中的活动。这个项目可以应用于语音识别、语音合成等领域，具有很广泛的应用前景。snakers4/silero-vad的出现可以为开发者提供一个便捷的语音活动检测模型，推动语音技术的发展。",
+        "url": "https://github.com/snakers4/silero-vad",
+        "date": "Recent (Trending)",
+        "stars": 104
+      },
+      {
+        "id": "5c2d7c",
+        "title": "[Google] Discovering Multiagent Learning Algorithms with Large Language ...",
+        "source": "Papers",
+        "tags": [
+          "#多智能体",
+          "#大语言模型",
+          "#Google"
+        ],
+        "summary": "Google发布了一篇论文，提出了一种新的多智能体学习算法，利用大语言模型来发现和学习多智能体的行为。这个算法可以应用于多智能体系统、游戏等领域，具有很广泛的应用前景。Google的论文发布可以为开发者提供一个新的多智能体学习算法，推动多智能体技术的发展。",
+        "url": "https://huggingface.co/papers/2602.16928",
+        "date": "2026-02"
+      },
+      {
+        "id": "404c39",
+        "title": "[Google] [2602.07092] Lemon Agent Technical Report - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#智能体",
+          "#大语言模型",
+          "#Google"
+        ],
+        "summary": "Google发布了一篇技术报告，提出了一种新的Lemon Agent技术，利用大语言模型来实现智能体的决策和行为。这个技术可以应用于智能体系统、游戏等领域，具有很广泛的应用前景。Google的技术报告发布可以为开发者提供一个新的智能体技术，推动智能体技术的发展。",
+        "url": "https://arxiv.org/abs/2602.07092",
+        "date": "2026-02"
+      },
+      {
+        "id": "1cc685",
+        "title": "[DeepSeek] 1 Introduction - arXiv.org",
+        "source": "Papers",
+        "tags": [
+          "#MoE",
+          "#大语言模型",
+          "#DeepSeek"
+        ],
+        "summary": "DeepSeek发布了一篇论文，提出了一种新的MoE技术，利用大语言模型来实现模型的并行和加速。这个技术可以应用于大规模语言模型、自然语言处理等领域，具有很广泛的应用前景。DeepSeek的论文发布可以为开发者提供一个新的MoE技术，推动大语言模型技术的发展。",
+        "url": "https://arxiv.org/html/2602.08019v1",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
