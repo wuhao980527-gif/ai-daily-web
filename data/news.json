@@ -6893,5 +6893,206 @@
         "stars": 244
       }
     ]
+  },
+  {
+    "date": "2026-03-14",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 Nemotron 3 Super 和 Claude Code，以及 Anthropic Institute 的推出，表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "e47745",
+        "title": "Nemotron 3 Super",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "英伟达宣布未来五年投入260亿美元研发开源大模型，正式从硬件巨头转型全栈AI企业。新发布的Nemotron 3 Super拥有1280亿参数，在综合评分中以37分超越OpenAI GPT-OSS的33",
+        "url": "http://www.36kr.com/p/3719780712740233",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "ebe11d",
+        "title": "MiroFish",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "MiroFish是一款基于多智能体技术的新一代AI预测引擎，通过提取现实世界的种子信息，如突发新闻、政策草案、金融信号，自动构建出高保真的平行数字世界。",
+        "url": "https://www.36kr.com/p/3720728841763465",
+        "date": "2026-03-13"
+      },
+      {
+        "id": "c10501",
+        "title": "DuClaw",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "百度智能云正式发布DuClaw零部署服务，用户无需选择镜像、部署云服务器、自行配置API Key",
+        "url": "https://m.36kr.com/p/3721249863973507",
+        "date": "2026-03-11"
+      },
+      {
+        "id": "a4f30b",
+        "title": "OpenClaw",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenClaw是一款开源AI智能体，通过调用多款大模型，自主完成文件操作、浏览器自动化、数据抓取、表格制作等任务的AI助理",
+        "url": "https://www.36kr.com/p/3718039040570114",
+        "date": "2026-03-11"
+      },
+      {
+        "id": "82ff5c",
+        "title": "AutoClaw",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "智谱AI正式上线AutoClaw（中文名：澳龙），支持用户一键安装的本地版OpenClaw应用，将此前高门槛的AI智能体部署，简化为普通软件的“下载-安装-打开”三步操作，降低现象级开源项目OpenC",
+        "url": "https://www.36kr.com/p/3717851608725121",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "2dd59f",
+        "title": "Claude Code",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic’s latest Claude Code update is designed to find bugs for you. The multi-agent tool, called",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/891217/anthropics-latest-claude-code-update-is-designed-to-find-bugs-for-you",
+        "date": "2026-03-09"
+      },
+      {
+        "id": "9b2343",
+        "title": "Anthropic Institute",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic is launching a new think tank amid Pentagon blacklist fight, called the Anthropic Institut",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/892478/anthropic-institute-think-tank-claude-pentagon-jack-clark",
+        "date": "2026-03-11"
+      },
+      {
+        "id": "1ea4e1",
+        "title": "Code Review",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic launches code review tool to check flood of AI-generated code",
+        "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code",
+        "date": "2026-03-09"
+      },
+      {
+        "id": "b485e6",
+        "title": "Adobe AI assistant for Photoshop",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Adobe announced on Tuesday that its AI assistant for Photoshop is becoming available to users in bet",
+        "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "5c297f",
+        "title": "Promptfoo",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenAI announced Monday it has acquired Promptfoo, an AI security startup founded in 2024 to protect",
+        "url": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents",
+        "date": "2026-03-09"
+      },
+      {
+        "id": "04d396",
+        "title": "Moltbook",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Meta acquired Moltbook, the AI agent social network that went viral because of fake posts",
+        "url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "aac6f5",
+        "title": "Facebook Marketplace",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Facebook Marketplace is rolling out new Meta AI features, including one that automatically replies t",
+        "url": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "41e035",
+        "title": "Gemini",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google announced Wednesday that it is bringing Gemini integration for Chrome to new regions, includi",
+        "url": "https://techcrunch.com/2026/03/10/google-gemini-chrome-expands-to-india-canada-new-zealand",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "7f6718",
+        "title": "Dao-AILab/flash-attention",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# FlashAttention\nThis repository provides the official implementation of FlashAttention and\nFlashAtt",
+        "url": "https://github.com/Dao-AILab/flash-attention",
+        "date": "Recent (Trending)",
+        "stars": 214
+      },
+      {
+        "id": "903bfb",
+        "title": "langchain-ai/langchain",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <a href=\"https://www.langchain.com/\">\n    <picture>\n      <source media=\"(pre",
+        "url": "https://github.com/langchain-ai/langchain",
+        "date": "Recent (Trending)",
+        "stars": 1064
+      },
+      {
+        "id": "4d5976",
+        "title": "airbnb/lottie-ios",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Lottie for iOS\n [![Version](https://img.shields.io/cocoapods/v/lottie-ios.svg?style=flat)](https:/",
+        "url": "https://github.com/airbnb/lottie-ios",
+        "date": "Recent (Trending)",
+        "stars": 21
+      }
+    ]
   }
 ]
