@@ -7094,5 +7094,171 @@
         "stars": 21
       }
     ]
+  },
+  {
+    "date": "2026-03-15",
+    "summary": "今日AI领域呈现多维度进展，涵盖8项Product动态, 4项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "e47745",
+        "title": "Nemotron 3 Super",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "英伟达宣布未来五年投入260亿美元研发开源大模型，正式从硬件巨头转型全栈AI企业。新发布的Nemotron 3 Super拥有1280亿参数，在综合评分中以37分超越OpenAI GPT-OSS的33",
+        "url": "http://www.36kr.com/p/3719780712740233",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "a30096",
+        "title": "OpenClaw",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenClaw是一款开源AI智能体，通过调用多款大模型，自主完成文件操作、浏览器自动化、数据抓取、表格制作等任务的AI助理",
+        "url": "https://m.36kr.com/p/3718039040570114",
+        "date": "2026-03-11"
+      },
+      {
+        "id": "eece4b",
+        "title": "Zoom AI-powered office suite",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Zoom introduces an AI-powered office suite, including AI Docs, Slides, and Sheets apps, an AI agent ",
+        "url": "https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "1ea4e1",
+        "title": "Code Review",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic launches code review tool to check flood of AI-generated code",
+        "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code",
+        "date": "2026-03-09"
+      },
+      {
+        "id": "b485e6",
+        "title": "Adobe AI assistant for Photoshop",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Adobe announced on Tuesday that its AI assistant for Photoshop is becoming available to users in bet",
+        "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "5c297f",
+        "title": "Promptfoo",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenAI announced Monday it has acquired Promptfoo, an AI security startup founded in 2024 to protect",
+        "url": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents",
+        "date": "2026-03-09"
+      },
+      {
+        "id": "04d396",
+        "title": "Moltbook",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Meta acquired Moltbook, the AI agent social network that went viral because of fake posts",
+        "url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "23a23a",
+        "title": "Health AI",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Amazon launches its healthcare AI assistant on its website and app, allowing users to answer questio",
+        "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1999
+      },
+      {
+        "id": "4d5976",
+        "title": "airbnb/lottie-ios",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Lottie for iOS\n [![Version](https://img.shields.io/cocoapods/v/lottie-ios.svg?style=flat)](https:/",
+        "url": "https://github.com/airbnb/lottie-ios",
+        "date": "Recent (Trending)",
+        "stars": 25
+      },
+      {
+        "id": "903bfb",
+        "title": "langchain-ai/langchain",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <a href=\"https://www.langchain.com/\">\n    <picture>\n      <source media=\"(pre",
+        "url": "https://github.com/langchain-ai/langchain",
+        "date": "Recent (Trending)",
+        "stars": 1096
+      },
+      {
+        "id": "57665f",
+        "title": "flwrlabs/flower",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Flower: A Friendly Federated AI Framework\n\n<p align=\"center\">\n  <a href=\"https://flower.ai/\">\n    ",
+        "url": "https://github.com/flwrlabs/flower",
+        "date": "Recent (Trending)",
+        "stars": 40
+      },
+      {
+        "id": "5c2d7c",
+        "title": "[Google] Discovering Multiagent Learning Algorithms with Large Language ...",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Hugging Face's logo\n\n# Discovering Multiagent Learning Algorithms with Large Language Models\n\ngoogle",
+        "url": "https://huggingface.co/papers/2602.16928",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
