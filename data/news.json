@@ -7260,5 +7260,183 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-03-16",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 Adobe AI 助手和 Nemotron 3 Super，以及技术应用在医疗和电子商务领域，如 Amazon Health AI 和 Facebook Marketplace。这些进展表明 AI 技术在各个行业的应用日益广泛。",
+    "news": [
+      {
+        "id": "5267cf",
+        "title": "JVS Claw",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "阿里云正式推出手机'一键养虾'产品JVS Claw，支持iOS和Android手机端，以及网页端和Pad端多端访问",
+        "url": "https://m.36kr.com/p/3721312165706377",
+        "date": "2026-03-13"
+      },
+      {
+        "id": "e47745",
+        "title": "Nemotron 3 Super",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "英伟达宣布未来五年投入260亿美元研发开源大模型，正式从硬件巨头转型全栈AI企业。新发布的Nemotron 3 Super拥有1280亿参数，在综合评分中以37分超越OpenAI GPT-OSS的33",
+        "url": "http://www.36kr.com/p/3719780712740233",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "c10501",
+        "title": "DuClaw",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "百度智能云正式发布DuClaw零部署服务，用户无需选择镜像、部署云服务器、自行配置API Key",
+        "url": "https://m.36kr.com/p/3721249863973507",
+        "date": "2026-03-11"
+      },
+      {
+        "id": "a4f30b",
+        "title": "OpenClaw",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenClaw是一款开源AI智能体，通过调用多款大模型，自主完成文件操作、浏览器自动化、数据抓取、表格制作等任务的AI助理",
+        "url": "https://www.36kr.com/p/3718039040570114",
+        "date": "2026-03-11"
+      },
+      {
+        "id": "b485e6",
+        "title": "Adobe AI assistant for Photoshop",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Adobe announced on Tuesday that its AI assistant for Photoshop is becoming available to users in bet",
+        "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "dcebdd",
+        "title": "Vera Rubin systems",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Thinking Machines Lab announced it entered into a multi-year strategic partnership with AI semicondu",
+        "url": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "7c1b49",
+        "title": "Facebook Marketplace",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Facebook Marketplace is rolling out new Meta AI features, including one that automatically replies t",
+        "url": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "49a937",
+        "title": "Amazon Health AI",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Amazon expanded access to its Health AI platform beyond just One Medical members to include Amazon.c",
+        "url": "https://www.theverge.com/archives/71/archives/5",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "83554c",
+        "title": "YouTube Likeness Detection",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "YouTube expands its likeness detection technology to a pilot group of government officials, politica",
+        "url": "https://techcrunch.com/2026/03/10/youtube-ai-deepfake-detection-politicians-government-officials-journalists",
+        "date": "2026-03-10"
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1958
+      },
+      {
+        "id": "4d5976",
+        "title": "airbnb/lottie-ios",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Lottie for iOS\n [![Version](https://img.shields.io/cocoapods/v/lottie-ios.svg?style=flat)](https:/",
+        "url": "https://github.com/airbnb/lottie-ios",
+        "date": "Recent (Trending)",
+        "stars": 25
+      },
+      {
+        "id": "903bfb",
+        "title": "langchain-ai/langchain",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <a href=\"https://www.langchain.com/\">\n    <picture>\n      <source media=\"(pre",
+        "url": "https://github.com/langchain-ai/langchain",
+        "date": "Recent (Trending)",
+        "stars": 1119
+      },
+      {
+        "id": "f5f3e1",
+        "title": "DevilXD/TwitchDropsMiner",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Twitch Drops Miner\n\nThis application allows you to AFK mine timed Twitch drops, without having to ",
+        "url": "https://github.com/DevilXD/TwitchDropsMiner",
+        "date": "Recent (Trending)",
+        "stars": 43
+      },
+      {
+        "id": "5c2d7c",
+        "title": "[Google] Discovering Multiagent Learning Algorithms with Large Language ...",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Hugging Face's logo\n\n# Discovering Multiagent Learning Algorithms with Large Language Models\n\ngoogle",
+        "url": "https://huggingface.co/papers/2602.16928",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
