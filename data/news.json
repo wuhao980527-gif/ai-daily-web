@@ -7438,5 +7438,131 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-03-17",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 StepClaw 和 Claude AI，以及技术突破，如 Google 的多智能体学习发现。同时，GitHub 上的开源项目如 langchain-ai/langchain 和 airbnb/lottie-ios 也取得了进展。这些发展表明 AI 在产品创新和技术研究方面的持续推进。",
+    "news": [
+      {
+        "id": "0a1c28",
+        "title": "StepClaw",
+        "source": "Product",
+        "tags": [
+          "#智能体",
+          "#云端部署",
+          "#Agent能力"
+        ],
+        "summary": "阶跃星辰旗下的应用阶跃AI推出了基于OpenClaw打造的云端智能体StepClaw，用户可以在阶跃AI App中一键部署并调用这类Agent能力。StepClaw的核心功能是提供云端智能体的快速部署和调用，技术亮点在于其基于OpenClaw的架构，能够提供高效和灵活的智能体部署。应用场景包括智能客服、虚拟助手等，行业意义在于其能够提高智能体的部署效率和灵活性。因此，StepClaw的推出对智能体技术的发展具有重要意义。",
+        "url": "https://m.36kr.com/p/3719978097703297",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "7f10df",
+        "title": "GLM-5-Turbo",
+        "source": "Product",
+        "tags": [
+          "#大模型",
+          "#语言理解",
+          "#龙虾场景"
+        ],
+        "summary": "智谱正式发布了全球首个专为龙虾场景深度优化的通用大模型GLM-5-Turbo。GLM-5-Turbo的核心功能是提供高性能的语言理解和生成能力，技术亮点在于其专为龙虾场景优化的架构，能够提供更好的语言理解和生成效果。应用场景包括自然语言处理、语言生成等，行业意义在于其能够提高语言理解和生成的准确性和效率。因此，GLM-5-Turbo的发布对自然语言处理技术的发展具有重要意义。",
+        "url": "https://www.nfnews.com/content/WyjqLa4Eo0.html",
+        "date": "2026-03-16"
+      },
+      {
+        "id": "e1584d",
+        "title": "Claude AI",
+        "source": "Product",
+        "tags": [
+          "#多模态",
+          "#图表生成",
+          "#智能客服"
+        ],
+        "summary": "Anthropic的Claude AI可以响应图表、图解和其他视觉元素。Claude AI的核心功能是提供多模态的响应能力，技术亮点在于其能够自动生成图表和图解，能够提供更好的用户体验。应用场景包括智能客服、虚拟助手等，行业意义在于其能够提高用户体验和交互效率。因此，Claude AI的更新对多模态技术的发展具有重要意义。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "7ee7d2",
+        "title": "Facebook Marketplace AI auto-replies",
+        "source": "Product",
+        "tags": [
+          "#AI驱动",
+          "#自动回复",
+          "#电子商务"
+        ],
+        "summary": "Facebook Marketplace添加了多个AI驱动的工具，旨在提高卖家体验。这些工具的核心功能是提供自动回复和智能推荐，技术亮点在于其能够根据用户行为和偏好提供个性化的推荐。应用场景包括电子商务、社交媒体等，行业意义在于其能够提高用户体验和销售效率。因此，Facebook Marketplace的更新对电子商务技术的发展具有重要意义。",
+        "url": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings",
+        "date": "2026-03-12"
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#对话式AI",
+          "#开源",
+          "#快速开发"
+        ],
+        "summary": "f/prompts.chat是一个开源的对话式AI平台，提供了多种对话式AI模型和工具。其核心功能是提供对话式AI的快速开发和部署，技术亮点在于其开源的架构，能够提供高灵活性和可扩展性。应用场景包括智能客服、虚拟助手等，行业意义在于其能够提高对话式AI的开发效率和灵活性。因此，f/prompts.chat的发布对对话式AI技术的发展具有重要意义。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1840
+      },
+      {
+        "id": "903bfb",
+        "title": "langchain-ai/langchain",
+        "source": "GitHub",
+        "tags": [
+          "#语言链式AI",
+          "#开源",
+          "#语言理解"
+        ],
+        "summary": "langchain-ai/langchain是一个开源的语言链式AI平台，提供了多种语言理解和生成模型。其核心功能是提供语言理解和生成的快速开发和部署，技术亮点在于其开源的架构，能够提供高灵活性和可扩展性。应用场景包括自然语言处理、语言生成等，行业意义在于其能够提高语言理解和生成的准确性和效率。因此，langchain-ai/langchain的发布对自然语言处理技术的发展具有重要意义。",
+        "url": "https://github.com/langchain-ai/langchain",
+        "date": "Recent (Trending)",
+        "stars": 1162
+      },
+      {
+        "id": "4d5976",
+        "title": "airbnb/lottie-ios",
+        "source": "GitHub",
+        "tags": [
+          "#动画库",
+          "#开源",
+          "#iOS开发"
+        ],
+        "summary": "airbnb/lottie-ios是一个开源的iOS动画库，提供了多种动画效果和工具。其核心功能是提供动画的快速开发和部署，技术亮点在于其开源的架构，能够提供高灵活性和可扩展性。应用场景包括移动应用开发、游戏开发等，行业意义在于其能够提高动画开发效率和灵活性。因此，airbnb/lottie-ios的发布对移动应用开发技术的发展具有重要意义。",
+        "url": "https://github.com/airbnb/lottie-ios",
+        "date": "Recent (Trending)",
+        "stars": 28
+      },
+      {
+        "id": "5c2d7c",
+        "title": "[Google] Discovering Multiagent Learning Algorithms with Large Language ...",
+        "source": "Papers",
+        "tags": [
+          "#多智能体学习",
+          "#大语言模型",
+          "#自动发现"
+        ],
+        "summary": "Google提出了一种新的多智能体学习算法，基于大语言模型。该算法的核心功能是提供多智能体学习的快速开发和部署，技术亮点在于其能够自动发现多智能体学习算法，能够提供更好的学习效果。应用场景包括多智能体系统、游戏等，行业意义在于其能够提高多智能体学习的准确性和效率。因此，Google的提出对多智能体学习技术的发展具有重要意义。",
+        "url": "https://huggingface.co/papers/2602.16928",
+        "date": "2026-02"
+      },
+      {
+        "id": "165e0d",
+        "title": "[Qwen] A Framework for Integrating Heterogeneous LLM-Based Query ...",
+        "source": "Papers",
+        "tags": [
+          "#大语言模型",
+          "#框架",
+          "#集成"
+        ],
+        "summary": "Qwen提出了一种新的框架，用于集成异构的大语言模型。该框架的核心功能是提供大语言模型的快速集成和部署，技术亮点在于其能够支持多种大语言模型，能够提供更好的语言理解和生成效果。应用场景包括自然语言处理、语言生成等，行业意义在于其能够提高语言理解和生成的准确性和效率。因此，Qwen的提出对自然语言处理技术的发展具有重要意义。",
+        "url": "https://arxiv.org/html/2602.01701v2",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
