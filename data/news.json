@@ -7828,5 +7828,106 @@
         "stars": 1855
       }
     ]
+  },
+  {
+    "date": "2026-03-21",
+    "summary": "今日 AI 领域的主要进展包括新产品和技术的发布，如悟空、Dispatch 和 i-PRO X-series fisheye cameras，以及开源项目如 langchain 和 jsoncrack.com 的更新，这些进展表明 AI 在各个领域的应用和技术的不断改进。",
+    "news": [
+      {
+        "id": "a3d6fe",
+        "title": "悟空",
+        "source": "Product",
+        "tags": [
+          "#企业级AI",
+          "#智能工作平台",
+          "#自动化"
+        ],
+        "summary": "阿里发布的悟空是全球首个企业级AI原生工作平台，核心功能是集成AI能力，实现工作流程的自动化和智能化。技术亮点在于其原生支持AI，能够让企业快速部署和应用AI解决方案。应用场景广泛，包括但不限于客户服务、营销和运营管理。行业意义重大，因为它有助于企业提高效率和竞争力。",
+        "url": "https://36kr.com/p/3731108637491457",
+        "date": "2026-03-17"
+      },
+      {
+        "id": "c44eb3",
+        "title": "Dispatch",
+        "source": "Product",
+        "tags": [
+          "#远程控制",
+          "#智能协作",
+          "#跨设备"
+        ],
+        "summary": "Anthropic发布的Dispatch是Cowork的一项新功能，允许用户通过手机远程指挥Mac上的Claude执行任务。核心功能是远程控制和任务执行，技术亮点在于其跨设备的无缝协作能力。应用场景包括远程办公和团队合作。行业意义在于提高远程工作的效率和便捷性。",
+        "url": "https://m.36kr.com/p/3728350022089609",
+        "date": "2026-03-17"
+      },
+      {
+        "id": "ecb1a5",
+        "title": "i-PRO X-series fisheye cameras",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#边缘计算",
+          "#智能监控"
+        ],
+        "summary": "i-PRO发布的X-series fisheye摄像机集成了生成式AI，实现了边缘计算和自然语言交互。核心功能是实时处理和分析视觉数据，技术亮点在于其边缘AI计算能力。应用场景包括安防、监控和智能城市建设。行业意义在于提高数据处理效率和实时响应能力。",
+        "url": "https://i-pro.com/products_and_solutions/en/surveillance/newsroom/i-pro-introduces-its-first-cameras-generative-ai-edge",
+        "date": "2026-03-19"
+      },
+      {
+        "id": "903bfb",
+        "title": "langchain-ai/langchain",
+        "source": "GitHub",
+        "tags": [
+          "#开源AI",
+          "#语言模型",
+          "#模块化"
+        ],
+        "summary": "langchain-ai/langchain是一个开源项目，提供了一套语言链式AI解决方案。核心功能是支持多种语言模型和任务，技术亮点在于其模块化和可扩展的设计。应用场景包括自然语言处理和生成式任务。行业意义在于推动AI研究和应用的开源合作。",
+        "url": "https://github.com/langchain-ai/langchain",
+        "date": "Recent (Trending)",
+        "stars": 1148
+      },
+      {
+        "id": "ba6603",
+        "title": "AykutSarac/jsoncrack.com",
+        "source": "GitHub",
+        "tags": [
+          "#JSON解析",
+          "#数据处理",
+          "#高性能"
+        ],
+        "summary": "AykutSarac/jsoncrack.com是一个GitHub项目，提供了JSON数据解析和处理工具。核心功能是高效解析和处理JSON数据，技术亮点在于其简单易用和高性能。应用场景包括数据分析和Web开发。行业意义在于简化数据处理流程和提高开发效率。",
+        "url": "https://github.com/AykutSarac/jsoncrack.com",
+        "date": "Recent (Trending)",
+        "stars": 333
+      },
+      {
+        "id": "f5f3e1",
+        "title": "DevilXD/TwitchDropsMiner",
+        "source": "GitHub",
+        "tags": [
+          "#自动化",
+          "#Twitch",
+          "#奖励获取"
+        ],
+        "summary": "DevilXD/TwitchDropsMiner是一个GitHub项目，允许用户自动化地挖取Twitch Drops奖励。核心功能是自动化和定时任务，技术亮点在于其简单易用和自动化能力。应用场景包括游戏直播和奖励获取。行业意义在于提高用户体验和便捷性。",
+        "url": "https://github.com/DevilXD/TwitchDropsMiner",
+        "date": "Recent (Trending)",
+        "stars": 64
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#对话式AI",
+          "#语言理解",
+          "#交互式"
+        ],
+        "summary": "f/prompts.chat是一个GitHub项目，提供了一个对话式AI平台。核心功能是支持多种对话任务和语言模型，技术亮点在于其交互式和用户友好的设计。应用场景包括聊天机器人和语言理解。行业意义在于推动对话式AI的发展和应用。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1534
+      }
+    ]
   }
 ]
