@@ -8250,5 +8250,81 @@
         "stars": 129
       }
     ]
+  },
+  {
+    "date": "2026-03-24",
+    "summary": "AI 领域的主要进展包括开源项目的发布，如 Skypilot 和 Langchain，重点关注于模型优化和应用开发。此外，安全性也是一个重要的方面，Trivy 等项目致力于提高代码安全性。这些进展推动了 AI 技术的发展和行业应用。",
+    "news": [
+      {
+        "id": "7aed3f",
+        "title": "skypilot-org/skypilot",
+        "source": "GitHub",
+        "tags": [
+          "#云原生",
+          "#机器学习",
+          "#开源"
+        ],
+        "summary": "Skypilot 是一个开源的 GitHub 项目，提供了一个云原生的框架，用于简化和自动化机器学习工作流的管理。其核心功能包括工作流管理、资源分配和任务调度。Skypilot 的技术亮点在于其能够自动化地管理和优化机器学习工作流，减少手动干预的需要。该项目可以应用于各类机器学习和深度学习任务，尤其适用于大规模数据处理和复杂模型训练。Skypilot 的出现对于简化机器学习工作流和提高开发效率具有重要意义。",
+        "url": "https://github.com/skypilot-org/skypilot",
+        "date": "Recent (Trending)",
+        "stars": 107
+      },
+      {
+        "id": "64b0b6",
+        "title": "mnfst/manifest",
+        "source": "GitHub",
+        "tags": [
+          "#软件开发",
+          "#项目管理",
+          "#自动化"
+        ],
+        "summary": "Manifest 是一个 GitHub 项目，提供了一个用于构建和管理软件项目的工具。其核心功能包括项目模板管理、依赖管理和构建自动化。Manifest 的技术亮点在于其能够简化软件项目的构建和管理过程，提高开发效率。该项目可以应用于各类软件开发项目，尤其适用于复杂的多模块项目。Manifest 的出现对于简化软件开发流程和提高项目质量具有重要意义。",
+        "url": "https://github.com/mnfst/manifest",
+        "date": "Recent (Trending)",
+        "stars": 246
+      },
+      {
+        "id": "903bfb",
+        "title": "langchain-ai/langchain",
+        "source": "GitHub",
+        "tags": [
+          "#语言模型",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "Langchain 是一个开源的 GitHub 项目，提供了一个用于构建和管理语言模型的框架。其核心功能包括语言模型训练、评估和部署。Langchain 的技术亮点在于其能够简化语言模型的构建和管理过程，提高模型的性能和可靠性。该项目可以应用于各类自然语言处理任务，尤其适用于聊天机器人、语音识别和文本分类等应用。Langchain 的出现对于推动语言模型的发展和应用具有重要意义。",
+        "url": "https://github.com/langchain-ai/langchain",
+        "date": "Recent (Trending)",
+        "stars": 1131
+      },
+      {
+        "id": "ba6603",
+        "title": "AykutSarac/jsoncrack.com",
+        "source": "GitHub",
+        "tags": [
+          "#JSON",
+          "#数据处理",
+          "#工具"
+        ],
+        "summary": "Jsoncrack 是一个 GitHub 项目，提供了一个用于解析和处理 JSON 数据的工具。其核心功能包括 JSON 数据解析、验证和转换。Jsoncrack 的技术亮点在于其能够高效地处理大规模 JSON 数据，提供灵活的数据转换和验证功能。该项目可以应用于各类数据处理和分析任务，尤其适用于 Web 开发和数据科学应用。Jsoncrack 的出现对于简化 JSON 数据处理和提高数据质量具有重要意义。",
+        "url": "https://github.com/AykutSarac/jsoncrack.com",
+        "date": "Recent (Trending)",
+        "stars": 353
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#容器安全",
+          "#漏洞扫描",
+          "#开源"
+        ],
+        "summary": "Trivy 是一个开源的 GitHub 项目，提供了一个用于扫描和检测容器安全漏洞的工具。其核心功能包括漏洞扫描、配置检查和依赖分析。Trivy 的技术亮点在于其能够快速高效地扫描和检测容器安全漏洞，提供详细的漏洞报告和修复建议。该项目可以应用于各类容器化应用，尤其适用于云原生和 DevOps 环境。Trivy 的出现对于提高容器安全性和降低安全风险具有重要意义。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 692
+      }
+    ]
   }
 ]
