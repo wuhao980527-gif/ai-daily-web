@@ -8326,5 +8326,148 @@
         "stars": 692
       }
     ]
+  },
+  {
+    "date": "2026-03-25",
+    "summary": "今日 AI 领域的主要进展包括新产品发布和开源项目更新，例如 AMD AI 研习社、ClawBot 和 Astral 等，表明 AI 技术在各个领域的应用和发展。同时，GitHub 上的开源项目如 aquasecurity/trivy 和 skypilot-org/skypilot 也在不断更新，推动 AI 技术的进步。这些进展体现了 AI 领域的快速发展和多样化应用。",
+    "news": [
+      {
+        "id": "03d1db",
+        "title": "AMD AI研习社",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "AMD AI研习社是一个面向AI开发者、AI技术爱好者、AMD粉丝以及普通PC用户的社区平台，通过微信小程序承载，致力于为社区成员提供紧贴前沿的AI资讯与动态、有深度的专业课程与认证体系、优先参与AM",
+        "url": "https://eu.36kr.com/zh/p/3730660706975745",
+        "date": "2026-03-20"
+      },
+      {
+        "id": "528082",
+        "title": "ClawBot",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "微信官方插件ClawBot上线，加速了Chatbot入口之争的进程，标志着AI从对话框变成身边的执行者",
+        "url": "https://www.36kr.com/p/3736181087810057",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "50e668",
+        "title": "Astral",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenAI宣布收购Python工具链明星公司Astral，团队并入Codex。",
+        "url": "https://www.36kr.com/p/3730899734626565",
+        "date": "2026-03-19"
+      },
+      {
+        "id": "be69f1",
+        "title": "Composer 2",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Cursor发布了一款名为Composer 2的模型，通过持续预训练和强化学习，提升了性能。然而，开发者发现该模型的ID显示为kimi-k2p5-rl-0317-s515-fast，表明它是基于Kim",
+        "url": "https://www.36kr.com/p/3732017804473097",
+        "date": "2026-03-23"
+      },
+      {
+        "id": "49456a",
+        "title": "AI Clips",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Snapchat announced on Tuesday that it’s launching AI Clips in Lens Studio, its platform that lets cr",
+        "url": "https://techcrunch.com/2026/03/24/snapchats-new-ai-clips-lens-format-turns-photos-into-five-second-videos/",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "cc442f",
+        "title": "Gemini AI agents",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google's Gemini AI agents are crawling the dark web, sifting through upward of 10 million posts a da",
+        "url": "https://www.theregister.com/2026/03/23/google_dark_web_ai/",
+        "date": "2026-03-23"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 771
+      },
+      {
+        "id": "7aed3f",
+        "title": "skypilot-org/skypilot",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.",
+        "url": "https://github.com/skypilot-org/skypilot",
+        "date": "Recent (Trending)",
+        "stars": 112
+      },
+      {
+        "id": "e87ab0",
+        "title": "meilisearch/meilisearch",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://www.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_me",
+        "url": "https://github.com/meilisearch/meilisearch",
+        "date": "Recent (Trending)",
+        "stars": 289
+      },
+      {
+        "id": "6e7bfe",
+        "title": "electron/electron",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)\n\n[![GitH",
+        "url": "https://github.com/electron/electron",
+        "date": "Recent (Trending)",
+        "stars": 156
+      },
+      {
+        "id": "ba6603",
+        "title": "AykutSarac/jsoncrack.com",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!-- PROJECT LOGO -->\n<p align=\"center\">\n  <a href=\"https://github.com/AykutSarac/jsoncrack.com\">\n  ",
+        "url": "https://github.com/AykutSarac/jsoncrack.com",
+        "date": "Recent (Trending)",
+        "stars": 243
+      }
+    ]
   }
 ]
