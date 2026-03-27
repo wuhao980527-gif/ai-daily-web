@@ -8623,5 +8623,172 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-03-27",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如诚迈科技的 AI 产品矩阵和 Composer 2，以及技术突破，如 GitHub 上的 aquasecurity/trivy 项目。这些进展表明 AI 在各个行业中的应用不断扩展，包括物流、音乐创作等领域。",
+    "news": [
+      {
+        "id": "3ccc21",
+        "title": "诚迈科技AI产品矩阵（萤火、龙盒、诚迈悟空·龙宫）",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "诚迈科技发布面向端侧AI嵌入式市场的萤火、面向企业市场的龙盒，以及面向消费者市场的诚迈悟空·龙宫，形成覆盖多场景、多形态的AI产品矩阵",
+        "url": "https://m.36kr.com/p/3738064078323975",
+        "date": "2026-03-22"
+      },
+      {
+        "id": "887622",
+        "title": "NEO系统",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "国家药监局正式批准全球首张侵入式脑机接口三类医疗器械证",
+        "url": "https://36kr.com/p/3739100846125833",
+        "date": "2026-03-26"
+      },
+      {
+        "id": "0bbc60",
+        "title": "Composer 2",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "AI coding company Cursor launched a new model called Composer 2, which was built on top of Moonshot ",
+        "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi",
+        "date": "2026-03-22"
+      },
+      {
+        "id": "96375c",
+        "title": "Howdy",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Roku's $3 ad-free streaming service, Howdy, is launching on Amazon's Prime Video.",
+        "url": "https://techcrunch.com/2026/03/24/rokus-3-howdy-subscription-service-launches-on-prime-video?x-agent-client=W-7njoVr89mFAk",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "49456a",
+        "title": "AI Clips",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Snapchat announced on Tuesday that it’s launching AI Clips in Lens Studio, its platform that lets cr",
+        "url": "https://techcrunch.com/2026/03/24/snapchats-new-ai-clips-lens-format-turns-photos-into-five-second-videos/",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "da126e",
+        "title": "Wing drone delivery service",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google’s old drone project is launching service in the Bay Area. Project Wing launched as a part of ",
+        "url": "https://www.theverge.com/tech/898926/project-wing-drone-delivery-google-mountain-view",
+        "date": "2026-03-23"
+      },
+      {
+        "id": "0302c8",
+        "title": "Trainium",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Amazon's Trainium chip, created at the chip development lab, has implications for lower-cost AI infe",
+        "url": "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
+        "date": "2026-03-22"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 985
+      },
+      {
+        "id": "7aed3f",
+        "title": "skypilot-org/skypilot",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.",
+        "url": "https://github.com/skypilot-org/skypilot",
+        "date": "Recent (Trending)",
+        "stars": 117
+      },
+      {
+        "id": "63e3d1",
+        "title": "pathwaycom/pathway",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <a href=\"https://pathway.com/\">\n    <picture>\n      <source media=\"(prefers-c",
+        "url": "https://github.com/pathwaycom/pathway",
+        "date": "Recent (Trending)",
+        "stars": 2011
+      },
+      {
+        "id": "903bfb",
+        "title": "langchain-ai/langchain",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <a href=\"https://docs.langchain.com/oss/python/langchain/overview\">\n    <pict",
+        "url": "https://github.com/langchain-ai/langchain",
+        "date": "Recent (Trending)",
+        "stars": 1130
+      },
+      {
+        "id": "e87ab0",
+        "title": "meilisearch/meilisearch",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://www.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_me",
+        "url": "https://github.com/meilisearch/meilisearch",
+        "date": "Recent (Trending)",
+        "stars": 319
+      },
+      {
+        "id": "5c2d7c",
+        "title": "[Google] Discovering Multiagent Learning Algorithms with Large Language ...",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Hugging Face's logo\n\n# Discovering Multiagent Learning Algorithms with Large Language Models\n\ngoogle",
+        "url": "https://huggingface.co/papers/2602.16928",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
