@@ -8790,5 +8790,133 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-03-28",
+    "summary": "今日 AI 领域的主要进展包括新模型发布，如盘古大模型，以及开源项目的更新，如 Trivy 和 Langchain。这些进展表明 AI 技术在多个领域的应用和发展，包括自然语言处理和安全检查。",
+    "news": [
+      {
+        "id": "629db6",
+        "title": "Transcribe",
+        "source": "Product",
+        "tags": [
+          "#开源",
+          "#语音识别",
+          "#转录"
+        ],
+        "summary": "Cohere 发布了一款名为 Transcribe 的开源语音模型，专门用于转录。Transcribe 具有高精度的语音识别能力，可以应用于各种语音转文本的场景。其技术亮点在于能够准确识别不同口音和语速的语音，并且可以根据用户的需求进行定制。Transcribe 的应用场景包括会议记录、播客转文本、语音助手等。其行业意义在于降低语音转文本的门槛，提高工作效率。#开源 #语音识别 #转录",
+        "url": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
+        "date": "2026-03-26"
+      },
+      {
+        "id": "4e843e",
+        "title": "盘古大模型",
+        "source": "Product",
+        "tags": [
+          "#大模型",
+          "#开源",
+          "#AI"
+        ],
+        "summary": "华为云CEO周跃峰宣布，华为云全面开放自研盘古大模型，推出涵盖718B至1B的全尺寸版本矩阵并开源。盘古大模型具有高性能和复杂业务场景的处理能力，可以应用于自然语言处理、计算机视觉等领域。其技术亮点在于能够处理大量数据和复杂任务，并且可以根据用户的需求进行定制。盘古大模型的应用场景包括智能客服、内容生成、数据分析等。其行业意义在于推动AI技术的发展和应用。#大模型 #开源 #AI",
+        "url": "https://www.guancha.cn/economy/2026_03_22_810934.shtml",
+        "date": "2026-03-22"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#安全扫描",
+          "#云原生"
+        ],
+        "summary": "aquasecurity/trivy 是一个开源的安全扫描工具，能够检测容器和其他云原生应用中的漏洞。其核心功能是能够快速准确地识别安全风险，并提供详细的报告和建议。aquasecurity/trivy 的技术亮点在于其高性能和易用性，可以应用于各种云原生应用的安全扫描场景。其应用场景包括容器安全、云原生安全、DevSecOps 等。其行业意义在于提高云原生应用的安全性和可靠性。#开源 #安全扫描 #云原生",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 1005
+      },
+      {
+        "id": "f26965",
+        "title": "PaperMC/Paper",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#Minecraft",
+          "#游戏服务器"
+        ],
+        "summary": "PaperMC/Paper 是一个开源的Minecraft服务器软件，能够提供高性能和稳定的游戏体验。其核心功能是能够处理大量玩家和游戏数据，并提供详细的配置和管理工具。PaperMC/Paper 的技术亮点在于其高可定制性和易用性，可以应用于各种Minecraft服务器场景。其应用场景包括游戏服务器、社区服务器、教育服务器等。其行业意义在于提高Minecraft游戏的体验和社区建设。#开源 #Minecraft #游戏服务器",
+        "url": "https://github.com/PaperMC/Paper",
+        "date": "Recent (Trending)",
+        "stars": 41
+      },
+      {
+        "id": "903bfb",
+        "title": "langchain-ai/langchain",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#语言模型",
+          "#NLP"
+        ],
+        "summary": "langchain-ai/langchain 是一个开源的语言模型框架，能够提供高性能和灵活的语言处理能力。其核心功能是能够处理各种自然语言任务，并提供详细的API和工具。langchain-ai/langchain 的技术亮点在于其高可扩展性和易用性，可以应用于各种自然语言处理场景。其应用场景包括聊天机器人、语言翻译、文本生成等。其行业意义在于推动语言模型的发展和应用。#开源 #语言模型 #NLP",
+        "url": "https://github.com/langchain-ai/langchain",
+        "date": "Recent (Trending)",
+        "stars": 1110
+      },
+      {
+        "id": "63e3d1",
+        "title": "pathwaycom/pathway",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#机器学习",
+          "#模型训练"
+        ],
+        "summary": "pathwaycom/pathway 是一个开源的机器学习框架，能够提供高性能和灵活的模型训练和部署能力。其核心功能是能够处理各种机器学习任务，并提供详细的API和工具。pathwaycom/pathway 的技术亮点在于其高可扩展性和易用性，可以应用于各种机器学习场景。其应用场景包括图像分类、自然语言处理、推荐系统等。其行业意义在于推动机器学习的发展和应用。#开源 #机器学习 #模型训练",
+        "url": "https://github.com/pathwaycom/pathway",
+        "date": "Recent (Trending)",
+        "stars": 1692
+      },
+      {
+        "id": "6e7bfe",
+        "title": "electron/electron",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#桌面应用",
+          "#跨平台"
+        ],
+        "summary": "electron/electron 是一个开源的跨平台桌面应用框架，能够提供高性能和灵活的应用开发能力。其核心功能是能够处理各种桌面应用任务，并提供详细的API和工具。electron/electron 的技术亮点在于其高可扩展性和易用性，可以应用于各种桌面应用场景。其应用场景包括聊天机器人、音乐播放器、办公软件等。其行业意义在于推动桌面应用的发展和创新。#开源 #桌面应用 #跨平台",
+        "url": "https://github.com/electron/electron",
+        "date": "Recent (Trending)",
+        "stars": 156
+      },
+      {
+        "id": "5c2d7c",
+        "title": "[Google] Discovering Multiagent Learning Algorithms with Large Language ...",
+        "source": "Papers",
+        "tags": [
+          "#Google",
+          "#多智能体",
+          "#大语言模型"
+        ],
+        "summary": "Google提出了一种新的多智能体学习算法，能够使用大语言模型来发现和学习多智能体任务。其核心功能是能够处理各种多智能体场景，并提供详细的算法和工具。Google的技术亮点在于其高性能和灵活性，可以应用于各种多智能体学习场景。其应用场景包括游戏、机器人、自动驾驶等。其行业意义在于推动多智能体学习的发展和应用。#Google #多智能体 #大语言模型",
+        "url": "https://huggingface.co/papers/2602.16928",
+        "date": "2026-02"
+      },
+      {
+        "id": "a413c9",
+        "title": "[OpenAI] Large Language Model Reasoning Failures - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#OpenAI",
+          "#语言模型",
+          "#推理失败"
+        ],
+        "summary": "OpenAI提出了一种新的语言模型推理失败检测算法，能够检测和分析语言模型的推理失败情况。其核心功能是能够处理各种语言模型任务，并提供详细的算法和工具。OpenAI的技术亮点在于其高性能和灵活性，可以应用于各种语言模型场景。其应用场景包括聊天机器人、语言翻译、文本生成等。其行业意义在于提高语言模型的可靠性和准确性。#OpenAI #语言模型 #推理失败",
+        "url": "https://arxiv.org/html/2602.06176v1",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
