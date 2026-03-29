@@ -8918,5 +8918,107 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-03-29",
+    "summary": "今日 AI 领域的主要进展包括新型芯片和开源项目的发布，如 XuanTie C950 和 PaperMC/Paper 等，另外还有安全扫描工具 trivy 和工作流管理工具 n8n 的更新，这些进展表明 AI 技术在计算硬件和软件应用方面的持续发展。",
+    "news": [
+      {
+        "id": "48f20b",
+        "title": "XuanTie C950",
+        "source": "Product",
+        "tags": [
+          "#芯片技术",
+          "#5纳米制程",
+          "#高性能计算"
+        ],
+        "summary": "阿里巴巴发布了其下一代XuanTie C950 5纳米处理器，这是一款高性能的芯片，采用了先进的5纳米制程技术。其核心功能包括高频率的CPU和GPU，支持多种指令集和协议。技术亮点在于其低功耗和高性能的平衡，能够在多种应用场景中发挥作用。应用场景包括云计算、人工智能、物联网等领域。行业意义在于其能够推动中国芯片产业的发展，减少对外国芯片的依赖。#芯片技术 #5纳米制程 #高性能计算",
+        "url": "https://english.aawsat.com/technology/5254559-alibaba-unveils-next-gen-chip-agentic-ai",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "f26965",
+        "title": "PaperMC/Paper",
+        "source": "GitHub",
+        "tags": [
+          "#开源软件",
+          "#游戏服务器",
+          "#Minecraft"
+        ],
+        "summary": "PaperMC/Paper是一个开源的Minecraft服务器软件，支持多种平台和协议。其核心功能包括高性能的服务器管理、插件支持和安全性。技术亮点在于其高度可定制和扩展的架构，能够满足不同用户的需求。应用场景包括游戏服务器、教育平台等领域。行业意义在于其能够推动开源游戏服务器软件的发展，提供更好的游戏体验。#开源软件 #游戏服务器 #Minecraft",
+        "url": "https://github.com/PaperMC/Paper",
+        "date": "Recent (Trending)",
+        "stars": 56
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#开源工具",
+          "#漏洞扫描",
+          "#容器安全"
+        ],
+        "summary": "aquasecurity/trivy是一个开源的漏洞扫描工具，支持多种容器和镜像。其核心功能包括高性能的漏洞扫描、支持多种格式和协议。技术亮点在于其高度可扩展和集成的架构，能够满足不同用户的需求。应用场景包括容器安全、云安全等领域。行业意义在于其能够推动容器安全的发展，提供更好的安全保障。#开源工具 #漏洞扫描 #容器安全",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 947
+      },
+      {
+        "id": "63e3d1",
+        "title": "pathwaycom/pathway",
+        "source": "GitHub",
+        "tags": [
+          "#开源框架",
+          "#机器学习",
+          "#人工智能"
+        ],
+        "summary": "pathwaycom/pathway是一个开源的机器学习框架，支持多种算法和模型。其核心功能包括高性能的模型训练、支持多种数据格式和协议。技术亮点在于其高度可定制和扩展的架构，能够满足不同用户的需求。应用场景包括人工智能、机器学习等领域。行业意义在于其能够推动机器学习框架的发展，提供更好的模型训练体验。#开源框架 #机器学习 #人工智能",
+        "url": "https://github.com/pathwaycom/pathway",
+        "date": "Recent (Trending)",
+        "stars": 1526
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#开源工具",
+          "#工作流管理",
+          "#自动化"
+        ],
+        "summary": "n8n-io/n8n是一个开源的工作流管理工具，支持多种节点和协议。其核心功能包括高性能的工作流管理、支持多种格式和协议。技术亮点在于其高度可定制和扩展的架构，能够满足不同用户的需求。应用场景包括工作流管理、自动化等领域。行业意义在于其能够推动工作流管理的发展，提供更好的工作流体验。#开源工具 #工作流管理 #自动化",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1422
+      },
+      {
+        "id": "3d49c8",
+        "title": "public-api-lists/public-api-lists",
+        "source": "GitHub",
+        "tags": [
+          "#开源列表",
+          "#公共API",
+          "#API开发"
+        ],
+        "summary": "public-api-lists/public-api-lists是一个开源的公共API列表，支持多种API和协议。其核心功能包括高性能的API搜索、支持多种格式和协议。技术亮点在于其高度可扩展和集成的架构，能够满足不同用户的需求。应用场景包括API开发、集成等领域。行业意义在于其能够推动公共API的发展，提供更好的API体验。#开源列表 #公共API #API开发",
+        "url": "https://github.com/public-api-lists/public-api-lists",
+        "date": "Recent (Trending)",
+        "stars": 136
+      },
+      {
+        "id": "1cc685",
+        "title": "[OpenAI] 1 Introduction - arXiv",
+        "source": "Papers",
+        "tags": [
+          "#分布式系统",
+          "#去中心化",
+          "#区块链"
+        ],
+        "summary": "OpenAI发布了一篇关于集中式和去中心化范式的论文，讨论了两种范式的优缺点和应用场景。其核心功能包括对集中式和去中心化范式的分析和比较。技术亮点在于其对两种范式的深入分析和对比，能够为读者提供更好的理解和选择。应用场景包括分布式系统、区块链等领域。行业意义在于其能够推动分布式系统和区块链的发展，提供更好的设计和实现。#分布式系统 #去中心化 #区块链",
+        "url": "https://arxiv.org/html/2602.08019v1",
+        "date": "2026-02"
+      }
+    ]
   }
 ]
