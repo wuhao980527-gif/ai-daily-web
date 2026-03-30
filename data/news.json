@@ -9020,5 +9020,232 @@
         "date": "2026-02"
       }
     ]
+  },
+  {
+    "date": "2026-03-30",
+    "summary": "今日 AI 领域的主要进展包括多款新产品的发布，如微元合成、悟空企业级Agent平台和LattiAI等，这些产品体现了人工智能技术在各个领域的应用和发展。此外，Google 和 OpenAI 等公司也推出了新的功能和政策，如 Google Translate 的 Live Translate 和 OpenAI 的青少年安全政策，这些进展表明人工智能技术正在不断完善和扩展其应用范围。",
+    "news": [
+      {
+        "id": "0c8346",
+        "title": "微元合成",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "微元合成完成3亿元A+轮融资，由河南投资集团汇融基金和谭瑞清先生参与投资。本轮融资将助力微元合成拓宽AI生物计算应用边界，加大核心技术研发投入与场景化落地。",
+        "url": "https://36kr.com/p/3744666471088389",
+        "date": "2026-03-30"
+      },
+      {
+        "id": "02fb76",
+        "title": "悟空企业级Agent平台",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "阿里巴巴正式发布悟空企业级Agent平台，瞄准了一人公司、跨境电商、制造、财税等细分场景",
+        "url": "https://www.36kr.com/p/3738237753934084",
+        "date": "2026-03-25"
+      },
+      {
+        "id": "27f76f",
+        "title": "LattiAI",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "密流智能发起LattiAI开源共建计划——「盗火者计划」，面向全球开发者、高校研究者与AI工程师，共同打磨LattiAI——国内首个面向AI密文推理的全同态加密开发框架。",
+        "url": "https://eu.36kr.com/zh/p/3740777552478470",
+        "date": "2026-03-27"
+      },
+      {
+        "id": "5b945d",
+        "title": "Gemini 3.1 Flash Live",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google’s ‘live’ AI search assistant can handle conversations in dozens more languages",
+        "url": "http://www.theverge.com/tech?ref=rion.io",
+        "date": "2026-03-26"
+      },
+      {
+        "id": "629db6",
+        "title": "Transcribe",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Cohere launches an open source voice model specifically for transcription, Transcribe is an open sou",
+        "url": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
+        "date": "2026-03-26"
+      },
+      {
+        "id": "a6c384",
+        "title": "OpenAI teen safety policies",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenAI is releasing a set of prompts that developers can use to make their apps safer for teens, add",
+        "url": "https://techcrunch.com/2026/03/24/openai-adds-open-source-tools-to-help-developers-build-for-teen-safety/",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "a0d932",
+        "title": "Search Live",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google is launching Search Live globally to all languages and locations where AI Mode is available, ",
+        "url": "https://techcrunch.com/2026/03/26/google-is-launching-search-live-globally/",
+        "date": "2026-03-26"
+      },
+      {
+        "id": "4fd635",
+        "title": "Google Translate’s Live Translate",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google Translate’s real-time headphone translations feature expands to iOS and to more countries, av",
+        "url": "https://techcrunch.com/2026/03/26/google-translates-real-time-headphone-translations-feature-expands-to-ios-and-more-countries",
+        "date": "2026-03-26"
+      },
+      {
+        "id": "49456a",
+        "title": "AI Clips",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Snapchat announced on Tuesday that it’s launching AI Clips in Lens Studio, its platform that lets cr",
+        "url": "https://techcrunch.com/2026/03/24/snapchats-new-ai-clips-lens-format-turns-photos-into-five-second-videos/",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "f73681",
+        "title": "Lyria 3 Pro",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google announced on Wednesday that it’s releasing Lyria 3 Pro, a music generation model, a month aft",
+        "url": "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model",
+        "date": "2026-03-25"
+      },
+      {
+        "id": "949153",
+        "title": "Lakewatch",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Databricks announced on Tuesday that it was launching a new security product called Lakewatch, which",
+        "url": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security?x-agent-client=W-7njoVr89mFAk",
+        "date": "2026-03-24"
+      },
+      {
+        "id": "50e381",
+        "title": "WhatsApp",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "WhatsApp is rolling out a slew of new features and updates, including one that generates AI-powered ",
+        "url": "https://techcrunch.com/2026/03/26/whatsapp-can-now-draft-ai-generated-responses-based-on-your-conversations",
+        "date": "2026-03-26"
+      },
+      {
+        "id": "b1c22d",
+        "title": "Voxtral TTS",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Mistral released a new open source text-to-speech model that can be used by voice AI assistants or i",
+        "url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation",
+        "date": "2026-03-26"
+      },
+      {
+        "id": "f26965",
+        "title": "PaperMC/Paper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "Paper [![Paper Build Status](https://img.shields.io/github/actions/workflow/status/PaperMC/Paper/bui",
+        "url": "https://github.com/PaperMC/Paper",
+        "date": "Recent (Trending)",
+        "stars": 74
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 711
+      },
+      {
+        "id": "3d49c8",
+        "title": "public-api-lists/public-api-lists",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Public API Lists\n\n[![Validate PR](https://github.com/public-api-lists/public-api-lists/actions/wor",
+        "url": "https://github.com/public-api-lists/public-api-lists",
+        "date": "Recent (Trending)",
+        "stars": 130
+      },
+      {
+        "id": "6e7bfe",
+        "title": "electron/electron",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)\n\n[![GitH",
+        "url": "https://github.com/electron/electron",
+        "date": "Recent (Trending)",
+        "stars": 156
+      },
+      {
+        "id": "63e3d1",
+        "title": "pathwaycom/pathway",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <a href=\"https://pathway.com/\">\n    <picture>\n      <source media=\"(prefers-c",
+        "url": "https://github.com/pathwaycom/pathway",
+        "date": "Recent (Trending)",
+        "stars": 1374
+      }
+    ]
   }
 ]
