@@ -9681,5 +9681,198 @@
         "stars": 82
       }
     ]
+  },
+  {
+    "date": "2026-04-04",
+    "summary": "今日 AI 领域的主要进展包括新产品发布和技术升级，如 Qwen 和 MetaClaw 的发布，以及 Google 和 Microsoft 的新模型和功能更新，这些进展表明 AI 在各个行业中的应用和发展正在不断推进。",
+    "news": [
+      {
+        "id": "2f5442",
+        "title": "Qwen3.6-Plus、Qwen3.5-Omni、Wan2.7-Image",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多模态",
+          "#智能体"
+        ],
+        "summary": "阿里巴巴发布了全模态原生大模型Qwen3.5-Omni、图像生成与编辑的统一模型Wan2.7-Image和智能体Agent、编程Coding和工具调用能力的Qwen 3.6-Plus。这些模型具有多模态处理能力、图像生成和编辑能力以及智能体和编程能力。这些技术可以应用于智能助手、图像编辑和生成、智能编程等领域。这些技术的发布对于推动AI技术的发展具有重要意义，能够提高AI模型的能力和应用范围。",
+        "url": "https://m.36kr.com/p/3750774747366150",
+        "date": "2026-03-30"
+      },
+      {
+        "id": "4f93e6",
+        "title": "MetaClaw",
+        "source": "Product",
+        "tags": [
+          "#开源",
+          "#智能体",
+          "#持续学习"
+        ],
+        "summary": "伯克利等四校开源了MetaClaw框架，实现Agent在不中断服务的前提下持续从失败中进化。这个框架可以让AI模型在运行过程中不断学习和改进，打破了传统AI模型的局限性。MetaClaw框架可以应用于智能助手、自动驾驶等领域，能够提高AI模型的鲁棒性和适应性。这个框架的开源对于推动AI技术的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://m.36kr.com/p/3745998790656772",
+        "date": "2026-03-31"
+      },
+      {
+        "id": "812293",
+        "title": "Tripo Smart Mesh P1.0",
+        "source": "Product",
+        "tags": [
+          "#3D扩散模型",
+          "#生成式AI",
+          "#渲染技术"
+        ],
+        "summary": "Tripo AI发布了Tripo Smart Mesh P1.0，这是一个生产级别的原生3D扩散模型。这个模型可以用于生成高质量的3D模型和场景，具有快速渲染和编辑能力。Tripo Smart Mesh P1.0可以应用于游戏开发、建筑设计等领域，能够提高3D内容的生产效率和质量。这个模型的发布对于推动3D技术的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://norfolkdailynews.com/online_features/press_releases/tripo-ai-launches-smart-mesh-p1-0-marking-the-arrival-of-ai-3d-2-0/article_f6c8004a-31cd-57e3-96c6-e826dbb707d7.html",
+        "date": "2026-04-01"
+      },
+      {
+        "id": "2b79d8",
+        "title": "Veo 3.1 Lite",
+        "source": "Product",
+        "tags": [
+          "#视频处理",
+          "#生成式AI",
+          "#成本效益"
+        ],
+        "summary": "Google发布了新的Veo 3.1 Lite AI视频模型，这是一个成本效益高的视频处理模型。这个模型可以用于视频编辑、压缩和生成，具有快速处理和高质量输出能力。Veo 3.1 Lite可以应用于视频编辑软件、社交媒体等领域，能够提高视频处理的效率和质量。这个模型的发布对于推动视频技术的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://www.theverge.com/archives/ai-artificial-intelligence/2026/3/1",
+        "date": "2026-03-31"
+      },
+      {
+        "id": "b24c44",
+        "title": "Google Vids",
+        "source": "Product",
+        "tags": [
+          "#视频编辑",
+          "#生成式AI",
+          "#升级"
+        ],
+        "summary": "Google的AI视频编辑器Google Vids获得了升级，增加了对Veo 3.1的支持。这个编辑器可以用于视频编辑、剪辑和生成，具有快速处理和高质量输出能力。Google Vids可以应用于视频编辑软件、社交媒体等领域，能够提高视频处理的效率和质量。这个编辑器的升级对于推动视频技术的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://www.theverge.com/tech/906051/googles-ai-powered-video-editor-is-getting-an-upgrade",
+        "date": "2026-04-02"
+      },
+      {
+        "id": "d0f280",
+        "title": "Microsoft's new transcription model",
+        "source": "Product",
+        "tags": [
+          "#语音转文字",
+          "#高精度",
+          "#会议记录"
+        ],
+        "summary": "Microsoft发布了新的转录模型，这是一个高精度的语音转文字模型。这个模型可以用于语音转文字、会议记录和字幕生成，具有快速处理和高质量输出能力。Microsoft的转录模型可以应用于语音助手、会议软件等领域，能够提高语音转文字的准确性和效率。这个模型的发布对于推动语音技术的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://www.theverge.com/report/905791/mustafa-suleyman-microsoft-ai-transcription-model",
+        "date": "2026-04-02"
+      },
+      {
+        "id": "12725f",
+        "title": "WhatsApp",
+        "source": "Product",
+        "tags": [
+          "#移动通信",
+          "#CarPlay",
+          "#社交"
+        ],
+        "summary": "WhatsApp即将登陆CarPlay，用户可以在CarPlay上使用WhatsApp的原生应用。这个应用可以用于发送和接收消息、进行语音和视频通话，具有快速和方便的使用体验。WhatsApp的CarPlay应用可以应用于移动办公、社交等领域，能够提高用户的沟通效率和体验。这个应用的发布对于推动移动通信的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://www.theverge.com/archives/meta/2026/3/1",
+        "date": "2026-03-30"
+      },
+      {
+        "id": "4b20a4",
+        "title": "Slack",
+        "source": "Product",
+        "tags": [
+          "#团队协作",
+          "#AI重构",
+          "#可重用"
+        ],
+        "summary": "Salesforce宣布了Slack的AI重构，增加了30个新的功能，包括可重用的AI技能。这个重构可以让Slack的用户使用AI能力，提高工作效率和体验。Slack的AI重构可以应用于团队协作、客户服务等领域，能够提高用户的生产力和满意度。这个重构的发布对于推动团队协作的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features",
+        "date": "2026-03-31"
+      },
+      {
+        "id": "6a34a9",
+        "title": "ElevenMusic",
+        "source": "Product",
+        "tags": [
+          "#音乐生成",
+          "#AI应用",
+          "#音效"
+        ],
+        "summary": "ElevenLabs发布了新的AI音乐生成应用ElevenMusic，可以用于生成高质量的音乐和音效。这个应用可以用于音乐创作、广告和电影等领域，能够提高音乐生成的效率和质量。ElevenMusic的发布对于推动音乐技术的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://techcrunch.com/2026/04/02/elevenlabs-releases-a-new-ai-powered-music-generation-app",
+        "date": "2026-04-01"
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#金融数据",
+          "#分析平台"
+        ],
+        "summary": "OpenBB-finance发布了OpenBB，这是一个开源的金融数据和分析平台。这个平台可以用于金融数据的收集、分析和可视化，具有快速和方便的使用体验。OpenBB可以应用于金融分析、投资等领域，能够提高用户的决策效率和准确性。这个平台的发布对于推动金融技术的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 1679
+      },
+      {
+        "id": "f26965",
+        "title": "PaperMC/Paper",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#Minecraft",
+          "#服务器软件"
+        ],
+        "summary": "PaperMC发布了Paper，这是一个开源的Minecraft服务器软件。这个软件可以用于Minecraft服务器的搭建和管理，具有快速和稳定的运行能力。Paper可以应用于游戏开发、服务器管理等领域，能够提高Minecraft服务器的性能和安全性。这个软件的发布对于推动游戏技术的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://github.com/PaperMC/Paper",
+        "date": "Recent (Trending)",
+        "stars": 85
+      },
+      {
+        "id": "1b0e15",
+        "title": "labring/sealos",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#云原生",
+          "#部署管理"
+        ],
+        "summary": "labring发布了sealos，这是一个开源的云原生应用部署和管理平台。这个平台可以用于云原生应用的部署、管理和监控，具有快速和方便的使用体验。sealos可以应用于云计算、DevOps等领域，能够提高用户的部署效率和管理能力。这个平台的发布对于推动云计算的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://github.com/labring/sealos",
+        "date": "Recent (Trending)",
+        "stars": 96
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#量化交易",
+          "#投资平台"
+        ],
+        "summary": "microsoft发布了qlib，这是一个开源的量化交易和投资平台。这个平台可以用于量化交易、投资和风险管理，具有快速和准确的分析能力。qlib可以应用于金融分析、投资等领域，能够提高用户的决策效率和准确性。这个平台的发布对于推动金融技术的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 759
+      },
+      {
+        "id": "9b4313",
+        "title": "fastfetch-cli/fastfetch",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#系统信息",
+          "#监控工具"
+        ],
+        "summary": "fastfetch-cli发布了fastfetch，这是一个开源的系统信息收集和展示工具。这个工具可以用于系统信息的收集、展示和分析，具有快速和方便的使用体验。fastfetch可以应用于系统管理、监控等领域，能够提高用户的管理效率和分析能力。这个工具的发布对于推动系统管理的发展具有重要意义，能够促进更多的创新和应用。",
+        "url": "https://github.com/fastfetch-cli/fastfetch",
+        "date": "Recent (Trending)",
+        "stars": 690
+      }
+    ]
   }
 ]
