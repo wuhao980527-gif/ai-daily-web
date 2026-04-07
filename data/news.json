@@ -10065,5 +10065,159 @@
         "stars": 82
       }
     ]
+  },
+  {
+    "date": "2026-04-07",
+    "summary": "今日 AI 领域的主要进展包括新产品发布和技术更新，如 Agnes、Seedance 2.0 和 Google AI Edge Eloquent 等，这些产品和技术的发布表明 AI 在各个领域的应用和发展。同时，GitHub 上的开源项目如 OpenBB-finance/OpenBB 和 f/prompts.chat 也在不断更新和完善，这些进展推动了 AI 技术的进步和行业应用的拓展。",
+    "news": [
+      {
+        "id": "662e60",
+        "title": "Agnes",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多模态",
+          "#自然语言处理"
+        ],
+        "summary": "Agnes旗下核心模型矩阵正式上线Zenmux平台，开放四款主力模型调用，包括Claw系列的Agnes-1.5-Lite与Agnes-1.5-Pro，以及多模态方向的Agnes-Image-1.2与Agnes-Image-1.2-Pro。这些模型具备高性能和多样化的处理能力，可以应用于自然语言处理、图像处理等领域。Agnes的模型矩阵上线Zenmux平台，标志着其在AI技术领域的进一步深耕和布局，能够为开发者和企业提供更丰富的AI解决方案。这种开放式的合作模式，也有助于推动AI技术的发展和应用。#生成式AI #多模态 #自然语言处理",
+        "url": "https://m.36kr.com/p/3748842413966080",
+        "date": "2026-04-02"
+      },
+      {
+        "id": "2fffaf",
+        "title": "Seedance 2.0",
+        "source": "Product",
+        "tags": [
+          "#企业级AI",
+          "#API",
+          "#数据处理"
+        ],
+        "summary": "Seedance 2.0 API正式面向企业用户开放公测申请，仅面向完成企业认证的主体，个人用户暂不纳入申请范围。Seedance 2.0 API提供了更高效和安全的数据处理能力，能够帮助企业快速开发和部署AI应用。这种企业级的API开放，能够促进AI技术在各个行业的应用和推广，特别是在需要高安全性和高性能的场景中。Seedance 2.0 API的开放，也体现了其在AI技术领域的领先地位和对企业用户的支持。#企业级AI #API #数据处理",
+        "url": "https://www.36kr.com/p/3750400671953664",
+        "date": "2026-04-02"
+      },
+      {
+        "id": "7ae1c4",
+        "title": "GLM-5V-Turbo",
+        "source": "Product",
+        "tags": [
+          "#多模态AI",
+          "#Coding",
+          "#智能开发"
+        ],
+        "summary": "智谱发布首个原生多模态Coding基座模型GLM-5V-Turbo，能够原生处理文本、图片、视频等多模态信息，同时擅长编程、长程规划、操作执行等复杂任务。GLM-5V-Turbo的发布，标志着多模态AI技术的重大突破，能够更好地处理和理解多种类型的数据。这种模型的应用前景广阔，能够应用于智能开发、自动驾驶、医疗影像分析等领域。GLM-5V-Turbo的发布，也体现了智谱在AI技术领域的创新能力和领先地位。#多模态AI #Coding #智能开发",
+        "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/118676.html",
+        "date": "2026-04-02"
+      },
+      {
+        "id": "6904b5",
+        "title": "Google AI Edge Eloquent",
+        "source": "Product",
+        "tags": [
+          "#语音编辑",
+          "#AI应用",
+          "#离线环境"
+        ],
+        "summary": "Google发布了一款免费的离线AI语音编辑应用，能够自动润色用户的语音输入。这种应用的发布，标志着AI技术在语音处理领域的进一步应用和推广。该应用能够帮助用户提高语音输入的准确性和流畅性，特别是在离线环境中。Google的这款应用，也体现了其在AI技术领域的领先地位和对用户体验的关注。#语音编辑 #AI应用 #离线环境",
+        "url": "https://www.theverge.com",
+        "date": "2026-04-06"
+      },
+      {
+        "id": "b24c44",
+        "title": "Google Vids",
+        "source": "Product",
+        "tags": [
+          "#AI视频编辑",
+          "#GoogleVids",
+          "#Veo3.1"
+        ],
+        "summary": "Google的AI视频编辑器Google Vids获得了升级，新增了对Veo 3.1的支持等功能。这种升级，标志着Google在AI视频编辑领域的进一步深耕和布局。Google Vids能够帮助用户更容易地编辑和处理视频，特别是在需要高质量和高效率的场景中。Google Vids的升级，也体现了其在AI技术领域的创新能力和对用户需求的响应。#AI视频编辑 #GoogleVids #Veo3.1",
+        "url": "https://www.theverge.com/tech/906051/googles-ai-powered-video-editor-is-getting-an-upgrade",
+        "date": "2026-04-02"
+      },
+      {
+        "id": "6a34a9",
+        "title": "ElevenMusic",
+        "source": "Product",
+        "tags": [
+          "#AI音乐生成",
+          "#ElevenMusic",
+          "#音乐编辑"
+        ],
+        "summary": "ElevenLabs发布了一款新的AI音乐生成应用ElevenMusic，能够帮助用户创建和编辑音乐。ElevenMusic的发布，标志着AI技术在音乐生成领域的进一步应用和推广。这种应用能够帮助用户更容易地创作和编辑音乐，特别是在需要高质量和高效率的场景中。ElevenMusic的发布，也体现了ElevenLabs在AI技术领域的创新能力和对用户需求的响应。#AI音乐生成 #ElevenMusic #音乐编辑",
+        "url": "https://techcrunch.com/2026/04/02/elevenlabs-releases-a-new-ai-powered-music-generation-app",
+        "date": "2026-04-01"
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#开源金融",
+          "#数据分析",
+          "#OpenBB"
+        ],
+        "summary": "OpenBB-finance发布了OpenBB，一个开源的金融数据分析平台。OpenBB能够帮助用户更容易地分析和处理金融数据，特别是在需要高质量和高效率的场景中。OpenBB的发布，标志着开源金融数据分析领域的进一步发展和推广。这种平台能够帮助用户更好地理解和应用金融数据，特别是在需要高精度和高可靠性的场景中。OpenBB的发布，也体现了OpenBB-finance在开源金融数据分析领域的领先地位和对用户需求的响应。#开源金融 #数据分析 #OpenBB",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 1178
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI对话",
+          "#prompts.chat",
+          "#对话平台"
+        ],
+        "summary": "prompts.chat发布了一个新的AI对话平台，能够帮助用户更容易地与AI模型交互和对话。prompts.chat的发布，标志着AI对话领域的进一步发展和推广。这种平台能够帮助用户更好地理解和应用AI模型，特别是在需要高质量和高效率的场景中。prompts.chat的发布，也体现了其在AI对话领域的创新能力和对用户需求的响应。#AI对话 #prompts.chat #对话平台",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2986
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#开源量化",
+          "#交易平台",
+          "#qlib"
+        ],
+        "summary": "microsoft发布了qlib，一个开源的量化交易平台。qlib能够帮助用户更容易地开发和部署量化交易策略，特别是在需要高质量和高效率的场景中。qlib的发布，标志着开源量化交易领域的进一步发展和推广。这种平台能够帮助用户更好地理解和应用量化交易策略，特别是在需要高精度和高可靠性的场景中。qlib的发布，也体现了microsoft在开源量化交易领域的领先地位和对用户需求的响应。#开源量化 #交易平台 #qlib",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 822
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#开源产品",
+          "#数据分析",
+          "#posthog"
+        ],
+        "summary": "PostHog发布了posthog，一个开源的产品分析平台。posthog能够帮助用户更容易地分析和理解产品数据，特别是在需要高质量和高效率的场景中。posthog的发布，标志着开源产品分析领域的进一步发展和推广。这种平台能够帮助用户更好地理解和应用产品数据，特别是在需要高精度和高可靠性的场景中。posthog的发布，也体现了PostHog在开源产品分析领域的领先地位和对用户需求的响应。#开源产品 #数据分析 #posthog",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 158
+      },
+      {
+        "id": "9b4313",
+        "title": "fastfetch-cli/fastfetch",
+        "source": "GitHub",
+        "tags": [
+          "#开源系统",
+          "#信息收集",
+          "#fastfetch"
+        ],
+        "summary": "fastfetch-cli发布了fastfetch，一个开源的系统信息收集工具。fastfetch能够帮助用户更容易地收集和分析系统信息，特别是在需要高质量和高效率的场景中。fastfetch的发布，标志着开源系统信息收集领域的进一步发展和推广。这种工具能够帮助用户更好地理解和应用系统信息，特别是在需要高精度和高可靠性的场景中。fastfetch的发布，也体现了fastfetch-cli在开源系统信息收集领域的领先地位和对用户需求的响应。#开源系统 #信息收集 #fastfetch",
+        "url": "https://github.com/fastfetch-cli/fastfetch",
+        "date": "Recent (Trending)",
+        "stars": 387
+      }
+    ]
   }
 ]
