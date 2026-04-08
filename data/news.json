@@ -10219,5 +10219,120 @@
         "stars": 387
       }
     ]
+  },
+  {
+    "date": "2026-04-08",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 Seedance 2.0 和 Google AI Edge Eloquent，以及开源项目的更新，如 OpenBB-finance 和 PostHog。这些进展表明 AI 技术在边缘计算和金融等领域的应用正在扩展。",
+    "news": [
+      {
+        "id": "0f2bcf",
+        "title": "Seedance 2.0",
+        "source": "Product",
+        "tags": [
+          "#企业级AI",
+          "#自动化流程",
+          "#数据分析"
+        ],
+        "summary": "Seedance 2.0 API 正式面向企业用户开放公测申请，仅面向完成企业认证的主体，个人用户暂不纳入申请范围。Seedance 2.0 的核心功能是提供高级别的 AI 能力，技术亮点在于其能够支持复杂的企业级应用场景。该技术可以应用于企业内部的自动化流程、数据分析等领域。Seedance 2.0 的开放公测对企业来说具有重要意义，因为它可以帮助企业提高效率和竞争力。Seedance 2.0 的开放也标志着 AI 技术在企业领域的进一步深入。",
+        "url": "https://m.36kr.com/p/3750400671953664",
+        "date": "2026-04-02"
+      },
+      {
+        "id": "570507",
+        "title": "Gemma 4",
+        "source": "Product",
+        "tags": [
+          "#智能模型",
+          "#复杂推理",
+          "#开源"
+        ],
+        "summary": "谷歌正式发布 Gemma 4，称其为迄今为止最智能的开放模型系列。Gemma 4 的核心功能是支持复杂推理与智能体工作流，采用商业许可的 Apache 2.0 许可证开源。Gemma 4 的技术亮点在于其能够处理复杂的推理任务和智能体工作流。该技术可以应用于自然语言处理、计算机视觉等领域。Gemma 4 的开放对 AI 研究和开发具有重要意义，因为它可以帮助研究人员和开发者更好地理解和应用 AI 技术。Gemma 4 的开放也标志着 AI 技术在各个领域的进一步发展。",
+        "url": "https://www.infoq.cn/article/X1c6ZllztrQhGEIoYrBR",
+        "date": "2026-04-03"
+      },
+      {
+        "id": "24aa14",
+        "title": "Google AI Edge Eloquent",
+        "source": "Product",
+        "tags": [
+          "#语音输入",
+          "#离线AI",
+          "#语音助手"
+        ],
+        "summary": "Google AI Edge Eloquent 是一款免费的离线 AI 辅助应用，能够自动润色用户的语音输入。该应用的核心功能是利用 AI 技术来提高语音输入的准确性和流畅性。Google AI Edge Eloquent 的技术亮点在于其能够在离线状态下运行，减少了对网络连接的依赖。该技术可以应用于语音输入、语音助手等领域。Google AI Edge Eloquent 的发布对语音输入技术具有重要意义，因为它可以帮助用户更方便、更准确地输入文本。Google AI Edge Eloquent 的发布也标志着 AI 技术在语音输入领域的进一步发展。",
+        "url": "https://www.theverge.com/archives/2",
+        "date": "2026-04-06"
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#金融数据分析",
+          "#开源",
+          "#数据可视化"
+        ],
+        "summary": "OpenBB-finance/OpenBB 是一个开源的金融数据分析平台，提供了多种金融数据分析工具和库。该平台的核心功能是支持用户对金融数据进行分析和可视化。OpenBB-finance/OpenBB 的技术亮点在于其能够支持多种金融数据源和分析工具。该技术可以应用于金融数据分析、投资决策等领域。OpenBB-finance/OpenBB 的开放对金融数据分析具有重要意义，因为它可以帮助用户更好地理解和分析金融数据。OpenBB-finance/OpenBB 的开放也标志着开源技术在金融领域的进一步发展。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 804
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#对话式AI",
+          "#开源",
+          "#聊天机器人"
+        ],
+        "summary": "f/prompts.chat 是一个开源的对话式 AI 平台，提供了多种对话式 AI 模型和工具。该平台的核心功能是支持用户与 AI 模型进行对话式交互。f/prompts.chat 的技术亮点在于其能够支持多种对话式 AI 模型和场景。该技术可以应用于聊天机器人、语音助手等领域。f/prompts.chat 的开放对对话式 AI 技术具有重要意义，因为它可以帮助用户更好地理解和应用对话式 AI 技术。f/prompts.chat 的开放也标志着开源技术在对话式 AI 领域的进一步发展。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2752
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#产品分析",
+          "#开源",
+          "#数据可视化"
+        ],
+        "summary": "PostHog/posthog 是一个开源的产品分析平台，提供了多种产品分析工具和库。该平台的核心功能是支持用户对产品数据进行分析和可视化。PostHog/posthog 的技术亮点在于其能够支持多种产品数据源和分析工具。该技术可以应用于产品分析、用户行为分析等领域。PostHog/posthog 的开放对产品分析具有重要意义，因为它可以帮助用户更好地理解和分析产品数据。PostHog/posthog 的开放也标志着开源技术在产品分析领域的进一步发展。",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 155
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#开源",
+          "#金融数据分析"
+        ],
+        "summary": "microsoft/qlib 是一个开源的量化交易平台，提供了多种量化交易工具和库。该平台的核心功能是支持用户对金融数据进行分析和交易。microsoft/qlib 的技术亮点在于其能够支持多种金融数据源和交易策略。该技术可以应用于量化交易、投资决策等领域。microsoft/qlib 的开放对量化交易具有重要意义，因为它可以帮助用户更好地理解和应用量化交易技术。microsoft/qlib 的开放也标志着开源技术在量化交易领域的进一步发展。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 819
+      },
+      {
+        "id": "1b0e15",
+        "title": "labring/sealos",
+        "source": "GitHub",
+        "tags": [
+          "#云原生",
+          "#开源",
+          "#应用部署"
+        ],
+        "summary": "labring/sealos 是一个开源的云原生应用平台，提供了多种云原生应用工具和库。该平台的核心功能是支持用户对云原生应用进行部署和管理。labring/sealos 的技术亮点在于其能够支持多种云原生应用场景和工具。该技术可以应用于云原生应用开发、部署和管理等领域。labring/sealos 的开放对云原生应用具有重要意义，因为它可以帮助用户更好地理解和应用云原生技术。labring/sealos 的开放也标志着开源技术在云原生领域的进一步发展。",
+        "url": "https://github.com/labring/sealos",
+        "date": "Recent (Trending)",
+        "stars": 102
+      }
+    ]
   }
 ]
