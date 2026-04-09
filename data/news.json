@@ -10334,5 +10334,146 @@
         "stars": 102
       }
     ]
+  },
+  {
+    "date": "2026-04-09",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 Mythos 和 DeepSeek，以及开源项目如 OpenBB 和 qlib 的更新，这些进展表明 AI 在各个领域的应用和技术的不断改进。",
+    "news": [
+      {
+        "id": "750aa5",
+        "title": "Mythos",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#软件安全",
+          "#漏洞检测"
+        ],
+        "summary": "Anthropic发布的Mythos模型是一个强大的AI模型，目前处于预览阶段。其编码能力已经达到了极高水平，在发现和利用软件漏洞方面几乎可以超越除最顶级专家之外的所有人。Mythos的技术亮点在于其能够深入理解代码并识别出复杂的漏洞，这使得它在软件安全领域具有重要的应用价值。Mythos的出现可能会对软件安全行业产生重大影响，因为它可以帮助开发者更快速、更有效地发现和修复漏洞。",
+        "url": "https://m.36kr.com/p/3757720918721029",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "9841f1",
+        "title": "Muse Spark",
+        "source": "Product",
+        "tags": [
+          "#超级智能",
+          "#多模态",
+          "#自然语言处理"
+        ],
+        "summary": "Meta Platforms发布的Muse Spark是其首个由超级智能团队开发的AI模型。Muse Spark的核心功能是其能够处理复杂的任务和问题，并提供深入的分析和解决方案。其技术亮点在于其能够集成多种AI技术，包括自然语言处理和计算机视觉等。Muse Spark的应用场景广泛，包括但不限于数据分析、内容生成和智能搜索等。Muse Spark的发布标志着Meta在AI领域的又一重大突破，可能会对多个行业产生深远影响。",
+        "url": "https://www.devdiscourse.com/article/technology/3867217-meta-enters-ai-race-with-new-muse-spark-model?amp",
+        "date": "2026-04-09"
+      },
+      {
+        "id": "6ab470",
+        "title": "DeepSeek",
+        "source": "Product",
+        "tags": [
+          "#智能搜索",
+          "#信息检索",
+          "#知识管理"
+        ],
+        "summary": "DeepSeek上线的专家模式是一个强大的功能，能够帮助用户解决复杂的问题。DeepSeek的核心功能是其能够提供深度思考和智能搜索功能，帮助用户快速找到所需的信息。其技术亮点在于其能够理解用户的需求并提供个性化的推荐。DeepSeek的应用场景包括但不限于学术研究、商业决策和个人学习等。DeepSeek的发布可能会对信息检索和知识管理领域产生重大影响。",
+        "url": "https://finance.eastmoney.com/a/202604093698840058.html",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "360cd8",
+        "title": "GLM-5.1",
+        "source": "Product",
+        "tags": [
+          "#开源AI",
+          "#长时间任务",
+          "#能效优化"
+        ],
+        "summary": "智谱正式发布的GLM-5.1是全球第一个在真实工程任务中验证了8小时持续工作能力的开源模型。GLM-5.1的核心功能是其能够处理长时间的任务并保持高效的性能。其技术亮点在于其能够优化计算资源的利用，减少能耗。GLM-5.1的应用场景包括但不限于自然语言处理、语音识别和图像处理等。GLM-5.1的发布可能会对AI研究和开发领域产生重大影响，推动开源AI技术的发展。",
+        "url": "https://finance.ifeng.com/c/8s9XzYGlECL",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "4471d9",
+        "title": "DeepSeek专家模式",
+        "source": "Product",
+        "tags": [
+          "#智能搜索",
+          "#信息检索",
+          "#知识管理"
+        ],
+        "summary": "DeepSeek的专家模式是一个强大的功能，能够帮助用户解决复杂的问题。DeepSeek的核心功能是其能够提供深度思考和智能搜索功能，帮助用户快速找到所需的信息。其技术亮点在于其能够理解用户的需求并提供个性化的推荐。DeepSeek的应用场景包括但不限于学术研究、商业决策和个人学习等。DeepSeek的发布可能会对信息检索和知识管理领域产生重大影响。",
+        "url": "https://www.cls.cn/detail/2337271",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#开源金融",
+          "#数据分析",
+          "#投资决策"
+        ],
+        "summary": "OpenBB-finance发布的OpenBB是一个开源的金融数据分析平台。OpenBB的核心功能是其能够提供实时的金融数据和分析工具，帮助用户做出更好的投资决策。其技术亮点在于其能够集成多种数据源和分析工具，包括但不限于股票、期货和加密货币等。OpenBB的应用场景包括但不限于投资分析、风险管理和资产配置等。OpenBB的发布可能会对金融数据分析领域产生重大影响，推动开源金融技术的发展。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 761
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#开源交易",
+          "#量化交易",
+          "#风险管理"
+        ],
+        "summary": "Microsoft发布的qlib是一个开源的量化交易平台。qlib的核心功能是其能够提供高性能的交易执行和风险管理功能，帮助用户实现更好的交易结果。其技术亮点在于其能够支持多种交易策略和风险管理模型，包括但不限于机器学习和深度学习等。qlib的应用场景包括但不限于股票、期货和加密货币等交易市场。qlib的发布可能会对量化交易领域产生重大影响，推动开源交易技术的发展。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 679
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#开源对话",
+          "#自然语言处理",
+          "#对话管理"
+        ],
+        "summary": "prompts.chat发布的prompts是一个开源的对话式AI平台。prompts的核心功能是其能够提供自然语言处理和对话管理功能，帮助用户实现更好的对话体验。其技术亮点在于其能够支持多种对话场景和语言模型，包括但不限于聊天机器人和语音助手等。prompts的应用场景包括但不限于客户服务、技术支持和语言学习等。prompts的发布可能会对对话式AI领域产生重大影响，推动开源对话技术的发展。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2496
+      },
+      {
+        "id": "1b0e15",
+        "title": "labring/sealos",
+        "source": "GitHub",
+        "tags": [
+          "#开源云原生",
+          "#应用部署",
+          "#云原生管理"
+        ],
+        "summary": "labring发布的sealos是一个开源的云原生应用平台。sealos的核心功能是其能够提供高性能的应用部署和管理功能，帮助用户实现更好的云原生应用体验。其技术亮点在于其能够支持多种云原生技术和应用框架，包括但不限于Kubernetes和Docker等。sealos的应用场景包括但不限于云原生应用开发、部署和管理等。sealos的发布可能会对云原生应用领域产生重大影响，推动开源云原生技术的发展。",
+        "url": "https://github.com/labring/sealos",
+        "date": "Recent (Trending)",
+        "stars": 101
+      },
+      {
+        "id": "f26965",
+        "title": "PaperMC/Paper",
+        "source": "GitHub",
+        "tags": [
+          "#开源游戏",
+          "#Minecraft服务器",
+          "#游戏管理"
+        ],
+        "summary": "PaperMC发布的Paper是一个开源的Minecraft服务器软件。Paper的核心功能是其能够提供高性能的服务器管理和游戏体验，帮助用户实现更好的Minecraft游戏体验。其技术亮点在于其能够支持多种服务器配置和游戏模式，包括但不限于生存模式和创造模式等。Paper的应用场景包括但不限于Minecraft服务器管理和游戏开发等。Paper的发布可能会对Minecraft服务器软件领域产生重大影响，推动开源游戏技术的发展。",
+        "url": "https://github.com/PaperMC/Paper",
+        "date": "Recent (Trending)",
+        "stars": 49
+      }
+    ]
   }
 ]
