@@ -10475,5 +10475,159 @@
         "stars": 49
       }
     ]
+  },
+  {
+    "date": "2026-04-10",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 Mythos 和智谱GLM-5.1，以及开源项目如 PostHog/posthog 的更新，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "750aa5",
+        "title": "Mythos",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#软件安全",
+          "#AI编码"
+        ],
+        "summary": "Anthropic发布了一个叫做Mythos的新模型，目前是预览版，官方称它太强大，不适合向所有人开放。Mythos的编码能力已经达到了极高水平，在发现和利用软件漏洞方面，它们几乎可以超越除最顶级的安全专家之外的所有人。这种能力的应用场景包括软件安全测试和漏洞发现，具有重要的行业意义。Mythos的技术亮点在于其强大的编码能力和对软件漏洞的发现能力，代表了AI技术在软件安全领域的重大进步。",
+        "url": "https://m.36kr.com/p/3757720918721029",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "8b611d",
+        "title": "DeepSeek",
+        "source": "Product",
+        "tags": [
+          "#人机交互",
+          "#界面设计",
+          "#用户体验"
+        ],
+        "summary": "DeepSeek悄悄上线了一种新的分层模式界面，包括“快速模式”和“专家模式”两个入口，以及一个带图标的“视觉模式”选项正在灰度测试。这种界面的设计旨在为不同用户提供更好的使用体验，快速模式适合一般用户，专家模式则面向需要更深入功能的专业人士。视觉模式的加入可能会进一步增强用户的交互体验。DeepSeek的技术亮点在于其对用户体验的关注和多样化的界面设计，能够更好地满足不同用户的需求，具有重要的行业意义。",
+        "url": "https://m.36kr.com/p/3758018889089537",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "153315",
+        "title": "Claude Mythos",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#AI能力"
+        ],
+        "summary": "Anthropic发布了Claude Mythos预览版，官方自称为迄今为止最强大的AI模型，具有全新能力层级，远超之前的Claude Opus 4.6。Claude Mythos的强大能力使其在多个领域具有广泛的应用前景，包括但不限于自然语言处理、代码生成和问题解决。其技术亮点在于其突破性的能力层级和对多领域的适用性，代表了AI技术的重大进步，具有深远的行业意义。",
+        "url": "https://m.36kr.com/p/3758275544134145",
+        "date": "2026-04-09"
+      },
+      {
+        "id": "24aa5d",
+        "title": "Muse Spark",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#智能系统",
+          "#内容生成"
+        ],
+        "summary": "Meta发布了新的AI模型Muse Spark，据称比之前的模型更智能、更快。Muse Spark的发布标志着Meta在AI领域的持续创新和投入，新的模型可能会在多个应用场景中发挥重要作用，包括但不限于内容生成、对话系统和决策支持。其技术亮点在于其提高的智能性和速度，能够更好地满足用户的需求，具有重要的行业意义。",
+        "url": "https://www.qatar-tribune.com/article/228246/business/meta-releases-first-new-ai-model-since-shaking-up-team",
+        "date": "2026-04-10"
+      },
+      {
+        "id": "3b1d7e",
+        "title": "智谱GLM-5.1",
+        "source": "Product",
+        "tags": [
+          "#AI计算",
+          "#算力优化",
+          "#硬件利用"
+        ],
+        "summary": "智谱GLM-5.1在昇腾算力上实现了Layer级MOE绝对均衡，通过框架能力优化让专家均衡产出Token，同时结合昇腾Attention算子特征，通过推理框架和硬件协同的定向优化，大幅提升算力均衡和硬件利用率。这种技术的应用场景包括大规模的AI计算和数据处理，具有重要的行业意义。其技术亮点在于其对算力均衡和硬件利用率的优化，能够更高效地利用计算资源，代表了AI技术在计算效率方面的重大进步。",
+        "url": "https://www.qbitai.com/2026/04/397942.html",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "c99857",
+        "title": "Panther",
+        "source": "Product",
+        "tags": [
+          "#服务机器人",
+          "#人形机器人",
+          "#家庭服务"
+        ],
+        "summary": "UniX AI推出了世界上第一款服务型人形机器人Panther，进入真实家庭环境提供服务。Panther的出现标志着人工智能和机器人技术在服务领域的应用和发展，能够为家庭提供多种服务，包括但不限于家务、陪伴和教育。其技术亮点在于其人形设计和服务功能，能够更好地融入家庭生活，具有重要的行业意义和广阔的应用前景。",
+        "url": "https://interestingengineering.com/ai-robotics/worlds-first-humanoid-robot-for-household",
+        "date": "2026-04-09"
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#对话式AI",
+          "#交互式界面",
+          "#开源项目"
+        ],
+        "summary": "f/prompts.chat是一个开源项目，提供了一个交互式的对话式AI界面，用户可以通过输入提示来生成文本或进行对话。这种项目的应用场景包括教育、写作辅助和娱乐，具有重要的行业意义。其技术亮点在于其交互式的设计和对话式AI的应用，能够更好地满足用户的需求，代表了AI技术在人机交互方面的重大进步。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2179
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#数据分析",
+          "#产品分析",
+          "#开源平台"
+        ],
+        "summary": "PostHog/posthog是一个开源的产品分析平台，提供了数据分析和用户行为跟踪的功能。PostHog的应用场景包括产品开发、营销和用户体验优化，具有重要的行业意义。其技术亮点在于其开源的性质和对数据分析的关注，能够更好地帮助开发者和产品经理理解用户行为，代表了数据分析技术在产品开发方面的重大进步。",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 175
+      },
+      {
+        "id": "1b0e15",
+        "title": "labring/sealos",
+        "source": "GitHub",
+        "tags": [
+          "#云原生应用",
+          "#容器化",
+          "#开源平台"
+        ],
+        "summary": "labring/sealos是一个开源的云原生应用平台，提供了应用部署、管理和监控的功能。sealos的应用场景包括云计算、容器化和微服务，具有重要的行业意义。其技术亮点在于其开源的性质和对云原生应用的支持，能够更好地帮助开发者和运维人员管理和部署应用，代表了云计算技术在应用管理方面的重大进步。",
+        "url": "https://github.com/labring/sealos",
+        "date": "Recent (Trending)",
+        "stars": 105
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#金融分析",
+          "#开源平台"
+        ],
+        "summary": "microsoft/qlib是一个开源的量化交易平台，提供了数据分析、策略开发和回测的功能。qlib的应用场景包括量化交易、金融分析和投资决策，具有重要的行业意义。其技术亮点在于其开源的性质和对量化交易的支持，能够更好地帮助量化交易师和投资者开发和优化交易策略，代表了量化交易技术在金融领域的重大进步。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 523
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#金融数据",
+          "#交易平台",
+          "#开源平台"
+        ],
+        "summary": "OpenBB-finance/OpenBB是一个开源的金融数据和交易平台，提供了数据分析、交易执行和风险管理的功能。OpenBB的应用场景包括金融交易、投资和风险管理，具有重要的行业意义。其技术亮点在于其开源的性质和对金融数据的支持，能够更好地帮助交易者和投资者获取和分析金融数据，代表了金融技术在数据分析方面的重大进步。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 633
+      }
+    ]
   }
 ]
