@@ -10629,5 +10629,148 @@
         "stars": 633
       }
     ]
+  },
+  {
+    "date": "2026-04-11",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 Mythos 和 Claude Mythos，以及技术平台的更新，如 Google Chrome 和 GitHub 项目 PostHog/posthog 和 f/prompts.chat 的发展。这些进展表明 AI 技术在产品开发和行业应用方面的不断推进。",
+    "news": [
+      {
+        "id": "750aa5",
+        "title": "Mythos",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic 发布了一个叫做 Mythos 的新模型，目前是预览版，官方称它太强大，不适合向所有人开放。Mythos 的编码能力已经达到了极高水平，在发现和利用软件漏洞方面，它们几乎可以超越除最",
+        "url": "https://m.36kr.com/p/3757720918721029",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "b71870",
+        "title": "Cursor 3",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Cursor 3 以智能体控制台取代传统代码编辑器，AI 编程工具迎来重大变革。",
+        "url": "https://m.36kr.com/p/3757888158384899",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "7965c6",
+        "title": "Claude Mythos",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic 发布了它有史以来最强大的模型 Claude Mythos，将不对公众开放。模型构成前所未有的网络安全风险，能找到每一个主流操作系统和每一个主流浏览器中的零日漏洞级别的 bug，并自",
+        "url": "https://m.36kr.com/p/3758899511280387",
+        "date": "2026-04-07"
+      },
+      {
+        "id": "b3a3f9",
+        "title": "Muse Spark",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Meta 发布旗下全新模型 Muse Spark，这是一款定位于高效率与个性化能力的生成式模型，支持文本、图像等多模态理解，并被设计为直接嵌入 Meta 自有产品体系中使用，如 Facebook、In",
+        "url": "https://m.36kr.com/p/3759555759370757",
+        "date": "2026-04-09"
+      },
+      {
+        "id": "e4bd5f",
+        "title": "HappyHorse",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "阿里旗下ATH创新事业部研发的视频生成模型，已在Artificial Analysis平台上登顶",
+        "url": "https://m.36kr.com/p/3760901871239683",
+        "date": "2026-04-10"
+      },
+      {
+        "id": "40497f",
+        "title": "Google Chrome",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google Chrome is finally adopting vertical tabs, a feature that moves the tabs to the side of the br",
+        "url": "https://techcrunch.com/2026/04/07/chrome-is-finally-getting-vertical-tabs/",
+        "date": "2026-04-07"
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 198
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2293
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 499
+      },
+      {
+        "id": "3d696a",
+        "title": "steven2358/awesome-generative-ai",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Awesome Generative AI [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)\n\n> A cur",
+        "url": "https://github.com/steven2358/awesome-generative-ai",
+        "date": "Recent (Trending)",
+        "stars": 76
+      },
+      {
+        "id": "6406c2",
+        "title": "feast-dev/feast",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!--Do not modify this file. It is auto-generated from a template (infra/templates/README.md.jinja2)",
+        "url": "https://github.com/feast-dev/feast",
+        "date": "Recent (Trending)",
+        "stars": 64
+      }
+    ]
   }
 ]
