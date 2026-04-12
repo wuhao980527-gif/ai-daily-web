@@ -10772,5 +10772,120 @@
         "stars": 64
       }
     ]
+  },
+  {
+    "date": "2026-04-12",
+    "summary": "今日 AI 领域的主要进展包括新型模型的发布，如 GLM-5.1 和 transformers，以及开源项目的更新，如 PostHog 和 feast-dev。这些进展表明 AI 技术在不断发展和应用于各个领域。",
+    "news": [
+      {
+        "id": "b66d74",
+        "title": "GLM-5.1",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "智谱正式发布和开源其GLM-5.1模型，这是一种大型语言模型，具有强大的自然语言处理能力。GLM-5.1的核心功能是其能够处理长篇文本和复杂任务，技术亮点在于其在长程任务处理能力上实现突破。这种模型可以应用于多种场景，如文本生成、语言翻译和问答系统。其行业意义在于能够推动自然语言处理技术的发展，提高人机交互的效率。",
+        "url": "https://m.36kr.com/p/3760830008525569",
+        "date": "2026-04-09"
+      },
+      {
+        "id": "02c087",
+        "title": "DeepSeek",
+        "source": "Product",
+        "tags": [
+          "#搜索引擎",
+          "#人工智能",
+          "#数据分析"
+        ],
+        "summary": "DeepSeek上线「专家模式」，并宣布V4版有望中下旬发布。DeepSeek的核心功能是其能够提供高级的搜索和分析功能，技术亮点在于其能够深度学习和理解用户的需求。这种工具可以应用于多种场景，如研究、开发和商业分析。其行业意义在于能够提高搜索和分析的效率，帮助用户更好地获取和利用信息。",
+        "url": "https://m.ofweek.com/ai/2026-04/ART-201718-8120-30684680.html",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "aa6f15",
+        "title": "智谱GLM-5.1",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#云计算"
+        ],
+        "summary": "智谱GLM-5.1上线华为云，这意味着用户可以通过多款产品体验GLM-5.1的强大能力。GLM-5.1的核心功能是其能够处理长篇文本和复杂任务，技术亮点在于其在长程任务处理能力上实现突破。这种模型可以应用于多种场景，如文本生成、语言翻译和问答系统。其行业意义在于能够推动自然语言处理技术的发展，提高人机交互的效率。",
+        "url": "https://www.stdaily.com/web/gdxw/2026-04/08/content_499236.html",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#产品分析",
+          "#数据分析",
+          "#开源"
+        ],
+        "summary": "PostHog/posthog是一个开源的产品分析平台，能够帮助用户深度理解用户行为和产品性能。PostHog的核心功能是其能够提供实时的数据分析和反馈，技术亮点在于其能够集成多种数据源和工具。这种平台可以应用于多种场景，如产品开发、营销和运营。其行业意义在于能够帮助用户更好地理解和优化产品，提高用户体验和商业效率。",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 188
+      },
+      {
+        "id": "6406c2",
+        "title": "feast-dev/feast",
+        "source": "GitHub",
+        "tags": [
+          "#数据管理",
+          "#特征工程",
+          "#开源"
+        ],
+        "summary": "feast-dev/feast是一个开源的特征存储平台，能够帮助用户管理和提供数据特征。feast的核心功能是其能够提供统一的数据管理和访问接口，技术亮点在于其能够支持多种数据源和格式。这种平台可以应用于多种场景，如机器学习、数据科学和商业智能。其行业意义在于能够帮助用户更好地管理和利用数据，提高数据驱动的决策能力。",
+        "url": "https://github.com/feast-dev/feast",
+        "date": "Recent (Trending)",
+        "stars": 70
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#对话式AI",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "f/prompts.chat是一个开源的对话式AI平台，能够帮助用户生成和管理对话式内容。prompts.chat的核心功能是其能够提供灵活的对话式接口，技术亮点在于其能够支持多种语言和任务。这种平台可以应用于多种场景，如聊天机器人、语言翻译和内容生成。其行业意义在于能够帮助用户更好地创建和管理对话式内容，提高人机交互的效率。",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2037
+      },
+      {
+        "id": "3d696a",
+        "title": "steven2358/awesome-generative-ai",
+        "source": "GitHub",
+        "tags": [
+          "#生成式AI",
+          "#资源库",
+          "#开源"
+        ],
+        "summary": "steven2358/awesome-generative-ai是一个开源的生成式AI资源库，能够帮助用户发现和学习生成式AI的最新技术和应用。awesome-generative-ai的核心功能是其能够提供全面和最新的生成式AI资源，技术亮点在于其能够支持多种类型和格式的资源。这种资源库可以应用于多种场景，如研究、开发和教育。其行业意义在于能够帮助用户更好地了解和应用生成式AI技术，提高创新和竞争能力。",
+        "url": "https://github.com/steven2358/awesome-generative-ai",
+        "date": "Recent (Trending)",
+        "stars": 67
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#Transformer",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "huggingface/transformers是一个开源的Transformer模型库，能够帮助用户使用和开发Transformer模型。transformers的核心功能是其能够提供预训练的Transformer模型和开发工具，技术亮点在于其能够支持多种语言和任务。这种模型库可以应用于多种场景，如自然语言处理、语音识别和计算机视觉。其行业意义在于能够帮助用户更好地使用和开发Transformer模型，提高人工智能的能力和应用。",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 495
+      }
+    ]
   }
 ]
