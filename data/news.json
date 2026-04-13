@@ -10887,5 +10887,160 @@
         "stars": 495
       }
     ]
+  },
+  {
+    "date": "2026-04-13",
+    "summary": "今日 AI 领域的主要进展包括多款新产品的发布，如 Mythos、GLM-5.1 和 Google AI dictation app 等，这些产品体现了 AI 技术在语音识别、自然语言处理等方面的进步。同时，GitHub 上的开源项目如 feast-dev/feast 也吸引了关注，表明开源社区在推动 AI 发展方面的重要作用。这些进展反映了 AI 技术在各个领域的应用和创新。",
+    "news": [
+      {
+        "id": "750aa5",
+        "title": "Mythos",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic 发布了一个叫 Mythos 的新模型，目前是预览版，官方称它太强了，不适合向所有人开放。Mythos 的编码能力已经达到了极高水平，在发现和利用软件漏洞方面，它们几乎可以超越除最熟",
+        "url": "https://m.36kr.com/p/3757720918721029",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "b66d74",
+        "title": "GLM-5.1",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "智谱正式发布和开源其GLM-5.1模型",
+        "url": "https://m.36kr.com/p/3760830008525569",
+        "date": "2026-04-09"
+      },
+      {
+        "id": "7965c6",
+        "title": "Claude Mythos",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic 发布了它有史以来最强大的模型 Claude Mythos，将不对公众开放。模型 \"构成前所未有的网络安全风险\"，能找到每一个主流操作系统和每一个主流浏览器中的 \"零日漏洞\" 级别的",
+        "url": "https://m.36kr.com/p/3758899511280387",
+        "date": "2026-04-07"
+      },
+      {
+        "id": "8b611d",
+        "title": "DeepSeek",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek悄悄上线了一种新的分层模式界面：在网页版/App中出现了'快速模式（Fast）'和'专家模式（Expert）'两个入口，同时还有一个带图标的'视觉模式（Vision）'选项正在灰度测试",
+        "url": "https://m.36kr.com/p/3758018889089537",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "7e8c67",
+        "title": "HappyHorse-1.0",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "HappyHorse-1.0是一款新视频生成模型，能在AA排行榜上超越Seedance2.0，成为全球第一。它的参数仅有15B，比大多数模型都小，且8步即可完成超快推理。它主打的优势主要落在两点：生成",
+        "url": "https://eu.36kr.com/zh/p/3758151455929089",
+        "date": "2026-04-08"
+      },
+      {
+        "id": "d19227",
+        "title": "Google AI dictation app",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google quietly launched an AI dictation app that works offline",
+        "url": "https://techcrunch.com/2026/04/07/",
+        "date": "2026-04-07"
+      },
+      {
+        "id": "e1fb72",
+        "title": "Muse Spark",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Meta debuted Muse Spark, its first major large language model under new chief AI officer Alexandr Wa",
+        "url": "https://www.linkedin.com/posts/kurtcagle_graphrag-knowledge-graphs-making-your-activity-7449122797231972352-Skwy",
+        "date": "2026-04-13"
+      },
+      {
+        "id": "6406c2",
+        "title": "feast-dev/feast",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!--Do not modify this file. It is auto-generated from a template (infra/templates/README.md.jinja2)",
+        "url": "https://github.com/feast-dev/feast",
+        "date": "Recent (Trending)",
+        "stars": 69
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 178
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 2067
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 492
+      },
+      {
+        "id": "3d696a",
+        "title": "steven2358/awesome-generative-ai",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Awesome Generative AI [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)\n\n> A cur",
+        "url": "https://github.com/steven2358/awesome-generative-ai",
+        "date": "Recent (Trending)",
+        "stars": 66
+      }
+    ]
   }
 ]
