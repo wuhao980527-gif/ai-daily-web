@@ -11311,5 +11311,124 @@
         "stars": 112
       }
     ]
+  },
+  {
+    "date": "2026-04-16",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 LPM 1.0 和 NVIDIA Ising，以及 GitHub 上的开源项目更新，如 transformers 和 feast。这些进展表明 AI 技术在不断发展和应用于各个领域。",
+    "news": [
+      {
+        "id": "dec62d",
+        "title": "LPM 1.0",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "LPM 1.0是一个基于视频的角色表演模型，能够实时说话、唱歌、倾听、反应和做表情。",
+        "url": "https://m.36kr.com/p/3761880764645892",
+        "date": "2026-04-13"
+      },
+      {
+        "id": "dad809",
+        "title": "NVIDIA Ising",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "英伟达宣布推出全球首个开源量子 AI 模型系列 NVIDIA Ising，把量子计算从实验室技术推到了接近工程落地的程度。",
+        "url": "https://m.36kr.com/p/3767513522553600",
+        "date": "2026-04-15"
+      },
+      {
+        "id": "f9291d",
+        "title": "智谱GLM-5.1",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "智谱发布GLM-5.1：全球首个支持8小时自主工作的开源大模型，显著提升代码与长程任务能力，在SWE-Bench Pro等测试中超越Claude Opus 4.6，推动AI从“对话工具”迈向“工程级助",
+        "url": "https://developer.aliyun.com/article/1725240",
+        "date": "2026-04-10"
+      },
+      {
+        "id": "db330f",
+        "title": "Gmail",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Gmail的结束终繁权金八可能于带户端的版体中已经可用",
+        "url": "https://www.theverge.com/archives/2026/4/13",
+        "date": "2026-04-10"
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1863
+      },
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Tailscale\n\nhttps://tailscale.com\n\nPrivate WireGuard® networks made easy\n\n## Overview\n\nThis reposit",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 343
+      },
+      {
+        "id": "6406c2",
+        "title": "feast-dev/feast",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!--Do not modify this file. It is auto-generated from a template (infra/templates/README.md.jinja2)",
+        "url": "https://github.com/feast-dev/feast",
+        "date": "Recent (Trending)",
+        "stars": 54
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 481
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 159
+      }
+    ]
   }
 ]
