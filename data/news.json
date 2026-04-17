@@ -11430,5 +11430,184 @@
         "stars": 159
       }
     ]
+  },
+  {
+    "date": "2026-04-17",
+    "summary": "今日 AI 领域的主要进展包括新模型发布，如 NVIDIA Ising 和 Opus 4.7 Model，以及技术突破和行业应用，如斯坦福 AI 指数报告和 Hightouch 的发展。这些进展表明 AI 技术在不断创新和扩展其应用领域。",
+    "news": [
+      {
+        "id": "082060",
+        "title": "NVIDIA Ising",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "英伟达推出全球首个开源量子AI模型家族——NVIDIA Ising，包括Ising Calibration和Ising Decoding两个模型，用于量子计算机的校准和纠错。",
+        "url": "https://m.36kr.com/p/3767693319521031",
+        "date": "2026-04-15"
+      },
+      {
+        "id": "63f071",
+        "title": "Linux",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Linux正式为AI代码'立法'：允许用AI，但锅必须人背",
+        "url": "https://m.36kr.com/p/3766613187150601",
+        "date": "2026-04-14"
+      },
+      {
+        "id": "ad76ff",
+        "title": "斯坦福AI指数报告",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "斯坦福HAI最新发布的《2026年AI指数报告》给出的结论，报告得出的15个主要结论，包括中美AI模型性能差距已基本消除，AI能力依旧参差不齐等",
+        "url": "https://m.36kr.com/p/3766244418241033",
+        "date": "2026-04-14"
+      },
+      {
+        "id": "de34fd",
+        "title": "HappyHorse",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "HappyHorse-1.0冲上Artificial Analysis榜首，在文生视频和图生视频（无音频）两个赛道同时压过字节、快手等对手。",
+        "url": "https://m.36kr.com/p/3764742130496002",
+        "date": "2026-04-13"
+      },
+      {
+        "id": "3171d8",
+        "title": "Hightouch",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Hightouch是一个AI营销工具，帮助品牌用AI生成广告内容，通过让AI学习品牌的设计资产、图片库、内容规范，生成个性化的广告内容，减少设计团队的工作量，提高营销效率。",
+        "url": "https://m.36kr.com/p/3769181485679106",
+        "date": "2026-04-16"
+      },
+      {
+        "id": "7812d0",
+        "title": "Spotify",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Spotify launches the ability to purchase physical books in the US and UK, allowing users to purchase",
+        "url": "https://techcrunch.com/2026/04/15/spotify-launches-the-ability-to-purchase-physical-books-in-the-us-and-uk/",
+        "date": "2026-04-15"
+      },
+      {
+        "id": "06c4b7",
+        "title": "Opus 4.7 Model",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic Unveils Updated Opus 4.7 Model",
+        "url": "https://iblnews.org/story/anthropic-unveils-updated-opus-4-7-model-bloomberg-tech-4-16-2026",
+        "date": "2026-04-16"
+      },
+      {
+        "id": "8f66a0",
+        "title": "Claude Opus 4.7",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic released Claude Opus 4.7 on April 16, pushing the 'Claude 4.7 released by May 31' market t",
+        "url": "https://cryptobriefing.com/anthropic-releases-claude-opus-47-resolving-prediction-markets/",
+        "date": "2026-04-16"
+      },
+      {
+        "id": "9a6176",
+        "title": "GPT-5.4-Cyber",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenAI is rolling out GPT-5.4-Cyber to a limited group of trusted users to help identify software vu",
+        "url": "https://www.linkedin.com/pulse/openais-gpt-54-cyber-mcgraw-hill-blames-salesforce-breach-signed-g8lrc",
+        "date": "2026-04-16"
+      },
+      {
+        "id": "b02b22",
+        "title": "deepspeedai/DeepSpeed",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspee",
+        "url": "https://github.com/deepspeedai/DeepSpeed",
+        "date": "Recent (Trending)",
+        "stars": 118
+      },
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Tailscale\n\nhttps://tailscale.com\n\nPrivate WireGuard® networks made easy\n\n## Overview\n\nThis reposit",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 337
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 487
+      },
+      {
+        "id": "f7bbac",
+        "title": "XRPLF/rippled",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![codecov](https://codecov.io/gh/XRPLF/rippled/graph/badge.svg?token=WyFr5ajq3O)](https://codecov.i",
+        "url": "https://github.com/XRPLF/rippled",
+        "date": "Recent (Trending)",
+        "stars": 14
+      },
+      {
+        "id": "6406c2",
+        "title": "feast-dev/feast",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!--Do not modify this file. It is auto-generated from a template (infra/templates/README.md.jinja2)",
+        "url": "https://github.com/feast-dev/feast",
+        "date": "Recent (Trending)",
+        "stars": 47
+      }
+    ]
   }
 ]
