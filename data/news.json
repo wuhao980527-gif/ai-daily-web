@@ -12420,5 +12420,107 @@
         "stars": 119
       }
     ]
+  },
+  {
+    "date": "2026-04-25",
+    "summary": "今日 AI 领域的主要进展包括新型模型和技术的发布，如 GPT-5.5 和 DeepSeek V4，这些进展表明了 AI 研究和应用的持续推进。同时，GitHub 上的开源项目如 mnfst/manifest 和 n8n-io/n8n 等也在不断更新和完善，推动着 AI 技术在各个领域的应用和发展。",
+    "news": [
+      {
+        "id": "f52c46",
+        "title": "GPT-5.5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#编码能力",
+          "#OpenAI"
+        ],
+        "summary": "OpenAI发布的GPT-5.5是目前最智能的模型，重点强调Agentic Coding能力。这种能力使得模型可以在测试复杂命令行工作流的Terminal-Bench 2中表现出色。GPT-5.5的技术亮点在于其能够处理复杂的编码任务，具有广泛的应用场景，如代码生成、代码优化等。这种技术的发展对AI行业具有重要意义，因为它可以提高编码效率和准确性，推动AI技术的进步。GPT-5.5的发布也标志着OpenAI在AI研究领域的领先地位。",
+        "url": "https://www.36kr.com/p/3780691165459201",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "5c939e",
+        "title": "DeepSeek V4",
+        "source": "Product",
+        "tags": [
+          "#国产模型",
+          "#开源",
+          "#百万上下文"
+        ],
+        "summary": "DeepSeek V4的重磅开源标志着国产模型在百万上下文夺回话语权。DeepSeek V4支持华为Ascend和英伟达等多种硬件平台，具有广泛的适用性。这种模型的技术亮点在于其能够处理大规模的数据集，具有高效的计算能力。DeepSeek V4的应用场景包括自然语言处理、计算机视觉等领域，其发展对国产AI技术具有重要意义，因为它可以提高国产模型的竞争力，推动AI技术的国产化。",
+        "url": "https://www.infoq.cn/article/wUUPEzvNajcaVN0k7HPF",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "64b0b6",
+        "title": "mnfst/manifest",
+        "source": "GitHub",
+        "tags": [
+          "#软件开发",
+          "#GitHub",
+          "#新范式"
+        ],
+        "summary": "mnfst/manifest是一个GitHub项目，提供了一种新的软件开发范式。该项目的技术亮点在于其能够提供一种简单、灵活的开发方式，具有广泛的应用场景，如Web开发、移动开发等。mnfst/manifest的发展对软件开发行业具有重要意义，因为它可以提高开发效率和质量，推动软件开发技术的进步。然而，具体的应用场景和行业意义需要进一步的分析和研究。",
+        "url": "https://github.com/mnfst/manifest",
+        "date": "Recent (Trending)",
+        "stars": 1246
+      },
+      {
+        "id": "96891c",
+        "title": "resend/react-email",
+        "source": "GitHub",
+        "tags": [
+          "#电子邮件",
+          "#GitHub",
+          "#新开发方式"
+        ],
+        "summary": "resend/react-email是一个GitHub项目，提供了一种新的电子邮件开发方式。该项目的技术亮点在于其能够提供一种简单、灵活的开发方式，具有广泛的应用场景，如电子邮件营销、电子邮件通知等。resend/react-email的发展对电子邮件开发行业具有重要意义，因为它可以提高开发效率和质量，推动电子邮件开发技术的进步。然而，具体的应用场景和行业意义需要进一步的分析和研究。",
+        "url": "https://github.com/resend/react-email",
+        "date": "Recent (Trending)",
+        "stars": 517
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#工作流",
+          "#GitHub",
+          "#新开发方式"
+        ],
+        "summary": "n8n-io/n8n是一个GitHub项目，提供了一种新的工作流开发方式。该项目的技术亮点在于其能够提供一种简单、灵活的开发方式，具有广泛的应用场景，如自动化工作流、数据集成等。n8n-io/n8n的发展对工作流开发行业具有重要意义，因为它可以提高开发效率和质量，推动工作流开发技术的进步。然而，具体的应用场景和行业意义需要进一步的分析和研究。",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1181
+      },
+      {
+        "id": "90f64c",
+        "title": "microsoft/onnxruntime",
+        "source": "GitHub",
+        "tags": [
+          "#机器学习",
+          "#GitHub",
+          "#模型部署"
+        ],
+        "summary": "microsoft/onnxruntime是一个GitHub项目，提供了一种新的机器学习模型部署方式。该项目的技术亮点在于其能够提供一种高效、灵活的部署方式，具有广泛的应用场景，如深度学习、自然语言处理等。microsoft/onnxruntime的发展对机器学习行业具有重要意义，因为它可以提高模型部署效率和准确性，推动机器学习技术的进步。然而，具体的应用场景和行业意义需要进一步的分析和研究。",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "date": "Recent (Trending)",
+        "stars": 422
+      },
+      {
+        "id": "f9c02a",
+        "title": "anchore/syft",
+        "source": "GitHub",
+        "tags": [
+          "#机密计算",
+          "#GitHub",
+          "#新计算方式"
+        ],
+        "summary": "anchore/syft是一个GitHub项目，提供了一种新的机密计算方式。该项目的技术亮点在于其能够提供一种安全、灵活的计算方式，具有广泛的应用场景，如数据保护、隐私保护等。anchore/syft的发展对机密计算行业具有重要意义，因为它可以提高计算安全性和灵活性，推动机密计算技术的进步。然而，具体的应用场景和行业意义需要进一步的分析和研究。",
+        "url": "https://github.com/anchore/syft",
+        "date": "Recent (Trending)",
+        "stars": 64
+      }
+    ]
   }
 ]
