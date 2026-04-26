@@ -12522,5 +12522,220 @@
         "stars": 64
       }
     ]
+  },
+  {
+    "date": "2026-04-26",
+    "summary": "今日 AI 领域的主要进展包括多个新产品的发布，如 GPT-5.5、DeepSeek-V4 和 GPT-Image 2，这些产品的推出标志着 AI 技术的持续发展和应用的扩展。",
+    "news": [
+      {
+        "id": "f52c46",
+        "title": "GPT-5.5",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenAI发布GPT-5.5，官方公告的第一句话是：我们最智能的模型。在所有能力维度里，OpenAI选择重点强调Agentic Coding：在测试复杂命令行工作流的Terminal-Bench 2",
+        "url": "https://www.36kr.com/p/3780691165459201",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "251cf6",
+        "title": "DeepSeek-V4",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek-V4发布，黄仁勋的担忧成真了。DeepSeek-V4实际上就干了一件事：用极致的工程效率，把‘顶级大模型’的门槛打了下来。",
+        "url": "https://m.36kr.com/p/3780724652339714",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "9bef79",
+        "title": "DeepSeek V4",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek V4发布，包含Pro和Flash两个版本，具备更强Agent能力和顶级推理能力，已可在网页、App和API使用。",
+        "url": "https://eu.36kr.com/zh/p/3780432716240134",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "db0013",
+        "title": "GPT-Image 2",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "GPT-Image 2是一个支持思考模式的图像模型，能够理解用户输入的提示词，并生成逻辑正确的图像。它的精度用'恐怖'来形容不过分，实战表现更是碾压级的。",
+        "url": "https://m.36kr.com/p/3778857176723974",
+        "date": "2026-04-23"
+      },
+      {
+        "id": "8aa56c",
+        "title": "GPT Images 2",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenAI发布的GPT Images 2模型，具有高准确、高密度的文字渲染、逼真甚至有些瘆人的UI截图模拟、画面精细度和审美水平大大提升、强推理能力等特点",
+        "url": "https://eu.36kr.com/zh/p/3780152772039680",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "92b3e2",
+        "title": "DeepSeek V4 和 Kimi K2.6",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek 和 Kimi 分别发布了 V4 和 K2.6 模型，两家公司在技术上进行了合作和交流，实现了技术上的突破和创新。",
+        "url": "https://m.36kr.com/p/3781956007730439",
+        "date": "2026-04-25"
+      },
+      {
+        "id": "27595c",
+        "title": "ChatGPT Images 2.0",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "ChatGPT Images 2.0解决了AI图像生成中的'意图鸿沟'，能够更好地理解用户的真实意图，自主查资料、想布局、生成图像，并在交付前自我审查。新增Thinking模式，具有联网搜索、多方案并",
+        "url": "https://eu.36kr.com/zh/p/3777511110776064",
+        "date": "2026-04-22"
+      },
+      {
+        "id": "77cc48",
+        "title": "DeepSeek",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek开创第三条路：开源模型+收费API，重塑AI格局。",
+        "url": "https://m.36kr.com/p/3780329350525696",
+        "date": "2026-04-22"
+      },
+      {
+        "id": "8faf12",
+        "title": "Anthropic",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "亚马逊宣布将向美国AI大模型独角兽Anthropic投资50亿美元，未来还将根据一些商业里程碑的达成情况，追加投资至多200亿美元。",
+        "url": "https://m.36kr.com/p/3775906785166084",
+        "date": "2026-04-21"
+      },
+      {
+        "id": "1a07f3",
+        "title": "Gemini",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google rolls out Gemini in Chrome in APAC countries",
+        "url": "https://techcrunch.com/tag/google/",
+        "date": "2026-04-20"
+      },
+      {
+        "id": "c5daa3",
+        "title": "iOS",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Apple released a software update for iPhones and iPads fixing a bug that allowed law enforcement to ",
+        "url": "https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/",
+        "date": "2026-04-22"
+      },
+      {
+        "id": "58067d",
+        "title": "Kimi K2.6",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "月之暗面新模型Kimi K2.6发布并开源",
+        "url": "https://www.tmtpost.com/7967024.html",
+        "date": "2026-04-20"
+      },
+      {
+        "id": "64b0b6",
+        "title": "mnfst/manifest",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.",
+        "url": "https://github.com/mnfst/manifest",
+        "date": "Recent (Trending)",
+        "stars": 1246
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1206
+      },
+      {
+        "id": "96891c",
+        "title": "resend/react-email",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![React email cover](https://react.email/static/covers/react-email.png)\n\n<div align=\"center\"><strong",
+        "url": "https://github.com/resend/react-email",
+        "date": "Recent (Trending)",
+        "stars": 360
+      },
+      {
+        "id": "90f64c",
+        "title": "microsoft/onnxruntime",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>\n\n**ONNX Runti",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "date": "Recent (Trending)",
+        "stars": 441
+      },
+      {
+        "id": "ec06c5",
+        "title": "iCHAIT/awesome-macOS",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<img src=\"https://cdn.rawgit.com/iCHAIT/awesome-osx/master/media/awesome-display.svg\" width=\"400\">\n\n",
+        "url": "https://github.com/iCHAIT/awesome-macOS",
+        "date": "Recent (Trending)",
+        "stars": 216
+      }
+    ]
   }
 ]
