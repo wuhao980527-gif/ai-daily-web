@@ -12737,5 +12737,133 @@
         "stars": 216
       }
     ]
+  },
+  {
+    "date": "2026-04-27",
+    "summary": "今日 AI 领域的主要进展包括新型模型的发布，如 GPT-5.5 和 DeepSeek V4，以及开源项目的更新，如 ONNX Runtime 和 PostHog。这些进展表明 AI 技术在不断发展和应用于各个领域。",
+    "news": [
+      {
+        "id": "f52c46",
+        "title": "GPT-5.5",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#编码能力",
+          "#智能模型"
+        ],
+        "summary": "OpenAI发布的GPT-5.5是目前最智能的模型，重点强调Agentic Coding能力。这种能力使得模型可以更好地理解和生成代码，具有广泛的应用前景。GPT-5.5的技术亮点在于其在所有能力维度上的提升，尤其是在编码能力方面的突破。这种模型可以应用于代码生成、代码审查等领域，具有重要的行业意义和影响。",
+        "url": "https://www.36kr.com/p/3780691165459201",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "488cae",
+        "title": "DeepSeek V4",
+        "source": "Product",
+        "tags": [
+          "#开源模型",
+          "#MoE模型",
+          "#AI更新"
+        ],
+        "summary": "DeepSeek V4是DeepSeek推出的最新AI模型更新，包括'pro'和'flash'版本。这种模型包含两个MoE模型版本，实现了国内与开源领域的领先。DeepSeek V4的技术亮点在于其高性能和灵活性，能够应用于多种场景。这种模型可以应用于自然语言处理、图像识别等领域，具有重要的行业意义和影响。",
+        "url": "https://macaudailytimes.com.mo/deepseek-rolls-out-a-long-anticipated-update-of-its-ai-model.html",
+        "date": "2026-04-25"
+      },
+      {
+        "id": "d0537c",
+        "title": "DeepSeek-V4",
+        "source": "Product",
+        "tags": [
+          "#开源模型",
+          "#MoE模型",
+          "#AI领先"
+        ],
+        "summary": "DeepSeek-V4终于发布，开源再次比肩世界顶级闭源模型。这种模型包含两个MoE模型版本：DeepSeek-V4-Pro和DeepSeek-V4-Flash，实现了国内与开源领域的领先。DeepSeek-V4的技术亮点在于其高性能和灵活性，能够应用于多种场景。这种模型可以应用于自然语言处理、图像识别等领域，具有重要的行业意义和影响。",
+        "url": "https://www.guancha.cn/economy/2026_04_24_814797.shtml",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "64b0b6",
+        "title": "mnfst/manifest",
+        "source": "GitHub",
+        "tags": [
+          "#GitHub项目",
+          "#manifest文件",
+          "#Web开发"
+        ],
+        "summary": "mnfst/manifest是一个GitHub项目，提供了一个manifest文件的示例。这种项目可以帮助开发者更好地理解和使用manifest文件，具有广泛的应用前景。mnfst/manifest的技术亮点在于其简单性和易用性，能够应用于多种场景。这种项目可以应用于Web开发、移动应用开发等领域，具有重要的行业意义和影响。",
+        "url": "https://github.com/mnfst/manifest",
+        "date": "Recent (Trending)",
+        "stars": 822
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#工作流管理",
+          "#自动化工具",
+          "#GitHub项目"
+        ],
+        "summary": "n8n-io/n8n是一个GitHub项目，提供了一个工作流管理工具。这种工具可以帮助开发者更好地管理和自动化工作流，具有广泛的应用前景。n8n-io/n8n的技术亮点在于其灵活性和可扩展性，能够应用于多种场景。这种工具可以应用于自动化测试、持续集成等领域，具有重要的行业意义和影响。",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1172
+      },
+      {
+        "id": "90f64c",
+        "title": "microsoft/onnxruntime",
+        "source": "GitHub",
+        "tags": [
+          "#ONNX运行时",
+          "#深度学习",
+          "#GitHub项目"
+        ],
+        "summary": "microsoft/onnxruntime是一个GitHub项目，提供了一个ONNX运行时环境。这种环境可以帮助开发者更好地部署和运行ONNX模型，具有广泛的应用前景。microsoft/onnxruntime的技术亮点在于其高性能和兼容性，能够应用于多种场景。这种环境可以应用于深度学习、机器学习等领域，具有重要的行业意义和影响。",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "date": "Recent (Trending)",
+        "stars": 450
+      },
+      {
+        "id": "96891c",
+        "title": "resend/react-email",
+        "source": "GitHub",
+        "tags": [
+          "#React邮件",
+          "#邮件组件",
+          "#GitHub项目"
+        ],
+        "summary": "resend/react-email是一个GitHub项目，提供了一个React邮件组件。这种组件可以帮助开发者更好地创建和管理邮件，具有广泛的应用前景。resend/react-email的技术亮点在于其简单性和易用性，能够应用于多种场景。这种组件可以应用于Web开发、移动应用开发等领域，具有重要的行业意义和影响。",
+        "url": "https://github.com/resend/react-email",
+        "date": "Recent (Trending)",
+        "stars": 277
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#产品分析",
+          "#数据分析",
+          "#GitHub项目"
+        ],
+        "summary": "PostHog/posthog是一个GitHub项目，提供了一个产品分析工具。这种工具可以帮助开发者更好地分析和理解产品数据，具有广泛的应用前景。PostHog/posthog的技术亮点在于其灵活性和可扩展性，能够应用于多种场景。这种工具可以应用于产品管理、数据分析等领域，具有重要的行业意义和影响。",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 1071
+      },
+      {
+        "id": "a01975",
+        "title": "[Meta] Paper page - DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval",
+        "source": "Papers",
+        "tags": [
+          "#LLM代理",
+          "#分布式感知检索",
+          "#数据科学"
+        ],
+        "summary": "Meta发布的DARE论文提出了一种新的LLM代理对齐方法，通过分布式感知检索来实现LLM代理与R统计生态系统的对齐。这种方法可以帮助LLM代理更好地理解和生成数据科学工作流，具有广泛的应用前景。DARE的技术亮点在于其创新性和实用性，能够应用于多种场景。这种方法可以应用于数据科学、机器学习等领域，具有重要的行业意义和影响。",
+        "url": "https://huggingface.co/papers/2603.04743",
+        "date": "2026-03"
+      }
+    ]
   }
 ]
