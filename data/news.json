@@ -12865,5 +12865,112 @@
         "date": "2026-03"
       }
     ]
+  },
+  {
+    "date": "2026-04-28",
+    "summary": "今日 AI 领域的主要进展包括新产品和开源项目的发布，如 DeepSeek-V4 和 PostHog 等，表明 AI 技术在各个领域的应用和发展。同时，开源社区的活跃也推动了 AI 技术的进步和分享。这些进展体现了 AI 领域的持续创新和应用拓展。",
+    "news": [
+      {
+        "id": "d0537c",
+        "title": "DeepSeek-V4",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek-V4终于发布，开源再次比肩世界顶级闭源模型。DeepSeek-V4系列包含两个MoE模型版本，分别是满足高性能研发的DeepSeek-V4-Pro和满足经济高效部署需求的DeepSe",
+        "url": "https://www.guancha.cn/economy/2026_04_24_814797.shtml",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "5c939e",
+        "title": "DeepSeek V4",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek V4 重磅开源！首次打通华为 Ascend，也没丢掉英伟达，百万上下文夺回国产模型话语权",
+        "url": "https://www.infoq.cn/article/wUUPEzvNajcaVN0k7HPF",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "83ae4a",
+        "title": "国产软硬一体AI智能基座",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "润芯微发布“国产软硬一体AI智能基座”，破解行业稀缺难题，引领多端智能变革",
+        "url": "https://eu.36kr.com/zh/p/3782901034785801",
+        "date": "2026-04-25"
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 1444
+      },
+      {
+        "id": "64b0b6",
+        "title": "mnfst/manifest",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.",
+        "url": "https://github.com/mnfst/manifest",
+        "date": "Recent (Trending)",
+        "stars": 430
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1197
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<a href=\"https://cookbook.openai.com\" target=\"_blank\">\n  <picture>\n    <source media=\"(prefers-color",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 223
+      },
+      {
+        "id": "96891c",
+        "title": "resend/react-email",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![React email cover](https://react.email/static/covers/react-email.png)\n\n<div align=\"center\"><strong",
+        "url": "https://github.com/resend/react-email",
+        "date": "Recent (Trending)",
+        "stars": 223
+      }
+    ]
   }
 ]
