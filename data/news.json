@@ -12972,5 +12972,107 @@
         "stars": 223
       }
     ]
+  },
+  {
+    "date": "2026-04-29",
+    "summary": "今日 AI 领域的主要进展包括新产品和模型的发布，如 DeepSeek V4，以及开源项目的更新，如 PostHog 和 OpenAI Cookbook。这些进展表明 AI 技术在不断发展和应用于各个领域。",
+    "news": [
+      {
+        "id": "9bef79",
+        "title": "DeepSeek V4",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#智能推理"
+        ],
+        "summary": "DeepSeek V4发布，包含Pro和Flash两个版本，具备更强的Agent能力和顶级推理能力。其技术亮点在于实现了国内与开源领域的领先，支持OpenAI等主流平台。该技术可以应用于网页、App和API等场景，具有广泛的行业意义和影响。DeepSeek V4的发布标志着开源领域在AI技术方面的重大进步。",
+        "url": "https://eu.36kr.com/zh/p/3780432716240134",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "d0537c",
+        "title": "DeepSeek-V4",
+        "source": "Product",
+        "tags": [
+          "#开源AI",
+          "#MoE模型",
+          "#智能推理"
+        ],
+        "summary": "DeepSeek-V4终于发布，开源再次比肩世界顶级闭源模型，包含两个MoE模型版本：DeepSeek-V4-Pro和DeepSeek-V4-Flash。其技术亮点在于实现了国内与开源领域的领先，支持OpenAI等主流平台。该技术可以应用于多种AI场景，具有广泛的行业意义和影响。DeepSeek-V4的发布标志着开源领域在AI技术方面的重大进步。",
+        "url": "https://www.guancha.cn/economy/2026_04_24_814797.shtml",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#产品分析",
+          "#数据可视化"
+        ],
+        "summary": "PostHog/posthog是一个开源的产品分析平台，提供了数据分析和可视化的功能。其技术亮点在于能够帮助开发者和产品经理更好地理解用户行为和产品性能。该平台可以应用于各种Web应用和移动应用，具有广泛的行业意义和影响。PostHog/posthog的发布标志着开源领域在产品分析方面的重大进步。",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 1472
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#开源AI",
+          "#AI食谱",
+          "#智能算法"
+        ],
+        "summary": "openai/openai-cookbook是一个开源的AI食谱平台，提供了各种AI模型和算法的实现。其技术亮点在于能够帮助开发者和研究者更好地理解和使用AI技术。该平台可以应用于各种AI场景，具有广泛的行业意义和影响。openai/openai-cookbook的发布标志着开源领域在AI技术方面的重大进步。",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 230
+      },
+      {
+        "id": "64b0b6",
+        "title": "mnfst/manifest",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#项目管理",
+          "#协作平台"
+        ],
+        "summary": "mnfst/manifest是一个开源的项目管理平台，提供了项目管理和协作的功能。其技术亮点在于能够帮助开发者和项目经理更好地管理和协作项目。该平台可以应用于各种项目管理场景，具有广泛的行业意义和影响。mnfst/manifest的发布标志着开源领域在项目管理方面的重大进步。",
+        "url": "https://github.com/mnfst/manifest",
+        "date": "Recent (Trending)",
+        "stars": 323
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#工作流自动化",
+          "#DevOps"
+        ],
+        "summary": "n8n-io/n8n是一个开源的工作流自动化平台，提供了工作流管理和自动化的功能。其技术亮点在于能够帮助开发者和运维人员更好地管理和自动化工作流。该平台可以应用于各种工作流场景，具有广泛的行业意义和影响。n8n-io/n8n的发布标志着开源领域在工作流自动化方面的重大进步。",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1198
+      },
+      {
+        "id": "90f64c",
+        "title": "microsoft/onnxruntime",
+        "source": "GitHub",
+        "tags": [
+          "#开源AI",
+          "#ONNX",
+          "#模型部署"
+        ],
+        "summary": "microsoft/onnxruntime是一个开源的ONNX运行时平台，提供了ONNX模型的部署和运行的功能。其技术亮点在于能够帮助开发者和研究者更好地部署和运行ONNX模型。该平台可以应用于各种AI场景，具有广泛的行业意义和影响。microsoft/onnxruntime的发布标志着开源领域在ONNX技术方面的重大进步。",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "date": "Recent (Trending)",
+        "stars": 460
+      }
+    ]
   }
 ]
