@@ -13074,5 +13074,112 @@
         "stars": 460
       }
     ]
+  },
+  {
+    "date": "2026-04-30",
+    "summary": "今日 AI 领域的主要进展包括新产品和模型的发布，如 DeepSeek V4 和 LongCat-2.0-Preview，以及开源项目的更新，如 PostHog 和 ONNX Runtime，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "92b3e2",
+        "title": "DeepSeek V4",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek V4 双版本发布，引发了国内 AI 圈的一波海啸。",
+        "url": "https://m.36kr.com/p/3781956007730439",
+        "date": "2026-04-25"
+      },
+      {
+        "id": "554598",
+        "title": "LongCat-2.0-Preview",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "LongCat-2.0-Preview开放测试，支持1M上下文窗口、单次推理中可吞吐百万字输入，其参数规模也与DeepSeek V4相当",
+        "url": "https://eu.36kr.com/zh/p/3784668781714689",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "d0537c",
+        "title": "DeepSeek-V4",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DeepSeek-V4终于发布，开源再次比肩世界顶级闭源模型，包含两个MoE模型版本：DeepSeek-V4-Pro和DeepSeek-V4-Flash，实现了国内与开源领域的领先",
+        "url": "https://www.guancha.cn/economy/2026_04_24_814797.shtml",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 1480
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<a href=\"https://cookbook.openai.com\" target=\"_blank\">\n  <picture>\n    <source media=\"(prefers-color",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 233
+      },
+      {
+        "id": "90f64c",
+        "title": "microsoft/onnxruntime",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>\n\n**ONNX Runti",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "date": "Recent (Trending)",
+        "stars": 455
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1194
+      },
+      {
+        "id": "8cdd4a",
+        "title": "qdrant/qdrant",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "## How to interview using this template\n\nOpen ONLY the `shared/` folder within VSCode and in the Ext",
+        "url": "https://github.com/qdrant/qdrant",
+        "date": "Recent (Trending)",
+        "stars": 300
+      }
+    ]
   }
 ]
