@@ -13181,5 +13181,80 @@
         "stars": 300
       }
     ]
+  },
+  {
+    "date": "2026-05-01",
+    "summary": "今日 AI 领域的主要进展包括 ChatGPT Images 2.0 的发布，以及多个开源项目的更新，如 PostHog 和 openai-cookbook，这些进展表明 AI 技术在图像处理和开源社区方面取得了显著进步。",
+    "news": [
+      {
+        "id": "58ae80",
+        "title": "ChatGPT Images 2.0",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多模态",
+          "#图像生成"
+        ],
+        "summary": "OpenAI 正式发布 ChatGPT Images 2.0，这是一种图像生成与编辑模型。其核心功能是能够生成和编辑图像，技术亮点在于其能够理解自然语言指令并生成相应的图像。这种技术可以应用于广告设计、艺术创作等领域。其行业意义在于其可能颠覆传统的图像设计方式，提高设计效率。ChatGPT Images 2.0 的发布标志着 AI 在图像生成领域的重大进步。",
+        "url": "https://m.36kr.com/p/3786425412099073",
+        "date": "2026-04-28"
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#产品分析",
+          "#数据可视化"
+        ],
+        "summary": "PostHog/posthog 是一个开源的产品分析平台。其核心功能是提供数据分析和洞察功能，帮助产品经理和开发者了解用户行为。技术亮点在于其能够提供实时的数据分析和可视化功能。这种技术可以应用于产品开发、营销等领域。其行业意义在于其能够帮助企业更好地理解用户需求，提高产品的用户体验。PostHog/posthog 的发布标志着开源社区在产品分析领域的贡献。",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 1442
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#AI应用",
+          "#教程"
+        ],
+        "summary": "openai/openai-cookbook 是一个开源的 AI 应用示例仓库。其核心功能是提供各种 AI 应用的示例代码和教程，帮助开发者快速上手 AI 技术。技术亮点在于其能够提供丰富的示例和文档，帮助开发者快速学习和应用 AI 技术。这种技术可以应用于 AI 研发、教育等领域。其行业意义在于其能够促进 AI 技术的普及和应用。openai/openai-cookbook 的发布标志着 AI 社区在推动技术普及方面的努力。",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 250
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#工作流自动化",
+          "#DevOps"
+        ],
+        "summary": "n8n-io/n8n 是一个开源的工作流自动化平台。其核心功能是提供工作流自动化和集成功能，帮助用户自动化重复性任务。技术亮点在于其能够提供可视化的工作流编辑器和丰富的集成接口。这种技术可以应用于企业自动化、DevOps 等领域。其行业意义在于其能够提高工作效率和降低成本。n8n-io/n8n 的发布标志着开源社区在工作流自动化领域的贡献。",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1190
+      },
+      {
+        "id": "8cdd4a",
+        "title": "qdrant/qdrant",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#向量数据库",
+          "#AI研究"
+        ],
+        "summary": "qdrant/qdrant 是一个开源的向量数据库。其核心功能是提供高效的向量搜索和存储功能，帮助用户快速搜索和管理大规模的向量数据。技术亮点在于其能够提供高性能的向量搜索和支持多种数据格式。这种技术可以应用于 AI 研发、数据科学等领域。其行业意义在于其能够促进 AI 和数据科学的发展。qdrant/qdrant 的发布标志着开源社区在向量数据库领域的贡献。",
+        "url": "https://github.com/qdrant/qdrant",
+        "date": "Recent (Trending)",
+        "stars": 307
+      }
+    ]
   }
 ]
