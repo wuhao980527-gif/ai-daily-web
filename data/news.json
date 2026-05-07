@@ -13737,5 +13737,92 @@
         "stars": 709
       }
     ]
+  },
+  {
+    "date": "2026-05-07",
+    "summary": "今日 AI 领域的主要进展包括新产品发布和开源项目更新，例如 ProgramBench 和 Colossus 1 数据中心的推出，以及 GitHub 上的 fastfetch-cli 和 openai-cookbook 项目的更新，这些进展表明 AI 技术在数据处理和行业应用方面的持续发展。",
+    "news": [
+      {
+        "id": "111e60",
+        "title": "ProgramBench",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#代码生成",
+          "#benchmark"
+        ],
+        "summary": "ProgramBench是一个测试AI模型从零写出软件代码的能力的benchmark，包含200个软件项目，9个顶级模型参加测试。其核心功能是评估AI模型的代码生成能力，技术亮点在于能够全面评估模型的代码生成能力。应用场景包括代码自动化生成、软件开发等。行业意义在于能够帮助开发者评估和选择合适的AI模型，推动AI技术在软件开发领域的应用。#生成式AI #代码生成 #benchmark",
+        "url": "https://m.36kr.com/p/3797755297733636",
+        "date": "2026-05-05"
+      },
+      {
+        "id": "4292c8",
+        "title": "WorldRouter",
+        "source": "Product",
+        "tags": [
+          "#AI模型",
+          "#路由平台",
+          "#加密货币"
+        ],
+        "summary": "WorldRouter是一款AI模型路由平台，用户可以用加密货币结算300多款模型的token，并提供高达7折的优惠。其核心功能是提供AI模型的路由和交易服务，技术亮点在于支持加密货币结算和提供优惠。应用场景包括AI模型的开发、部署和交易等。行业意义在于能够方便开发者获取和使用AI模型，推动AI技术在各个领域的应用。#AI模型 #路由平台 #加密货币",
+        "url": "https://m.36kr.com/p/3797772116090116",
+        "date": "2026-05-06"
+      },
+      {
+        "id": "683f43",
+        "title": "Colossus 1 data center",
+        "source": "Product",
+        "tags": [
+          "#AI模型",
+          "#数据中心",
+          "#云计算"
+        ],
+        "summary": "Anthropic与SpaceX合作，利用SpaceX的数据中心来部署其AI模型。其核心功能是提供大规模的计算资源，技术亮点在于能够支持大规模的AI模型训练和部署。应用场景包括AI模型的训练、部署和应用等。行业意义在于能够推动AI技术在各个领域的应用，特别是在需要大规模计算资源的场景。#AI模型 #数据中心 #云计算",
+        "url": "https://www.voiceofemirates.com/en/science-and-tech/2026/05/07/space-and-ai-alliance-anthropic-secures-spacex-compute-power-eyes-orbital-development/",
+        "date": "2026-05-07"
+      },
+      {
+        "id": "9b4313",
+        "title": "fastfetch-cli/fastfetch",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#系统信息",
+          "#命令行工具"
+        ],
+        "summary": "fastfetch-cli/fastfetch是一个GitHub上的开源项目，提供了一种快速获取系统信息的工具。其核心功能是获取系统信息，技术亮点在于能够快速获取系统信息。应用场景包括系统监控、故障诊断等。行业意义在于能够帮助开发者快速获取系统信息，提高开发效率。#开源 #系统信息 #命令行工具",
+        "url": "https://github.com/fastfetch-cli/fastfetch",
+        "date": "Recent (Trending)",
+        "stars": 200
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#AI模型",
+          "#开源",
+          "#应用示例"
+        ],
+        "summary": "openai/openai-cookbook是一个GitHub上的开源项目，提供了一系列的AI模型应用示例。其核心功能是提供AI模型应用示例，技术亮点在于能够帮助开发者快速上手AI模型的应用。应用场景包括AI模型的开发、部署和应用等。行业意义在于能够推动AI技术在各个领域的应用，特别是在需要快速开发和部署AI模型的场景。#AI模型 #开源 #应用示例",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 228
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#量化交易",
+          "#金融分析"
+        ],
+        "summary": "microsoft/qlib是一个GitHub上的开源项目，提供了一种量化交易的库。其核心功能是提供量化交易的功能，技术亮点在于能够支持多种交易策略和模型。应用场景包括量化交易、金融分析等。行业意义在于能够帮助开发者快速开发和部署量化交易系统，提高交易效率。#开源 #量化交易 #金融分析",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 671
+      }
+    ]
   }
 ]
