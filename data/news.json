@@ -13983,5 +13983,133 @@
         "stars": 221
       }
     ]
+  },
+  {
+    "date": "2026-05-10",
+    "summary": "今日 AI 领域的主要进展包括 Anthropic 研究院的推出、自然语言处理技术的发展以及 AI 应用的多元化。新发布的模型如 GPT-Realtime-2 和 NLA 展示了技术的进步。同时，AI 在语音输入法、图像处理等领域的应用也逐渐增多，例如千问语音输入法和 Snapseed。这些进展表明 AI 技术正在不断推进和扩展其应用范围。",
+    "news": [
+      {
+        "id": "7ead24",
+        "title": "The Anthropic Institute (Anthropic 研究院)",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic 推出了一个内部组织，主要研究人类如何与 AI 相处，关注四个方向：经济扩散、威胁与韧性、实际应用中的 AI 系统，以及 AI 驱动的研发。",
+        "url": "https://m.36kr.com/p/3799851091762179",
+        "date": "2026-05-08"
+      },
+      {
+        "id": "92ab02",
+        "title": "Natural Language Autoencoders (NLA)",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic发布并开源了一项新研究——Natural Language Autoencoders（自然语言自编码器，简称NLA），第一次让人类能够读懂大模型的真实想法。",
+        "url": "https://m.36kr.com/p/3800327393188867",
+        "date": "2026-05-08"
+      },
+      {
+        "id": "184ea6",
+        "title": "GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenAI发布了三款音频模型：GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper，用于实时语音Agent、翻译和转写场景",
+        "url": "https://www.36kr.com/p/3800101438993153",
+        "date": "2026-05-08"
+      },
+      {
+        "id": "b78a93",
+        "title": "兔展智能",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "视觉空间智能大模型及应用平台「兔展智能」连续完成E、F轮数亿元人民币融资",
+        "url": "https://m.36kr.com/p/3798920757877769",
+        "date": "2026-05-07"
+      },
+      {
+        "id": "f577b9",
+        "title": "千问语音输入法",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "千问电脑端上线语音输入法，实现语音输入、智能语义优化、场景感知等功能",
+        "url": "https://m.36kr.com/p/3798585993649153",
+        "date": "2026-05-07"
+      },
+      {
+        "id": "72e96b",
+        "title": "Mythos AI",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Anthropic's Mythos AI model detects historical vulnerabilities in the Firefox browser",
+        "url": "https://www.voiceofemirates.com/en/science-and-tech/2026/05/10/ai-driven-security-breakthrough-anthropics-mythos-ai-identifies-15-year-old-firefox-bugs/",
+        "date": "2026-05-07"
+      },
+      {
+        "id": "310d99",
+        "title": "Snapseed",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Google launches a major update for the Snapseed app with AI features, including a faster interface a",
+        "url": "https://www.voiceofemirates.com/en/science-and-tech/2026/05/10/surprise-update-brings-snapseed-back-to-the-forefront-google-revamps-photo-editing-app-on-android/",
+        "date": "2026-05-10"
+      },
+      {
+        "id": "0e2c88",
+        "title": "AI-powered turret",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Ukraine deploys AI-powered turret that can shoot down FPVs. Operator's only job is to press button t",
+        "url": "https://euromaidanpress.com/2026/05/09/ukraine-deploys-ai-powered-turret-that-can-shoot-down-fpvs-operators-only-job-is-to-press-button-to-confirm-strike/",
+        "date": "2026-05-09"
+      },
+      {
+        "id": "9b4313",
+        "title": "fastfetch-cli/fastfetch",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Fastfetch\n\n[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/",
+        "url": "https://github.com/fastfetch-cli/fastfetch",
+        "date": "Recent (Trending)",
+        "stars": 217
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<a href=\"https://cookbook.openai.com\" target=\"_blank\">\n  <picture>\n    <source media=\"(prefers-color",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 207
+      }
+    ]
   }
 ]
