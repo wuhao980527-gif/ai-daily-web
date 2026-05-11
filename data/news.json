@@ -14111,5 +14111,79 @@
         "stars": 207
       }
     ]
+  },
+  {
+    "date": "2026-05-11",
+    "summary": "今日 AI 领域的主要进展包括新型语言模型的发布，如 GPT-Realtime-2 和 GPT-Realtime-Translate，以及 Adobe AI agent 为 PDF 提供的智能处理能力。同时，开源社区也推出了多个项目，如 OpenAI Cookbook 和 OpenBB-finance，促进了 AI 在各个领域的应用和开发。这些进展表明 AI 技术在不断推进和扩展其应用范围。",
+    "news": [
+      {
+        "id": "184ea6",
+        "title": "GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多模态",
+          "#语音识别"
+        ],
+        "summary": "OpenAI发布了三款音频模型：GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper，用于实时语音Agent、翻译和转写场景。这些模型的核心功能是实时处理音频数据，技术亮点在于其高效的处理能力和准确的识别率。这些模型可以应用于智能助手、语音翻译和音频转写等场景，具有广泛的行业意义和影响，能够提高语音交互的效率和准确性。这些模型的发布标志着OpenAI在音频处理领域的重大进展。",
+        "url": "https://www.36kr.com/p/3800101438993153",
+        "date": "2026-05-08"
+      },
+      {
+        "id": "e409eb",
+        "title": "Adobe AI agent for PDFs",
+        "source": "Product",
+        "tags": [
+          "#AI办公",
+          "#PDF处理",
+          "#自动化"
+        ],
+        "summary": "Adobe发布了一个AI代理，用于处理PDF文件。这个代理的核心功能是连接Adobe的图像和音频处理工具，技术亮点在于其能够自动化处理PDF文件的任务。这个代理可以应用于办公自动化、文档处理等场景，具有提高工作效率和准确性的行业意义和影响。Adobe的这个AI代理标志着该公司在办公软件领域的创新尝试，能够帮助用户更好地处理PDF文件。",
+        "url": "https://www.theverge.com/tech/925051/adobe-made-an-ai-agent-for-pdfs",
+        "date": "2026-05-06"
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#AI开发",
+          "#教程"
+        ],
+        "summary": "OpenAI发布了一个名为openai-cookbook的GitHub仓库，提供了一系列的AI相关代码和教程。这个仓库的核心功能是提供AI开发的资源和参考，技术亮点在于其丰富的代码示例和详细的文档。这个仓库可以应用于AI开发者和研究人员的学习和参考，具有推动AI技术发展的行业意义和影响。OpenAI的这个仓库标志着该公司在开源和社区建设方面的努力，能够帮助更多的人学习和使用AI技术。",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 223
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#金融数据",
+          "#数据分析",
+          "#可视化"
+        ],
+        "summary": "OpenBB-finance发布了一个名为OpenBB的GitHub仓库，提供了一套金融数据分析和可视化工具。这个仓库的核心功能是提供金融数据的处理和分析，技术亮点在于其高效的数据处理能力和直观的可视化界面。这个仓库可以应用于金融分析和研究等场景，具有提高金融数据处理效率和准确性的行业意义和影响。OpenBB-finance的这个仓库标志着该公司在金融数据分析领域的创新尝试，能够帮助用户更好地处理和分析金融数据。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 449
+      },
+      {
+        "id": "9b4313",
+        "title": "fastfetch-cli/fastfetch",
+        "source": "GitHub",
+        "tags": [
+          "#系统管理",
+          "#信息收集",
+          "#展示工具"
+        ],
+        "summary": "Fastfetch-cli发布了一个名为fastfetch的GitHub仓库，提供了一套系统信息收集和展示工具。这个仓库的核心功能是收集和展示系统信息，技术亮点在于其高效的信息收集能力和直观的展示界面。这个仓库可以应用于系统管理和维护等场景，具有提高系统管理效率和准确性的行业意义和影响。Fastfetch-cli的这个仓库标志着该公司在系统管理领域的创新尝试，能够帮助用户更好地管理和维护系统。",
+        "url": "https://github.com/fastfetch-cli/fastfetch",
+        "date": "Recent (Trending)",
+        "stars": 212
+      }
+    ]
   }
 ]
