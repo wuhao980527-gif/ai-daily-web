@@ -14185,5 +14185,53 @@
         "stars": 212
       }
     ]
+  },
+  {
+    "date": "2026-05-12",
+    "summary": "今日 AI 领域的主要进展包括开源项目的发布，如 OpenAI Cookbook 和 NocoDB，另外还有 OpenBB 财经平台的更新，这些项目推动了 AI 在各个领域的应用和技术进步。",
+    "news": [
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#生成式AI",
+          "#开源",
+          "#自然语言处理"
+        ],
+        "summary": "OpenAI发布的OpenAI Cookbook是一个开源的GitHub项目，提供了一系列的AI应用示例和教程。其核心功能是提供一个平台，让开发者可以轻松地使用OpenAI的API来构建自己的AI应用。技术亮点在于其简单易用和丰富的示例代码，能够帮助开发者快速上手AI开发。应用场景广泛，包括自然语言处理、计算机视觉等领域。行业意义在于推动AI技术的普及和应用，降低开发者的入门门槛。",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 236
+      },
+      {
+        "id": "c4fbc3",
+        "title": "nocodb/nocodb",
+        "source": "GitHub",
+        "tags": [
+          "#数据管理",
+          "#开源",
+          "#数据分析"
+        ],
+        "summary": "Nocodb是一个开源的GitHub项目，提供了一种新的数据管理方式。其核心功能是将数据存储在一个单一的数据库中，并提供一个简单易用的界面来管理和查询数据。技术亮点在于其灵活性和可扩展性，能够支持多种数据源和格式。应用场景包括数据分析、数据科学等领域。行业意义在于提供了一种更简单、更灵活的数据管理方式，能够提高数据处理效率和降低成本。",
+        "url": "https://github.com/nocodb/nocodb",
+        "date": "Recent (Trending)",
+        "stars": 118
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#金融分析",
+          "#开源",
+          "#数据可视化"
+        ],
+        "summary": "OpenBB是一个开源的GitHub项目，提供了一种新的金融数据分析平台。其核心功能是提供一个简单易用的界面来分析和可视化金融数据。技术亮点在于其高性能和可扩展性，能够支持大规模的数据处理和分析。应用场景包括金融分析、投资决策等领域。行业意义在于提供了一种更快速、更准确的金融数据分析方式，能够帮助投资者和分析师做出更好的决策。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 448
+      }
+    ]
   }
 ]
