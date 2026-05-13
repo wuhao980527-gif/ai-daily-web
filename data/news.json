@@ -14233,5 +14233,132 @@
         "stars": 448
       }
     ]
+  },
+  {
+    "date": "2026-05-13",
+    "summary": "今日 AI 领域的主要进展包括新产品和模型的发布，如 Thinking Machines Lab 和 Anthropic 研究院，以及开源项目如 openai-cookbook 和 nocodb 的更新，这些进展表明 AI 技术在研究和应用方面的持续推进。",
+    "news": [
+      {
+        "id": "9bad76",
+        "title": "Thinking Machines Lab",
+        "source": "Product",
+        "tags": [
+          "#交互式AI",
+          "#自然语言处理",
+          "#人机交互"
+        ],
+        "summary": "Thinking Machines Lab 发布了一段研究预览视频，展示了他们的交互模型（Interaction Model），让 AI 不再像发微信一样一条一条回复，而是像面对面聊天一样。这种模型可以让 AI 更好地理解人类的语言和行为，实现更自然的交互。这种技术可以应用于聊天机器人、虚拟助手等领域，提高用户体验。这种创新可以让 AI 更好地融入人类的生活，提高人类和 AI 之间的互动效率。 #交互式AI #自然语言处理 #人机交互",
+        "url": "https://www.36kr.com/p/3805672379342600",
+        "date": "2026-05-11"
+      },
+      {
+        "id": "7ead24",
+        "title": "The Anthropic Institute (Anthropic 研究院)",
+        "source": "Product",
+        "tags": [
+          "#AI研究",
+          "#人类与AI",
+          "#安全性"
+        ],
+        "summary": "Anthropic 研究院推出了一个内部组织，主要研究人类如何与 AI 相处，关注四个方向：经济扩散、威胁与韧性、实际应用中的 AI 系统，以及 AI 驱动的研发。这种研究可以帮助我们更好地理解 AI 对人类社会的影响，找到更好的方式让 AI 为人类服务。这种研究可以应用于 AI 的安全性、可靠性等领域，提高 AI 的整体性能。这种创新可以让 AI 更好地服务于人类，提高人类的生活质量。 #AI 研究 #人类与AI #安全性",
+        "url": "https://m.36kr.com/p/3799851091762179",
+        "date": "2026-05-08"
+      },
+      {
+        "id": "b6c8c3",
+        "title": "Android 17",
+        "source": "Product",
+        "tags": [
+          "#安卓AI",
+          "#智能系统",
+          "#个性化"
+        ],
+        "summary": "谷歌发布安卓 AI 系统，Android 将不再是一个单纯的操作系统，而是一个智能系统。这种系统可以让 Android 设备更好地理解用户的需求，提供更个性化的服务。这种技术可以应用于智能手机、智能家居等领域，提高用户体验。这种创新可以让 Android 设备更好地融入人类的生活，提高人类和设备之间的互动效率。 #安卓AI #智能系统 #个性化",
+        "url": "https://m.36kr.com/p/3806706425421318",
+        "date": "2026-05-13"
+      },
+      {
+        "id": "aad9ac",
+        "title": "TML-Interaction-Small",
+        "source": "Product",
+        "tags": [
+          "#混合专家模型",
+          "#自然语言处理",
+          "#人机交互"
+        ],
+        "summary": "TML-Interaction-Small 是一个 276 亿参数的混合专家模型，具有 12 亿活跃参数。这种模型可以让 AI 更好地理解人类的语言和行为，实现更自然的交互。这种技术可以应用于聊天机器人、虚拟助手等领域，提高用户体验。这种创新可以让 AI 更好地融入人类的生活，提高人类和 AI 之间的互动效率。 #混合专家模型 #自然语言处理 #人机交互",
+        "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/thinking-machines-lab-interaction-models-mira-murati-2026",
+        "date": "2026-05-12"
+      },
+      {
+        "id": "2cb15f",
+        "title": "OpenAI Deployment Company",
+        "source": "Product",
+        "tags": [
+          "#OpenAI",
+          "#AI部署",
+          "#收购"
+        ],
+        "summary": "OpenAI 推出了 OpenAI Deployment Company，并同意收购 Tomoro。这一举动可以让 OpenAI 更好地部署其 AI 模型，提高其在实际应用中的性能。这种创新可以让 OpenAI 更好地服务于人类，提高人类的生活质量。 #OpenAI #AI 部署 #收购",
+        "url": "https://channellife.co.nz/story/openai-launches-deployment-company-agrees-to-buy-tomoro",
+        "date": "2026-05-13"
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#OpenAI",
+          "#AI教程",
+          "#GitHub"
+        ],
+        "summary": "OpenAI 发布了 openai-cookbook，这是一个 GitHub 仓库，提供了许多 AI 相关的代码和教程。这种资源可以让开发者更好地理解和使用 AI 技术，提高其在实际应用中的性能。这种创新可以让 AI 更好地服务于人类，提高人类的生活质量。 #OpenAI #AI 教程 #GitHub",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 241
+      },
+      {
+        "id": "c4fbc3",
+        "title": "nocodb/nocodb",
+        "source": "GitHub",
+        "tags": [
+          "#Nocodb",
+          "#数据库管理",
+          "#开源"
+        ],
+        "summary": "Nocodb 发布了 nocodb，这是一个开源的数据库管理系统。这种系统可以让开发者更好地管理其数据库，提高其在实际应用中的性能。这种创新可以让开发者更好地使用数据库，提高其在实际应用中的效率。 #Nocodb #数据库管理 #开源",
+        "url": "https://github.com/nocodb/nocodb",
+        "date": "Recent (Trending)",
+        "stars": 112
+      },
+      {
+        "id": "97b45d",
+        "title": "voxel51/fiftyone",
+        "source": "GitHub",
+        "tags": [
+          "#Voxel51",
+          "#计算机视觉",
+          "#开源"
+        ],
+        "summary": "Voxel51 发布了 fiftyone，这是一个开源的计算机视觉平台。这种平台可以让开发者更好地理解和使用计算机视觉技术，提高其在实际应用中的性能。这种创新可以让开发者更好地使用计算机视觉，提高其在实际应用中的效率。 #Voxel51 #计算机视觉 #开源",
+        "url": "https://github.com/voxel51/fiftyone",
+        "date": "Recent (Trending)",
+        "stars": 67
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#OpenAI",
+          "#语音识别",
+          "#开源"
+        ],
+        "summary": "OpenAI 发布了 whisper，这是一个开源的语音识别系统。这种系统可以让开发者更好地理解和使用语音识别技术，提高其在实际应用中的性能。这种创新可以让开发者更好地使用语音识别，提高其在实际应用中的效率。 #OpenAI #语音识别 #开源",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 457
+      }
+    ]
   }
 ]
