@@ -14360,5 +14360,79 @@
         "stars": 457
       }
     ]
+  },
+  {
+    "date": "2026-05-14",
+    "summary": "今日 AI 领域的主要进展包括 Interaction Model 和千问 AI 购物助手的发布，以及多个开源项目的更新，如 openai-cookbook 和 nocodb。这些进展表明 AI 技术在交互、购物和数据管理等领域的应用正在扩展。",
+    "news": [
+      {
+        "id": "ec8177",
+        "title": "Interaction Model",
+        "source": "Product",
+        "tags": [
+          "#人机交互",
+          "#智能技术",
+          "#自然语言处理"
+        ],
+        "summary": "Thinking Machines 发布的 Interaction Model 代表了下一代人机交互的模式。其核心功能是实现更自然、更智能的人机交互，技术亮点在于其能够理解和响应用户的意图和情感。这种技术可以应用于各类人机交互场景，如智能助手、虚拟现实等。其行业意义在于能够提高人机交互的效率和用户体验，推动人工智能技术的发展。 Interaction Model 的发布标志着人机交互技术的重大进步。",
+        "url": "https://m.36kr.com/p/3807547700698882",
+        "date": "2026-05-11"
+      },
+      {
+        "id": "02bc04",
+        "title": "千问AI购物助手",
+        "source": "Product",
+        "tags": [
+          "#电子商务",
+          "#智能购物",
+          "#AI应用"
+        ],
+        "summary": "千问和淘宝合作推出的 AI 购物助手，实现了用户在千问 App 里与 AI 对话即可完成淘宝上的商品挑选、对比及下单购买。其核心功能是提供智能化的购物体验，技术亮点在于其能够理解和响应用户的购物需求。这种技术可以应用于电子商务、零售等行业。其行业意义在于能够提高购物效率和用户体验，推动电子商务的发展。千问 AI 购物助手的推出标志着 AI 技术在电子商务领域的深度应用。",
+        "url": "https://m.36kr.com/p/3808506543382020",
+        "date": "2026-05-11"
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#AI开发",
+          "#教程"
+        ],
+        "summary": "OpenAI 发布的 openai-cookbook 项目，提供了一系列的 AI 应用示例和教程。其核心功能是帮助开发者快速上手 AI 技术，技术亮点在于其能够提供丰富的示例和文档。这种技术可以应用于各类 AI 开发场景，如自然语言处理、计算机视觉等。其行业意义在于能够降低 AI 技术的开发门槛，推动 AI 技术的普及。openai-cookbook 项目的发布标志着 OpenAI 对开源和社区的支持。",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 247
+      },
+      {
+        "id": "c4fbc3",
+        "title": "nocodb/nocodb",
+        "source": "GitHub",
+        "tags": [
+          "#数据库管理",
+          "#无代码",
+          "#数据分析"
+        ],
+        "summary": "Nocodb 发布的 nocodb 项目，提供了一种新的数据库管理方式。其核心功能是提供一种无代码的数据库管理平台，技术亮点在于其能够提供简单易用的界面和强大的功能。这种技术可以应用于各类数据库管理场景，如数据分析、数据可视化等。其行业意义在于能够提高数据库管理的效率和用户体验，推动数据管理的发展。nocodb 项目的发布标志着数据库管理技术的创新。",
+        "url": "https://github.com/nocodb/nocodb",
+        "date": "Recent (Trending)",
+        "stars": 115
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#金融数据分析",
+          "#开源",
+          "#数据可视化"
+        ],
+        "summary": "OpenBB-finance 发布的 OpenBB 项目，提供了一种新的金融数据分析平台。其核心功能是提供一种开源的金融数据分析工具，技术亮点在于其能够提供强大的数据分析和可视化功能。这种技术可以应用于各类金融数据分析场景，如股票分析、基金分析等。其行业意义在于能够提高金融数据分析的效率和准确性，推动金融行业的发展。OpenBB 项目的发布标志着金融数据分析技术的创新。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 442
+      }
+    ]
   }
 ]
