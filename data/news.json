@@ -14595,5 +14595,64 @@
         "stars": 87
       }
     ]
+  },
+  {
+    "date": "2026-05-17",
+    "summary": "今日 AI 领域的主要进展包括新型交互模型的发布、针对小型企业的 AI 解决方案以及开源项目的更新，这些进展表明 AI 技术在各个领域的应用和发展。",
+    "news": [
+      {
+        "id": "ec8177",
+        "title": "Interaction Model",
+        "source": "Product",
+        "tags": [
+          "#人机交互",
+          "#智能技术",
+          "#个性化"
+        ],
+        "summary": "Thinking Machines 发布的 Interaction Model 代表了下一代人机交互的模式。其核心功能是实现更自然、更智能的人机交互。技术亮点在于其能够理解和适应用户的行为和偏好，提供更加个性化的交互体验。这种技术可以应用于智能助手、虚拟现实等领域。其行业意义在于推动人机交互技术的发展，提高用户体验和效率。",
+        "url": "https://m.36kr.com/p/3807547700698882",
+        "date": "2026-05-11"
+      },
+      {
+        "id": "33994b",
+        "title": "Claude for Small Business",
+        "source": "Product",
+        "tags": [
+          "#AI解决方案",
+          "#小型企业",
+          "#智能营销"
+        ],
+        "summary": "Anthropic 发布的 Claude for Small Business 是一套为小型企业设计的服务。其核心功能是提供 AI 驱动的解决方案，帮助小型企业提高效率和竞争力。技术亮点在于其能够根据企业的具体需求提供定制化的服务。这种技术可以应用于客户服务、营销等领域。其行业意义在于帮助小型企业更好地利用 AI 技术，提高其在市场中的竞争力。",
+        "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+        "date": "2026-05-13"
+      },
+      {
+        "id": "70a8a5",
+        "title": "Charms.ai",
+        "source": "Product",
+        "tags": [
+          "#AI角色",
+          "#虚拟现实",
+          "#游戏开发"
+        ],
+        "summary": "Charms.ai 是一个允许任何人创建具有灵魂、记忆、所有权和经济系统的 AI 角色的平台。其核心功能是提供一个创造和管理 AI 角色的工具。技术亮点在于其能够赋予 AI 角色以更高的自主性和个性化。这种技术可以应用于游戏、虚拟现实等领域。其行业意义在于推动 AI 角色的发展，提高用户体验和参与度。",
+        "url": "https://techcrunch.com/press-release/charms-closes-1-5m-pre-seed-to-launch-the-ai-character-economy/",
+        "date": "2026-05-12"
+      },
+      {
+        "id": "e250fa",
+        "title": "projectdiscovery/nuclei",
+        "source": "GitHub",
+        "tags": [
+          "#开源项目",
+          "#安全漏洞",
+          "#网络安全"
+        ],
+        "summary": "projectdiscovery/nuclei 是一个开源的 GitHub 项目。其核心功能是提供一个安全漏洞扫描和检测工具。技术亮点在于其能够高效地扫描和检测各种安全漏洞。这种技术可以应用于网络安全、漏洞检测等领域。其行业意义在于帮助开发者和安全人员更好地发现和修复安全漏洞，提高系统的安全性。",
+        "url": "https://github.com/projectdiscovery/nuclei",
+        "date": "Recent (Trending)",
+        "stars": 404
+      }
+    ]
   }
 ]
