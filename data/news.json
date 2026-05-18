@@ -14654,5 +14654,66 @@
         "stars": 404
       }
     ]
+  },
+  {
+    "date": "2026-05-18",
+    "summary": "今日 AI 领域的主要进展包括新产品方案的发布，如悟空教育场景产品方案，以及多个开源项目的更新，如 Nuclei、InvokeAI 和 Supabase，这些项目涉及代码扫描、AI 模型和数据库管理等领域。",
+    "news": [
+      {
+        "id": "1dec31",
+        "title": "悟空教育场景产品方案",
+        "source": "Product",
+        "tags": [
+          "#教育科技",
+          "#AI辅助",
+          "#智能化转型"
+        ],
+        "summary": "钉钉发布的悟空教育场景产品方案，旨在通过AI智能体重构教学全流程。其核心功能是深度接入校园数据，打通校本资源库、知识库、教务系统等，提供全流程AI辅助工具。技术亮点在于其能够根据学校场景提供定制化的AI解决方案。应用场景主要在22万所学校，能够帮助一线教师和教育管理者提高效率。行业意义在于其推动了教育行业的智能化转型，具有重要的影响。",
+        "url": "https://m.36kr.com/p/3806336424861449",
+        "date": "2026-05-12"
+      },
+      {
+        "id": "e250fa",
+        "title": "projectdiscovery/nuclei",
+        "source": "GitHub",
+        "tags": [
+          "#网络安全",
+          "#漏洞扫描",
+          "#开源工具"
+        ],
+        "summary": "projectdiscovery发布的nuclei项目，是一个开源的漏洞扫描工具。其核心功能是能够快速扫描和识别网络中的漏洞。技术亮点在于其高效的扫描算法和丰富的插件生态。应用场景主要在网络安全领域，能够帮助安全人员快速发现和修复漏洞。行业意义在于其推动了网络安全的开源化和社区化，具有重要的影响。",
+        "url": "https://github.com/projectdiscovery/nuclei",
+        "date": "Recent (Trending)",
+        "stars": 423
+      },
+      {
+        "id": "867e8e",
+        "title": "invoke-ai/InvokeAI",
+        "source": "GitHub",
+        "tags": [
+          "#AI框架",
+          "#开源模型",
+          "#深度学习"
+        ],
+        "summary": "invoke-ai发布的InvokeAI项目，是一个开源的AI模型框架。其核心功能是能够提供一个简单易用的AI模型开发和部署平台。技术亮点在于其模块化的设计和丰富的模型库。应用场景主要在AI开发领域，能够帮助开发者快速开发和部署AI模型。行业意义在于其推动了AI开发的开源化和社区化，具有重要的影响。",
+        "url": "https://github.com/invoke-ai/InvokeAI",
+        "date": "Recent (Trending)",
+        "stars": 60
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#后端开发",
+          "#开源平台",
+          "#实时数据"
+        ],
+        "summary": "supabase发布的supabase项目，是一个开源的后端即服务平台。其核心功能是能够提供一个简单易用的后端开发和部署平台。技术亮点在于其实时数据同步和安全认证机制。应用场景主要在后端开发领域，能够帮助开发者快速开发和部署后端应用。行业意义在于其推动了后端开发的开源化和社区化，具有重要的影响。",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 469
+      }
+    ]
   }
 ]
