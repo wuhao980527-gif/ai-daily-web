@@ -14762,5 +14762,53 @@
         "stars": 430
       }
     ]
+  },
+  {
+    "date": "2026-05-20",
+    "summary": "今日 AI 领域的主要进展包括开源项目的发布，如 nuclei 和 supabase，微软的 qlib 项目等，这些项目推动了 AI 技术在各个领域的应用和发展。",
+    "news": [
+      {
+        "id": "e250fa",
+        "title": "projectdiscovery/nuclei",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#Web应用安全",
+          "#开源"
+        ],
+        "summary": "ProjectDiscovery 的 Nuclei 项目是一个开源的漏洞扫描工具，核心功能是自动化地识别和利用 Web 应用的漏洞。其技术亮点在于能够支持多种协议和漏洞类型，包括 HTTP、HTTPS、FTP 等。Nuclei 可以应用于 Web 应用安全测试、渗透测试等场景。其行业意义在于能够帮助开发者和安全人员快速识别和修复漏洞，提高 Web 应用的安全性。Nuclei 的开源性也使其成为安全社区的重要贡献。",
+        "url": "https://github.com/projectdiscovery/nuclei",
+        "date": "Recent (Trending)",
+        "stars": 442
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#后端即服务",
+          "#实时数据同步",
+          "#开源"
+        ],
+        "summary": "Supabase 的 Supabase 项目是一个开源的后端即服务（BaaS）平台，核心功能是提供一个简单易用的后端解决方案。其技术亮点在于支持实时数据同步、身份验证和授权等功能。Supabase 可以应用于构建实时应用、移动应用等场景。其行业意义在于能够帮助开发者快速构建和部署后端服务，提高开发效率。Supabase 的开源性也使其成为开发者社区的重要贡献。",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 503
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#风险管理",
+          "#开源"
+        ],
+        "summary": "Microsoft 的 Qlib 项目是一个开源的量化交易库，核心功能是提供一个高性能的量化交易框架。其技术亮点在于支持多种交易策略、风险管理和性能优化等功能。Qlib 可以应用于量化交易、风险管理等场景。其行业意义在于能够帮助量化交易者和风险管理人员快速构建和部署交易策略，提高交易效率。Qlib 的开源性也使其成为量化交易社区的重要贡献。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 539
+      }
+    ]
   }
 ]
