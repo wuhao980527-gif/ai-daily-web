@@ -14810,5 +14810,119 @@
         "stars": 539
       }
     ]
+  },
+  {
+    "date": "2026-05-21",
+    "summary": "今日 AI 领域的主要进展包括新产品和开源项目的发布，如 AutoClaw APP 和 Supabase 等，重点关注自动化和数据管理方面的技术突破和行业应用。",
+    "news": [
+      {
+        "id": "0fad87",
+        "title": "AutoClaw APP",
+        "source": "Product",
+        "tags": [
+          "#移动端AI",
+          "#图像识别",
+          "#自然语言处理"
+        ],
+        "summary": "智谱AI推出的AutoClaw APP是一款移动端应用，目前仅上架App Store。虽然其功能尚不完全，但这标志着智谱AI在移动端的布局和发展。AutoClaw APP可能会整合智谱AI的多项技术，包括图像识别、自然语言处理等。其应用场景可能包括图像编辑、内容创作等。从行业意义上讲，AutoClaw APP的推出表明智谱AI在移动端市场的竞争力和布局。其技术亮点在于将AI技术应用于移动端，提供更便捷的用户体验。",
+        "url": "https://m.36kr.com/p/3817698479866757",
+        "date": "2026-05-21"
+      },
+      {
+        "id": "ead77f",
+        "title": "Gemini Omni",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多模态",
+          "#内容创作"
+        ],
+        "summary": "谷歌发布的Gemini Omni是Gemini的最新迭代，结合了推理能力和创作能力。用户可以将图像、文本等多种形式的输入转化为创作内容。Gemini Omni的技术亮点在于其多模态处理能力和创作能力的结合。其应用场景包括内容创作、图像编辑等。从行业意义上讲，Gemini Omni的推出标志着AI在内容创作领域的深入发展。其创新点在于将AI技术应用于创作领域，提供更高效的创作工具。",
+        "url": "https://m.36kr.com/p/3817204916356229",
+        "date": "2026-05-19"
+      },
+      {
+        "id": "e647d0",
+        "title": "Ad Radar",
+        "source": "Product",
+        "tags": [
+          "#广告监测",
+          "#内容分析",
+          "#实时监测"
+        ],
+        "summary": "Trendos推出的Ad Radar是一款新功能，设计用于跟踪赞助内容在Cha中出现的位置。Ad Radar的核心功能是提供实时的赞助内容跟踪和分析。其技术亮点在于其能够实时监测和分析赞助内容。其应用场景包括广告监测、内容分析等。从行业意义上讲，Ad Radar的推出标志着广告监测领域的技术进步。其创新点在于其能够提供实时的广告监测和分析，帮助用户更好地了解广告内容。",
+        "url": "https://techcrunch.com/press-release/trendos-launches-ad-radar-to-reveal-which-brands-are-advertising-inside-chatgpt",
+        "date": "2026-05-20"
+      },
+      {
+        "id": "df091e",
+        "title": "豆包",
+        "source": "Product",
+        "tags": [
+          "#文化教育",
+          "#语音识别",
+          "#图像识别"
+        ],
+        "summary": "豆包上线博物馆讲解模式，官方合作覆盖超20家头部博物馆。这标志着豆包在文化教育领域的布局和发展。豆包的博物馆讲解模式可能会整合其多项技术，包括语音识别、图像识别等。其应用场景包括博物馆讲解、文化教育等。从行业意义上讲，豆包的博物馆讲解模式的推出表明其在文化教育领域的竞争力和布局。其技术亮点在于将AI技术应用于文化教育领域，提供更便捷的用户体验。",
+        "url": "https://finance.eastmoney.com/a/202605183740329654.html",
+        "date": "2026-05-18"
+      },
+      {
+        "id": "e250fa",
+        "title": "projectdiscovery/nuclei",
+        "source": "GitHub",
+        "tags": [
+          "#安全测试",
+          "#漏洞扫描",
+          "#开源"
+        ],
+        "summary": "projectdiscovery/nuclei是一个开源项目，提供了一种新的方式来进行安全测试和漏洞扫描。其核心功能是提供高效的安全测试和漏洞扫描能力。其技术亮点在于其能够高效地扫描和检测安全漏洞。其应用场景包括安全测试、漏洞扫描等。从行业意义上讲，nuclei的推出标志着安全测试领域的技术进步。其创新点在于其能够提供高效的安全测试和漏洞扫描，帮助用户更好地保护系统安全。",
+        "url": "https://github.com/projectdiscovery/nuclei",
+        "date": "Recent (Trending)",
+        "stars": 464
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#数据库管理",
+          "#开发",
+          "#开源"
+        ],
+        "summary": "supabase/supabase是一个开源项目，提供了一种新的方式来进行数据库管理和开发。其核心功能是提供高效的数据库管理和开发能力。其技术亮点在于其能够高效地管理和开发数据库。其应用场景包括数据库管理、开发等。从行业意义上讲，supabase的推出标志着数据库管理领域的技术进步。其创新点在于其能够提供高效的数据库管理和开发，帮助用户更好地管理和开发数据库。",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 510
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#工作流管理",
+          "#自动化",
+          "#开源"
+        ],
+        "summary": "n8n-io/n8n是一个开源项目，提供了一种新的方式来进行工作流管理和自动化。其核心功能是提供高效的工作流管理和自动化能力。其技术亮点在于其能够高效地管理和自动化工作流。其应用场景包括工作流管理、自动化等。从行业意义上讲，n8n的推出标志着工作流管理领域的技术进步。其创新点在于其能够提供高效的工作流管理和自动化，帮助用户更好地管理和自动化工作流。",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1344
+      },
+      {
+        "id": "3ede0a",
+        "title": "mikeroyal/Self-Hosting-Guide",
+        "source": "GitHub",
+        "tags": [
+          "#自托管",
+          "#部署",
+          "#开源"
+        ],
+        "summary": "mikeroyal/Self-Hosting-Guide是一个开源项目，提供了一种新的方式来进行自托管和部署。其核心功能是提供高效的自托管和部署能力。其技术亮点在于其能够高效地进行自托管和部署。其应用场景包括自托管、部署等。从行业意义上讲，Self-Hosting-Guide的推出标志着自托管领域的技术进步。其创新点在于其能够提供高效的自托管和部署，帮助用户更好地进行自托管和部署。",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "date": "Recent (Trending)",
+        "stars": 325
+      }
+    ]
   }
 ]
