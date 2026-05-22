@@ -14924,5 +14924,80 @@
         "stars": 325
       }
     ]
+  },
+  {
+    "date": "2026-05-22",
+    "summary": "今日 AI 领域的主要进展包括新模型发布和开源项目的更新，例如 GLM-5.1 高速版的发布和 n8n 等项目的更新，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "c8d9bf",
+        "title": "GLM-5.1 高速版",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#AI模型"
+        ],
+        "summary": "智谱发布的GLM-5.1高速版AI模型，其核心功能是实现高速文本生成。技术亮点在于其能够跑出全球最快速度400 tokens/s，远超其他同类模型。这种技术可以应用于自然语言处理、文本生成等场景，具有广泛的应用前景。行业意义在于其能够大幅度提高AI模型的处理效率，推动AI技术的发展。这种高速模型的出现，也将促进更多的AI应用场景的出现。 #生成式AI #自然语言处理 #AI模型",
+        "url": "https://www.ithome.com/0/953/717.htm",
+        "date": "2026-05-22"
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#工作流管理",
+          "#开源工具",
+          "#自动化"
+        ],
+        "summary": "n8n-io/n8n是一个开源的工作流管理工具，其核心功能是帮助用户自动化工作流程。技术亮点在于其高度可定制化和扩展性，能够满足不同用户的需求。这种工具可以应用于企业内部的工作流管理、自动化等场景，能够大幅度提高工作效率。行业意义在于其能够帮助企业提高生产力和效率，推动企业数字化转型。 #工作流管理 #开源工具 #自动化",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1360
+      },
+      {
+        "id": "e250fa",
+        "title": "projectdiscovery/nuclei",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#开源工具",
+          "#安全审计"
+        ],
+        "summary": "projectdiscovery/nuclei是一个开源的漏洞扫描工具，其核心功能是帮助用户发现和修复漏洞。技术亮点在于其能够快速高效地扫描出潜在的安全漏洞。这种工具可以应用于企业内部的安全审计、漏洞修复等场景，能够大幅度提高安全性。行业意义在于其能够帮助企业提高安全意识和防护能力，推动企业安全建设。 #漏洞扫描 #开源工具 #安全审计",
+        "url": "https://github.com/projectdiscovery/nuclei",
+        "date": "Recent (Trending)",
+        "stars": 368
+      },
+      {
+        "id": "3ede0a",
+        "title": "mikeroyal/Self-Hosting-Guide",
+        "source": "GitHub",
+        "tags": [
+          "#自托管",
+          "#开源指南",
+          "#部署教程"
+        ],
+        "summary": "mikeroyal/Self-Hosting-Guide是一个开源的自托管指南，其核心功能是帮助用户自行部署和管理服务。技术亮点在于其能够提供详细的部署和管理教程。这种指南可以应用于个人和企业的自托管需求，能够大幅度提高自主性和安全性。行业意义在于其能够帮助用户更好地控制自己的数据和服务，推动自托管的发展。 #自托管 #开源指南 #部署教程",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "date": "Recent (Trending)",
+        "stars": 305
+      },
+      {
+        "id": "ad08ff",
+        "title": "tracel-ai/burn",
+        "source": "GitHub",
+        "tags": [
+          "#AI模型训练",
+          "#开源工具",
+          "#模型优化"
+        ],
+        "summary": "tracel-ai/burn是一个开源的AI模型训练工具，其核心功能是帮助用户训练和优化AI模型。技术亮点在于其能够提供快速高效的模型训练和优化能力。这种工具可以应用于AI模型的训练和优化等场景，能够大幅度提高模型的准确性和效率。行业意义在于其能够帮助用户更好地训练和优化AI模型，推动AI技术的发展。 #AI模型训练 #开源工具 #模型优化",
+        "url": "https://github.com/tracel-ai/burn",
+        "date": "Recent (Trending)",
+        "stars": 99
+      }
+    ]
   }
 ]
