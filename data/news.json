@@ -14999,5 +14999,120 @@
         "stars": 99
       }
     ]
+  },
+  {
+    "date": "2026-05-23",
+    "summary": "今日 AI 领域的主要进展包括新产品发布和开源项目更新。Moka AI 推出了 HR 工具，GitHub 上的 n8n、Whisper 和 Nuclei 等项目也获得了更新。这些进展表明 AI 在人力资源管理、自动化和语音识别等领域的应用正在扩展。",
+    "news": [
+      {
+        "id": "3b1478",
+        "title": "Moka AI HR工具（招聘Eva、人事Eva和BPEva）",
+        "source": "Product",
+        "tags": [
+          "#人力资源管理",
+          "#AI应用",
+          "#企业解决方案"
+        ],
+        "summary": "Moka推出的三款AI HR工具，包括招聘Eva、人事Eva和BPEva，能够辅助企业完成识人、筛选、面试、报表处理、流程流转和员工咨询等工作。这些工具的核心功能是利用AI技术来优化人力资源管理流程，提高工作效率。技术亮点在于其能够根据企业的具体需求定制化解决方案，提供个性化的服务。应用场景包括招聘、人事管理和人才培养等领域。行业意义在于其能够帮助企业降低人力资源管理成本，提高工作效率和员工满意度。",
+        "url": "https://m.36kr.com/p/3819979202253189",
+        "date": "2026-05-23"
+      },
+      {
+        "id": "e647d0",
+        "title": "Ad Radar",
+        "source": "Product",
+        "tags": [
+          "#广告监测",
+          "#ChatGPT",
+          "#自然语言处理"
+        ],
+        "summary": "Trendos推出的Ad Radar工具能够跟踪ChatGPT响应中的赞助内容，帮助企业监测和分析其在ChatGPT平台上的广告投放效果。该工具的核心功能是利用自然语言处理技术来识别和分析ChatGPT响应中的赞助内容。技术亮点在于其能够提供实时的监测和分析结果，帮助企业快速调整其广告投放策略。应用场景包括广告投放、市场营销和竞争分析等领域。行业意义在于其能够帮助企业提高广告投放的有效性和 ROI。",
+        "url": "https://techcrunch.com/press-release/trendos-launches-ad-radar-to-reveal-which-brands-are-advertising-inside-chatgpt",
+        "date": "2026-05-20"
+      },
+      {
+        "id": "ed540a",
+        "title": "豆包博物馆讲解模式",
+        "source": "Product",
+        "tags": [
+          "#博物馆讲解",
+          "#AI应用",
+          "#文化传播"
+        ],
+        "summary": "豆包推出的博物馆讲解模式能够为逛展爱好者提供专业的AI讲解体验，覆盖超20家头部博物馆。该模式的核心功能是利用AI技术来提供个性化的博物馆讲解服务。技术亮点在于其能够根据用户的兴趣和需求提供定制化的讲解内容。应用场景包括博物馆、艺术馆和文化展览等领域。行业意义在于其能够提高用户的博物馆参观体验，促进文化和艺术的普及和发展。",
+        "url": "https://m.caizhongshe.cn/news-5617389326650582342.html",
+        "date": "2026-05-18"
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#工作流自动化",
+          "#开源工具",
+          "#数据集成"
+        ],
+        "summary": "n8n-io推出的n8n工具是一个开源的工作流自动化平台，能够帮助用户自动化其工作流程。该工具的核心功能是利用节点和工作流来自动化任务。技术亮点在于其能够支持多种数据源和服务，提供高度的可定制化。应用场景包括工作流自动化、数据集成和业务流程管理等领域。行业意义在于其能够帮助用户提高工作效率，降低手动错误的风险。",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1441
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源工具",
+          "#深度学习"
+        ],
+        "summary": "OpenAI推出的Whisper工具是一个开源的语音识别系统，能够识别和转录语音内容。该工具的核心功能是利用深度学习技术来识别语音。技术亮点在于其能够支持多种语言和方言，提供高精度的识别结果。应用场景包括语音识别、语音转文字和音频分析等领域。行业意义在于其能够帮助用户提高语音识别的准确性和效率，促进语音技术的发展和应用。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 709
+      },
+      {
+        "id": "e250fa",
+        "title": "projectdiscovery/nuclei",
+        "source": "GitHub",
+        "tags": [
+          "#安全测试",
+          "#开源工具",
+          "#漏洞扫描"
+        ],
+        "summary": "ProjectDiscovery推出的Nuclei工具是一个开源的漏洞扫描和安全测试平台，能够帮助用户发现和修复安全漏洞。该工具的核心功能是利用模板和插件来扫描和测试安全漏洞。技术亮点在于其能够支持多种协议和服务，提供高度的可定制化。应用场景包括安全测试、漏洞扫描和渗透测试等领域。行业意义在于其能够帮助用户提高安全意识，降低安全风险和损失。",
+        "url": "https://github.com/projectdiscovery/nuclei",
+        "date": "Recent (Trending)",
+        "stars": 202
+      },
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#网络安全",
+          "#开源工具",
+          "#VPN"
+        ],
+        "summary": "Tailscale推出的Tailscale工具是一个开源的网络安全和VPN平台，能够帮助用户建立和管理安全的网络连接。该工具的核心功能是利用WireGuard技术来建立安全的网络连接。技术亮点在于其能够提供简单和易用的界面，支持多种设备和平台。应用场景包括网络安全、VPN和远程办公等领域。行业意义在于其能够帮助用户提高网络安全意识，保护用户的数据和隐私。",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 267
+      },
+      {
+        "id": "ad08ff",
+        "title": "tracel-ai/burn",
+        "source": "GitHub",
+        "tags": [
+          "#AI模型训练",
+          "#开源工具",
+          "#分布式计算"
+        ],
+        "summary": "Tracel-ai推出的Burn工具是一个开源的AI模型训练和优化平台，能够帮助用户训练和优化其AI模型。该工具的核心功能是利用分布式计算和自动化优化来训练和优化AI模型。技术亮点在于其能够支持多种AI框架和模型，提供高度的可定制化。应用场景包括AI模型训练、优化和部署等领域。行业意义在于其能够帮助用户提高AI模型的准确性和效率，促进AI技术的发展和应用。",
+        "url": "https://github.com/tracel-ai/burn",
+        "date": "Recent (Trending)",
+        "stars": 99
+      }
+    ]
   }
 ]
