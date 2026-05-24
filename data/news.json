@@ -15114,5 +15114,93 @@
         "stars": 99
       }
     ]
+  },
+  {
+    "date": "2026-05-24",
+    "summary": "今日 AI 领域的主要进展包括新模型发布和技术更新，如 Gemini Omni 和 Whisper，以及开源项目如 tracel-ai/burn 和 lance-format/lance，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "ead77f",
+        "title": "Gemini Omni",
+        "source": "Product",
+        "tags": [
+          "#多模态",
+          "#生成式AI",
+          "#智能眼镜"
+        ],
+        "summary": "谷歌发布的Gemini Omni是一种多模态AI模型，能够将推理能力和创作能力相结合。这种模型可以处理图像、文本等多种类型的输入，并能够生成相应的输出。Gemini Omni的技术亮点在于其能够处理多种类型的输入和输出，具有很强的灵活性和扩展性。这种模型可以应用于搜索引擎、智能眼镜等领域，具有很大的行业意义和影响。",
+        "url": "https://m.36kr.com/p/3817204916356229",
+        "date": "2026-05-19"
+      },
+      {
+        "id": "038b9c",
+        "title": "Gemini 3.5 Flash",
+        "source": "Product",
+        "tags": [
+          "#多模态",
+          "#超快推理",
+          "#智能助手"
+        ],
+        "summary": "谷歌发布的Gemini 3.5 Flash是一种超快的多模态模型，能够在亚秒级完成深度推理。这种模型的技术亮点在于其超快的处理速度和高精度的推理能力。Gemini 3.5 Flash可以应用于搜索引擎、智能助手等领域，具有很大的行业意义和影响。这种模型的创新点在于其能够处理多种类型的输入和输出，并能够在非常短的时间内完成推理。",
+        "url": "https://techbytes.app/tech-pulse-daily/2026/may/24",
+        "date": "2026-05-24"
+      },
+      {
+        "id": "ad08ff",
+        "title": "tracel-ai/burn",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#AI研究",
+          "#多模态"
+        ],
+        "summary": "tracel-ai/burn是一个开源的AI项目，主要用于研究和开发AI相关的技术。该项目的技术亮点在于其能够处理多种类型的输入和输出，并能够在非常短的时间内完成推理。tracel-ai/burn可以应用于搜索引擎、智能助手等领域，具有很大的行业意义和影响。这种项目的创新点在于其能够提供一个开源的平台，方便开发者和研究人员进行AI相关的研究和开发。",
+        "url": "https://github.com/tracel-ai/burn",
+        "date": "Recent (Trending)",
+        "stars": 96
+      },
+      {
+        "id": "adbb5a",
+        "title": "lance-format/lance",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#AI研究",
+          "#多模态"
+        ],
+        "summary": "lance-format/lance是一个开源的AI项目，主要用于研究和开发AI相关的技术。该项目的技术亮点在于其能够处理多种类型的输入和输出，并能够在非常短的时间内完成推理。lance-format/lance可以应用于搜索引擎、智能助手等领域，具有很大的行业意义和影响。这种项目的创新点在于其能够提供一个开源的平台，方便开发者和研究人员进行AI相关的研究和开发。",
+        "url": "https://github.com/lance-format/lance",
+        "date": "Recent (Trending)",
+        "stars": 80
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#语音识别",
+          "#智能助手"
+        ],
+        "summary": "OpenAI发布的Whisper是一个开源的AI项目，主要用于研究和开发语音识别相关的技术。该项目的技术亮点在于其能够处理多种类型的语音输入，并能够在非常短的时间内完成识别。Whisper可以应用于智能助手、语音识别等领域，具有很大的行业意义和影响。这种项目的创新点在于其能够提供一个开源的平台，方便开发者和研究人员进行语音识别相关的研究和开发。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 730
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#语音识别",
+          "#智能助手"
+        ],
+        "summary": "modelscope/FunASR是一个开源的AI项目，主要用于研究和开发语音识别相关的技术。该项目的技术亮点在于其能够处理多种类型的语音输入，并能够在非常短的时间内完成识别。modelscope/FunASR可以应用于智能助手、语音识别等领域，具有很大的行业意义和影响。这种项目的创新点在于其能够提供一个开源的平台，方便开发者和研究人员进行语音识别相关的研究和开发。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 136
+      }
+    ]
   }
 ]
