@@ -15202,5 +15202,120 @@
         "stars": 136
       }
     ]
+  },
+  {
+    "date": "2026-05-25",
+    "summary": "今日 AI 领域的主要进展包括模型发布和技术突破，例如 Whisper 和 FunASR 的更新，以及 containerd 和 lance 的开发。这些进展表明 AI 在语音识别和容器化技术方面取得了进步。同时，诸如 Eva 和 Ad Radar 的产品发布也体现了 AI 在人事管理和广告领域的应用。这些进展共同推动了 AI 技术的发展和行业应用。",
+    "news": [
+      {
+        "id": "3b1478",
+        "title": "招聘Eva、人事Eva和BPEva",
+        "source": "Product",
+        "tags": [
+          "#人力资源管理",
+          "#AI应用",
+          "#企业管理"
+        ],
+        "summary": "Moka推出的三款AI HR工具，包括招聘Eva、人事Eva和BPEva，主要用于招聘、人事和人才管理场景。这些工具的核心功能是利用AI技术来优化人力资源管理流程，提高效率和准确性。技术亮点在于其能够根据企业的具体需求定制化解决方案，提供个性化的服务。应用场景包括企业内部的招聘、员工管理和培训等方面。行业意义在于其能够帮助企业更好地管理人力资源，提高竞争力。",
+        "url": "https://m.36kr.com/p/3819979202253189",
+        "date": "2026-05-23"
+      },
+      {
+        "id": "e647d0",
+        "title": "Ad Radar",
+        "source": "Product",
+        "tags": [
+          "#广告投放",
+          "#竞争分析",
+          "#ChatGPT"
+        ],
+        "summary": "Trendos推出的Ad Radar工具，可以揭示哪些品牌在ChatGPT中进行广告投放。该工具的核心功能是监测和分析ChatGPT中的广告投放情况，帮助企业更好地了解竞争对手的广告策略。技术亮点在于其能够实时监测和分析大量的广告数据，提供精确的洞察。应用场景包括企业的市场竞争分析和广告投放优化等方面。行业意义在于其能够帮助企业更好地了解市场竞争情况，优化自己的广告策略。",
+        "url": "https://techcrunch.com/press-release/trendos-launches-ad-radar-to-reveal-which-brands-are-advertising-inside-chatgpt",
+        "date": "2026-05-20"
+      },
+      {
+        "id": "e88c2d",
+        "title": "千问云",
+        "source": "Product",
+        "tags": [
+          "#AI平台",
+          "#模型API",
+          "#开发者工具"
+        ],
+        "summary": "阿里云发布的千问云平台，提供了150多款主流模型API，包括Qwen、GLM、Kimi、DeepSeek、Wan和HappyHorse等。该平台的核心功能是为开发者提供便捷的AI模型接入和使用体验，简化AI应用开发流程。技术亮点在于其能够将模型服务的核心能力封装为Skill，提供更高效的开发体验。应用场景包括企业的AI应用开发和研究等方面。行业意义在于其能够促进AI技术的更广泛应用和发展。",
+        "url": "https://finance.eastmoney.com/a/202605203743246228.html",
+        "date": "2026-05-20"
+      },
+      {
+        "id": "591370",
+        "title": "containerd/containerd",
+        "source": "GitHub",
+        "tags": [
+          "#容器化",
+          "#开源工具",
+          "#云计算"
+        ],
+        "summary": "containerd/containerd项目是一个开源的容器运行时管理工具，主要用于管理和运行容器化应用。该工具的核心功能是提供容器的创建、启动、停止和删除等基本操作，确保容器化应用的高效运行。技术亮点在于其能够支持多种容器格式和运行环境，提供高可用性和可扩展性。应用场景包括云计算、DevOps和容器化应用等方面。行业意义在于其能够帮助企业更好地管理和运行容器化应用，提高效率和可靠性。",
+        "url": "https://github.com/containerd/containerd",
+        "date": "Recent (Trending)",
+        "stars": 63
+      },
+      {
+        "id": "adbb5a",
+        "title": "lance-format/lance",
+        "source": "GitHub",
+        "tags": [
+          "#代码格式化",
+          "#开源工具",
+          "#代码质量"
+        ],
+        "summary": "lance-format/lance项目是一个开源的格式化工具，主要用于格式化和优化代码和数据。该工具的核心功能是提供一致的代码风格和格式，确保代码的可读性和可维护性。技术亮点在于其能够支持多种编程语言和格式，提供高可定制性和可扩展性。应用场景包括代码开发、测试和维护等方面。行业意义在于其能够帮助开发者更好地管理和维护代码，提高代码质量和效率。",
+        "url": "https://github.com/lance-format/lance",
+        "date": "Recent (Trending)",
+        "stars": 85
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源系统",
+          "#深度学习"
+        ],
+        "summary": "OpenAI发布的Whisper项目是一个开源的语音识别系统，主要用于识别和转录语音数据。该系统的核心功能是利用深度学习技术来识别和转录语音，提供高准确性和可靠性。技术亮点在于其能够支持多种语言和方言，提供高可定制性和可扩展性。应用场景包括语音助手、语音识别和转录等方面。行业意义在于其能够帮助企业更好地理解和处理语音数据，提高语音识别和转录的准确性和效率。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 793
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源系统",
+          "#深度学习"
+        ],
+        "summary": "ModelScope发布的FunASR项目是一个开源的语音识别系统，主要用于识别和转录语音数据。该系统的核心功能是利用深度学习技术来识别和转录语音，提供高准确性和可靠性。技术亮点在于其能够支持多种语言和方言，提供高可定制性和可扩展性。应用场景包括语音助手、语音识别和转录等方面。行业意义在于其能够帮助企业更好地理解和处理语音数据，提高语音识别和转录的准确性和效率。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 158
+      },
+      {
+        "id": "ad08ff",
+        "title": "tracel-ai/burn",
+        "source": "GitHub",
+        "tags": [
+          "#AI训练",
+          "#开源平台",
+          "#模型优化"
+        ],
+        "summary": "Tracel-ai发布的Burn项目是一个开源的AI训练平台，主要用于训练和优化AI模型。该平台的核心功能是提供高效的AI训练和优化能力，确保AI模型的高准确性和可靠性。技术亮点在于其能够支持多种AI框架和模型，提供高可定制性和可扩展性。应用场景包括AI研究、开发和部署等方面。行业意义在于其能够帮助企业更好地训练和优化AI模型，提高AI应用的准确性和效率。",
+        "url": "https://github.com/tracel-ai/burn",
+        "date": "Recent (Trending)",
+        "stars": 86
+      }
+    ]
   }
 ]
