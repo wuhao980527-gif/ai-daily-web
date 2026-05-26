@@ -15317,5 +15317,81 @@
         "stars": 86
       }
     ]
+  },
+  {
+    "date": "2026-05-26",
+    "summary": "今日 AI 领域的主要进展包括模型发布和技术突破，例如 FunASR 和 Whisper 的更新，这些进展表明 AI 在语音识别和处理方面的应用和发展。同时，containerd 和 grpc-rust 的更新也体现了对容器化和跨语言通信的关注。这些进展推动了 AI 技术在各个领域的应用和发展。",
+    "news": [
+      {
+        "id": "591370",
+        "title": "containerd/containerd",
+        "source": "GitHub",
+        "tags": [
+          "#容器技术",
+          "#开源",
+          "#云计算"
+        ],
+        "summary": "containerd 是一个开源的容器运行时管理工具，提供了容器的创建、启动、停止和删除等核心功能。其技术亮点在于支持多种容器格式和运行环境，能够与 Docker 等容器平台无缝集成。containerd 可以应用于云计算、边缘计算等场景，帮助开发者和运维人员更好地管理容器化应用。其行业意义在于推动了容器技术的发展和普及，提高了应用的可移植性和可管理性。",
+        "url": "https://github.com/containerd/containerd",
+        "date": "Recent (Trending)",
+        "stars": 62
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#深度学习",
+          "#智能助手"
+        ],
+        "summary": "modelscope 的 FunASR 项目是一个开源的自动语音识别系统，支持多种语言和方言。其技术亮点在于采用了深度学习算法和大规模语音数据集，能够实现高精度的语音识别。FunASR 可以应用于智能助手、语音输入等场景，帮助开发者和用户更好地交互。其行业意义在于推动了语音识别技术的发展和普及，提高了人机交互的便捷性和准确性。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 170
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#深度学习",
+          "#智能助手"
+        ],
+        "summary": "OpenAI 的 Whisper 项目是一个开源的自动语音识别系统，支持多种语言和方言。其技术亮点在于采用了深度学习算法和大规模语音数据集，能够实现高精度的语音识别。Whisper 可以应用于智能助手、语音输入等场景，帮助开发者和用户更好地交互。其行业意义在于推动了语音识别技术的发展和普及，提高了人机交互的便捷性和准确性。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 840
+      },
+      {
+        "id": "748f82",
+        "title": "grpc/grpc-rust",
+        "source": "GitHub",
+        "tags": [
+          "#gRPC",
+          "#Rust",
+          "#分布式系统"
+        ],
+        "summary": "grpc 的 grpc-rust 项目是一个开源的 Rust 语言实现的 gRPC 框架，提供了高性能和低延迟的 RPC 通信能力。其技术亮点在于采用了 Rust 语言的安全性和性能，能够实现高可靠性和高可用性的分布式系统。grpc-rust 可以应用于云计算、边缘计算等场景，帮助开发者和运维人员更好地构建分布式系统。其行业意义在于推动了 gRPC 技术的发展和普及，提高了分布式系统的性能和可靠性。",
+        "url": "https://github.com/grpc/grpc-rust",
+        "date": "Recent (Trending)",
+        "stars": 108
+      },
+      {
+        "id": "adbb5a",
+        "title": "lance-format/lance",
+        "source": "GitHub",
+        "tags": [
+          "#数据格式",
+          "#数据处理",
+          "#机器学习"
+        ],
+        "summary": "lance-format 的 lance 项目是一个开源的数据格式和工具集，提供了高效和灵活的数据处理能力。其技术亮点在于采用了多种数据格式和编码算法，能够实现高性能和低存储的数据处理。lance 可以应用于数据分析、机器学习等场景，帮助开发者和数据科学家更好地处理和分析数据。其行业意义在于推动了数据处理技术的发展和普及，提高了数据分析和机器学习的效率和准确性。",
+        "url": "https://github.com/lance-format/lance",
+        "date": "Recent (Trending)",
+        "stars": 91
+      }
+    ]
   }
 ]
