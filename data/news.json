@@ -15393,5 +15393,107 @@
         "stars": 91
       }
     ]
+  },
+  {
+    "date": "2026-05-27",
+    "summary": "今日 AI 领域的主要进展包括模型发布和技术突破，例如 FunASR 和 Whisper 的更新，这些进展表明 AI 在语音识别和处理方面的持续改进。",
+    "news": [
+      {
+        "id": "8a7fc5",
+        "title": "Marvis",
+        "source": "Product",
+        "tags": [
+          "#智能助手",
+          "#操作系统",
+          "#人机交互"
+        ],
+        "summary": "腾讯推出的Marvis是一款操作系统层级的AI助手，能够将整台电脑变成可对话的对象。其核心功能是提供跨平台的语音交互能力，支持Windows、macOS和安卓三端同步上线。Marvis的技术亮点在于其能够深度集成操作系统，提供更加自然和便捷的用户体验。这种技术可以应用于智能家居、办公自动化等场景，具有广阔的行业意义和影响。",
+        "url": "https://m.36kr.com/p/3825505246470406",
+        "date": "2026-05-21"
+      },
+      {
+        "id": "8db118",
+        "title": "Qwen Cloud",
+        "source": "Product",
+        "tags": [
+          "#云计算",
+          "#AI解决方案",
+          "#企业级应用"
+        ],
+        "summary": "阿里云在新加坡面向海外市场发布了全新的AI产品官网Qwen Cloud，以及一系列更新的产品，如Agent产品MuleRun、智能体编程平台Qoder和通用桌面智能体QoderWork。Qwen Cloud的核心功能是提供云端的AI解决方案，支持企业级的AI应用开发和部署。其技术亮点在于提供了一站式的AI开发平台，能够简化AI应用的开发和部署过程。这种技术可以应用于企业级的AI解决方案，具有重要的行业意义和影响。",
+        "url": "https://emwap.eastmoney.com/a/202605263749544748.html",
+        "date": "2026-05-26"
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源项目",
+          "#深度学习"
+        ],
+        "summary": "modelscope/FunASR是一个开源的语音识别项目，提供了多语言的语音识别能力。其核心功能是使用深度学习算法来识别语音，支持多种语言和方言。FunASR的技术亮点在于其能够提供高精度的语音识别能力，且支持多种硬件平台。这种技术可以应用于智能家居、语音助手等场景，具有广阔的行业意义和影响。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 185
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源系统",
+          "#深度学习"
+        ],
+        "summary": "OpenAI的Whisper是一个开源的语音识别系统，能够提供高精度的语音识别能力。其核心功能是使用深度学习算法来识别语音，支持多种语言和方言。Whisper的技术亮点在于其能够提供实时的语音识别能力，且支持多种硬件平台。这种技术可以应用于智能家居、语音助手等场景，具有重要的行业意义和影响。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 879
+      },
+      {
+        "id": "591370",
+        "title": "containerd/containerd",
+        "source": "GitHub",
+        "tags": [
+          "#容器运行时",
+          "#开源项目",
+          "#云计算"
+        ],
+        "summary": "containerd/containerd是一个开源的容器运行时项目，提供了容器的创建、运行和管理能力。其核心功能是使用操作系统的资源来运行容器，支持多种容器格式。containerd的技术亮点在于其能够提供高性能和安全的容器运行环境，且支持多种硬件平台。这种技术可以应用于云计算、容器化等场景，具有广阔的行业意义和影响。",
+        "url": "https://github.com/containerd/containerd",
+        "date": "Recent (Trending)",
+        "stars": 70
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#头部识别",
+          "#开源项目",
+          "#深度学习"
+        ],
+        "summary": "juanfont/headscale是一个开源的头部识别项目，提供了头部识别和跟踪能力。其核心功能是使用深度学习算法来识别头部，支持多种摄像头和硬件平台。headscale的技术亮点在于其能够提供高精度的头部识别能力，且支持实时跟踪。这种技术可以应用于智能安防、人脸识别等场景，具有重要的行业意义和影响。",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 674
+      },
+      {
+        "id": "748f82",
+        "title": "grpc/grpc-rust",
+        "source": "GitHub",
+        "tags": [
+          "#RPC框架",
+          "#开源项目",
+          "#高性能"
+        ],
+        "summary": "grpc/grpc-rust是一个开源的RPC框架项目，提供了高性能和安全的远程过程调用能力。其核心功能是使用protobuf来定义接口，支持多种语言和硬件平台。grpc-rust的技术亮点在于其能够提供高性能和安全的RPC调用能力，且支持多种认证和授权机制。这种技术可以应用于分布式系统、微服务等场景，具有广阔的行业意义和影响。",
+        "url": "https://github.com/grpc/grpc-rust",
+        "date": "Recent (Trending)",
+        "stars": 132
+      }
+    ]
   }
 ]
