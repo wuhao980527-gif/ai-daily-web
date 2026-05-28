@@ -15495,5 +15495,172 @@
         "stars": 132
       }
     ]
+  },
+  {
+    "date": "2026-05-28",
+    "summary": "今日 AI 领域的主要进展包括多家公司的新产品发布，如 ClickHouse Agents、Meta AI 和 Anthropic 的 AI 模型，以及 Google AI Threat Defence。同时，GitHub 上的 openai/whisper 项目也引起了关注。这些进展表明 AI 技术在各个领域的应用和发展。",
+    "news": [
+      {
+        "id": "4ac023",
+        "title": "ClickHouse Agents",
+        "source": "Product",
+        "tags": [
+          "#数据分析",
+          "#实时处理",
+          "#托管服务"
+        ],
+        "summary": "ClickHouse 发布了 ClickHouse Agents，一种基于 Anthropic 的 Claude 构建的托管分析服务。该服务提供了实时数据处理和分析能力，能够帮助用户快速获取业务洞察。ClickHouse Agents 的技术亮点在于其能够处理大量数据并提供实时分析结果，其应用场景包括实时监控、数据分析和业务决策。该服务的行业意义在于其能够帮助企业快速响应市场变化和客户需求，从而提高竞争力。",
+        "url": "https://ecommercenews.com.au/story/clickhouse-launches-ai-agents-as-arr-tops-usd-250m",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "1b7334",
+        "title": "Meta AI",
+        "source": "Product",
+        "tags": [
+          "#AI聊天机器人",
+          "#自然语言处理",
+          "#客户服务"
+        ],
+        "summary": "Meta Platforms Inc 首次向消费者提供 Meta AI 聊天机器人订阅服务。该服务基于 Meta 的 AI 技术，能够提供个性化的对话体验。Meta AI 聊天机器人的技术亮点在于其能够理解自然语言并提供智能回应，其应用场景包括客户服务、语言学习和娱乐。该服务的行业意义在于其能够帮助企业提供更好的客户服务和用户体验，从而提高客户满意度和忠诚度。",
+        "url": "https://theedgemalaysia.com/node/805146",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "72eaf1",
+        "title": "Anthropic’s AI Models",
+        "source": "Product",
+        "tags": [
+          "#旅行推荐",
+          "#AI预测",
+          "#行业解决方案"
+        ],
+        "summary": "Anthropic 与 Travelport 和 Cognizant 合作，将 AI 技术集成到旅行行业。Anthropic 的 AI 模型能够提供实时的旅行推荐和预测，帮助用户更好地规划旅行。Anthropic 的 AI 模型的技术亮点在于其能够处理大量数据并提供准确的预测结果，其应用场景包括旅行推荐、预订和管理。该服务的行业意义在于其能够帮助旅行企业提供更好的用户体验和提高效率，从而提高竞争力。",
+        "url": "https://www.geneonline.com/travelport-cognizant-and-anthropic-partner-to-integrate-anthropics-ai-models-into-travel-technology",
+        "date": "2026-05-27"
+      },
+      {
+        "id": "34641e",
+        "title": "Google AI Threat Defence",
+        "source": "Product",
+        "tags": [
+          "#云端安全",
+          "#AI威胁检测",
+          "#数据保护"
+        ],
+        "summary": "Google Cloud 发布了 Google AI Threat Defence，一种新的安全服务，结合了 Gemalto 的安全工具。该服务能够提供实时的威胁检测和防御，帮助用户保护其云端数据和应用。Google AI Threat Defence 的技术亮点在于其能够使用 AI 算法检测和防御复杂的威胁，其应用场景包括云端安全、数据保护和合规性。该服务的行业意义在于其能够帮助企业提高云端安全性和降低风险，从而保护其业务和数据。",
+        "url": "https://itbrief.com.au/story/google-cloud-launches-ai-threat-defence-against-attacks",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "2dc394",
+        "title": "Ping Identity",
+        "source": "Product",
+        "tags": [
+          "#身份管理",
+          "#AI安全",
+          "#访问控制"
+        ],
+        "summary": "Ping Identity 发布了新的身份管理功能，用于支持 AI 代理和扩展身份验证。该功能能够提供更好的安全性和便利性，帮助用户管理其身份和访问权限。Ping Identity 的新功能的技术亮点在于其能够使用 AI 算法检测和防御身份盗窃，其应用场景包括身份管理、访问控制和安全性。该功能的行业意义在于其能够帮助企业提高安全性和降低风险，从而保护其业务和数据。",
+        "url": "https://securitybrief.com.au/story/ping-identity-adds-controls-for-ai-agents-in-businesses",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "fc4e63",
+        "title": "DeepSeek-V4-Pro API",
+        "source": "Product",
+        "tags": [
+          "#搜索API",
+          "#数据分析",
+          "#价格优惠"
+        ],
+        "summary": "DeepSeek-V4-Pro API 的价格永久降低至原价的 25%。该 API 提供了高级的搜索和分析功能，能够帮助用户快速获取所需的信息。DeepSeek-V4-Pro API 的技术亮点在于其能够处理大量数据并提供准确的搜索结果，其应用场景包括搜索、分析和数据挖掘。该 API 的行业意义在于其能够帮助企业提高效率和降低成本，从而提高竞争力。",
+        "url": "https://www.21jingji.com/article/20260524/herald/74040a44440a2c4938a21af787640de4.html",
+        "date": "2026-05-31"
+      },
+      {
+        "id": "7f4991",
+        "title": "Qwen Cloud",
+        "source": "Product",
+        "tags": [
+          "#AI解决方案",
+          "#智能体编程",
+          "#桌面智能体"
+        ],
+        "summary": "阿里云在新加坡发布了全新的 AI 产品官网 Qwen Cloud、Agent 产品 MuleRun，以及智能体编程平台 Qoder 和通用桌面智能体 QoderWork。这些产品能够提供更好的 AI 解决方案和服务，帮助用户提高效率和竞争力。阿里云的新产品的技术亮点在于其能够使用 AI 算法提供智能化的解决方案，其应用场景包括 AI 开发、智能体编程和桌面智能体。这些产品的行业意义在于其能够帮助企业提高效率和降低成本，从而提高竞争力。",
+        "url": "http://cn.chinadaily.com.cn/a/202605/27/WS6a16bcd2a310942cc49aea43.html",
+        "date": "2026-05-26"
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源模型",
+          "#深度学习"
+        ],
+        "summary": "OpenAI 发布了 Whisper，一种新的开源语音识别模型。Whisper 能够提供高准确率的语音识别结果，帮助用户更好地理解和处理语音数据。Whisper 的技术亮点在于其能够使用深度学习算法提供高准确率的语音识别结果，其应用场景包括语音识别、语音合成和语音分析。Whisper 的行业意义在于其能够帮助企业提高语音处理能力和降低成本，从而提高竞争力。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 902
+      },
+      {
+        "id": "591370",
+        "title": "containerd/containerd",
+        "source": "GitHub",
+        "tags": [
+          "#容器化",
+          "#云原生",
+          "#DevOps"
+        ],
+        "summary": "Containerd 发布了新的版本，提供了更好的容器运行时和管理能力。Containerd 的技术亮点在于其能够提供高性能和安全的容器运行时，其应用场景包括容器化、云原生和 DevOps。Containerd 的行业意义在于其能够帮助企业提高容器化能力和降低成本，从而提高竞争力。",
+        "url": "https://github.com/containerd/containerd",
+        "date": "Recent (Trending)",
+        "stars": 71
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源模型",
+          "#深度学习"
+        ],
+        "summary": "Modelscope 发布了 FunASR，一种新的开源语音识别模型。FunASR 能够提供高准确率的语音识别结果，帮助用户更好地理解和处理语音数据。FunASR 的技术亮点在于其能够使用深度学习算法提供高准确率的语音识别结果，其应用场景包括语音识别、语音合成和语音分析。FunASR 的行业意义在于其能够帮助企业提高语音处理能力和降低成本，从而提高竞争力。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 219
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#头部规模",
+          "#云原生",
+          "#DevOps"
+        ],
+        "summary": "Headscale 发布了新的版本，提供了更好的头部规模和管理能力。Headscale 的技术亮点在于其能够提供高性能和安全的头部规模，其应用场景包括头部规模、云原生和 DevOps。Headscale 的行业意义在于其能够帮助企业提高头部规模能力和降低成本，从而提高竞争力。",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 757
+      },
+      {
+        "id": "70afec",
+        "title": "NangoHQ/nango",
+        "source": "GitHub",
+        "tags": [
+          "#产品集成",
+          "#云原生",
+          "#DevOps"
+        ],
+        "summary": "Nango 发布了新的版本，提供了更好的产品集成和管理能力。Nango 的技术亮点在于其能够提供高性能和安全的产品集成，其应用场景包括产品集成、云原生和 DevOps。Nango 的行业意义在于其能够帮助企业提高产品集成能力和降低成本，从而提高竞争力。",
+        "url": "https://github.com/NangoHQ/nango",
+        "date": "Recent (Trending)",
+        "stars": 1739
+      }
+    ]
   }
 ]
