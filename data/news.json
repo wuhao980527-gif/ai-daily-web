@@ -15662,5 +15662,146 @@
         "stars": 1739
       }
     ]
+  },
+  {
+    "date": "2026-05-29",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 Genesis World 1.0 和百应AI 3.0，以及开源项目的更新，如 modelscope/FunASR 和 containerd/containerd，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "bf966a",
+        "title": "Genesis World 1.0",
+        "source": "Product",
+        "tags": [
+          "#物理仿真",
+          "#开源",
+          "#GPU编译器"
+        ],
+        "summary": "Genesis AI 发布了 Genesis World 1.0，并开源了三套核心项目：Genesis World 物理仿真平台、Quadrants 跨平台 GPU 编译器，以及 Nyx 写实渲染器。Genesis World 1.0 的核心功能是提供一个高性能的物理仿真环境，能够模拟复杂的物理现象。其技术亮点在于能够跨平台部署，并支持多种 GPU 架构。应用场景包括科研、游戏开发等领域。行业意义在于推动物理仿真技术的发展，提高科研和开发的效率。Genesis World 1.0 的开源也促进了社区的参与和贡献。",
+        "url": "https://m.36kr.com/p/3828813719130761",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "b137fc",
+        "title": "百应AI 3.0",
+        "source": "Product",
+        "tags": [
+          "#企业AI",
+          "#可定制模型",
+          "#智能解决方案"
+        ],
+        "summary": "联想发布百应AI 3.0，提供词元宝、Token Plan、Token Key等功能，帮助企业以可负担的成本、可落地的路径、可进化的方式，真正拥抱AI。百应AI 3.0的核心功能是提供一个全面的AI解决方案，能够满足企业的不同需求。其技术亮点在于能够提供可定制的AI模型和算法，能够适应不同行业和应用场景。应用场景包括客户服务、营销分析等领域。行业意义在于推动AI技术在企业中的应用，提高企业的效率和竞争力。百应AI 3.0的发布也体现了联想在AI领域的投入和创新。",
+        "url": "https://m.36kr.com/p/3828655291863689",
+        "date": "2026-05-27"
+      },
+      {
+        "id": "4e8f0a",
+        "title": "Kuvi AI",
+        "source": "Product",
+        "tags": [
+          "#智能金融",
+          "#机器学习",
+          "#个性化投资"
+        ],
+        "summary": "Kuvi.ai 是 Agentic Finance 的先驱者，提供了一种新的AI驱动的金融服务。Kuvi AI 的核心功能是提供一个智能的金融平台，能够根据用户的需求和风险承受能力提供个性化的投资建议。其技术亮点在于能够使用机器学习算法分析大量的金融数据，能够提供准确的预测和建议。应用场景包括个人投资、资产管理等领域。行业意义在于推动金融服务的智能化和个性化，提高用户的投资收益和满意度。Kuvi AI 的创新也体现了AI技术在金融领域的应用潜力。",
+        "url": "https://www.manilatimes.net/2026/05/29/tmt-newswire/globenewswire/agentic-finance-pioneer-kuvi-ai-is-making-strategy-programmable/2354102/amp",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "1c388d",
+        "title": "Qwen Cloud",
+        "source": "Product",
+        "tags": [
+          "#云计算",
+          "#AI模型",
+          "#智能代理"
+        ],
+        "summary": "Alibaba Cloud 发布了新的AI模型、基础设施升级、AI原生平台和智能代理。Qwen Cloud 的核心功能是提供一个全面的云计算平台，能够支持企业的不同需求。其技术亮点在于能够提供高性能的计算资源和存储资源，能够支持大规模的AI计算和数据分析。应用场景包括科研、企业应用等领域。行业意义在于推动云计算和AI技术的发展，提高企业的效率和竞争力。Qwen Cloud 的发布也体现了阿里云在云计算和AI领域的投入和创新。",
+        "url": "https://fintechnews.sg?p=132087",
+        "date": "2026-05-26"
+      },
+      {
+        "id": "33cdeb",
+        "title": "T800 humanoid robot",
+        "source": "Product",
+        "tags": [
+          "#机器人技术",
+          "#人形机器人",
+          "#工业自动化"
+        ],
+        "summary": "ENGINEAI 的新工厂能够每15分钟生产一个人形机器人，具有生产和装配的能力。T800 人形机器人的核心功能是提供一个高性能的机器人平台，能够模拟人类的动作和行为。其技术亮点在于能够使用先进的机器人技术和人工智能算法，能够提供准确的动作和行为。应用场景包括工业自动化、服务机器人等领域。行业意义在于推动机器人技术的发展，提高生产效率和安全性。T800 人形机器人的发布也体现了ENGINEAI在机器人领域的创新和投入。",
+        "url": "https://interestingengineering.com/ai-robotics/china-engineai-humanoid-robot-factory",
+        "date": "2026-05-26"
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#深度学习"
+        ],
+        "summary": "modelscope/FunASR 是一个开源的语音识别项目，提供了一个简单的语音识别接口和示例代码。FunASR 的核心功能是提供一个高性能的语音识别算法，能够识别不同语言和方言。其技术亮点在于能够使用深度学习算法和大规模的语音数据集，能够提供高准确率的识别结果。应用场景包括语音助手、语音翻译等领域。行业意义在于推动语音识别技术的发展，提高语音识别的准确率和实用性。FunASR 的开源也促进了社区的参与和贡献。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 237
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#音频处理",
+          "#开源",
+          "#个性化音频"
+        ],
+        "summary": "juanfont/headscale 是一个开源的头戴式音频设备项目，提供了一个简单的音频接口和示例代码。headscale 的核心功能是提供一个高性能的音频处理算法，能够提供高质量的音频输出。其技术亮点在于能够使用先进的音频处理技术和机器学习算法，能够提供个性化的音频体验。应用场景包括游戏、音乐等领域。行业意义在于推动音频技术的发展，提高音频质量和用户体验。headscale 的开源也促进了社区的参与和贡献。",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 791
+      },
+      {
+        "id": "591370",
+        "title": "containerd/containerd",
+        "source": "GitHub",
+        "tags": [
+          "#容器技术",
+          "#开源",
+          "#容器运行时"
+        ],
+        "summary": "containerd/containerd 是一个开源的容器运行时项目，提供了一个简单的容器接口和示例代码。containerd 的核心功能是提供一个高性能的容器运行时环境，能够支持不同类型的容器。其技术亮点在于能够使用先进的容器技术和机器学习算法，能够提供高效的容器管理和调度。应用场景包括云计算、容器化等领域。行业意义在于推动容器技术的发展，提高容器的性能和安全性。containerd 的开源也促进了社区的参与和贡献。",
+        "url": "https://github.com/containerd/containerd",
+        "date": "Recent (Trending)",
+        "stars": 63
+      },
+      {
+        "id": "70afec",
+        "title": "NangoHQ/nango",
+        "source": "GitHub",
+        "tags": [
+          "#产品集成",
+          "#开源",
+          "#个性化产品"
+        ],
+        "summary": "NangoHQ/nango 是一个开源的产品集成项目，提供了一个简单的产品接口和示例代码。nango 的核心功能是提供一个高性能的产品集成算法，能够集成不同类型的产品。其技术亮点在于能够使用先进的产品集成技术和机器学习算法，能够提供个性化的产品体验。应用场景包括电子商务、产品推荐等领域。行业意义在于推动产品集成技术的发展，提高产品的质量和用户体验。nango 的开源也促进了社区的参与和贡献。",
+        "url": "https://github.com/NangoHQ/nango",
+        "date": "Recent (Trending)",
+        "stars": 1932
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#深度学习"
+        ],
+        "summary": "OpenAI 发布的 Whisper 是一个开源的语音识别项目，提供了一个简单的语音识别接口和示例代码。Whisper 的核心功能是提供一个高性能的语音识别算法，能够识别不同语言和方言。其技术亮点在于能够使用深度学习算法和大规模的语音数据集，能够提供高准确率的识别结果。应用场景包括语音助手、语音翻译等领域。行业意义在于推动语音识别技术的发展，提高语音识别的准确率和实用性。Whisper 的开源也促进了社区的参与和贡献。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 897
+      }
+    ]
   }
 ]
