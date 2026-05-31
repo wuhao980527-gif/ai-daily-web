@@ -15905,5 +15905,146 @@
         "stars": 2038
       }
     ]
+  },
+  {
+    "date": "2026-05-31",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 Claude Opus 4.8 和 DeepSeek V4，以及开源项目的更新，如 modelscope/FunASR 和 NangoHQ/nango。这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "47bb7d",
+        "title": "AITA",
+        "source": "Product",
+        "tags": [
+          "#智能营销",
+          "#AI解决方案",
+          "#个性化推荐"
+        ],
+        "summary": "AITA全新版本的上线，标志着实用级AI营销解决方案的诞生。其核心功能包括智能营销、数据分析和客户管理。技术亮点在于其能够根据客户行为和偏好进行个性化营销推荐。应用场景主要在电子商务、金融和服务业等领域。行业意义在于其能够帮助企业提高营销效率和客户满意度。",
+        "url": "https://www.36kr.com/p/3830224066209672",
+        "date": "2026-05-29"
+      },
+      {
+        "id": "4b648b",
+        "title": "Claude Opus 4.8",
+        "source": "Product",
+        "tags": [
+          "#工作流管理",
+          "#任务控制",
+          "#性能优化"
+        ],
+        "summary": "Claude Opus 4.8的发布，带来了Dynamic Workflows、effort control和fast mode等新功能。其核心功能包括工作流管理、任务控制和性能优化。技术亮点在于其能够提高工作效率和任务完成率。应用场景主要在软件开发、项目管理和数据分析等领域。行业意义在于其能够帮助企业提高生产力和竞争力。",
+        "url": "https://mml-studio.com/blog/ai-weekly-may-25-31-2026",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "bdc1c2",
+        "title": "Orbit",
+        "source": "Product",
+        "tags": [
+          "#RL框架",
+          "#模型训练",
+          "#开源"
+        ],
+        "summary": "Orbit的开源，标志着RL后训练框架的重大进展。其核心功能包括模型训练、优化和部署。技术亮点在于其能够支持大规模模型训练和优化。应用场景主要在AI研究、开发和应用等领域。行业意义在于其能够推动AI技术的发展和应用。",
+        "url": "https://www.51cto.com/article/844615.html",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "8e854c",
+        "title": "DeepSeek V4",
+        "source": "Product",
+        "tags": [
+          "#国产大模型",
+          "#复杂推理",
+          "#高负载任务"
+        ],
+        "summary": "DeepSeek V4系列模型的发布，标志着国产大模型的重大突破。其核心功能包括复杂推理、科研分析和代码工程等。技术亮点在于其能够支持高负载任务和高频调用。应用场景主要在科研、开发和应用等领域。行业意义在于其能够推动国产AI技术的发展和应用。",
+        "url": "https://www.lenovo.com.cn/wiki/article-51792.html",
+        "date": "2026-05-25"
+      },
+      {
+        "id": "255a6f",
+        "title": "Anthropic",
+        "source": "Product",
+        "tags": [
+          "#AI安全",
+          "#算力扩展",
+          "#合作伙伴生态"
+        ],
+        "summary": "Anthropic完成H轮融资，估值高达9650亿美元，预计为上市前最后一轮。其核心功能包括AI安全研究、算力扩展和合作伙伴生态建设。技术亮点在于其能够支持AI安全和算力扩展。应用场景主要在AI研究、开发和应用等领域。行业意义在于其能够推动AI技术的发展和应用。",
+        "url": "https://www.ithome.com/tags/AI%20%E8%9E%8D%E8%B5%84",
+        "date": "2026-05-29"
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#ASR技术",
+          "#语音识别",
+          "#多语言支持"
+        ],
+        "summary": "modelscope/FunASR的发布，标志着ASR技术的重大进展。其核心功能包括语音识别和转录。技术亮点在于其能够支持多语言和多方言的识别。应用场景主要在语音助手、语音搜索和语音输入等领域。行业意义在于其能够推动ASR技术的发展和应用。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 421
+      },
+      {
+        "id": "70afec",
+        "title": "NangoHQ/nango",
+        "source": "GitHub",
+        "tags": [
+          "#产品集成",
+          "#API管理",
+          "#数据分析"
+        ],
+        "summary": "NangoHQ/nango的发布，标志着产品集成平台的重大进展。其核心功能包括产品集成、API管理和数据分析。技术亮点在于其能够支持多产品和多API的集成。应用场景主要在电子商务、金融和服务业等领域。行业意义在于其能够帮助企业提高产品和服务的质量和效率。",
+        "url": "https://github.com/NangoHQ/nango",
+        "date": "Recent (Trending)",
+        "stars": 2104
+      },
+      {
+        "id": "748f82",
+        "title": "grpc/grpc-rust",
+        "source": "GitHub",
+        "tags": [
+          "#RPC框架",
+          "#高性能",
+          "#高可用"
+        ],
+        "summary": "grpc/grpc-rust的发布，标志着RPC框架的重大进展。其核心功能包括RPC调用、服务发现和负载均衡。技术亮点在于其能够支持高性能和高可用的RPC调用。应用场景主要在分布式系统、云计算和大数据等领域。行业意义在于其能够推动RPC技术的发展和应用。",
+        "url": "https://github.com/grpc/grpc-rust",
+        "date": "Recent (Trending)",
+        "stars": 109
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#多语言支持",
+          "#开源"
+        ],
+        "summary": "openai/whisper的发布，标志着语音识别技术的重大进展。其核心功能包括语音识别和转录。技术亮点在于其能够支持多语言和多方言的识别。应用场景主要在语音助手、语音搜索和语音输入等领域。行业意义在于其能够推动语音识别技术的发展和应用。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 743
+      },
+      {
+        "id": "2e5956",
+        "title": "JannisX11/blockbench",
+        "source": "GitHub",
+        "tags": [
+          "#模型编辑器",
+          "#低多边形模型",
+          "#像素艺术风格"
+        ],
+        "summary": "JannisX11/blockbench的发布，标志着模型编辑器的重大进展。其核心功能包括模型创建、编辑和优化。技术亮点在于其能够支持低多边形模型和像素艺术风格。应用场景主要在游戏开发、动画制作和特效设计等领域。行业意义在于其能够帮助开发者提高模型的质量和效率。",
+        "url": "https://github.com/JannisX11/blockbench",
+        "date": "Recent (Trending)",
+        "stars": 77
+      }
+    ]
   }
 ]
