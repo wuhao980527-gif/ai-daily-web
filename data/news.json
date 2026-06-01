@@ -16046,5 +16046,94 @@
         "stars": 77
       }
     ]
+  },
+  {
+    "date": "2026-06-01",
+    "summary": "今日 AI 领域的主要进展包括多个开源项目的发布，如 FunASR、grpc-rust、nango 和 whisper，这些项目涉及语音识别、RPC 框架和 AI 模型等领域，表明 AI 技术在各个领域的应用和发展。",
+    "news": [
+      {
+        "id": "47bb7d",
+        "title": "AITA",
+        "source": "Product",
+        "tags": [
+          "#智能营销",
+          "#AI解决方案",
+          "#个性化推荐"
+        ],
+        "summary": "AITA全新版本上线，提供实用级AI营销解决方案。其核心功能包括智能营销策略制定、自动化营销执行和实时效果监测。技术亮点在于其能够根据用户行为和偏好进行个性化营销推荐。应用场景广泛，包括电子商务、金融服务等行业。行业意义在于其能够帮助企业提高营销效率和转化率，实现精准营销。 #智能营销 #AI解决方案 #个性化推荐",
+        "url": "https://www.36kr.com/p/3830224066209672",
+        "date": "2026-05-29"
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源项目",
+          "#多语言支持"
+        ],
+        "summary": "modelscope/FunASR是一个开源的语音识别项目，支持多语言和多种语音识别模型。其技术亮点在于其能够提供高精度的语音识别服务，支持实时语音识别和离线语音识别。应用场景包括智能家居、语音助手等。行业意义在于其能够帮助开发者快速集成语音识别功能，降低开发成本。 #语音识别 #开源项目 #多语言支持",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 453
+      },
+      {
+        "id": "748f82",
+        "title": "grpc/grpc-rust",
+        "source": "GitHub",
+        "tags": [
+          "#gRPC",
+          "#Rust语言",
+          "#RPC服务"
+        ],
+        "summary": "grpc/grpc-rust是一个Rust语言的gRPC实现，提供高性能和低延迟的RPC服务。其技术亮点在于其能够提供高并发和高可用的RPC服务，支持多种数据序列化格式。应用场景包括微服务架构、云计算等。行业意义在于其能够帮助开发者快速构建高性能的分布式系统，提高系统的可靠性和可扩展性。 #gRPC #Rust语言 #RPC服务",
+        "url": "https://github.com/grpc/grpc-rust",
+        "date": "Recent (Trending)",
+        "stars": 91
+      },
+      {
+        "id": "70afec",
+        "title": "NangoHQ/nango",
+        "source": "GitHub",
+        "tags": [
+          "#产品集成",
+          "#开源平台",
+          "#API管理"
+        ],
+        "summary": "NangoHQ/nango是一个开源的产品集成平台，提供统一的API管理和集成服务。其技术亮点在于其能够提供高可用的API服务，支持多种数据源和目标系统。应用场景包括企业应用集成、数据同步等。行业意义在于其能够帮助企业快速集成多个系统和服务，提高数据共享和协同工作的效率。 #产品集成 #开源平台 #API管理",
+        "url": "https://github.com/NangoHQ/nango",
+        "date": "Recent (Trending)",
+        "stars": 2143
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源系统",
+          "#实时识别"
+        ],
+        "summary": "OpenAI发布的Whisper是一个开源的语音识别系统，提供高精度的语音识别服务。其技术亮点在于其能够提供实时语音识别和离线语音识别，支持多种语言和方言。应用场景包括智能家居、语音助手等。行业意义在于其能够帮助开发者快速集成语音识别功能，提高系统的智能化和人性化。 #语音识别 #开源系统 #实时识别",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 728
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#头部规模化",
+          "#开源平台",
+          "#高性能服务"
+        ],
+        "summary": "juanfont/headscale是一个开源的头部规模化平台，提供高性能和低延迟的头部服务。其技术亮点在于其能够提供高并发和高可用的头部服务，支持多种数据源和目标系统。应用场景包括企业应用集成、数据同步等。行业意义在于其能够帮助企业快速构建高性能的分布式系统，提高系统的可靠性和可扩展性。 #头部规模化 #开源平台 #高性能服务",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 633
+      }
+    ]
   }
 ]
