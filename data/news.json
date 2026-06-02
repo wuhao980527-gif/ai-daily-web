@@ -16135,5 +16135,146 @@
         "stars": 633
       }
     ]
+  },
+  {
+    "date": "2026-06-02",
+    "summary": "今日 AI 领域的主要进展包括多个新产品和模型的发布，如 Genesis World 1.0、DeepLink RE-LLM 和百应AI 3.0，这些产品和模型的发布表明 AI 技术在不断进步和应用于各个领域。同时，GitHub 上的开源项目如 modelscope/FunASR 和 grpc/grpc-rust 也在推动 AI 技术的发展。这些进展体现了 AI 领域的快速发展和创新。",
+    "news": [
+      {
+        "id": "bf966a",
+        "title": "Genesis World 1.0",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#物理仿真",
+          "#开源"
+        ],
+        "summary": "Genesis AI 发布了 Genesis World 1.0，并开源了三套核心项目：Genesis World 物理仿真平台、Quadrants 跨平台 GPU 编译器，以及 Nyx 写实渲染器。Genesis World 1.0 的核心功能是提供一个高性能的物理仿真环境，能够模拟复杂的物理场景。其技术亮点在于采用了先进的 GPU 编译器和渲染器，能够实现高效的计算和渲染。该技术可以应用于游戏、模拟、科研等领域，具有重要的行业意义和影响。Genesis World 1.0 的开源将促进 AI 和物理仿真技术的发展和应用。",
+        "url": "https://m.36kr.com/p/3828813719130761",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "d8fac1",
+        "title": "DeepLink RE-LLM",
+        "source": "Product",
+        "tags": [
+          "#房地产AI",
+          "#语言模型",
+          "#行业解决方案"
+        ],
+        "summary": "易居中国旗下的 AI 品牌深度智联正式发布了“房地产行业大模型 DeepLink RE-LLM”。DeepLink RE-LLM 的核心功能是提供一个针对房地产行业的预训练语言模型，能够处理复杂的文本数据和任务。其技术亮点在于采用了先进的语言模型架构和训练方法，能够实现高精度的文本理解和生成。该技术可以应用于房地产行业的各个环节，例如房源推荐、房产估价等，具有重要的行业意义和影响。DeepLink RE-LLM 的发布将促进房地产行业的智能化和数字化转型。",
+        "url": "https://m.36kr.com/p/3829018638493058",
+        "date": "2026-05-28"
+      },
+      {
+        "id": "b137fc",
+        "title": "百应AI 3.0",
+        "source": "Product",
+        "tags": [
+          "#企业AI",
+          "#AI解决方案",
+          "#中小企业"
+        ],
+        "summary": "联想发布了百应 AI 3.0，旨在帮助成长型企业拥抱 AI 技术。百应 AI 3.0 的核心功能是提供一个全面的 AI 解决方案，包括词元宝、Token Plan、Token Key 等功能。其技术亮点在于采用了先进的 AI 算法和框架，能够实现高效的计算和应用。该技术可以应用于各个行业，例如营销、客户服务等，具有重要的行业意义和影响。百应 AI 3.0 的发布将促进中小企业的 AI 应用和发展。",
+        "url": "https://m.36kr.com/p/3828655291863689",
+        "date": "2026-05-27"
+      },
+      {
+        "id": "7e2cf2",
+        "title": "Project Eden",
+        "source": "Product",
+        "tags": [
+          "#世界模型",
+          "#模拟技术",
+          "#交互式"
+        ],
+        "summary": "VAST 的通用世界模型研究项目 Project Eden 采用了三层解耦式技术架构，实现了环境长程持久、场景自由复用、多人交互并发等能力。Project Eden 的核心功能是提供一个高性能的世界模型模拟环境，能够模拟复杂的场景和交互。其技术亮点在于采用了先进的架构和算法，能够实现高效的计算和渲染。该技术可以应用于游戏、模拟、科研等领域，具有重要的行业意义和影响。Project Eden 的发布将促进世界模型技术的发展和应用。",
+        "url": "https://www.36kr.com/p/3834111984363401",
+        "date": "2026-06-01"
+      },
+      {
+        "id": "c27379",
+        "title": "DeepSeek",
+        "source": "Product",
+        "tags": [
+          "#搜索引擎",
+          "#开源",
+          "#高性能"
+        ],
+        "summary": "DeepSeek 开源项目是一个高性能的搜索引擎，能够处理大量的数据和查询。DeepSeek 的核心功能是提供一个高效的搜索算法和框架，能够实现快速的数据检索和过滤。其技术亮点在于采用了先进的搜索算法和优化技术，能够实现高精度的搜索结果和高效的计算。该技术可以应用于各个领域，例如网页搜索、数据分析等，具有重要的行业意义和影响。DeepSeek 的开源将促进搜索技术的发展和应用。",
+        "url": "https://cloud.tencent.com/developer/article/2675967",
+        "date": "2026-05-29"
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#深度学习"
+        ],
+        "summary": "modelscope/FunASR 是一个开源的自动语音识别项目，能够处理多种语言和方言。FunASR 的核心功能是提供一个高性能的语音识别算法和框架，能够实现高精度的语音识别和转录。其技术亮点在于采用了先进的深度学习算法和优化技术，能够实现高效的计算和应用。该技术可以应用于各个领域，例如语音助手、语音翻译等，具有重要的行业意义和影响。FunASR 的开源将促进语音识别技术的发展和应用。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 510
+      },
+      {
+        "id": "70afec",
+        "title": "NangoHQ/nango",
+        "source": "GitHub",
+        "tags": [
+          "#产品集成",
+          "#开源",
+          "#高效"
+        ],
+        "summary": "NangoHQ/nango 是一个开源的产品集成平台，能够帮助开发者快速集成多个产品和服务。nango 的核心功能是提供一个高效的集成框架和工具，能够实现快速的产品集成和开发。其技术亮点在于采用了先进的集成技术和优化方法，能够实现高效的计算和应用。该技术可以应用于各个领域，例如产品开发、服务集成等，具有重要的行业意义和影响。nango 的开源将促进产品集成技术的发展和应用。",
+        "url": "https://github.com/NangoHQ/nango",
+        "date": "Recent (Trending)",
+        "stars": 1768
+      },
+      {
+        "id": "748f82",
+        "title": "grpc/grpc-rust",
+        "source": "GitHub",
+        "tags": [
+          "#gRPC",
+          "#Rust",
+          "#分布式系统"
+        ],
+        "summary": "grpc/grpc-rust 是一个开源的 Rust 版本的 gRPC 框架，能够帮助开发者快速构建高性能的分布式系统。grpc-rust 的核心功能是提供一个高效的 gRPC 实现和框架，能够实现快速的远程过程调用和数据传输。其技术亮点在于采用了先进的 gRPC 协议和优化技术，能够实现高效的计算和应用。该技术可以应用于各个领域，例如分布式系统、云计算等，具有重要的行业意义和影响。grpc-rust 的开源将促进 gRPC 技术的发展和应用。",
+        "url": "https://github.com/grpc/grpc-rust",
+        "date": "Recent (Trending)",
+        "stars": 82
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#深度学习"
+        ],
+        "summary": "OpenAI 发布的 Whisper 是一个开源的自动语音识别系统，能够处理多种语言和方言。Whisper 的核心功能是提供一个高性能的语音识别算法和框架，能够实现高精度的语音识别和转录。其技术亮点在于采用了先进的深度学习算法和优化技术，能够实现高效的计算和应用。该技术可以应用于各个领域，例如语音助手、语音翻译等，具有重要的行业意义和影响。Whisper 的开源将促进语音识别技术的发展和应用。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 711
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#头部追踪",
+          "#开源",
+          "#计算机视觉"
+        ],
+        "summary": "juanfont/headscale 是一个开源的头部追踪系统，能够帮助开发者快速构建高性能的头部追踪应用。headscale 的核心功能是提供一个高效的头部追踪算法和框架，能够实现快速的头部追踪和分析。其技术亮点在于采用了先进的计算机视觉算法和优化技术，能够实现高效的计算和应用。该技术可以应用于各个领域，例如游戏、虚拟现实等，具有重要的行业意义和影响。headscale 的开源将促进头部追踪技术的发展和应用。",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 542
+      }
+    ]
   }
 ]
