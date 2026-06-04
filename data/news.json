@@ -16378,5 +16378,107 @@
         "stars": 148
       }
     ]
+  },
+  {
+    "date": "2026-06-04",
+    "summary": "今日 AI 领域的主要进展包括模型发布和技术突破，例如 MiniMax M3 和微信 AI 助手的推出，以及多个开源项目如 modelscope/FunASR 和 openai/whisper 在 GitHub 上的更新，这些进展表明 AI 技术在语音识别、助手和其他领域的应用和发展。",
+    "news": [
+      {
+        "id": "0f2b87",
+        "title": "MiniMax M3",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多模态",
+          "#开源"
+        ],
+        "summary": "MiniMax 第三代旗舰模型 M3 发布，具有 Coding 能力、1M 上下文、原生多模态、Computer Use、低价 Token Plan、开源等特点。其核心功能是提供高性能的自然语言处理能力，技术亮点在于其原生多模态和 Coding 能力，能够应用于各类智能场景，如聊天机器人、智能助手等。行业意义在于其开源和低价 Token Plan，有望推动 AI 技术的普及和应用。其能够用在智能家居、智能汽车、智能医疗等领域，具有广阔的应用前景。",
+        "url": "https://m.36kr.com/p/3837463161244161",
+        "date": "2026-06-01"
+      },
+      {
+        "id": "b90483",
+        "title": "微信AI助手",
+        "source": "Product",
+        "tags": [
+          "#智能助手",
+          "#微信生态",
+          "#移动应用"
+        ],
+        "summary": "微信即将上线一个 AI 助手，用户在主界面右滑就能进入聊天窗口，输入指令即可调用微信里的数百万个小程序。其核心功能是提供便捷的智能助手服务，技术亮点在于其集成微信生态，能够应用于各类生活场景，如购物、娱乐、社交等。行业意义在于其有望改变用户的使用习惯和体验，推动微信生态的发展。其能够用在各类移动应用场景，具有广阔的应用前景和商业价值。",
+        "url": "https://www.36kr.com/p/3837015831591817",
+        "date": "2026-06-02"
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#多语言"
+        ],
+        "summary": "modelscope/FunASR 是一个开源的语音识别项目，提供了多种语音识别模型和工具。其核心功能是提供高性能的语音识别能力，技术亮点在于其开源和多语言支持，能够应用于各类语音识别场景，如智能家居、智能汽车等。行业意义在于其有望推动语音识别技术的发展和应用，特别是在多语言支持方面。其能够用在各类语音交互场景，具有广阔的应用前景。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 671
+      },
+      {
+        "id": "70afec",
+        "title": "NangoHQ/nango",
+        "source": "GitHub",
+        "tags": [
+          "#产品集成",
+          "#开源",
+          "#可定制"
+        ],
+        "summary": "NangoHQ/nango 是一个开源的产品集成平台，提供了多种产品集成工具和服务。其核心功能是提供便捷的产品集成能力，技术亮点在于其开源和可定制，能够应用于各类产品集成场景，如企业应用集成、数据集成等。行业意义在于其有望推动产品集成技术的发展和应用，特别是在开源和可定制方面。其能够用在各类企业应用场景，具有广阔的应用前景。",
+        "url": "https://github.com/NangoHQ/nango",
+        "date": "Recent (Trending)",
+        "stars": 633
+      },
+      {
+        "id": "a85417",
+        "title": "apache/airflow",
+        "source": "GitHub",
+        "tags": [
+          "#工作流管理",
+          "#开源",
+          "#可扩展"
+        ],
+        "summary": "apache/airflow 是一个开源的工作流管理平台，提供了多种工作流管理工具和服务。其核心功能是提供高性能的工作流管理能力，技术亮点在于其开源和可扩展，能够应用于各类工作流管理场景，如数据处理、任务调度等。行业意义在于其有望推动工作流管理技术的发展和应用，特别是在开源和可扩展方面。其能够用在各类数据处理场景，具有广阔的应用前景。",
+        "url": "https://github.com/apache/airflow",
+        "date": "Recent (Trending)",
+        "stars": 147
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#多语言"
+        ],
+        "summary": "OpenAI 的 Whisper 是一个开源的语音识别项目，提供了多种语音识别模型和工具。其核心功能是提供高性能的语音识别能力，技术亮点在于其开源和多语言支持，能够应用于各类语音识别场景，如智能家居、智能汽车等。行业意义在于其有望推动语音识别技术的发展和应用，特别是在开源和多语言支持方面。其能够用在各类语音交互场景，具有广阔的应用前景。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 715
+      },
+      {
+        "id": "9431ee",
+        "title": "lucidrains/vit-pytorch",
+        "source": "GitHub",
+        "tags": [
+          "#视觉处理",
+          "#开源",
+          "#可定制"
+        ],
+        "summary": "lucidrains/vit-pytorch 是一个开源的视觉Transformer项目，提供了多种视觉Transformer模型和工具。其核心功能是提供高性能的视觉处理能力，技术亮点在于其开源和可定制，能够应用于各类视觉处理场景，如图像分类、目标检测等。行业意义在于其有望推动视觉处理技术的发展和应用，特别是在开源和可定制方面。其能够用在各类视觉交互场景，具有广阔的应用前景。",
+        "url": "https://github.com/lucidrains/vit-pytorch",
+        "date": "Recent (Trending)",
+        "stars": 81
+      }
+    ]
   }
 ]
