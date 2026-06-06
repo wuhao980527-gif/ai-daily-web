@@ -16569,5 +16569,94 @@
         "stars": 146
       }
     ]
+  },
+  {
+    "date": "2026-06-06",
+    "summary": "今日 AI 领域的主要进展包括模型发布和技术突破，例如 WPS 笔记、Trivy 和 FunASR 的更新，以及 Meilisearch 和 DeepSpeed 的发展，这些进展表明 AI 在文本处理、安全和性能优化方面的应用和改进。",
+    "news": [
+      {
+        "id": "952edd",
+        "title": "WPS 笔记",
+        "source": "Product",
+        "tags": [
+          "#智能笔记",
+          "#AI办公",
+          "#知识管理"
+        ],
+        "summary": "WPS 笔记正式发布，采用 AI 技术实现从记录到复用的全流程。其核心功能是利用 AI 对用户的笔记进行智能识别、分类和整理，帮助用户更好地管理和利用自己的笔记。技术亮点在于其能够自动识别和提取关键信息，并提供智能搜索和推荐功能。应用场景包括个人笔记管理、团队协作和知识管理等。行业意义在于其能够提高用户的工作效率和生产力，推动办公软件的智能化发展。 ",
+        "url": "https://m.36kr.com/p/3839945957444105",
+        "date": "2026-06-05"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#容器安全",
+          "#漏洞扫描",
+          "#开源工具"
+        ],
+        "summary": "aquasecurity/trivy 是一个开源的漏洞扫描工具，能够自动检测和识别容器镜像中的安全漏洞。其技术亮点在于其能够支持多种容器镜像格式，并提供详细的漏洞报告和修复建议。应用场景包括容器安全、云安全和 DevOps 等。行业意义在于其能够帮助用户提高容器安全性，减少安全风险和攻击面。 ",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 559
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#ASR",
+          "#开源框架"
+        ],
+        "summary": "modelscope/FunASR 是一个开源的自动语音识别（ASR）框架，能够支持多种语音识别任务和应用场景。其技术亮点在于其能够提供高性能和高精度的语音识别能力，并支持多种深度学习模型和算法。应用场景包括语音助手、语音搜索和语音翻译等。行业意义在于其能够推动语音技术的发展和应用，提高人机交互的效率和便捷性。 ",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 727
+      },
+      {
+        "id": "e87ab0",
+        "title": "meilisearch/meilisearch",
+        "source": "GitHub",
+        "tags": [
+          "#搜索引擎",
+          "#开源搜索",
+          "#实时搜索"
+        ],
+        "summary": "meilisearch/meilisearch 是一个开源的搜索引擎，能够提供高性能和高精度的搜索能力。其技术亮点在于其能够支持多种数据源和格式，并提供实时搜索和筛选功能。应用场景包括网站搜索、应用搜索和数据搜索等。行业意义在于其能够帮助用户提高搜索效率和体验，推动搜索技术的发展和应用。 ",
+        "url": "https://github.com/meilisearch/meilisearch",
+        "date": "Recent (Trending)",
+        "stars": 149
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#浏览器引擎",
+          "#开源浏览器",
+          "#并行处理"
+        ],
+        "summary": "servo/servo 是一个开源的浏览器引擎，能够提供高性能和高安全性的浏览器体验。其技术亮点在于其能够支持多种网页标准和协议，并提供并行处理和渲染能力。应用场景包括网页浏览、网页开发和网页测试等。行业意义在于其能够推动浏览器技术的发展和应用，提高网页体验和安全性。 ",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 156
+      },
+      {
+        "id": "b02b22",
+        "title": "deepspeedai/DeepSpeed",
+        "source": "GitHub",
+        "tags": [
+          "#深度学习",
+          "#加速框架",
+          "#开源AI"
+        ],
+        "summary": "deepspeedai/DeepSpeed 是一个开源的深度学习加速框架，能够提供高性能和高效率的深度学习训练和推理能力。其技术亮点在于其能够支持多种深度学习模型和算法，并提供自动并行化和优化功能。应用场景包括深度学习研究、深度学习开发和 AI 应用等。行业意义在于其能够推动深度学习的发展和应用，提高 AI 研究和开发的效率和便捷性。 ",
+        "url": "https://github.com/deepspeedai/DeepSpeed",
+        "date": "Recent (Trending)",
+        "stars": 85
+      }
+    ]
   }
 ]
