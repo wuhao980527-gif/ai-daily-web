@@ -16747,5 +16747,94 @@
         "stars": 130
       }
     ]
+  },
+  {
+    "date": "2026-06-08",
+    "summary": "今日 AI 领域的主要进展包括模型发布和技术突破，例如 WPS 笔记、Trivy 和 Whisper 等项目的更新，这些进展表明 AI 在安全、语音识别和文档处理等领域的应用正在不断扩展。",
+    "news": [
+      {
+        "id": "952edd",
+        "title": "WPS 笔记",
+        "source": "Product",
+        "tags": [
+          "#AI办公",
+          "#智能笔记",
+          "#信息管理"
+        ],
+        "summary": "WPS 笔记正式发布，采用 AI 技术实现从记录到复用的全流程。其核心功能是利用 AI 辅助用户记录和整理信息，技术亮点在于能够自动识别和分类信息，应用场景包括个人笔记、团队协作等。行业意义在于提高信息记录和利用效率，减少手动操作的时间和精力。WPS 笔记的发布标志着办公软件领域的又一创新，未来将进一步推动 AI 在办公领域的应用。",
+        "url": "https://m.36kr.com/p/3839945957444105",
+        "date": "2026-06-05"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#开源安全",
+          "#漏洞扫描",
+          "#容器安全"
+        ],
+        "summary": "aquasecurity/trivy 是一个开源的漏洞扫描工具，采用 GitHub 开源。其核心功能是扫描容器和其他系统中的漏洞，技术亮点在于能够快速准确地识别出潜在的安全风险，应用场景包括容器安全、云安全等。行业意义在于帮助开发者和运维人员提高系统的安全性，减少潜在的安全威胁。aquasecurity/trivy 的发布标志着开源社区在安全领域的又一贡献，未来将进一步推动安全技术的发展。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 844
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#开源语音",
+          "#语音识别",
+          "#多语言支持"
+        ],
+        "summary": "modelscope/FunASR 是一个开源的语音识别模型，采用 GitHub 开源。其核心功能是实现语音到文本的转换，技术亮点在于能够支持多种语言和方言，应用场景包括语音助手、语音输入等。行业意义在于推动语音识别技术的发展，提高人机交互的效率。modelscope/FunASR 的发布标志着开源社区在语音识别领域的又一贡献，未来将进一步推动语音技术的应用。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 705
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#开源语音",
+          "#语音识别",
+          "#多语言支持"
+        ],
+        "summary": "OpenAI 的 Whisper 是一个开源的语音识别模型，采用 GitHub 开源。其核心功能是实现语音到文本的转换，技术亮点在于能够支持多种语言和方言，应用场景包括语音助手、语音输入等。行业意义在于推动语音识别技术的发展，提高人机交互的效率。Whisper 的发布标志着 OpenAI 在语音识别领域的又一贡献，未来将进一步推动语音技术的应用。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 1040
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#开源浏览器",
+          "#浏览器引擎",
+          "#并行计算"
+        ],
+        "summary": "Servo 是一个开源的浏览器引擎，采用 GitHub 开源。其核心功能是实现网页渲染和执行，技术亮点在于能够支持多核处理和并行计算，应用场景包括浏览器开发、网页应用等。行业意义在于推动浏览器技术的发展，提高网页渲染和执行效率。Servo 的发布标志着开源社区在浏览器领域的又一贡献，未来将进一步推动浏览器技术的应用。",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 156
+      },
+      {
+        "id": "a85417",
+        "title": "apache/airflow",
+        "source": "GitHub",
+        "tags": [
+          "#开源工作流",
+          "#工作流管理",
+          "#数据处理"
+        ],
+        "summary": "Apache Airflow 是一个开源的工作流管理平台，采用 GitHub 开源。其核心功能是实现工作流的定义、执行和监控，技术亮点在于能够支持多种任务和工作流，应用场景包括数据处理、机器学习等。行业意义在于推动工作流管理技术的发展，提高工作流的效率和可靠性。Apache Airflow 的发布标志着开源社区在工作流管理领域的又一贡献，未来将进一步推动工作流技术的应用。",
+        "url": "https://github.com/apache/airflow",
+        "date": "Recent (Trending)",
+        "stars": 115
+      }
+    ]
   }
 ]
