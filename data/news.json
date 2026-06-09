@@ -16836,5 +16836,133 @@
         "stars": 115
       }
     ]
+  },
+  {
+    "date": "2026-06-09",
+    "summary": "今日 AI 领域的主要进展包括新产品和模型的发布，如 Siri AI、Seele 3DLMM 和 SeeleAgent，以及开源项目如 Trivy、FunASR 和 Whisper，这些进展表明 AI 技术在语音识别、图像处理和安全方面的应用和发展。",
+    "news": [
+      {
+        "id": "7d9989",
+        "title": "Siri AI",
+        "source": "Product",
+        "tags": [
+          "#智能助手",
+          "#自然语言处理",
+          "#语音识别"
+        ],
+        "summary": "苹果公司在全球开发者大会（WWDC）上推出了新一代苹果智能、全新版本的Siri AI与一系列全面的软件功能升级。新版Siri AI拥有更强大的自然语言处理能力和语音识别技术，能够更好地理解用户的需求和意图。这种升级将大大提高用户的智能助手体验，能够应用于日常生活中的各个方面，如设置提醒、发送消息和控制智能家居设备等。这种技术的进步对智能助手行业具有重要意义，标志着人工智能技术在语音识别和自然语言处理方面的重大突破。",
+        "url": "https://www.36kr.com/p/3845196412193284",
+        "date": "2026-06-09"
+      },
+      {
+        "id": "952edd",
+        "title": "WPS 笔记",
+        "source": "Product",
+        "tags": [
+          "#AI办公",
+          "#笔记管理",
+          "#智能识别"
+        ],
+        "summary": "WPS 笔记正式发布，采用 AI 技术实现从记录到复用的全流程。这种工具能够自动识别和整理用户的笔记，提供更高效的笔记管理体验。WPS 笔记的亮点在于其能够利用 AI 算法自动分类和标记笔记内容，减少用户的操作步骤。这种工具能够应用于学生、办公人员和研究人员等各类人群的日常工作和学习中，提高他们的工作效率和学习效果。WPS 笔记的发布对笔记管理软件行业具有重要影响，标志着 AI 技术在办公软件领域的应用。",
+        "url": "https://m.36kr.com/p/3839945957444105",
+        "date": "2026-06-05"
+      },
+      {
+        "id": "72ed9b",
+        "title": "Seele 3DLMM 和 SeeleAgent",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#3D游戏",
+          "#虚拟现实"
+        ],
+        "summary": "Seele 在上海静安发布 3D 游戏基础模型与 Agent，推动 AI 生成可运行世界。Seele 的 3D 游戏基础模型能够生成高质量的 3D 模型和场景，Agent 技术则能够让这些模型和场景变得可交互。这种技术的亮点在于其能够利用 AI 算法自动生成复杂的 3D 环境和角色，减少游戏开发的时间和成本。Seele 的技术能够应用于游戏开发、建筑设计和虚拟现实等领域，具有广阔的应用前景和行业意义。",
+        "url": "https://www.36kr.com/p/3844000426232325",
+        "date": "2026-06-05"
+      },
+      {
+        "id": "65cf70",
+        "title": "RED Skill",
+        "source": "Product",
+        "tags": [
+          "#AI教育",
+          "#技能学习",
+          "#个性化推荐"
+        ],
+        "summary": "小红书正式上线 RED Skill 功能，发力 AI Skill 创新生态。RED Skill 是一个基于 AI 的技能学习和分享平台，能够提供用户个性化的技能学习推荐和实践指导。这种功能的亮点在于其能够利用 AI 算法分析用户的学习行为和偏好，提供更准确和有效的技能学习体验。RED Skill 能够应用于各类技能学习和职业发展中，具有重要的行业意义和应用价值。",
+        "url": "https://www.36kr.com/p/3844184098228482",
+        "date": "2026-06-08"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#开源工具",
+          "#漏洞扫描",
+          "#容器安全"
+        ],
+        "summary": "aquasecurity/trivy 是一个开源的漏洞扫描工具，能够自动检测和识别容器镜像和文件系统中的安全漏洞。这种工具的亮点在于其能够利用 AI 算法和机器学习技术，提供更高效和准确的漏洞扫描体验。aquasecurity/trivy 能够应用于各类容器化和云原生应用的安全测试和保障中，具有重要的行业意义和应用价值。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 919
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#开源框架",
+          "#语音识别",
+          "#深度学习"
+        ],
+        "summary": "modelscope/FunASR 是一个开源的自动语音识别（ASR）框架，能够提供高质量的语音识别和转录服务。这种框架的亮点在于其能够利用深度学习和 AI 算法，提供更高效和准确的语音识别体验。modelscope/FunASR 能够应用于各类语音识别和转录应用中，具有重要的行业意义和应用价值。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 709
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#开源系统",
+          "#语音识别",
+          "#深度学习"
+        ],
+        "summary": "OpenAI 的 Whisper 是一个开源的自动语音识别（ASR）系统，能够提供高质量的语音识别和转录服务。Whisper 的亮点在于其能够利用深度学习和 AI 算法，提供更高效和准确的语音识别体验。Whisper 能够应用于各类语音识别和转录应用中，具有重要的行业意义和应用价值。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 1096
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#开源客户端",
+          "#音乐流媒体",
+          "#个性化推荐"
+        ],
+        "summary": "KRTirtho/spotube 是一个开源的音乐流媒体客户端，能够提供高质量的音乐流媒体服务。spotube 的亮点在于其能够利用 AI 算法和机器学习技术，提供更个性化和准确的音乐推荐体验。spotube 能够应用于各类音乐流媒体应用中，具有重要的行业意义和应用价值。",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 243
+      },
+      {
+        "id": "c498b6",
+        "title": "derailed/k9s",
+        "source": "GitHub",
+        "tags": [
+          "#开源工具",
+          "#Kubernetes",
+          "#集群管理"
+        ],
+        "summary": "derailed/k9s 是一个开源的 Kubernetes 命令行工具，能够提供更高效和便捷的 Kubernetes 集群管理体验。k9s 的亮点在于其能够利用 AI 算法和机器学习技术，提供更智能和自动化的集群管理体验。k9s 能够应用于各类 Kubernetes 集群管理应用中，具有重要的行业意义和应用价值。",
+        "url": "https://github.com/derailed/k9s",
+        "date": "Recent (Trending)",
+        "stars": 326
+      }
+    ]
   }
 ]
