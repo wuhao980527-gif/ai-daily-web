@@ -16964,5 +16964,133 @@
         "stars": 326
       }
     ]
+  },
+  {
+    "date": "2026-06-10",
+    "summary": "今日 AI 领域的主要进展包括多个新产品和开源项目的发布，如 Tabbit V1.0、Claude Fable 5 和 Clipto.AI 等，同时 GitHub 上也出现了多个新项目，如 aquasecurity/trivy 和 openai/whisper，这些进展表明 AI 技术在不断推进和应用。",
+    "news": [
+      {
+        "id": "d97de0",
+        "title": "Tabbit V1.0",
+        "source": "Product",
+        "tags": [
+          "#AI浏览器",
+          "#自然语言处理",
+          "#智能搜索"
+        ],
+        "summary": "美团GN06团队正式发布AI浏览器Tabbit V1.0，核心功能将永久免费开放。Tabbit V1.0具有智能搜索、内容推荐和页面优化等功能，能够提高用户的浏览效率。其技术亮点在于采用了先进的自然语言处理技术，能够更好地理解用户的需求。应用场景包括个人浏览、企业办公等。行业意义在于推动了AI技术在浏览器领域的应用，提高了用户体验。",
+        "url": "https://www.36kr.com/p/3845982766680581",
+        "date": "2026-06-09"
+      },
+      {
+        "id": "04905a",
+        "title": "Claude Fable 5",
+        "source": "Product",
+        "tags": [
+          "#AI模型",
+          "#软件工程",
+          "#安全防护"
+        ],
+        "summary": "Anthropic正式发布内部评级为'Mythos级'的顶尖模型Claude Fable 5，具有极长时间、极高专注度的复杂软件工程任务能力。其配备了新的安全防护系统，能够更好地保护用户数据。技术亮点在于其高性能和安全性，能够支持复杂的软件工程任务。应用场景包括软件开发、数据分析等。行业意义在于推动了AI技术在软件工程领域的应用，提高了开发效率。",
+        "url": "https://www.36kr.com/p/3846645148666372",
+        "date": "2026-06-09"
+      },
+      {
+        "id": "65cf70",
+        "title": "RED Skill",
+        "source": "Product",
+        "tags": [
+          "#AI技能",
+          "#内容创作",
+          "#社交媒体"
+        ],
+        "summary": "小红书正式上线RED Skill功能，发力AI Skill创新生态。RED Skill能够让用户更好地利用AI技术，提高内容创作和分享的效率。其技术亮点在于采用了先进的AI算法，能够更好地理解用户需求。应用场景包括内容创作、社交媒体等。行业意义在于推动了AI技术在社交媒体领域的应用，提高了用户体验。",
+        "url": "https://www.36kr.com/p/3844184098228482",
+        "date": "2026-06-08"
+      },
+      {
+        "id": "23fd4d",
+        "title": "Clipto.AI",
+        "source": "Product",
+        "tags": [
+          "#AI办公",
+          "#长期记忆",
+          "#内容管理"
+        ],
+        "summary": "Clipto.AI正式发布其新一代Mac端产品，获得当日全球榜单第一名。产品让电脑拥有了长期记忆，能够理解、组织并重新调用沉淀在设备中的内容。其技术亮点在于采用了先进的AI技术，能够更好地理解用户需求。应用场景包括个人办公、企业管理等。行业意义在于推动了AI技术在办公领域的应用，提高了用户效率。",
+        "url": "https://m.36kr.com/p/3845608513079558",
+        "date": "2026-06-10"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#系统安全",
+          "#开源"
+        ],
+        "summary": "aquasecurity/trivy是一个开源的漏洞扫描工具，能够帮助用户发现和修复系统中的安全漏洞。其技术亮点在于采用了先进的扫描算法，能够更好地发现安全漏洞。应用场景包括系统安全、网络安全等。行业意义在于推动了安全技术在系统领域的应用，提高了系统安全性。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 951
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#深度学习",
+          "#开源"
+        ],
+        "summary": "modelscope/FunASR是一个开源的语音识别模型，能够帮助用户实现语音识别功能。其技术亮点在于采用了先进的深度学习算法，能够更好地理解语音。应用场景包括语音助手、语音识别等。行业意义在于推动了AI技术在语音识别领域的应用，提高了用户体验。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 702
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI平台",
+          "#开源",
+          "#AI开发"
+        ],
+        "summary": "khoj-ai/khoj是一个开源的AI平台，能够帮助用户实现AI功能。其技术亮点在于采用了先进的AI算法，能够更好地理解用户需求。应用场景包括AI开发、AI应用等。行业意义在于推动了AI技术在各个领域的应用，提高了用户效率。",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 252
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#深度学习",
+          "#开源"
+        ],
+        "summary": "openai/whisper是一个开源的语音识别模型，能够帮助用户实现语音识别功能。其技术亮点在于采用了先进的深度学习算法，能够更好地理解语音。应用场景包括语音助手、语音识别等。行业意义在于推动了AI技术在语音识别领域的应用，提高了用户体验。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 1104
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#音乐播放",
+          "#音频处理",
+          "#开源"
+        ],
+        "summary": "KRTirtho/spotube是一个开源的音乐播放器，能够帮助用户实现音乐播放功能。其技术亮点在于采用了先进的音频处理算法，能够更好地播放音乐。应用场景包括音乐播放、音频处理等。行业意义在于推动了音频技术在音乐领域的应用，提高了用户体验。",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 258
+      }
+    ]
   }
 ]
