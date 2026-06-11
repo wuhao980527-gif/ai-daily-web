@@ -17092,5 +17092,120 @@
         "stars": 258
       }
     ]
+  },
+  {
+    "date": "2026-06-11",
+    "summary": "今日 AI 领域的主要进展包括多个新模型和工具的发布，如 TestMu AI 和 FunASR，以及开源项目如 Trivy 和 Whisper，这些进展表明 AI 技术在语音识别、安全和行业应用方面取得了显著进步。",
+    "news": [
+      {
+        "id": "9fa427",
+        "title": "Apple Intelligence",
+        "source": "Product",
+        "tags": [
+          "#AI模型",
+          "#苹果技术",
+          "#智能助手"
+        ],
+        "summary": "苹果基于谷歌Gemini大模型训练了全新的Apple Foundation Models，可在端侧和云端运行，为Siri AI、Apple Intelligence等服务提供支持。这种技术可以提高AI服务的响应速度和准确性。Apple Foundation Models的亮点在于其能够在不同设备和平台上运行，提供更加灵活和广泛的AI应用场景。这种技术的应用场景包括智能助手、语音识别、图像处理等。苹果的这一举动表明了其在AI领域的重视和投入，可能会对整个AI行业产生重要影响。",
+        "url": "https://www.36kr.com/p/3846708419099520",
+        "date": "2026-06-09"
+      },
+      {
+        "id": "65cf70",
+        "title": "RED Skill",
+        "source": "Product",
+        "tags": [
+          "#AI技能",
+          "#小红书",
+          "#社交媒体"
+        ],
+        "summary": "小红书正式上线RED Skill功能，发力AI Skill创新生态。RED Skill是一个基于AI的技能平台，能够提供多种技能和服务。这种技术的亮点在于其能够让用户自定义和扩展技能，提供更加个性化和丰富的AI应用体验。RED Skill的应用场景包括内容创作、营销推广、客户服务等。小红书的这一举动表明了其在AI领域的创新和探索，可能会对社交媒体和电商行业产生重要影响。",
+        "url": "https://www.36kr.com/p/3844184098228482",
+        "date": "2026-06-08"
+      },
+      {
+        "id": "e3c2a4",
+        "title": "TestMu AI",
+        "source": "Product",
+        "tags": [
+          "#AI测试",
+          "#软件开发",
+          "#质量保证"
+        ],
+        "summary": "TestMu AI宣布支持macOS Golden Gate和iOS 27 Beta，提供Day-Zero支持。TestMu AI是一个基于AI的测试和验证平台，能够帮助开发者快速和准确地测试和验证软件。这种技术的亮点在于其能够提供实时和自动化的测试和验证，提高软件开发的效率和质量。TestMu AI的应用场景包括软件开发、测试和验证、质量保证等。TestMu AI的这一举动表明了其在AI领域的创新和投入，可能会对软件开发行业产生重要影响。",
+        "url": "https://newshub.medianet.com.au/2026/06/testmu-ai-announces-day-zero-support-for-macos-golden-gate-and-ios-27-beta-following-wwdc-2026/157268",
+        "date": "2026-06-11"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#安全测试",
+          "#开源"
+        ],
+        "summary": "aquasecurity/trivy是一个开源的漏洞扫描工具，能够帮助用户快速和准确地扫描和识别漏洞。这种技术的亮点在于其能够提供实时和自动化的漏洞扫描，提高安全性和可靠性。aquasecurity/trivy的应用场景包括安全测试、漏洞扫描、合规性检查等。aquasecurity/trivy的这一举动表明了其在安全领域的创新和投入，可能会对安全行业产生重要影响。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 991
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#AI模型",
+          "#开源"
+        ],
+        "summary": "modelscope/FunASR是一个开源的语音识别平台，能够提供多种语音识别模型和算法。这种技术的亮点在于其能够提供高精度和高效率的语音识别，提高语音识别的准确性和可靠性。modelscope/FunASR的应用场景包括语音助手、语音识别、语音合成等。modelscope/FunASR的这一举动表明了其在AI领域的创新和投入，可能会对语音识别行业产生重要影响。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 687
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI平台",
+          "#开源",
+          "#AI开发"
+        ],
+        "summary": "khoj-ai/khoj是一个开源的AI平台，能够提供多种AI模型和算法。这种技术的亮点在于其能够提供高精度和高效率的AI计算，提高AI应用的准确性和可靠性。khoj-ai/khoj的应用场景包括AI开发、AI测试、AI部署等。khoj-ai/khoj的这一举动表明了其在AI领域的创新和投入，可能会对AI行业产生重要影响。",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 260
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#AI模型",
+          "#开源"
+        ],
+        "summary": "openai/whisper是一个开源的语音识别平台，能够提供多种语音识别模型和算法。这种技术的亮点在于其能够提供高精度和高效率的语音识别，提高语音识别的准确性和可靠性。openai/whisper的应用场景包括语音助手、语音识别、语音合成等。openai/whisper的这一举动表明了其在AI领域的创新和投入，可能会对语音识别行业产生重要影响。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 1097
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#音乐流媒体",
+          "#开源",
+          "#音乐播放"
+        ],
+        "summary": "KRTirtho/spotube是一个开源的音乐流媒体平台，能够提供多种音乐流媒体服务。这种技术的亮点在于其能够提供高质量和高效率的音乐流媒体，提高音乐流媒体的准确性和可靠性。KRTirtho/spotube的应用场景包括音乐流媒体、音乐下载、音乐播放等。KRTirtho/spotube的这一举动表明了其在音乐流媒体领域的创新和投入，可能会对音乐流媒体行业产生重要影响。",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 256
+      }
+    ]
   }
 ]
