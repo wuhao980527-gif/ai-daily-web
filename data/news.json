@@ -17207,5 +17207,133 @@
         "stars": 256
       }
     ]
+  },
+  {
+    "date": "2026-06-12",
+    "summary": "今日AI领域呈现多维度进展，涵盖4项Product动态, 5项GitHub动态。",
+    "news": [
+      {
+        "id": "e1d83f",
+        "title": "QoderWork",
+        "source": "Product",
+        "tags": [
+          "#智能办公",
+          "#AI助手",
+          "#办公自动化"
+        ],
+        "summary": "阿里正式推出 QoderWork ，这是基于原本的 Qoder 代码 Agent 能力扩展到日常办公场景的产物。其核心诉求是让桌面 AI 不仅仅停留在回答问题，还能完成实际任务。QoderWork 的技术亮点在于其能够将 AI 能力整合到办公软件中，提高工作效率。应用场景包括文档处理、数据分析等。行业意义在于推动了 AI 在办公领域的应用，提高了工作效率。",
+        "url": "https://www.36kr.com/p/3847108156275592",
+        "date": "2026-06-10"
+      },
+      {
+        "id": "73591f",
+        "title": "context-mode",
+        "source": "Product",
+        "tags": [
+          "#AI编程",
+          "#上下文优化",
+          "#MCP插件"
+        ],
+        "summary": "context-mode 是一款专为 AI 编程打造的上下文优化 MCP 插件，能够大幅降低 AI 编程成本，并将大模型的记忆力从 30 分钟提升至 3 小时。其技术亮点在于能够优化 AI 编程的上下文，提高编程效率。应用场景包括 AI 编程开发、模型训练等。行业意义在于推动了 AI 编程的发展，提高了编程效率。",
+        "url": "https://eu.36kr.com/zh/p/3845645258541319",
+        "date": "2026-06-09"
+      },
+      {
+        "id": "a699ce",
+        "title": "AIVA",
+        "source": "Product",
+        "tags": [
+          "#智能汽车",
+          "#AI定义汽车",
+          "#汽车智能化"
+        ],
+        "summary": "赛豆科技发布全新 AI 汽车品牌 AIVA ，提出 AI 定义汽车的概念，先有 AI 再有车的造车路径。其技术亮点在于将 AI 能力整合到汽车设计和制造中，提高汽车的智能化水平。应用场景包括汽车设计、制造、驾驶等。行业意义在于推动了汽车行业的智能化转型，提高了汽车的安全性和舒适性。",
+        "url": "https://www.36kr.com/p/3848538449155081",
+        "date": "2026-06-09"
+      },
+      {
+        "id": "fb0f52",
+        "title": "RED Skill",
+        "source": "Product",
+        "tags": [
+          "#AI技能",
+          "#社交媒体",
+          "#内容创作"
+        ],
+        "summary": "小红书正式上线 RED Skill 功能，发力 AI Skill 创新生态。其核心功能是让用户能够创建和分享自己的 AI 技能，提高用户的参与度和创造力。技术亮点在于其能够支持用户自定义 AI 技能，提高平台的灵活性。应用场景包括社交媒体、内容创作等。行业意义在于推动了 AI 在社交媒体中的应用，提高了用户的参与度和创造力。",
+        "url": "https://m.36kr.com/p/3844184098228482",
+        "date": "2026-06-08"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#系统安全",
+          "#开源工具"
+        ],
+        "summary": "aquasecurity/trivy 是一个开源的漏洞扫描工具，能够帮助用户发现和修复系统中的安全漏洞。其技术亮点在于其能够支持多种编程语言和框架，提高扫描的准确性和效率。应用场景包括系统安全、漏洞扫描等。行业意义在于推动了系统安全的发展，提高了用户的安全意识。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 792
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源模型",
+          "#语音助手"
+        ],
+        "summary": "modelscope/FunASR 是一个开源的语音识别模型，能够帮助用户实现高准确率的语音识别。其技术亮点在于其能够支持多种语音识别任务，提高模型的通用性和灵活性。应用场景包括语音识别、语音助手等。行业意义在于推动了语音识别技术的发展，提高了用户的语音交互体验。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 668
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI平台",
+          "#开源平台",
+          "#AI开发"
+        ],
+        "summary": "khoj-ai/khoj 是一个开源的 AI 平台，能够帮助用户实现高效的 AI 开发和部署。其技术亮点在于其能够支持多种 AI 框架和模型，提高开发的效率和灵活性。应用场景包括 AI 开发、部署等。行业意义在于推动了 AI 的发展，提高了用户的 AI 应用体验。",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 274
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源模型",
+          "#语音助手"
+        ],
+        "summary": "openai/whisper 是一个开源的语音识别模型，能够帮助用户实现高准确率的语音识别。其技术亮点在于其能够支持多种语音识别任务，提高模型的通用性和灵活性。应用场景包括语音识别、语音助手等。行业意义在于推动了语音识别技术的发展，提高了用户的语音交互体验。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 1061
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#音乐播放",
+          "#开源播放器",
+          "#音乐分享"
+        ],
+        "summary": "KRTirtho/spotube 是一个开源的音乐播放器，能够帮助用户实现高质量的音乐播放体验。其技术亮点在于其能够支持多种音乐格式和平台，提高播放的兼容性和灵活性。应用场景包括音乐播放、音乐分享等。行业意义在于推动了音乐播放技术的发展，提高了用户的音乐体验。",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 266
+      }
+    ]
   }
 ]
