@@ -17335,5 +17335,146 @@
         "stars": 266
       }
     ]
+  },
+  {
+    "date": "2026-06-13",
+    "summary": "今日 AI 领域的主要进展包括多款新产品和模型的发布，如 Tabbit 1.0、微信AI 和 ChatGPT 等，同时开源平台 GitHub 上也出现了多个新项目，如 aquasecurity/trivy 和 modelscope/FunASR，这些进展表明 AI 技术在不断推进和应用。",
+    "news": [
+      {
+        "id": "82406e",
+        "title": "Tabbit 1.0",
+        "source": "Product",
+        "tags": [
+          "#AI浏览器",
+          "#自动化",
+          "#网络信息处理"
+        ],
+        "summary": "美团旗下GN06团队宣布其主打AI原生的Tabbit浏览器开启公测，试图将一系列自动化能力嵌入到网络信息处理的全过程。Tabbit浏览器的核心功能是将AI技术应用于网络浏览，实现智能化的信息处理和自动化的任务执行。技术亮点在于其能够实时分析和处理网络信息，提供更高效和智能化的浏览体验。应用场景包括个人和企业的网络浏览和信息处理。行业意义在于推动了AI技术在网络浏览领域的应用和发展，提高了信息处理的效率和智能化水平。",
+        "url": "https://www.36kr.com/p/3846828295293186",
+        "date": "2026-06-10"
+      },
+      {
+        "id": "05666b",
+        "title": "微信AI",
+        "source": "Product",
+        "tags": [
+          "#AI生态",
+          "#小程序开发",
+          "#智能化升级"
+        ],
+        "summary": "微信正式开放AI生态接入能力，并向开发者发布了'小程序AI开发模式'的接入指引，首批内测名单包含多家头部平台。微信的AI生态接入能力的核心功能是提供开发者一个集成AI能力的开发平台，实现小程序的智能化升级。技术亮点在于其能够提供多种AI能力的接入和集成，包括自然语言处理、图像识别等。应用场景包括小程序开发和企业的智能化升级。行业意义在于推动了AI技术在小程序开发和企业智能化升级中的应用和发展，提高了小程序的智能化水平和企业的竞争力。",
+        "url": "https://36kr.com/p/3848364179576068",
+        "date": "2026-06-08"
+      },
+      {
+        "id": "c6e636",
+        "title": "ChatGPT",
+        "source": "Product",
+        "tags": [
+          "#ChatGPT",
+          "#AI编程",
+          "#智能化平台"
+        ],
+        "summary": "OpenAI正在对ChatGPT进行自2022年推出以来规模最大的改版，新版将在未来几周内逐步上线，整合Codex编程工具和外部合作伙伴的应用，重塑为一个能编写代码、管理日程、操控软件的综合平台。ChatGPT的核心功能是提供一个集成多种AI能力的平台，实现智能化的代码编写、日程管理和软件操控。技术亮点在于其能够实时分析和处理用户输入，提供更高效和智能化的体验。应用场景包括个人和企业的代码编写、日程管理和软件开发。行业意义在于推动了AI技术在代码编写和软件开发领域的应用和发展，提高了开发效率和智能化水平。",
+        "url": "https://m.36kr.com/p/3843652644718857",
+        "date": "2026-06-07"
+      },
+      {
+        "id": "f2ccec",
+        "title": "AIVA",
+        "source": "Product",
+        "tags": [
+          "#AI汽车",
+          "#智能化驾驶",
+          "#汽车制造"
+        ],
+        "summary": "赛力斯旗下重庆赛豆科技有限公司发布全新AI汽车品牌AIVA，提出AI定义汽车，先有AI再有车的造车路径。AIVA的核心功能是将AI技术应用于汽车设计和制造，实现智能化的汽车生产和驾驶体验。技术亮点在于其能够实时分析和处理驾驶数据，提供更高效和智能化的驾驶体验。应用场景包括个人和企业的汽车驾驶和智能化升级。行业意义在于推动了AI技术在汽车行业的应用和发展，提高了汽车的智能化水平和安全性。",
+        "url": "https://eu.36kr.com/zh/p/3848538449155081",
+        "date": "2026-06-09"
+      },
+      {
+        "id": "5d6dae",
+        "title": "Kimi-K2.7-Code",
+        "source": "Product",
+        "tags": [
+          "#Kimi-K2.7-Code",
+          "#AI编程",
+          "#智能化平台"
+        ],
+        "summary": "Kimi-K2.7-Code是一个最新的编码模型，现已发布和开源。Kimi-K2.7-Code的核心功能是提供一个集成多种AI能力的编码平台，实现智能化的代码编写和优化。技术亮点在于其能够实时分析和处理代码，提供更高效和智能化的编码体验。应用场景包括个人和企业的代码编写和软件开发。行业意义在于推动了AI技术在代码编写和软件开发领域的应用和发展，提高了开发效率和智能化水平。",
+        "url": "https://x.com/CuiMao/status/2065396787800912323",
+        "date": "2026-06-12"
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#aquasecurity/trivy",
+          "#安全扫描",
+          "#漏洞修复"
+        ],
+        "summary": "aquasecurity/trivy是一个开源的安全扫描工具，能够扫描容器和镜像中的漏洞和配置问题。aquasecurity/trivy的核心功能是提供一个集成多种安全扫描能力的平台，实现智能化的安全扫描和漏洞修复。技术亮点在于其能够实时分析和处理安全数据，提供更高效和智能化的安全扫描体验。应用场景包括个人和企业的安全扫描和漏洞修复。行业意义在于推动了安全扫描和漏洞修复领域的应用和发展，提高了安全性和可靠性。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 638
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#modelscope/FunASR",
+          "#语音识别",
+          "#智能化平台"
+        ],
+        "summary": "modelscope/FunASR是一个开源的语音识别模型，能够识别多种语言和方言。modelscope/FunASR的核心功能是提供一个集成多种语音识别能力的平台，实现智能化的语音识别和转录。技术亮点在于其能够实时分析和处理语音数据，提供更高效和智能化的语音识别体验。应用场景包括个人和企业的语音识别和转录。行业意义在于推动了语音识别和转录领域的应用和发展，提高了语音识别的准确性和智能化水平。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 632
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#Whisper",
+          "#语音识别",
+          "#智能化平台"
+        ],
+        "summary": "OpenAI发布的Whisper是一个开源的语音识别模型，能够识别多种语言和方言。Whisper的核心功能是提供一个集成多种语音识别能力的平台，实现智能化的语音识别和转录。技术亮点在于其能够实时分析和处理语音数据，提供更高效和智能化的语音识别体验。应用场景包括个人和企业的语音识别和转录。行业意义在于推动了语音识别和转录领域的应用和发展，提高了语音识别的准确性和智能化水平。",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 1037
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#khoj-ai/khoj",
+          "#AI平台",
+          "#智能化应用"
+        ],
+        "summary": "khoj-ai/khoj是一个开源的AI平台，能够提供多种AI能力的接入和集成。khoj-ai/khoj的核心功能是提供一个集成多种AI能力的平台，实现智能化的AI应用和开发。技术亮点在于其能够实时分析和处理AI数据，提供更高效和智能化的AI体验。应用场景包括个人和企业的AI应用和开发。行业意义在于推动了AI领域的应用和发展，提高了AI的智能化水平和可靠性。",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 246
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#Transformers",
+          "#AI模型",
+          "#智能化应用"
+        ],
+        "summary": "HuggingFace发布的Transformers是一个开源的AI模型，能够提供多种AI能力的接入和集成。Transformers的核心功能是提供一个集成多种AI能力的平台，实现智能化的AI应用和开发。技术亮点在于其能够实时分析和处理AI数据，提供更高效和智能化的AI体验。应用场景包括个人和企业的AI应用和开发。行业意义在于推动了AI领域的应用和发展，提高了AI的智能化水平和可靠性。",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 317
+      }
+    ]
   }
 ]
