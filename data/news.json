@@ -17578,5 +17578,120 @@
         "stars": 97
       }
     ]
+  },
+  {
+    "date": "2026-06-15",
+    "summary": "今日 AI 领域的主要进展包括新模型发布，如 Rio 3.5 和 Kimi K2.7 Code，以及开源项目的更新，如 modelscope/FunASR 和 servo/servo，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "649ebc",
+        "title": "Rio 3.5 397B",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多模态",
+          "#智能体编程"
+        ],
+        "summary": "里约热内卢市政府旗下的市政 IT 公司 IplanRIO 开发的 Rio 3.5 397B 是一款前沿级通用 AI 模型，基于 Qwen 3.5 397B 进行后训练。其核心功能包括智能体编程、数学、STEM 等领域的应用。技术亮点在于其在多领域的表现出色，能够处理复杂任务。应用场景广泛，包括教育、研究等领域。行业意义在于其为 AI 模型的发展提供了新的思路和方向。",
+        "url": "https://www.36kr.com/p/3852558555796745",
+        "date": "2026-06-14"
+      },
+      {
+        "id": "8317e1",
+        "title": "Kimi K2.7 Code",
+        "source": "Product",
+        "tags": [
+          "#代码生成",
+          "#AI编程",
+          "#开源"
+        ],
+        "summary": "月之暗面发布并开源的 Kimi K2.7 Code 模型是一种代码能力暴涨的 AI 模型。其技术亮点在于代码能力的显著提高，达到了 21.8% 的提升，同时推理 token 反而减少了 30%。应用场景包括代码编写、代码优化等领域。行业意义在于其为代码开发提供了新的工具和方法。其开源性质也使得开发者能够进一步改进和扩展其功能。",
+        "url": "https://www.bilibili.com/video/BV1oMJ76bE73",
+        "date": "2026-06-13"
+      },
+      {
+        "id": "e3bcab",
+        "title": "Kimi K2.7-Code",
+        "source": "Product",
+        "tags": [
+          "#代码优化",
+          "#AI开发",
+          "#开源模型"
+        ],
+        "summary": "开源代码模型 Kimi K2.7-Code 首发测评显示，其代码能力有了显著的提升。其技术亮点在于代码能力的暴涨和推理 token 的减少。应用场景包括代码开发、代码审查等领域。行业意义在于其为代码开发提供了新的思路和工具。其开源性质也使得开发者能够进一步改进和扩展其功能。同时，其测评结果也为其在实际应用中的效果提供了参考。",
+        "url": "https://openvela.csdn.net/6a2dff11662f9a54cb7e83ae.html",
+        "date": "2026-06-12"
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#多语言",
+          "#开源模型"
+        ],
+        "summary": "modelscope/FunASR 是一个开源的语音识别模型，其支持多语言和多种语音识别任务。其技术亮点在于其高精度的语音识别能力和多语言支持。应用场景包括语音助手、语音翻译等领域。行业意义在于其为语音识别提供了新的解决方案和工具。其开源性质也使得开发者能够进一步改进和扩展其功能。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 605
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#漏洞扫描",
+          "#代码安全",
+          "#开源工具"
+        ],
+        "summary": "aquasecurity/trivy 是一个开源的漏洞扫描工具，其支持多种编程语言和框架。其技术亮点在于其高效的漏洞扫描能力和多语言支持。应用场景包括代码安全审查、漏洞扫描等领域。行业意义在于其为代码安全提供了新的解决方案和工具。其开源性质也使得开发者能够进一步改进和扩展其功能。",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 378
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI开发",
+          "#多任务",
+          "#开源模型"
+        ],
+        "summary": "khoj-ai/khoj 是一个开源的 AI 模型，其支持多种 AI 任务和应用。其技术亮点在于其高精度的 AI 能力和多任务支持。应用场景包括 AI 开发、AI 研究等领域。行业意义在于其为 AI 开发提供了新的解决方案和工具。其开源性质也使得开发者能够进一步改进和扩展其功能。",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 160
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#浏览器引擎",
+          "#网页开发",
+          "#开源"
+        ],
+        "summary": "servo/servo 是一个开源的浏览器引擎，其支持多种网页标准和技术。其技术亮点在于其高效的渲染能力和多标准支持。应用场景包括网页开发、网页浏览等领域。行业意义在于其为网页开发提供了新的解决方案和工具。其开源性质也使得开发者能够进一步改进和扩展其功能。",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 99
+      },
+      {
+        "id": "7aed3f",
+        "title": "skypilot-org/skypilot",
+        "source": "GitHub",
+        "tags": [
+          "#云计算",
+          "#多任务",
+          "#开源平台"
+        ],
+        "summary": "skypilot-org/skypilot 是一个开源的云计算平台，其支持多种云计算任务和应用。其技术亮点在于其高效的云计算能力和多任务支持。应用场景包括云计算开发、云计算研究等领域。行业意义在于其为云计算开发提供了新的解决方案和工具。其开源性质也使得开发者能够进一步改进和扩展其功能。",
+        "url": "https://github.com/skypilot-org/skypilot",
+        "date": "Recent (Trending)",
+        "stars": 81
+      }
+    ]
   }
 ]
