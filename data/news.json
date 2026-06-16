@@ -17693,5 +17693,120 @@
         "stars": 81
       }
     ]
+  },
+  {
+    "date": "2026-06-16",
+    "summary": "今日 AI 领域的主要进展包括新模型发布，如 Rio 3.5 Open 397B 和 Kimi K2.7 Code，以及开源项目的更新，如 modelscope/FunASR 和 servo/servo，这些进展表明 AI 技术在不断发展和应用。",
+    "news": [
+      {
+        "id": "649ebc",
+        "title": "Rio 3.5 Open 397B",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#多模态",
+          "#智能体编程"
+        ],
+        "summary": "里约热内卢市政府旗下的市政 IT 公司 IplanRIO 发布了 Rio 3.5 Open 397B 模型，这是一款前沿级通用 AI 模型，基于 Qwen 3.5 397B 进行后训练。其核心功能包括智能体编程、数学和语音识别等。技术亮点在于其能够在多个领域进行高性能的推理和生成。应用场景包括智能助手、自动驾驶和医疗诊断等。行业意义在于其为通用 AI 模型的发展提供了新的思路和方法。#生成式AI #多模态 #智能体编程",
+        "url": "https://www.36kr.com/p/3852558555796745",
+        "date": "2026-06-14"
+      },
+      {
+        "id": "8317e1",
+        "title": "Kimi K2.7 Code",
+        "source": "Product",
+        "tags": [
+          "#代码生成",
+          "#开源",
+          "#编程辅助"
+        ],
+        "summary": "月之暗面发布并开源了 Kimi K2.7 Code 模型，这是一款代码生成模型，能够自动完成编程任务。其核心功能包括代码补全、代码生成和代码优化等。技术亮点在于其能够理解自然语言并生成高质量的代码。应用场景包括软件开发、代码审查和编程教育等。行业意义在于其能够提高编程效率和质量。#代码生成 #开源 #编程辅助",
+        "url": "https://www.bilibili.com/video/BV1oMJ76bE73",
+        "date": "2026-06-13"
+      },
+      {
+        "id": "78901f",
+        "title": "Qwen-Robot",
+        "source": "Product",
+        "tags": [
+          "#机器人",
+          "#具身智能",
+          "#大模型"
+        ],
+        "summary": "阿里巴巴发布了 Qwen-Robot 系列，这是一款具身智能大模型，包含 VLA 操作模型、VLN 移动模型和世界模型等。其核心功能包括机器人控制、环境感知和决策等。技术亮点在于其能够集成多种感知和控制技术。应用场景包括服务机器人、工业机器人和自主驾驶等。行业意义在于其能够推动机器人技术的发展。#机器人 #具身智能 #大模型",
+        "url": "https://www.jiemian.com/article/14595314.html",
+        "date": "2026-06-16"
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#多语言"
+        ],
+        "summary": "modelscope/FunASR 是一个开源的语音识别模型，支持多种语言和方言。其核心功能包括语音识别、语音合成和语音翻译等。技术亮点在于其能够高精度地识别语音并生成自然语言。应用场景包括智能助手、语音输入和语言翻译等。行业意义在于其能够推动语音技术的发展。#语音识别 #开源 #多语言",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 570
+      },
+      {
+        "id": "3ede0a",
+        "title": "mikeroyal/Self-Hosting-Guide",
+        "source": "GitHub",
+        "tags": [
+          "#自托管",
+          "#服务搭建",
+          "#安全保障"
+        ],
+        "summary": "mikeroyal/Self-Hosting-Guide 是一个自托管指南，提供了自托管服务的搭建和配置方法。其核心功能包括服务搭建、配置管理和安全保障等。技术亮点在于其能够提供高可用性和高安全性的自托管服务。应用场景包括个人博客、企业网站和在线应用等。行业意义在于其能够帮助用户自主管理自己的数据和服务。#自托管 #服务搭建 #安全保障",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "date": "Recent (Trending)",
+        "stars": 543
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#浏览器引擎",
+          "#并行计算",
+          "#安全沙箱"
+        ],
+        "summary": "servo/servo 是一个并行浏览器引擎项目，旨在提供高性能和高安全性的浏览器引擎。其核心功能包括页面渲染、脚本执行和安全沙箱等。技术亮点在于其能够利用多核处理器的并行能力。应用场景包括网页浏览、在线应用和移动设备等。行业意义在于其能够提高浏览器的性能和安全性。#浏览器引擎 #并行计算 #安全沙箱",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 105
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI 平台",
+          "#开源",
+          "#多框架"
+        ],
+        "summary": "khoj-ai/khoj 是一个开源的 AI 平台，提供了数据处理、模型训练和模型部署等功能。其核心功能包括数据预处理、模型选择和模型优化等。技术亮点在于其能够支持多种 AI 框架和多种数据源。应用场景包括数据分析、机器学习和深度学习等。行业意义在于其能够帮助用户快速开发和部署 AI 模型。#AI 平台 #开源 #多框架",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 153
+      },
+      {
+        "id": "7aed3f",
+        "title": "skypilot-org/skypilot",
+        "source": "GitHub",
+        "tags": [
+          "#云原生",
+          "#AI 平台",
+          "#多云"
+        ],
+        "summary": "skypilot-org/skypilot 是一个云原生 AI 平台，提供了模型训练、模型部署和模型管理等功能。其核心功能包括模型选择、模型训练和模型优化等。技术亮点在于其能够支持多种云服务和多种 AI 框架。应用场景包括云计算、边缘计算和物联网等。行业意义在于其能够帮助用户快速开发和部署 AI 模型在云端。#云原生 #AI 平台 #多云",
+        "url": "https://github.com/skypilot-org/skypilot",
+        "date": "Recent (Trending)",
+        "stars": 97
+      }
+    ]
   }
 ]
