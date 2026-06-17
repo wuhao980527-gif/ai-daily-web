@@ -17808,5 +17808,133 @@
         "stars": 97
       }
     ]
+  },
+  {
+    "date": "2026-06-17",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 Omnify AI 和健康小美，以及开源模型如 GLM-5.2 和 FunASR 的更新。同时，GitHub 上的项目如 Self-Hosting-Guide 和 OpenBB 也获得了关注。这些进展表明 AI 技术在各个领域的应用和发展。",
+    "news": [
+      {
+        "id": "cb53ac",
+        "title": "Omnify AI",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#内容创作",
+          "#智能写作"
+        ],
+        "summary": "Omnify AI正式上线，提供招AI员工和组AI团队的服务，旨在解锁内容创作者的AI劳动力。其核心功能是通过AI技术帮助内容创作者提高生产效率和质量。技术亮点在于其能够根据用户需求自动生成高质量的内容。应用场景包括内容创作、营销等领域。行业意义在于其能够帮助内容创作者更好地利用AI技术提高生产效率。",
+        "url": "https://eu.36kr.com/zh/p/3855249553013385",
+        "date": "2026-06-16"
+      },
+      {
+        "id": "fc03c8",
+        "title": "健康小美",
+        "source": "Product",
+        "tags": [
+          "#医疗AI",
+          "#健康管理",
+          "#个性化推荐"
+        ],
+        "summary": "美年AI健康管家“健康小美”正式上线双端小程序，提供从体检到健康管理的全程服务。其核心功能是通过AI技术帮助用户管理健康。技术亮点在于其能够根据用户的健康数据提供个性化的健康建议。应用场景包括健康管理、医疗等领域。行业意义在于其能够帮助用户更好地管理健康。",
+        "url": "https://m.36kr.com/p/3855682859586560",
+        "date": "2026-06-16"
+      },
+      {
+        "id": "2adb8f",
+        "title": "GLM-5.2",
+        "source": "Product",
+        "tags": [
+          "#编程AI",
+          "#代码生成",
+          "#开源模型"
+        ],
+        "summary": "PPIO首发上线智谱最新开源旗舰模型GLM-5.2，其核心特点包括Coding能力开源SOTA、支持真正可用的1M上下文、自主规划驱动高效迭代、万级真实任务验证。技术亮点在于其能够提供高质量的代码生成能力。应用场景包括编程、软件开发等领域。行业意义在于其能够帮助开发者更好地利用AI技术提高编程效率。",
+        "url": "https://ppio.com/blogs/post/ppioshou-fa-shang-xian-glm-5-2-dai-ma-neng-li-jin-ci-yu-claude-fable-5",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "347eb1",
+        "title": "Cursor",
+        "source": "Product",
+        "tags": [
+          "#编程AI",
+          "#代码生成",
+          "#AI初创公司"
+        ],
+        "summary": "SpaceX正式同意收购AI编程初创公司Cursor，交易估值达到600亿美元。Cursor的核心功能是通过AI技术帮助用户编程。技术亮点在于其能够根据用户需求自动生成高质量的代码。应用场景包括编程、软件开发等领域。行业意义在于其能够帮助开发者更好地利用AI技术提高编程效率。",
+        "url": "https://www.ithome.com/0/965/083.htm",
+        "date": "2026-06-16"
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#ASR",
+          "#开源模型"
+        ],
+        "summary": "modelscope/FunASR是一个开源的ASR模型，其核心功能是通过深度学习技术实现语音识别。技术亮点在于其能够提供高质量的语音识别能力。应用场景包括语音识别、语音助手等领域。行业意义在于其能够帮助开发者更好地利用AI技术实现语音识别。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 549
+      },
+      {
+        "id": "3ede0a",
+        "title": "mikeroyal/Self-Hosting-Guide",
+        "source": "GitHub",
+        "tags": [
+          "#自托管",
+          "#云计算",
+          "#开源指南"
+        ],
+        "summary": "mikeroyal/Self-Hosting-Guide是一个开源的自托管指南，其核心功能是通过提供详细的指南帮助用户自托管自己的服务。技术亮点在于其能够提供详细的自托管步骤。应用场景包括自托管、云计算等领域。行业意义在于其能够帮助用户更好地自托管自己的服务。",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "date": "Recent (Trending)",
+        "stars": 1206
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#金融AI",
+          "#投资分析",
+          "#开源平台"
+        ],
+        "summary": "OpenBB-finance/OpenBB是一个开源的金融平台，其核心功能是通过提供详细的金融数据和分析工具帮助用户做出更好的投资决策。技术亮点在于其能够提供高质量的金融数据和分析能力。应用场景包括金融、投资等领域。行业意义在于其能够帮助用户更好地利用AI技术实现金融分析。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 476
+      },
+      {
+        "id": "8cdd4a",
+        "title": "qdrant/qdrant",
+        "source": "GitHub",
+        "tags": [
+          "#向量数据库",
+          "#数据检索",
+          "#开源模型"
+        ],
+        "summary": "qdrant/qdrant是一个开源的向量数据库，其核心功能是通过提供高效的向量搜索能力帮助用户实现高效的数据检索。技术亮点在于其能够提供高效的向量搜索能力。应用场景包括数据检索、推荐系统等领域。行业意义在于其能够帮助用户更好地利用AI技术实现数据检索。",
+        "url": "https://github.com/qdrant/qdrant",
+        "date": "Recent (Trending)",
+        "stars": 425
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#浏览器引擎",
+          "#网页渲染",
+          "#开源模型"
+        ],
+        "summary": "servo/servo是一个开源的浏览器引擎，其核心功能是通过提供高效的浏览器渲染能力帮助用户实现高效的网页浏览。技术亮点在于其能够提供高效的浏览器渲染能力。应用场景包括浏览器、网页开发等领域。行业意义在于其能够帮助用户更好地利用AI技术实现网页浏览。",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 111
+      }
+    ]
   }
 ]
