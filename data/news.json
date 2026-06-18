@@ -17936,5 +17936,120 @@
         "stars": 111
       }
     ]
+  },
+  {
+    "date": "2026-06-18",
+    "summary": "今日 AI 领域的主要进展包括新产品发布和技术合作，如 AI 版支付宝和 Hitachi 与 OpenAI 的合作。此外，多个开源项目在 GitHub 上发布，包括 GLM-5.2 和 qdrant 等。这些发展表明 AI 技术在行业应用和开源社区中的不断推进。",
+    "news": [
+      {
+        "id": "b6b334",
+        "title": "AI版支付宝",
+        "source": "Product",
+        "tags": [
+          "#对话式AI",
+          "#金融科技",
+          "#支付宝"
+        ],
+        "summary": "阿宝是支付宝的AI版，用户可以通过对话式的方式完成支付和其他服务。其核心功能是通过自然语言处理技术来理解用户的需求，并提供相应的服务。技术亮点在于其能够支持多种支付方式和服务，包括转账、缴费等。应用场景广泛，包括日常支付、在线购物等。行业意义在于其能够提高用户的支付体验和效率，推动金融科技的发展。阿宝的推出标志着支付宝在AI技术上的进一步应用和创新。",
+        "url": "https://eu.36kr.com/zh/p/3857178983929091",
+        "date": "2026-06-16"
+      },
+      {
+        "id": "1df011",
+        "title": "Hitachi 和 OpenAI 的合作",
+        "source": "Product",
+        "tags": [
+          "#AI安全",
+          "#网络安全",
+          "#合作伙伴"
+        ],
+        "summary": "Hitachi与OpenAI的合作旨在加速AI驱动的现代化和网络安全。Hitachi将利用OpenAI的AI技术来提高其产品和服务的智能化和安全性。技术亮点在于其能够集成AI和网络安全技术，提供更强大的安全保护。应用场景包括企业网络安全、数据保护等。行业意义在于其能够提高企业的网络安全水平，推动AI在安全领域的应用和创新。该合作标志着Hitachi在AI和网络安全领域的进一步布局和发展。",
+        "url": "https://www.hpcwire.com/aiwire/2026/06/17/hitachi-expands-its-work-with-openai-to-accelerate-ai-driven-modernization-and-cybersecurity",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "cd3a06",
+        "title": "GLM-5.2",
+        "source": "Product",
+        "tags": [
+          "#AI编程",
+          "#开源",
+          "#GLM-5.2"
+        ],
+        "summary": "GLM-5.2是智谱开源的AI编程框架，支持真正可用的1M上下文，并在长程任务中继续保持领先。其核心功能是提供高性能和高效的AI编程能力。技术亮点在于其能够支持大规模的AI模型训练和部署。应用场景包括AI研究、开发和应用等。行业意义在于其能够推动AI技术的发展和应用，提高AI模型的性能和效率。GLM-5.2的推出标志着智谱在AI编程领域的进一步创新和领先。",
+        "url": "https://www.qbitai.com/2026/06/436085.html",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "3ede0a",
+        "title": "mikeroyal/Self-Hosting-Guide",
+        "source": "GitHub",
+        "tags": [
+          "#自托管",
+          "#GitHub",
+          "#指南"
+        ],
+        "summary": "mikeroyal/Self-Hosting-Guide是一个GitHub项目，提供自托管的指南和工具。其核心功能是帮助用户自托管自己的服务和应用。技术亮点在于其能够提供详细的指南和文档，帮助用户快速上手。应用场景包括个人网站、博客等。行业意义在于其能够推动自托管的发展和应用，提高用户的自主性和安全性。该项目的推出标志着自托管领域的进一步发展和成熟。",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "date": "Recent (Trending)",
+        "stars": 1257
+      },
+      {
+        "id": "61ff66",
+        "title": "modelscope/FunASR",
+        "source": "GitHub",
+        "tags": [
+          "#ASR",
+          "#语音识别",
+          "#GitHub"
+        ],
+        "summary": "modelscope/FunASR是一个GitHub项目，提供ASR（自动语音识别）模型和工具。其核心功能是提供高性能和高准确性的ASR能力。技术亮点在于其能够支持多种语言和方言，提供灵活的配置和定制。应用场景包括语音识别、语音助手等。行业意义在于其能够推动ASR技术的发展和应用，提高语音识别的准确性和效率。该项目的推出标志着ASR领域的进一步创新和发展。",
+        "url": "https://github.com/modelscope/FunASR",
+        "date": "Recent (Trending)",
+        "stars": 526
+      },
+      {
+        "id": "8cdd4a",
+        "title": "qdrant/qdrant",
+        "source": "GitHub",
+        "tags": [
+          "#向量数据库",
+          "#搜索引擎",
+          "#GitHub"
+        ],
+        "summary": "qdrant/qdrant是一个GitHub项目，提供高性能和高效的向量数据库和搜索引擎。其核心功能是提供快速和准确的向量搜索和检索能力。技术亮点在于其能够支持大规模的向量数据，提供灵活的配置和定制。应用场景包括推荐系统、搜索引擎等。行业意义在于其能够推动向量数据库和搜索引擎的发展和应用，提高搜索和检索的效率和准确性。该项目的推出标志着向量数据库和搜索引擎领域的进一步创新和发展。",
+        "url": "https://github.com/qdrant/qdrant",
+        "date": "Recent (Trending)",
+        "stars": 420
+      },
+      {
+        "id": "a3fce3",
+        "title": "p1ngul1n0/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI模型",
+          "#训练和部署",
+          "#GitHub"
+        ],
+        "summary": "p1ngul1n0/blackbird是一个GitHub项目，提供高性能和高效的AI模型训练和部署工具。其核心功能是提供快速和准确的AI模型训练和部署能力。技术亮点在于其能够支持大规模的AI模型训练和部署，提供灵活的配置和定制。应用场景包括AI研究、开发和应用等。行业意义在于其能够推动AI技术的发展和应用，提高AI模型的性能和效率。该项目的推出标志着AI模型训练和部署领域的进一步创新和发展。",
+        "url": "https://github.com/p1ngul1n0/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 171
+      },
+      {
+        "id": "4809b6",
+        "title": "openai/tart",
+        "source": "GitHub",
+        "tags": [
+          "#虚拟化",
+          "#容器化",
+          "#GitHub"
+        ],
+        "summary": "openai/tart是一个GitHub项目，提供虚拟化和容器化的解决方案。其核心功能是提供高性能和高效的虚拟化和容器化能力。技术亮点在于其能够支持大规模的虚拟化和容器化，提供灵活的配置和定制。应用场景包括云计算、容器化等。行业意义在于其能够推动虚拟化和容器化的发展和应用，提高虚拟化和容器化的效率和安全性。该项目的推出标志着虚拟化和容器化领域的进一步创新和发展。",
+        "url": "https://github.com/openai/tart",
+        "date": "Recent (Trending)",
+        "stars": 71
+      }
+    ]
   }
 ]
