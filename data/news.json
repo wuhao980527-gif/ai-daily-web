@@ -18051,5 +18051,133 @@
         "stars": 71
       }
     ]
+  },
+  {
+    "date": "2026-06-19",
+    "summary": "今日 AI 领域的主要进展包括新产品发布，如 GLM-5.2 和 Copilot Cowork，以及开源项目的更新，如 OpenBB 和 servo。这些进展表明 AI 技术在不断发展和应用于各个领域。",
+    "news": [
+      {
+        "id": "cd3a06",
+        "title": "GLM-5.2",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "智谱开源的GLM-5.2模型取得了AI编程第一的成绩，支持真正可用的1M上下文，并在长程任务中继续保持领先。其核心功能是实现高性能的自然语言处理和编程能力。技术亮点在于其能够处理长序列输入和输出，应用场景包括代码生成、代码补全和代码优化等。行业意义在于其为开发者提供了一个高效的工具，能够提高编程效率和质量。",
+        "url": "https://www.qbitai.com/2026/06/436085.html",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "9ac7b9",
+        "title": "GLM 5.2",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#开源"
+        ],
+        "summary": "GLM 5.2是首个编程能力达到Opus水平的开源模型，实现了高性能的自然语言处理和编程能力。其技术亮点在于其能够处理长序列输入和输出，应用场景包括代码生成、代码补全和代码优化等。行业意义在于其为开发者提供了一个高效的工具，能够提高编程效率和质量。GLM 5.2的开源发布将促进AI编程领域的发展。",
+        "url": "https://x.com/oran_ge/status/2067108369018827153",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "2386f4",
+        "title": "Copilot Cowork",
+        "source": "Product",
+        "tags": [
+          "#AI编程",
+          "#企业软件",
+          "#云计算"
+        ],
+        "summary": "微软宣布将企业AI工具Copilot Cowork转向按使用量计费，并考虑引入由微软托管的DeepSeek模型作为更低成本的模型选项。Copilot Cowork的核心功能是提供AI驱动的编程辅助工具，技术亮点在于其能够根据用户的编程习惯和偏好提供个性化的代码建议。应用场景包括企业级软件开发和代码维护等。行业意义在于其能够提高编程效率和质量，降低开发成本。",
+        "url": "https://www.36kr.com/p/3857389182670088",
+        "date": "2026-06-16"
+      },
+      {
+        "id": "672d7b",
+        "title": "Evoken",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#融资"
+        ],
+        "summary": "Evoken近日公布了一笔在今年上半年完成的近3亿美元B+轮融资，这家公司现在的估值超过20亿美元。Evoken的核心功能是提供AI驱动的自然语言处理和生成式AI能力，技术亮点在于其能够处理长序列输入和输出。应用场景包括聊天机器人、内容生成和语言翻译等。行业意义在于其能够提供高质量的AI服务，促进AI技术在各个行业的应用。",
+        "url": "https://m.36kr.com/p/3858046706832640",
+        "date": "2026-06-18"
+      },
+      {
+        "id": "3ede0a",
+        "title": "mikeroyal/Self-Hosting-Guide",
+        "source": "GitHub",
+        "tags": [
+          "#自托管",
+          "#服务器管理",
+          "#开源"
+        ],
+        "summary": "mikeroyal/Self-Hosting-Guide是一个GitHub项目，提供了自托管的指南和工具，帮助用户自行部署和管理自己的服务器和应用。其核心功能是提供一步一步的部署指南和自动化工具，技术亮点在于其能够支持多种操作系统和云平台。应用场景包括个人网站、博客和企业级应用等。行业意义在于其能够帮助用户提高服务器和应用的安全性和可靠性。",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "date": "Recent (Trending)",
+        "stars": 1284
+      },
+      {
+        "id": "a3fce3",
+        "title": "p1ngul1n0/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI安全",
+          "#黑客工具",
+          "#开源"
+        ],
+        "summary": "p1ngul1n0/blackbird是一个GitHub项目，提供了一个基于AI的黑客工具，能够自动化地发现和利用漏洞。其核心功能是提供AI驱动的漏洞扫描和利用能力，技术亮点在于其能够处理长序列输入和输出。应用场景包括网络安全和渗透测试等。行业意义在于其能够帮助安全人员提高漏洞发现和利用的效率和准确性。",
+        "url": "https://github.com/p1ngul1n0/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 201
+      },
+      {
+        "id": "aa52d8",
+        "title": "OpenBB-finance/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#金融分析",
+          "#数据可视化",
+          "#开源"
+        ],
+        "summary": "OpenBB-finance/OpenBB是一个GitHub项目，提供了一个开源的金融数据分析和可视化平台，能够帮助用户分析和可视化金融数据。其核心功能是提供数据分析和可视化能力，技术亮点在于其能够支持多种数据源和格式。应用场景包括金融分析、投资决策和风险管理等。行业意义在于其能够帮助用户提高金融数据分析和决策的效率和准确性。",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 476
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#浏览器引擎",
+          "#Rust",
+          "#开源"
+        ],
+        "summary": "servo/servo是一个GitHub项目，提供了一个基于Rust的并行浏览器引擎，能够提高浏览器的性能和安全性。其核心功能是提供并行浏览器引擎能力，技术亮点在于其能够利用多核CPU的并行处理能力。应用场景包括网页浏览和网页开发等。行业意义在于其能够提高浏览器的性能和安全性，促进网页技术的发展。",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 105
+      },
+      {
+        "id": "7aed3f",
+        "title": "skypilot-org/skypilot",
+        "source": "GitHub",
+        "tags": [
+          "#机器学习",
+          "#云计算",
+          "#开源"
+        ],
+        "summary": "skypilot-org/skypilot是一个GitHub项目，提供了一个基于云计算的机器学习平台，能够帮助用户部署和管理机器学习模型。其核心功能是提供云计算和机器学习能力，技术亮点在于其能够支持多种机器学习框架和云平台。应用场景包括机器学习开发、部署和管理等。行业意义在于其能够帮助用户提高机器学习的效率和准确性，降低开发成本。",
+        "url": "https://github.com/skypilot-org/skypilot",
+        "date": "Recent (Trending)",
+        "stars": 104
+      }
+    ]
   }
 ]
