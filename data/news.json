@@ -18322,5 +18322,123 @@
         "stars": 97
       }
     ]
+  },
+  {
+    "date": "2026-06-21",
+    "summary": "今日 AI 领域的主要进展包括飞书、AI 版支付宝（阿宝）和 AI 工厂等产品的发布，以及 L'Oréal 和 OpenAI 的战略合作。同时，GitHub 上出现了多个值得关注的项目，如 Self-Hosting-Guide 和 qlib。这些进展表明 AI 技术在各个行业的应用日益广泛，企业和机构正在积极探索和推动 AI 的发展。",
+    "news": [
+      {
+        "id": "4307da",
+        "title": "飞书",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "飞书新增客户中有九成同时采购飞书AI产品，企业对AI的关注点从'功能竞赛'进入'组织落地'",
+        "url": "https://m.36kr.com/p/3857331032396802",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "edf9c7",
+        "title": "AI版支付宝（阿宝）",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "AI版支付宝正式推出，命名为'阿宝'，用户可以以对话方式让'阿宝'办事，这是支付宝从'陈列式'向'对话式'的体验升级，也是支付宝史上变化最大的一次改版。",
+        "url": "https://www.36kr.com/p/3857296407247488",
+        "date": "2026-06-16"
+      },
+      {
+        "id": "d005bf",
+        "title": "AI工厂",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "九章云极发布“AI工厂”战略，定义智能规模化新基建，提出以DCU为度量衡、以专业Token为产出单元的智能规模化交付体系",
+        "url": "https://m.36kr.com/p/3857351134630920",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "2f5045",
+        "title": "XREAL project aura",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "XREAL project aura正式上线，基于AndroidXR的空间计算眼镜，不仅可以用手势与头部追踪，主要是真的可以实现vision Pro几乎一切的功能",
+        "url": "https://m.36kr.com/p/3857399547220998",
+        "date": "2026-06-18"
+      },
+      {
+        "id": "012d11",
+        "title": "L'Oréal and OpenAI Strategic Partnership",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "L'Oréal announces a strategic partnership with OpenAI to integrate AI into its growth strategy, focu",
+        "url": "https://www.luxurytribune.com/en/at-the-vivatech-in-paris-loreal-announces-a-strategic-partnership-with-openai",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "3ede0a",
+        "title": "mikeroyal/Self-Hosting-Guide",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n <img src=\"https://user-images.githubusercontent.com/45159366/152699296-73cb8002",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "date": "Recent (Trending)",
+        "stars": 1258
+      },
+      {
+        "id": "a3fce3",
+        "title": "p1ngul1n0/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Blackbird\n\n<figure><img src=\"./docs/.gitbook/assets/ai-demo.png\" alt=\"\"><figcaption></figcaption><",
+        "url": "https://github.com/p1ngul1n0/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 237
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![Python Versions](https://img.shields.io/pypi/pyversions/pyqlib.svg?logo=python&logoColor=white)](",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 533
+      },
+      {
+        "id": "798638",
+        "title": "yairm210/Unciv",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Unciv - Civ V remake for Android & Desktop\n\n![](/extraImages/GithubPreviewImage.jpg)\n\n[![Google Pl",
+        "url": "https://github.com/yairm210/Unciv",
+        "date": "Recent (Trending)",
+        "stars": 329
+      }
+    ]
   }
 ]
