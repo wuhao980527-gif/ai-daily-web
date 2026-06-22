@@ -18440,5 +18440,133 @@
         "stars": 329
       }
     ]
+  },
+  {
+    "date": "2026-06-22",
+    "summary": "今日 AI 领域的主要进展包括新产品和模型的发布，如 DeepSeek 识图模式、GLM-5.2 和 Qwen-Robot，以及开源项目如 Self-Hosting-Guide 和 Unciv 的更新，这些进展表明 AI 技术在图像识别、语言模型和自动化领域的持续发展。",
+    "news": [
+      {
+        "id": "9d89d1",
+        "title": "DeepSeek 识图模式",
+        "source": "Product",
+        "tags": [
+          "#图像识别",
+          "#深度学习",
+          "#多模态"
+        ],
+        "summary": "DeepSeek 的识图模式已在网页和 App 端正式上线，用户可以直接上传图片让 DeepSeek“看”世界，其能力边界远超简单的文字提取。这种技术可以应用于图像识别、物体检测等领域，具有广泛的应用场景。DeepSeek 的识图模式采用了先进的深度学习算法，能够准确地识别图像中的物体和场景。这种技术的发展对图像识别领域具有重要意义，能够推动相关技术的进步和应用。",
+        "url": "https://www.ithome.com/0/966/066.htm",
+        "date": "2026-06-18"
+      },
+      {
+        "id": "cd3a06",
+        "title": "GLM-5.2",
+        "source": "Product",
+        "tags": [
+          "#自然语言处理",
+          "#语言模型",
+          "#开源"
+        ],
+        "summary": "GLM-5.2 是智谱开源的最新版本，支持真正可用的 1M 上下文，并在长程任务中继续保持领先。这种技术可以应用于自然语言处理、文本生成等领域，具有广泛的应用场景。GLM-5.2 采用了先进的语言模型算法，能够准确地处理长文本和上下文。这种技术的发展对自然语言处理领域具有重要意义，能够推动相关技术的进步和应用。",
+        "url": "https://www.qbitai.com/2026/06/436085.html",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "0beac4",
+        "title": "GLM 5.2",
+        "source": "Product",
+        "tags": [
+          "#自然语言处理",
+          "#语言模型",
+          "#大模型"
+        ],
+        "summary": "GLM 5.2 是智谱的最新大语言模型，支持高达 100 万 token 的上下文窗口。这种技术可以应用于长代码任务和智能体工作流等领域，具有广泛的应用场景。GLM 5.2 采用了先进的语言模型算法，能够准确地处理长文本和上下文。这种技术的发展对自然语言处理领域具有重要意义，能够推动相关技术的进步和应用。",
+        "url": "https://m.sohu.com/a/1039790199_104421?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+        "date": "2026-06-22"
+      },
+      {
+        "id": "9c96fa",
+        "title": "Qwen-Robot",
+        "source": "Product",
+        "tags": [
+          "#服务机器人",
+          "#智能家居",
+          "#AI"
+        ],
+        "summary": "Alibaba 推出了 Qwen-Robot，其第一款智能机器人。这种技术可以应用于服务机器人、智能家居等领域，具有广泛的应用场景。Qwen-Robot 采用了先进的 AI 算法，能够准确地识别和处理用户的需求。这种技术的发展对服务机器人领域具有重要意义，能够推动相关技术的进步和应用。",
+        "url": "https://www.facebook.com/yicaiglobal/posts/alibaba-today-unveiled-qwen-robot-its-first-embodied-ai-model-series-featuring-a/1440580671446595",
+        "date": "2026-06-22"
+      },
+      {
+        "id": "3ede0a",
+        "title": "mikeroyal/Self-Hosting-Guide",
+        "source": "GitHub",
+        "tags": [
+          "#服务器管理",
+          "#云计算",
+          "#自托管"
+        ],
+        "summary": "mikeroyal 的 Self-Hosting-Guide 是一个 GitHub 项目，提供了自托管的指南。这种技术可以应用于服务器管理、云计算等领域，具有广泛的应用场景。Self-Hosting-Guide 采用了先进的文档和教程，能够帮助用户轻松地部署和管理自己的服务器。这种技术的发展对服务器管理领域具有重要意义，能够推动相关技术的进步和应用。",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "date": "Recent (Trending)",
+        "stars": 1141
+      },
+      {
+        "id": "798638",
+        "title": "yairm210/Unciv",
+        "source": "GitHub",
+        "tags": [
+          "#游戏开发",
+          "#模拟",
+          "#开源"
+        ],
+        "summary": "yairm210 的 Unciv 是一个 GitHub 项目，提供了一个 Civ V 的重制版。这种技术可以应用于游戏开发、模拟等领域，具有广泛的应用场景。Unciv 采用了先进的游戏引擎和算法，能够提供更好的游戏体验。这种技术的发展对游戏开发领域具有重要意义，能够推动相关技术的进步和应用。",
+        "url": "https://github.com/yairm210/Unciv",
+        "date": "Recent (Trending)",
+        "stars": 337
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#金融交易",
+          "#量化分析",
+          "#开源"
+        ],
+        "summary": "microsoft 的 qlib 是一个 GitHub 项目，提供了一个量化交易库。这种技术可以应用于金融交易、量化分析等领域，具有广泛的应用场景。qlib 采用了先进的算法和模型，能够提供更好的交易策略。这种技术的发展对金融交易领域具有重要意义，能够推动相关技术的进步和应用。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 520
+      },
+      {
+        "id": "57665f",
+        "title": "flwrlabs/flower",
+        "source": "GitHub",
+        "tags": [
+          "#机器学习",
+          "#联邦学习",
+          "#开源"
+        ],
+        "summary": "flwrlabs 的 Flower 是一个 GitHub 项目，提供了一个联邦学习框架。这种技术可以应用于机器学习、数据科学等领域，具有广泛的应用场景。Flower 采用了先进的算法和模型，能够提供更好的学习效果。这种技术的发展对机器学习领域具有重要意义，能够推动相关技术的进步和应用。",
+        "url": "https://github.com/flwrlabs/flower",
+        "date": "Recent (Trending)",
+        "stars": 43
+      },
+      {
+        "id": "a3fce3",
+        "title": "p1ngul1n0/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#机器学习",
+          "#AI",
+          "#开源"
+        ],
+        "summary": "p1ngul1n0 的 Blackbird 是一个 GitHub 项目，提供了一个 AI 框架。这种技术可以应用于机器学习、数据科学等领域，具有广泛的应用场景。Blackbird 采用了先进的算法和模型，能够提供更好的学习效果。这种技术的发展对机器学习领域具有重要意义，能够推动相关技术的进步和应用。",
+        "url": "https://github.com/p1ngul1n0/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 314
+      }
+    ]
   }
 ]
