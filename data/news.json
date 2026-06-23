@@ -18568,5 +18568,207 @@
         "stars": 314
       }
     ]
+  },
+  {
+    "date": "2026-06-23",
+    "summary": "今日 AI 领域的主要进展包括多款 AI 产品的发布和更新，如 Codex、飞书、Sakana Fugu 等，这些产品在智能助手、内容生成和行业应用等方面取得了进展，体现了 AI 技术在各个领域的深入应用和发展。",
+    "news": [
+      {
+        "id": "7870b2",
+        "title": "Codex \"复读机\"功能",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Codex \"复读机\"功能上线，你真的可以教 AI 干活了",
+        "url": "https://www.36kr.com/p/3863556465595649",
+        "date": "2026-06-22"
+      },
+      {
+        "id": "4307da",
+        "title": "飞书",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "飞书新增客户中有九成同时采购飞书AI产品，企业对AI的关注点从'功能竞赛'进入'组织落地'",
+        "url": "https://m.36kr.com/p/3857331032396802",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "9ffdfb",
+        "title": "Sakana Fugu",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Sakana AI发布了Sakana Fugu系列编排器模型，包括Fugu Ultra和Fugu两款模型，号称比肩Fable 5和Mythos Preview等顶尖模型",
+        "url": "https://www.36kr.com/p/3864299699000581",
+        "date": "2026-06-23"
+      },
+      {
+        "id": "03585b",
+        "title": "Codex",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "OpenAI的编程智能体Codex不再只认自家的GPT，而是面向所有开源模型开放了。",
+        "url": "https://36kr.com/p/3863532970120201",
+        "date": "2026-06-22"
+      },
+      {
+        "id": "f7a732",
+        "title": "光轮智能",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "光轮智能完成新一轮10亿元战略融资，估值已超过150亿元，公司的数据与评测基础设施已经形成，包括EgoSuite、RoboFinals和RoboStack等产品",
+        "url": "https://www.36kr.com/p/3865103838811136",
+        "date": "2026-06-23"
+      },
+      {
+        "id": "5c9a4e",
+        "title": "小微",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "微信Agent“小微”亮相：能力是明牌，边界才是真正的悬念",
+        "url": "https://m.36kr.com/p/3863750267124613",
+        "date": "2026-06-20"
+      },
+      {
+        "id": "d005bf",
+        "title": "AI工厂",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "九章云极发布“AI工厂”战略，提出以DCU为度量衡、以专业Token为产出单元的智能规模化交付体系",
+        "url": "https://m.36kr.com/p/3857351134630920",
+        "date": "2026-06-17"
+      },
+      {
+        "id": "b3fb8d",
+        "title": "Adobe AI assistant",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Adobe adds its AI assistant to Premiere, Illustrator, and InDesign",
+        "url": "https://techcrunch.com/2026/06/page/3",
+        "date": "2026-06-18"
+      },
+      {
+        "id": "7bfc83",
+        "title": "DNAChunker",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "DNAChunker, a learnable adaptive tokenization approach for DNA language models that dynamically segm",
+        "url": "https://www.hpcwire.com/aiwire/2026/06/22/inocras-and-kaist-introduce-dnachunker-a-learnable-tokenization-model-for-dna-language-models-during-icml",
+        "date": "2026-06-22"
+      },
+      {
+        "id": "56488a",
+        "title": "Micron-Anthropic AI Infrastructure",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Micron Technology announced a strategic partnership with Anthropic covering memory and storage infra",
+        "url": "https://slicast.com/companies/anthropic",
+        "date": "2026-06-23"
+      },
+      {
+        "id": "5fbb12",
+        "title": "ClimateWise Insurability Readiness Matrix",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "ClimateWise Insurability Readiness Matrix launch, London",
+        "url": "https://www.cisl.cam.ac.uk/events/climatewise-insurability-readiness-matrix-launch-london-23-june-2026",
+        "date": "2026-06-23"
+      },
+      {
+        "id": "3d2c66",
+        "title": "Check Point security products and services with OpenAI's cyber models",
+        "source": "Product",
+        "tags": [
+          "#AI",
+          "#Product"
+        ],
+        "summary": "Check Point expands its partnership with OpenAI to embed OpenAI's cyber models into customer-facing ",
+        "url": "https://itbrief.com.au/story/check-point-expands-openai-cyber-tie-up-for-security",
+        "date": "2026-06-23"
+      },
+      {
+        "id": "798638",
+        "title": "yairm210/Unciv",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Unciv - Civ V remake for Android & Desktop\n\n![](/extraImages/GithubPreviewImage.jpg)\n\n[![Google Pl",
+        "url": "https://github.com/yairm210/Unciv",
+        "date": "Recent (Trending)",
+        "stars": 336
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![Python Versions](https://img.shields.io/pypi/pyversions/pyqlib.svg?logo=python&logoColor=white)](",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 558
+      },
+      {
+        "id": "57665f",
+        "title": "flwrlabs/flower",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Flower: A Friendly Federated AI Framework\n\n<p align=\"center\">\n  <a href=\"https://flower.ai/\">\n    ",
+        "url": "https://github.com/flwrlabs/flower",
+        "date": "Recent (Trending)",
+        "stars": 45
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 534
+      }
+    ]
   }
 ]
