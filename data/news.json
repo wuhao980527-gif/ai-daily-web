@@ -18859,5 +18859,133 @@
         "stars": 46
       }
     ]
+  },
+  {
+    "date": "2026-06-25",
+    "summary": "今日 AI 领域的主要进展包括新产品发布和开源项目更新，例如 JoyAI-VL-Interaction、Kimi K2.7 Code 和豆包 Seed 2.1 Pro 等，这些产品和项目的发布推动了 AI 技术在各个领域的应用和发展。同时，GitHub 上的开源项目如 Unciv、blackbird 和 qlib 也在不断更新和完善，促进了 AI 研究和开发的进步。这些进展表明 AI 技术正在不断演进和扩展其应用范围。",
+    "news": [
+      {
+        "id": "8e5c2a",
+        "title": "JoyAI-VL-Interaction",
+        "source": "Product",
+        "tags": [
+          "#视觉语言交互",
+          "#人机交互",
+          "#开源"
+        ],
+        "summary": "京东开源的JoyAI-VL-Interaction是全球首个全栈开源视觉语言交互模型，能够在连续视频流中自主判断何时回应、何时保持沉默、何时把复杂任务交给后台模型。其技术亮点在于能够实时处理视觉和语言信息，实现更自然的人机交互。这种模型可以应用于智能客服、虚拟助手等场景，具有广泛的行业意义和影响。",
+        "url": "http://www.36kr.com/p/3866998705591301",
+        "date": "2026-06-24"
+      },
+      {
+        "id": "e84899",
+        "title": "Kimi K2.7 Code",
+        "source": "Product",
+        "tags": [
+          "#编程模型",
+          "#agent能力",
+          "#开源"
+        ],
+        "summary": "Kimi K2.7 Code是一款开源、聚焦编程且具备agent能力的模型，专为长程编程工作打造。其核心功能是能够自动完成编程任务，减轻开发者的负担。这种模型的技术亮点在于其能够理解和执行复杂的编程指令，实现高效的编程工作。Kimi K2.7 Code可以应用于软件开发、自动化测试等场景，具有重要的行业意义和影响。",
+        "url": "https://www.kimi.com/zh-cn/resources/kimi-k2-7-code",
+        "date": "2026-06-19"
+      },
+      {
+        "id": "a01067",
+        "title": "豆包 Seed 2.1 Pro 和 Turbo",
+        "source": "Product",
+        "tags": [
+          "#编程模型",
+          "#自动化",
+          "#高效开发"
+        ],
+        "summary": "豆包Seed 2.1 Pro和Turbo是字节跳动在火山引擎官网上线的新型模型，包括Pro和Turbo版本。Seed-Evolving模型也进行了迭代。这些模型的核心功能是能够高效地处理编程任务，实现快速的开发和部署。其技术亮点在于能够实时学习和适应新的编程环境，提高开发效率。这些模型可以应用于软件开发、自动化测试等场景，具有广泛的行业意义和影响。",
+        "url": "https://www.ithome.com/0/967/314.htm",
+        "date": "2026-06-23"
+      },
+      {
+        "id": "981a1b",
+        "title": "豆包2.1 Pro",
+        "source": "Product",
+        "tags": [
+          "#编程模型",
+          "#agent能力",
+          "#自动化"
+        ],
+        "summary": "豆包2.1 Pro模型发布，实现了Coding与Agent能力的质变点。这种模型的核心功能是能够自动完成编程任务，减轻开发者的负担。其技术亮点在于能够理解和执行复杂的编程指令，实现高效的编程工作。豆包2.1 Pro可以应用于软件开发、自动化测试等场景，具有重要的行业意义和影响。",
+        "url": "http://www.news.cn/tech/20260623/acd6f2f27fc34459a7d1684c03278431/c.html",
+        "date": "2026-06-23"
+      },
+      {
+        "id": "798638",
+        "title": "yairm210/Unciv",
+        "source": "GitHub",
+        "tags": [
+          "#游戏开发",
+          "#开源",
+          "#跨平台"
+        ],
+        "summary": "Unciv是GitHub上的一个开源项目，实现了Civ V的重制版本，支持Android和Desktop平台。其核心功能是能够提供一个类似Civ V的游戏体验，具有丰富的游戏内容和高效的游戏性能。Unciv的技术亮点在于其能够在多个平台上运行，实现跨平台的游戏体验。这种项目可以应用于游戏开发、教育等场景，具有广泛的行业意义和影响。",
+        "url": "https://github.com/yairm210/Unciv",
+        "date": "Recent (Trending)",
+        "stars": 297
+      },
+      {
+        "id": "a3fce3",
+        "title": "p1ngul1n0/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI模型",
+          "#开源",
+          "#高性能"
+        ],
+        "summary": "Blackbird是GitHub上的一个开源项目，实现了一个高效的AI模型，能够处理复杂的AI任务。其核心功能是能够提供一个高性能的AI计算环境，具有高效的计算能力和低延迟的响应时间。Blackbird的技术亮点在于其能够实时学习和适应新的AI任务，提高AI的准确性和效率。这种项目可以应用于AI开发、自动化等场景，具有重要的行业意义和影响。",
+        "url": "https://github.com/p1ngul1n0/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 275
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#量化交易",
+          "#开源",
+          "#高性能"
+        ],
+        "summary": "Qlib是GitHub上的一个开源项目，实现了一个高效的量化交易平台，能够处理复杂的交易任务。其核心功能是能够提供一个高性能的交易环境，具有高效的计算能力和低延迟的响应时间。Qlib的技术亮点在于其能够实时学习和适应新的交易策略，提高交易的准确性和效率。这种项目可以应用于量化交易、金融等场景，具有广泛的行业意义和影响。",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 496
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#工作流管理",
+          "#开源",
+          "#高性能"
+        ],
+        "summary": "N8n是GitHub上的一个开源项目，实现了一个高效的工作流管理平台，能够处理复杂的工作流任务。其核心功能是能够提供一个高性能的工作流环境，具有高效的计算能力和低延迟的响应时间。N8n的技术亮点在于其能够实时学习和适应新的工作流任务，提高工作流的准确性和效率。这种项目可以应用于工作流管理、自动化等场景，具有重要的行业意义和影响。",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1104
+      },
+      {
+        "id": "845e54",
+        "title": "activepieces/activepieces",
+        "source": "GitHub",
+        "tags": [
+          "#自动化",
+          "#开源",
+          "#高性能"
+        ],
+        "summary": "Activepieces是GitHub上的一个开源项目，实现了一个高效的自动化平台，能够处理复杂的自动化任务。其核心功能是能够提供一个高性能的自动化环境，具有高效的计算能力和低延迟的响应时间。Activepieces的技术亮点在于其能够实时学习和适应新的自动化任务，提高自动化的准确性和效率。这种项目可以应用于自动化、DevOps等场景，具有广泛的行业意义和影响。",
+        "url": "https://github.com/activepieces/activepieces",
+        "date": "Recent (Trending)",
+        "stars": 178
+      }
+    ]
   }
 ]
