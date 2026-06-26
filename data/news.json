@@ -18987,5 +18987,133 @@
         "stars": 178
       }
     ]
+  },
+  {
+    "date": "2026-06-26",
+    "summary": "今日 AI 领域的主要进展包括多个新产品和项目的发布，如 JoyAI-VL-Interaction、GPT-5.5 Instant 和豆包大模型2.1，这些产品和项目的发布表明了 AI 技术在自然语言处理和交互方面的持续发展。同时，GitHub 上的开源项目如 Unciv、n8n 和 nocodb 也在推动 AI 应用的多样化和社区参与。这些进展体现了 AI 领域的快速创新和技术进步。",
+    "news": [
+      {
+        "id": "8e5c2a",
+        "title": "JoyAI-VL-Interaction",
+        "source": "Product",
+        "tags": [
+          "#视觉语言交互",
+          "#开源",
+          "#人机交互"
+        ],
+        "summary": "全球首个全栈开源视觉语言交互模型JoyAI-VL-Interaction能够在连续视频流中自主判断何时回应、何时保持沉默、何时把复杂任务交给后台模型。其技术亮点在于能够实时处理视觉和语言信息，实现更自然的人机交互。这种模型可以应用于智能家居、智能客服等场景，具有广泛的行业意义和影响。其开源特性也促进了AI技术的发展和普及。JoyAI-VL-Interaction的出现标志着视觉语言交互技术的重大进步。",
+        "url": "http://www.36kr.com/p/3866998705591301",
+        "date": "2026-06-24"
+      },
+      {
+        "id": "834cc9",
+        "title": "GPT-5.5 Instant",
+        "source": "Product",
+        "tags": [
+          "#生成式AI",
+          "#自然语言处理",
+          "#实时交互"
+        ],
+        "summary": "Open AI正式推送新版GPT-5.5 Instant更新，这一版本将于6月26日全面开放给免费用户。GPT-5.5 Instant的核心功能是提供更快速和实时的文本生成能力，其技术亮点在于能够更好地理解和处理自然语言。这种模型可以应用于聊天机器人、内容生成等场景，具有广泛的行业意义和影响。GPT-5.5 Instant的更新标志着生成式AI技术的进一步发展和成熟。",
+        "url": "https://www.36kr.com/p/3867635704108297",
+        "date": "2026-06-26"
+      },
+      {
+        "id": "eb87e8",
+        "title": "Jalapeño",
+        "source": "Product",
+        "tags": [
+          "#AI芯片",
+          "#推理加速",
+          "#高性能计算"
+        ],
+        "summary": "OpenAI和Broadcom联合推出了首个自定义推理ASIC芯片Jalapeño，采用TSMC 3nm工艺制造。Jalapeño的核心功能是提供高性能和低延迟的AI计算能力，其技术亮点在于能够高效地处理大规模AI模型。这种芯片可以应用于数据中心、边缘计算等场景，具有广泛的行业意义和影响。Jalapeño的出现标志着AI硬件技术的重大进步和AI应用的进一步普及。",
+        "url": "https://vendordeep.com/report/openai-broadcom-tape-out-first",
+        "date": "2026-06-24"
+      },
+      {
+        "id": "2d6b2b",
+        "title": "豆包大模型2.1",
+        "source": "Product",
+        "tags": [
+          "#多模态",
+          "#AI能力",
+          "#智能助手"
+        ],
+        "summary": "豆包大模型2.1在通用Agent、编程能力以及多模态水平上有所提升，包括豆包大模型2.1 Pro和豆包大模型2.1 Turbo。其核心功能是提供更强大的AI能力，其技术亮点在于能够更好地处理多种任务和数据类型。这种模型可以应用于智能助手、自动驾驶等场景，具有广泛的行业意义和影响。豆包大模型2.1的更新标志着AI技术的进一步发展和成熟。",
+        "url": "https://m.36kr.com/p/3865600233395201",
+        "date": "2026-06-23"
+      },
+      {
+        "id": "798638",
+        "title": "yairm210/Unciv",
+        "source": "GitHub",
+        "tags": [
+          "#开源游戏",
+          "#Civilization",
+          "#跨平台"
+        ],
+        "summary": "Unciv是一个开源的Civilization V重制版，支持Android和桌面平台。其核心功能是提供一个类似Civilization V的游戏体验，其技术亮点在于能够在多种平台上运行。这种游戏可以应用于休闲娱乐等场景，具有广泛的用户群体。Unciv的开源特性也促进了游戏开发的创新和合作。",
+        "url": "https://github.com/yairm210/Unciv",
+        "date": "Recent (Trending)",
+        "stars": 100
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#工作流自动化",
+          "#开源",
+          "#DevOps"
+        ],
+        "summary": "n8n是一个开源的工作流自动化工具，支持多种节点和集成。其核心功能是提供一个灵活和可扩展的工作流管理平台，其技术亮点在于能够高效地处理复杂的工作流。这种工具可以应用于企业自动化、DevOps等场景，具有广泛的行业意义和影响。n8n的开源特性也促进了工作流自动化的创新和普及。",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1141
+      },
+      {
+        "id": "c4fbc3",
+        "title": "nocodb/nocodb",
+        "source": "GitHub",
+        "tags": [
+          "#无代码",
+          "#数据库管理",
+          "#数据分析"
+        ],
+        "summary": "NocoDB是一个开源的无代码数据库平台，支持多种数据源和集成。其核心功能是提供一个简单和直观的数据库管理体验，其技术亮点在于能够高效地处理数据建模和数据分析。这种平台可以应用于数据分析、业务智能等场景，具有广泛的行业意义和影响。NocoDB的开源特性也促进了数据管理的创新和普及。",
+        "url": "https://github.com/nocodb/nocodb",
+        "date": "Recent (Trending)",
+        "stars": 151
+      },
+      {
+        "id": "9b4313",
+        "title": "fastfetch-cli/fastfetch",
+        "source": "GitHub",
+        "tags": [
+          "#系统信息收集",
+          "#开源",
+          "#监控"
+        ],
+        "summary": "Fastfetch是一个开源的系统信息收集工具，支持多种操作系统和硬件平台。其核心功能是提供一个快速和准确的系统信息收集能力，其技术亮点在于能够高效地处理系统信息的收集和分析。这种工具可以应用于系统监控、故障诊断等场景，具有广泛的行业意义和影响。Fastfetch的开源特性也促进了系统信息收集的创新和普及。",
+        "url": "https://github.com/fastfetch-cli/fastfetch",
+        "date": "Recent (Trending)",
+        "stars": 146
+      },
+      {
+        "id": "845e54",
+        "title": "activepieces/activepieces",
+        "source": "GitHub",
+        "tags": [
+          "#自动化平台",
+          "#开源",
+          "#DevOps"
+        ],
+        "summary": "Activepieces是一个开源的自动化平台，支持多种应用和集成。其核心功能是提供一个灵活和可扩展的自动化管理平台，其技术亮点在于能够高效地处理复杂的自动化任务。这种平台可以应用于企业自动化、DevOps等场景，具有广泛的行业意义和影响。Activepieces的开源特性也促进了自动化的创新和普及。",
+        "url": "https://github.com/activepieces/activepieces",
+        "date": "Recent (Trending)",
+        "stars": 187
+      }
+    ]
   }
 ]
