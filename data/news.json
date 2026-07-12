@@ -20581,5 +20581,120 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "date": "2026-07-12",
+    "summary": "今日 AI 领域的主要进展包括新产品和模型的发布，如 Muse Spark 1.1 和 Kimi 联名 AI 信用卡，以及 GitHub 上的开源项目如 daisyui 和 whisper.cpp，这些进展表明 AI 在各个行业的应用和技术的不断发展。",
+    "news": [
+      {
+        "id": "272b87",
+        "title": "Muse Spark 1.1",
+        "source": "Product",
+        "tags": [
+          "#多模态",
+          "#智能体编程",
+          "#AI模型"
+        ],
+        "summary": "Meta正式发布了新版Muse Spark 1.1，这是一款面向智能体编程的多模态AI模型。其核心功能是实现多模态交互，能够处理文本、图像等多种类型的输入。技术亮点在于其能够与OpenAI和Anthropic等公司的同类产品展开竞争，具有更强的智能体编程能力。应用场景包括智能助手、自动驾驶等领域。行业意义在于推动智能体编程的发展，提高AI模型的智能化水平。",
+        "url": "https://www.36kr.com/p/3889553810504194",
+        "date": "2026-07-09"
+      },
+      {
+        "id": "ddce79",
+        "title": "Kimi联名AI信用卡",
+        "source": "Product",
+        "tags": [
+          "#AI信用卡",
+          "#金融科技",
+          "#个性化消费"
+        ],
+        "summary": "Kimi今日上线联名AI信用卡，合作方为农行、美国运通。该产品直接将Kimi入门版和高级版等级会员权益嵌入信用卡核心权益体系，持卡人可通过消费积分兑换Age。其核心功能是将AI技术应用于信用卡服务，提供更个性化的消费体验。技术亮点在于其能够将AI技术与信用卡服务结合，创造新的消费模式。应用场景包括日常消费、金融服务等领域。行业意义在于推动AI技术在金融领域的应用，提高消费者体验。",
+        "url": "https://m.21jingji.com/article/20260710/herald/b378a98708940e9b5ff48aa4046dd468_zaker.html",
+        "date": "2026-07-10"
+      },
+      {
+        "id": "62061a",
+        "title": "saadeghi/daisyui",
+        "source": "GitHub",
+        "tags": [
+          "#开源",
+          "#UI组件",
+          "#Web开发"
+        ],
+        "summary": "saadeghi/daisyui是一个开源的组件库，提供了多种UI组件和工具。其核心功能是帮助开发者快速构建Web应用程序，提高开发效率。技术亮点在于其提供了丰富的UI组件和工具，能够满足不同开发需求。应用场景包括Web开发、移动应用开发等领域。行业意义在于推动开源技术的发展，提高开发者效率。",
+        "url": "https://github.com/saadeghi/daisyui",
+        "date": "Recent (Trending)",
+        "stars": 344
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#头部识别",
+          "#人机交互",
+          "#开源"
+        ],
+        "summary": "juanfont/headscale是一个开源的项目，提供了一个简单易用的头部识别系统。其核心功能是识别和跟踪头部运动，能够应用于多种场景。技术亮点在于其能够提供高精度的头部识别和跟踪，具有广泛的应用潜力。应用场景包括人机交互、虚拟现实等领域。行业意义在于推动头部识别技术的发展，提高人机交互体验。",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 590
+      },
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#网络安全",
+          "#WireGuard",
+          "#开源"
+        ],
+        "summary": "tailscale/tailscale是一个开源的项目，提供了一个私有的WireGuard网络解决方案。其核心功能是创建和管理私有的WireGuard网络，能够应用于多种场景。技术亮点在于其能够提供高安全性和易用性的网络解决方案，具有广泛的应用潜力。应用场景包括企业网络、个人网络等领域。行业意义在于推动网络安全技术的发展，提高网络安全性。",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 714
+      },
+      {
+        "id": "431295",
+        "title": "ggml-org/whisper.cpp",
+        "source": "GitHub",
+        "tags": [
+          "#语音识别",
+          "#开源",
+          "#高性能"
+        ],
+        "summary": "ggml-org/whisper.cpp是一个开源的项目，提供了一个高性能的语音识别系统。其核心功能是识别和转录语音，能够应用于多种场景。技术亮点在于其能够提供高精度和高性能的语音识别，具有广泛的应用潜力。应用场景包括语音助手、语音转文字等领域。行业意义在于推动语音识别技术的发展，提高语音交互体验。",
+        "url": "https://github.com/ggml-org/whisper.cpp",
+        "date": "Recent (Trending)",
+        "stars": 453
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#数据库",
+          "#开源",
+          "#PostgreSQL"
+        ],
+        "summary": "supabase/supabase是一个开源的项目，提供了一个PostgreSQL兼容的数据库解决方案。其核心功能是提供一个高性能和高可用的数据库服务，能够应用于多种场景。技术亮点在于其能够提供高安全性和高可用的数据库服务，具有广泛的应用潜力。应用场景包括Web开发、移动应用开发等领域。行业意义在于推动数据库技术的发展，提高数据存储和管理效率。",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 582
+      },
+      {
+        "id": "537ddb",
+        "title": "[Qwen] Paper page - From Trainee to Trainer: LLM-Designed Training Environment for RL with Multi-Agent Reasoning",
+        "source": "Papers",
+        "tags": [
+          "#LLM",
+          "#多智能体推理",
+          "#Qwen"
+        ],
+        "summary": "Qwen机构提出了一篇关于从训练者到训练环境的LLM设计的论文，主要研究了LLM在多智能体推理中的应用。其核心功能是设计一个LLM训练环境，能够应用于多智能体推理场景。技术亮点在于其能够提供一个高效和高性能的LLM训练环境，具有广泛的应用潜力。应用场景包括智能体编程、自动驾驶等领域。行业意义在于推动LLM技术的发展，提高智能体编程效率。",
+        "url": "https://huggingface.co/papers/2606.17682",
+        "date": "2026-06"
+      }
+    ]
   }
 ]
