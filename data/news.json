@@ -20992,5 +20992,88 @@
         "stars": 129
       }
     ]
+  },
+  {
+    "date": "2026-07-17",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Tailscale\n\nhttps://tailscale.com\n\nPrivate WireGuard® networks made easy\n\n## Overview\n\nThis reposit",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 764
+      },
+      {
+        "id": "431295",
+        "title": "ggml-org/whisper.cpp",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# whisper.cpp\n\n![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-d",
+        "url": "https://github.com/ggml-org/whisper.cpp",
+        "date": "Recent (Trending)",
+        "stars": 345
+      },
+      {
+        "id": "639075",
+        "title": "juanfont/headscale",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![headscale logo](./docs/assets/logo/headscale3_header_stacked_left.png)\n\n![ci](https://github.com/j",
+        "url": "https://github.com/juanfont/headscale",
+        "date": "Recent (Trending)",
+        "stars": 527
+      },
+      {
+        "id": "e250fa",
+        "title": "projectdiscovery/nuclei",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![nuclei](/static/nuclei-cover-image.png)\n\n<div align=\"center\">\n  \n  <a href=\"https://github.com/pro",
+        "url": "https://github.com/projectdiscovery/nuclei",
+        "date": "Recent (Trending)",
+        "stars": 311
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 712
+      },
+      {
+        "id": "537ddb",
+        "title": "[Qwen] Paper page - From Trainee to Trainer: LLM-Designed Training Environment for RL with Multi-Agent Reasoning",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Reinforcement learning pipelines for Large Language Model (LLM) training often rely on manually rede",
+        "url": "https://huggingface.co/papers/2606.17682",
+        "date": "2026-06"
+      }
+    ]
   }
 ]
