@@ -21288,5 +21288,76 @@
         "stars": 260
       }
     ]
+  },
+  {
+    "date": "2026-07-21",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 1715
+      },
+      {
+        "id": "02f976",
+        "title": "upscayl/upscayl",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n  # v2.15 is out! 🥳 [Download Now ⬇️](https://github.com/upscayl/upscayl/relea",
+        "url": "https://github.com/upscayl/upscayl",
+        "date": "Recent (Trending)",
+        "stars": 347
+      },
+      {
+        "id": "c5610c",
+        "title": "SigNoz/signoz",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/readme-",
+        "url": "https://github.com/SigNoz/signoz",
+        "date": "Recent (Trending)",
+        "stars": 2051
+      },
+      {
+        "id": "c4fbc3",
+        "title": "nocodb/nocodb",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\" style=\"border-bottom: none\">\n    <div>\n        <a style=\"color:#36f\" href=\"https:",
+        "url": "https://github.com/nocodb/nocodb",
+        "date": "Recent (Trending)",
+        "stars": 261
+      },
+      {
+        "id": "ff3bee",
+        "title": "lima-vm/lima",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[[🌎**Web site**]](https://lima-vm.io/)\n[[📖**Documentation**]](https://lima-vm.io/docs/)\n[[👤**Slack (",
+        "url": "https://github.com/lima-vm/lima",
+        "date": "Recent (Trending)",
+        "stars": 100
+      }
+    ]
   }
 ]
