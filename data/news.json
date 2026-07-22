@@ -21359,5 +21359,76 @@
         "stars": 100
       }
     ]
+  },
+  {
+    "date": "2026-07-22",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 1751
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1066
+      },
+      {
+        "id": "ff3bee",
+        "title": "lima-vm/lima",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[[🌎**Web site**]](https://lima-vm.io/)\n[[📖**Documentation**]](https://lima-vm.io/docs/)\n[[👤**Slack (",
+        "url": "https://github.com/lima-vm/lima",
+        "date": "Recent (Trending)",
+        "stars": 92
+      },
+      {
+        "id": "02f976",
+        "title": "upscayl/upscayl",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n  # v2.15 is out! 🥳 [Download Now ⬇️](https://github.com/upscayl/upscayl/relea",
+        "url": "https://github.com/upscayl/upscayl",
+        "date": "Recent (Trending)",
+        "stars": 314
+      },
+      {
+        "id": "387e6e",
+        "title": "vlang/v",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\" style=\"display:grid;place-items:center;\">\n<p>\n    <a href=\"https://vlang.io/\" ta",
+        "url": "https://github.com/vlang/v",
+        "date": "Recent (Trending)",
+        "stars": 50
+      }
+    ]
   }
 ]
