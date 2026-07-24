@@ -21501,5 +21501,76 @@
         "stars": 89
       }
     ]
+  },
+  {
+    "date": "2026-07-24",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 1625
+      },
+      {
+        "id": "c5610c",
+        "title": "SigNoz/signoz",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/readme-",
+        "url": "https://github.com/SigNoz/signoz",
+        "date": "Recent (Trending)",
+        "stars": 1684
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1116
+      },
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <img width=\"600\" src=\"assets/branding/spotube_banner.png\" alt=\"Spotube Logo\">",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 235
+      },
+      {
+        "id": "387e6e",
+        "title": "vlang/v",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\" style=\"display:grid;place-items:center;\">\n<p>\n    <a href=\"https://vlang.io/\" ta",
+        "url": "https://github.com/vlang/v",
+        "date": "Recent (Trending)",
+        "stars": 55
+      }
+    ]
   }
 ]
