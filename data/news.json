@@ -21785,5 +21785,76 @@
         "stars": 148
       }
     ]
+  },
+  {
+    "date": "2026-07-28",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "9fbc56",
+        "title": "KRTirtho/spotube",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <img width=\"600\" src=\"assets/branding/spotube_banner.png\" alt=\"Spotube Logo\">",
+        "url": "https://github.com/KRTirtho/spotube",
+        "date": "Recent (Trending)",
+        "stars": 271
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1230
+      },
+      {
+        "id": "cb2bc4",
+        "title": "chidiwilliams/buzz",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[[简体中文](readme/README.zh_CN.md)] <- 点击查看中文页面。\n\n# Buzz\n\n[Documentation](https://chidiwilliams.github.",
+        "url": "https://github.com/chidiwilliams/buzz",
+        "date": "Recent (Trending)",
+        "stars": 218
+      },
+      {
+        "id": "bd0d6a",
+        "title": "pyg-team/pytorch_geometric",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img height=\"150\" src=\"https://raw.githubusercontent.com/pyg-team/pyg_sphinx_th",
+        "url": "https://github.com/pyg-team/pytorch_geometric",
+        "date": "Recent (Trending)",
+        "stars": 51
+      },
+      {
+        "id": "a4421a",
+        "title": "windmill-labs/windmill",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://www.windmill.dev/\"><img src=\"./imgs/windmill-banner.png\" alt=\"",
+        "url": "https://github.com/windmill-labs/windmill",
+        "date": "Recent (Trending)",
+        "stars": 140
+      }
+    ]
   }
 ]
