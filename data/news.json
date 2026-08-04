@@ -22282,5 +22282,76 @@
         "stars": 39
       }
     ]
+  },
+  {
+    "date": "2026-08-04",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "90f64c",
+        "title": "microsoft/onnxruntime",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>\n\n**ONNX Runti",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "date": "Recent (Trending)",
+        "stars": 66
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Whisper\n\n[[Blog]](https://openai.com/blog/whisper)\n[[Paper]](https://arxiv.org/abs/2212.04356)\n[[M",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 821
+      },
+      {
+        "id": "ef55ac",
+        "title": "SimplifyJobs/Summer2027-Internships",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Summer 2027 Tech Internships by Pitt CSC & Simplify\n\n  Use this repo to share and keep track of **",
+        "url": "https://github.com/SimplifyJobs/Summer2027-Internships",
+        "date": "Recent (Trending)",
+        "stars": 285
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1137
+      },
+      {
+        "id": "b1a3c4",
+        "title": "microsoft/microsoft-ui-xaml",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![WinUI hero image](docs/external/images/header.png)\n\n<h1 align=\"center\">\n    WinUI\n</h1>\n<p align=\"",
+        "url": "https://github.com/microsoft/microsoft-ui-xaml",
+        "date": "Recent (Trending)",
+        "stars": 40
+      }
+    ]
   }
 ]
