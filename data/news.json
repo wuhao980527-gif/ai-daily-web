@@ -23469,5 +23469,76 @@
         "stars": 182
       }
     ]
+  },
+  {
+    "date": "2026-08-22",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "a3fce3",
+        "title": "p1ngul1n0/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Blackbird\n\n<figure><img src=\"./docs/.gitbook/assets/ai-demo.png\" alt=\"\"><figcaption></figcaption><",
+        "url": "https://github.com/p1ngul1n0/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 261
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![Python Versions](https://img.shields.io/pypi/pyversions/pyqlib.svg?logo=python&logoColor=white)](",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 438
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 153
+      },
+      {
+        "id": "3d49c8",
+        "title": "public-api-lists/public-api-lists",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Public API Lists\n\n[![Validate PR](https://github.com/public-api-lists/public-api-lists/actions/wor",
+        "url": "https://github.com/public-api-lists/public-api-lists",
+        "date": "Recent (Trending)",
+        "stars": 177
+      },
+      {
+        "id": "3ede0a",
+        "title": "mikeroyal/Self-Hosting-Guide",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n <img src=\"https://user-images.githubusercontent.com/45159366/152699296-73cb8002",
+        "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "date": "Recent (Trending)",
+        "stars": 283
+      }
+    ]
   }
 ]
