@@ -23540,5 +23540,76 @@
         "stars": 283
       }
     ]
+  },
+  {
+    "date": "2026-08-23",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "a3fce3",
+        "title": "p1ngul1n0/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Blackbird\n\n<figure><img src=\"./docs/.gitbook/assets/ai-demo.png\" alt=\"\"><figcaption></figcaption><",
+        "url": "https://github.com/p1ngul1n0/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 220
+      },
+      {
+        "id": "34fc9d",
+        "title": "microsoft/qlib",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![Python Versions](https://img.shields.io/pypi/pyversions/pyqlib.svg?logo=python&logoColor=white)](",
+        "url": "https://github.com/microsoft/qlib",
+        "date": "Recent (Trending)",
+        "stars": 433
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 155
+      },
+      {
+        "id": "3d49c8",
+        "title": "public-api-lists/public-api-lists",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Public API Lists\n\n[![Validate PR](https://github.com/public-api-lists/public-api-lists/actions/wor",
+        "url": "https://github.com/public-api-lists/public-api-lists",
+        "date": "Recent (Trending)",
+        "stars": 179
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 829
+      }
+    ]
   }
 ]
