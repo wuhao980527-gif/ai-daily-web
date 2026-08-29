@@ -23966,5 +23966,76 @@
         "stars": 178
       }
     ]
+  },
+  {
+    "date": "2026-08-29",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 1270
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1351
+      },
+      {
+        "id": "5fc099",
+        "title": "NVIDIA/Megatron-LM",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\nMegatron-LM and Megatron Core",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "date": "Recent (Trending)",
+        "stars": 152
+      },
+      {
+        "id": "e98709",
+        "title": "openai/openai-cookbook",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<a href=\"https://cookbook.openai.com\" target=\"_blank\">\n  <picture>\n    <source media=\"(prefers-color",
+        "url": "https://github.com/openai/openai-cookbook",
+        "date": "Recent (Trending)",
+        "stars": 175
+      },
+      {
+        "id": "c4fbc3",
+        "title": "nocodb/nocodb",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\" style=\"border-bottom: none\">\n    <div>\n        <a style=\"color:#36f\" href=\"https:",
+        "url": "https://github.com/nocodb/nocodb",
+        "date": "Recent (Trending)",
+        "stars": 171
+      }
+    ]
   }
 ]
