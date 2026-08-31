@@ -24108,5 +24108,76 @@
         "stars": 87
       }
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 760
+      },
+      {
+        "id": "b1a3c4",
+        "title": "microsoft/microsoft-ui-xaml",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![WinUI hero image](docs/external/images/header.png)\n\n<h1 align=\"center\">\n    WinUI\n</h1>\n<p align=\"",
+        "url": "https://github.com/microsoft/microsoft-ui-xaml",
+        "date": "Recent (Trending)",
+        "stars": 217
+      },
+      {
+        "id": "5fc099",
+        "title": "NVIDIA/Megatron-LM",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\nMegatron-LM and Megatron Core",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "date": "Recent (Trending)",
+        "stars": 155
+      },
+      {
+        "id": "867e8e",
+        "title": "invoke-ai/InvokeAI",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n![project hero](https://github.com/invoke-ai/InvokeAI/assets/31807370/6e3728c7",
+        "url": "https://github.com/invoke-ai/InvokeAI",
+        "date": "Recent (Trending)",
+        "stars": 128
+      },
+      {
+        "id": "591370",
+        "title": "containerd/containerd",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/conta",
+        "url": "https://github.com/containerd/containerd",
+        "date": "Recent (Trending)",
+        "stars": 78
+      }
+    ]
   }
 ]
