@@ -24463,5 +24463,76 @@
         "stars": 112
       }
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\"><img src=\"https://assets.khoj.dev/khoj-logo-sideways-1200x540.png\" width=\"230\" alt",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 340
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1267
+      },
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Tailscale\n\nhttps://tailscale.com\n\nPrivate WireGuard® networks made easy\n\n## Overview\n\nThis reposit",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 442
+      },
+      {
+        "id": "b1a3c4",
+        "title": "microsoft/microsoft-ui-xaml",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![WinUI hero image](docs/external/images/header.png)\n\n<h1 align=\"center\">\n    WinUI\n</h1>\n<p align=\"",
+        "url": "https://github.com/microsoft/microsoft-ui-xaml",
+        "date": "Recent (Trending)",
+        "stars": 405
+      },
+      {
+        "id": "b02b22",
+        "title": "deepspeedai/DeepSpeed",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspee",
+        "url": "https://github.com/deepspeedai/DeepSpeed",
+        "date": "Recent (Trending)",
+        "stars": 57
+      }
+    ]
   }
 ]
