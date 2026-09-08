@@ -24676,5 +24676,75 @@
         "stars": 390
       }
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "summary": "今日AI领域呈现多维度进展，涵盖4项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1330
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\"><img src=\"https://assets.khoj.dev/khoj-logo-sideways-1200x540.png\" width=\"230\" alt",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 375
+      },
+      {
+        "id": "b1a3c4",
+        "title": "microsoft/microsoft-ui-xaml",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![WinUI hero image](docs/external/images/header.png)\n\n<h1 align=\"center\">\n    WinUI\n</h1>\n<p align=\"",
+        "url": "https://github.com/microsoft/microsoft-ui-xaml",
+        "date": "Recent (Trending)",
+        "stars": 141
+      },
+      {
+        "id": "25607f",
+        "title": "siyuan-note/siyuan",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img alt=\"SiYuan\" src=\"https://b3log.org/images/brand/siyuan-128.png\">\n<br>\n<em>F",
+        "url": "https://github.com/siyuan-note/siyuan",
+        "date": "Recent (Trending)",
+        "stars": 176
+      },
+      {
+        "id": "c86184",
+        "title": "[Microsoft] StudentSim: Training LLM-based Student Simulators",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "AI tutors are most useful when they adaptively respond to each student's strengths, weaknesses, and ",
+        "url": "https://huggingface.co/papers/2609.01591",
+        "date": "2026-09"
+      }
+    ]
   }
 ]
