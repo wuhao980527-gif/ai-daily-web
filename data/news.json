@@ -24746,5 +24746,74 @@
         "date": "2026-09"
       }
     ]
+  },
+  {
+    "date": "2026-09-09",
+    "summary": "今日AI领域呈现多维度进展，涵盖3项GitHub动态, 2项Papers动态。",
+    "news": [
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1365
+      },
+      {
+        "id": "e25bfa",
+        "title": "khoj-ai/khoj",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\"><img src=\"https://assets.khoj.dev/khoj-logo-sideways-1200x540.png\" width=\"230\" alt",
+        "url": "https://github.com/khoj-ai/khoj",
+        "date": "Recent (Trending)",
+        "stars": 355
+      },
+      {
+        "id": "25607f",
+        "title": "siyuan-note/siyuan",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img alt=\"SiYuan\" src=\"https://b3log.org/images/brand/siyuan-128.png\">\n<br>\n<em>F",
+        "url": "https://github.com/siyuan-note/siyuan",
+        "date": "Recent (Trending)",
+        "stars": 161
+      },
+      {
+        "id": "b508a6",
+        "title": "[ByteDance] Paper page - S3Gym: Can LLMs Turn Self-Testing and ...",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language models (LLMs) increasingly interact with external environments and accumulate substan",
+        "url": "https://huggingface.co/papers/2608.31100",
+        "date": "2026-08"
+      },
+      {
+        "id": "9d0635",
+        "title": "[Qwen] NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Hugging Face's logo\n\n# Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent ",
+        "url": "https://huggingface.co/papers/2609.04098",
+        "date": "2026-09"
+      }
+    ]
   }
 ]
