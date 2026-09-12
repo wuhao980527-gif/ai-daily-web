@@ -24944,5 +24944,63 @@
         "stars": 63
       }
     ]
+  },
+  {
+    "date": "2026-09-12",
+    "summary": "今日AI领域呈现多维度进展，涵盖4项GitHub动态。",
+    "news": [
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 772
+      },
+      {
+        "id": "387e6e",
+        "title": "vlang/v",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\" style=\"display:grid;place-items:center;\">\n<p>\n    <a href=\"https://vlang.io/\" ta",
+        "url": "https://github.com/vlang/v",
+        "date": "Recent (Trending)",
+        "stars": 46
+      },
+      {
+        "id": "ccc628",
+        "title": "lencx/ChatGPT",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img width=\"180\" src=\"./public/logo.png\" alt=\"ChatGPT\">\n  <h1 align=\"center\">Ch",
+        "url": "https://github.com/lencx/ChatGPT",
+        "date": "Recent (Trending)",
+        "stars": 66
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Whisper\n\n[[Blog]](https://openai.com/blog/whisper)\n[[Paper]](https://arxiv.org/abs/2212.04356)\n[[M",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 528
+      }
+    ]
   }
 ]
