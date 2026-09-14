@@ -25073,5 +25073,76 @@
         "stars": 71
       }
     ]
+  },
+  {
+    "date": "2026-09-14",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "09519d",
+        "title": "armory3d/armorpaint",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "暂无详细介绍",
+        "url": "https://github.com/armory3d/armorpaint",
+        "date": "Recent (Trending)",
+        "stars": 935
+      },
+      {
+        "id": "387e6e",
+        "title": "vlang/v",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\" style=\"display:grid;place-items:center;\">\n<p>\n    <a href=\"https://vlang.io/\" ta",
+        "url": "https://github.com/vlang/v",
+        "date": "Recent (Trending)",
+        "stars": 51
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 843
+      },
+      {
+        "id": "9534e4",
+        "title": "amir20/dozzle",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img src=\"assets/logo.svg\" alt=\"Dozzle Logo\" width=\"200\"/>\n</p>\n\n# Dozzle - [do",
+        "url": "https://github.com/amir20/dozzle",
+        "date": "Recent (Trending)",
+        "stars": 92
+      },
+      {
+        "id": "5838da",
+        "title": "jomjol/AI-on-the-edge-device",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">AI on the Edge Device: Digitizing Your non-digital meters with an ESP32-CAM</h1>\n",
+        "url": "https://github.com/jomjol/AI-on-the-edge-device",
+        "date": "Recent (Trending)",
+        "stars": 64
+      }
+    ]
   }
 ]
