@@ -25144,5 +25144,76 @@
         "stars": 64
       }
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "09519d",
+        "title": "armory3d/armorpaint",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "暂无详细介绍",
+        "url": "https://github.com/armory3d/armorpaint",
+        "date": "Recent (Trending)",
+        "stars": 975
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 975
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 860
+      },
+      {
+        "id": "70afec",
+        "title": "NangoHQ/nango",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n<img src=\"/assets/nango-logo.png?raw=true\" width=\"350\">\n\n# Build product integ",
+        "url": "https://github.com/NangoHQ/nango",
+        "date": "Recent (Trending)",
+        "stars": 286
+      },
+      {
+        "id": "387e6e",
+        "title": "vlang/v",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\" style=\"display:grid;place-items:center;\">\n<p>\n    <a href=\"https://vlang.io/\" ta",
+        "url": "https://github.com/vlang/v",
+        "date": "Recent (Trending)",
+        "stars": 53
+      }
+    ]
   }
 ]
