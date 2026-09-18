@@ -25357,5 +25357,76 @@
         "stars": 111
       }
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 1287
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 1016
+      },
+      {
+        "id": "09519d",
+        "title": "armory3d/armorpaint",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "暂无详细介绍",
+        "url": "https://github.com/armory3d/armorpaint",
+        "date": "Recent (Trending)",
+        "stars": 856
+      },
+      {
+        "id": "4206d1",
+        "title": "antoniaci/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Blackbird\n\n<figure><img src=\"./docs/.gitbook/assets/ai-demo.png\" alt=\"\"><figcaption></figcaption><",
+        "url": "https://github.com/antoniaci/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 319
+      },
+      {
+        "id": "5838da",
+        "title": "jomjol/AI-on-the-edge-device",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">AI on the Edge Device: Digitizing Your non-digital meters with an ESP32-CAM</h1>\n",
+        "url": "https://github.com/jomjol/AI-on-the-edge-device",
+        "date": "Recent (Trending)",
+        "stars": 116
+      }
+    ]
   }
 ]
