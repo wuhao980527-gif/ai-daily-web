@@ -25653,5 +25653,76 @@
         "date": "2026-09"
       }
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 1518
+      },
+      {
+        "id": "70afec",
+        "title": "NangoHQ/nango",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n<img src=\"/assets/nango-logo.png?raw=true\" width=\"350\">\n\n# Build product integ",
+        "url": "https://github.com/NangoHQ/nango",
+        "date": "Recent (Trending)",
+        "stars": 287
+      },
+      {
+        "id": "feb34f",
+        "title": "n8n-io/n8n",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09",
+        "url": "https://github.com/n8n-io/n8n",
+        "date": "Recent (Trending)",
+        "stars": 1605
+      },
+      {
+        "id": "f26965",
+        "title": "PaperMC/Paper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "Paper [![Version](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fartifactory.pape",
+        "url": "https://github.com/PaperMC/Paper",
+        "date": "Recent (Trending)",
+        "stars": 45
+      },
+      {
+        "id": "4206d1",
+        "title": "antoniaci/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Blackbird\n\n<figure><img src=\"./docs/.gitbook/assets/ai-demo.png\" alt=\"\"><figcaption></figcaption><",
+        "url": "https://github.com/antoniaci/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 412
+      }
+    ]
   }
 ]
