@@ -25949,5 +25949,76 @@
         "stars": 79
       }
     ]
+  },
+  {
+    "date": "2026-09-26",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 771
+      },
+      {
+        "id": "02f976",
+        "title": "upscayl/upscayl",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n  # v2.15 is out! 🥳 [Download Now ⬇️](https://github.com/upscayl/upscayl/relea",
+        "url": "https://github.com/upscayl/upscayl",
+        "date": "Recent (Trending)",
+        "stars": 593
+      },
+      {
+        "id": "e09ccb",
+        "title": "docker/compose",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Table of Contents\n- [Docker Compose](#docker-compose)\n- [Where to get Docker Compose](#where-to-ge",
+        "url": "https://github.com/docker/compose",
+        "date": "Recent (Trending)",
+        "stars": 79
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 116
+      },
+      {
+        "id": "56312a",
+        "title": "huggingface/diffusers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2022 - The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License",
+        "url": "https://github.com/huggingface/diffusers",
+        "date": "Recent (Trending)",
+        "stars": 72
+      }
+    ]
   }
 ]
