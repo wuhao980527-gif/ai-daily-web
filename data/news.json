@@ -26020,5 +26020,88 @@
         "stars": 72
       }
     ]
+  },
+  {
+    "date": "2026-09-27",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "02f976",
+        "title": "upscayl/upscayl",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n  # v2.15 is out! 🥳 [Download Now ⬇️](https://github.com/upscayl/upscayl/relea",
+        "url": "https://github.com/upscayl/upscayl",
+        "date": "Recent (Trending)",
+        "stars": 594
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 547
+      },
+      {
+        "id": "7a194a",
+        "title": "ophub/amlogic-s9xxx-armbian",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n    <img alt=\"Armbian\" src=\"https://github.com/user-attachments/assets/74e55052",
+        "url": "https://github.com/ophub/amlogic-s9xxx-armbian",
+        "date": "Recent (Trending)",
+        "stars": 244
+      },
+      {
+        "id": "e09ccb",
+        "title": "docker/compose",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Table of Contents\n- [Docker Compose](#docker-compose)\n- [Where to get Docker Compose](#where-to-ge",
+        "url": "https://github.com/docker/compose",
+        "date": "Recent (Trending)",
+        "stars": 78
+      },
+      {
+        "id": "56312a",
+        "title": "huggingface/diffusers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2022 - The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License",
+        "url": "https://github.com/huggingface/diffusers",
+        "date": "Recent (Trending)",
+        "stars": 76
+      },
+      {
+        "id": "70d29a",
+        "title": "[Qwen] Paper page - LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "The bigger question I'm interested in is whether models could eventually expose a state interface, a",
+        "url": "https://huggingface.co/papers/2609.25053",
+        "date": "2026-09"
+      }
+    ]
   }
 ]
