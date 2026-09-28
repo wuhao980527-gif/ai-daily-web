@@ -26103,5 +26103,76 @@
         "date": "2026-09"
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "02f976",
+        "title": "upscayl/upscayl",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n  # v2.15 is out! 🥳 [Download Now ⬇️](https://github.com/upscayl/upscayl/relea",
+        "url": "https://github.com/upscayl/upscayl",
+        "date": "Recent (Trending)",
+        "stars": 561
+      },
+      {
+        "id": "7a194a",
+        "title": "ophub/amlogic-s9xxx-armbian",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n    <img alt=\"Armbian\" src=\"https://github.com/user-attachments/assets/74e55052",
+        "url": "https://github.com/ophub/amlogic-s9xxx-armbian",
+        "date": "Recent (Trending)",
+        "stars": 248
+      },
+      {
+        "id": "e09ccb",
+        "title": "docker/compose",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Table of Contents\n- [Docker Compose](#docker-compose)\n- [Where to get Docker Compose](#where-to-ge",
+        "url": "https://github.com/docker/compose",
+        "date": "Recent (Trending)",
+        "stars": 91
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 467
+      },
+      {
+        "id": "4809b6",
+        "title": "openai/tart",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<img src=\"https://github.com/openai/tart/raw/main/Resources/TartSocial.png\"/>\n\n*Tart* is a virtualiz",
+        "url": "https://github.com/openai/tart",
+        "date": "Recent (Trending)",
+        "stars": 160
+      }
+    ]
   }
 ]
