@@ -26174,5 +26174,76 @@
         "stars": 160
       }
     ]
+  },
+  {
+    "date": "2026-09-29",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "4809b6",
+        "title": "openai/tart",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<img src=\"https://github.com/openai/tart/raw/main/Resources/TartSocial.png\"/>\n\n*Tart* is a virtualiz",
+        "url": "https://github.com/openai/tart",
+        "date": "Recent (Trending)",
+        "stars": 370
+      },
+      {
+        "id": "7a194a",
+        "title": "ophub/amlogic-s9xxx-armbian",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n    <img alt=\"Armbian\" src=\"https://github.com/user-attachments/assets/74e55052",
+        "url": "https://github.com/ophub/amlogic-s9xxx-armbian",
+        "date": "Recent (Trending)",
+        "stars": 250
+      },
+      {
+        "id": "e09ccb",
+        "title": "docker/compose",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Table of Contents\n- [Docker Compose](#docker-compose)\n- [Where to get Docker Compose](#where-to-ge",
+        "url": "https://github.com/docker/compose",
+        "date": "Recent (Trending)",
+        "stars": 88
+      },
+      {
+        "id": "02f976",
+        "title": "upscayl/upscayl",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n  # v2.15 is out! 🥳 [Download Now ⬇️](https://github.com/upscayl/upscayl/relea",
+        "url": "https://github.com/upscayl/upscayl",
+        "date": "Recent (Trending)",
+        "stars": 423
+      },
+      {
+        "id": "ef55ac",
+        "title": "SimplifyJobs/Summer2027-Internships",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Summer 2027 Tech Internships by Pitt CSC & Simplify\n\n  Use this repo to share and keep track of **",
+        "url": "https://github.com/SimplifyJobs/Summer2027-Internships",
+        "date": "Recent (Trending)",
+        "stars": 207
+      }
+    ]
   }
 ]
