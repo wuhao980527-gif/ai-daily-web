@@ -26435,5 +26435,100 @@
         "date": "2026-09"
       }
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态, 2项Papers动态。",
+    "news": [
+      {
+        "id": "4809b6",
+        "title": "openai/tart",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<img src=\"https://github.com/openai/tart/raw/main/Resources/TartSocial.png\"/>\n\n*Tart* is a virtualiz",
+        "url": "https://github.com/openai/tart",
+        "date": "Recent (Trending)",
+        "stars": 416
+      },
+      {
+        "id": "7a194a",
+        "title": "ophub/amlogic-s9xxx-armbian",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n    <img alt=\"Armbian\" src=\"https://github.com/user-attachments/assets/74e55052",
+        "url": "https://github.com/ophub/amlogic-s9xxx-armbian",
+        "date": "Recent (Trending)",
+        "stars": 97
+      },
+      {
+        "id": "f5f3e1",
+        "title": "DevilXD/TwitchDropsMiner",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Twitch Drops Miner\n\nThis application allows you to AFK mine timed Twitch drops, without having to ",
+        "url": "https://github.com/DevilXD/TwitchDropsMiner",
+        "date": "Recent (Trending)",
+        "stars": 47
+      },
+      {
+        "id": "798638",
+        "title": "yairm210/Unciv",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Unciv - Civ V remake for Android & Desktop\n\n![](/extraImages/GithubPreviewImage.jpg)\n\n[![Google Pl",
+        "url": "https://github.com/yairm210/Unciv",
+        "date": "Recent (Trending)",
+        "stars": 78
+      },
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 304
+      },
+      {
+        "id": "06f71e",
+        "title": "[Google] Paper page - Language Models Are \"Insecure\" Reporters",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "As large language models are deployed in increasingly autonomous long-horizon tasks, manually auditi",
+        "url": "https://huggingface.co/papers/2609.36139",
+        "date": "2026-09"
+      },
+      {
+        "id": "dd2966",
+        "title": "Paper page - QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language model (LLM) agents increasingly undertake extreme-long (xlong) horizon tasks, where a",
+        "url": "https://huggingface.co/papers/2609.33848",
+        "date": "2026-09"
+      }
+    ]
   }
 ]
