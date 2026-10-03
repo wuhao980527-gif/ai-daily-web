@@ -26530,5 +26530,76 @@
         "date": "2026-09"
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "846afa",
+        "title": "supabase/supabase",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n<img src=\"https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28",
+        "url": "https://github.com/supabase/supabase",
+        "date": "Recent (Trending)",
+        "stars": 304
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 214
+      },
+      {
+        "id": "4809b6",
+        "title": "openai/tart",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<img src=\"https://github.com/openai/tart/raw/main/Resources/TartSocial.png\"/>\n\n*Tart* is a virtualiz",
+        "url": "https://github.com/openai/tart",
+        "date": "Recent (Trending)",
+        "stars": 427
+      },
+      {
+        "id": "798638",
+        "title": "yairm210/Unciv",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Unciv - Civ V remake for Android & Desktop\n\n![](/extraImages/GithubPreviewImage.jpg)\n\n[![Google Pl",
+        "url": "https://github.com/yairm210/Unciv",
+        "date": "Recent (Trending)",
+        "stars": 79
+      },
+      {
+        "id": "f5f3e1",
+        "title": "DevilXD/TwitchDropsMiner",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Twitch Drops Miner\n\nThis application allows you to AFK mine timed Twitch drops, without having to ",
+        "url": "https://github.com/DevilXD/TwitchDropsMiner",
+        "date": "Recent (Trending)",
+        "stars": 46
+      }
+    ]
   }
 ]
