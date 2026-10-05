@@ -26684,5 +26684,76 @@
         "date": "2026-09"
       }
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "798638",
+        "title": "yairm210/Unciv",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Unciv - Civ V remake for Android & Desktop\n\n![](/extraImages/GithubPreviewImage.jpg)\n\n[![Google Pl",
+        "url": "https://github.com/yairm210/Unciv",
+        "date": "Recent (Trending)",
+        "stars": 72
+      },
+      {
+        "id": "4809b6",
+        "title": "openai/tart",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<img src=\"https://github.com/openai/tart/raw/main/Resources/TartSocial.png\"/>\n\n*Tart* is a virtualiz",
+        "url": "https://github.com/openai/tart",
+        "date": "Recent (Trending)",
+        "stars": 341
+      },
+      {
+        "id": "31b59d",
+        "title": "openbq-org/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<br />\n<img src=\"https://github.com/OpenBB-finance/OpenBB/blob/develop/images/odp-light.svg?raw=true",
+        "url": "https://github.com/openbq-org/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 369
+      },
+      {
+        "id": "90f64c",
+        "title": "microsoft/onnxruntime",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>\n\n**ONNX Runti",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "date": "Recent (Trending)",
+        "stars": 81
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 197
+      }
+    ]
   }
 ]
