@@ -26813,5 +26813,62 @@
         "stars": 88
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "summary": "今日AI领域呈现多维度进展，涵盖3项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "31b59d",
+        "title": "openbq-org/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<br />\n<img src=\"https://github.com/OpenBB-finance/OpenBB/blob/develop/images/odp-light.svg?raw=true",
+        "url": "https://github.com/openbq-org/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 339
+      },
+      {
+        "id": "4206d1",
+        "title": "antoniaci/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Blackbird\n\n<figure><img src=\"./docs/.gitbook/assets/ai-demo.png\" alt=\"\"><figcaption></figcaption><",
+        "url": "https://github.com/antoniaci/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 247
+      },
+      {
+        "id": "f5f3e1",
+        "title": "DevilXD/TwitchDropsMiner",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Twitch Drops Miner\n\nThis application allows you to AFK mine timed Twitch drops, without having to ",
+        "url": "https://github.com/DevilXD/TwitchDropsMiner",
+        "date": "Recent (Trending)",
+        "stars": 36
+      },
+      {
+        "id": "357995",
+        "title": "[Qwen] Paper page - Align Then Reason: A Multimodal Lip-Sync Judge for Dubbing",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Dubbing quality control requires a reference-free judge that can determine whether a candidate text ",
+        "url": "https://huggingface.co/papers/2610.00825",
+        "date": "2026-10"
+      }
+    ]
   }
 ]
