@@ -26870,5 +26870,37 @@
         "date": "2026-10"
       }
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "summary": "今日AI领域呈现多维度进展，涵盖2项GitHub动态。",
+    "news": [
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 156
+      },
+      {
+        "id": "31b59d",
+        "title": "openbq-org/OpenBB",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<br />\n<img src=\"https://github.com/OpenBB-finance/OpenBB/blob/develop/images/odp-light.svg?raw=true",
+        "url": "https://github.com/openbq-org/OpenBB",
+        "date": "Recent (Trending)",
+        "stars": 319
+      }
+    ]
   }
 ]
