@@ -27030,5 +27030,50 @@
         "stars": 232
       }
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "summary": "今日AI领域呈现多维度进展，涵盖3项GitHub动态。",
+    "news": [
+      {
+        "id": "867e8e",
+        "title": "invoke-ai/InvokeAI",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n![project hero](https://github.com/invoke-ai/InvokeAI/assets/31807370/6e3728c7",
+        "url": "https://github.com/invoke-ai/InvokeAI",
+        "date": "Recent (Trending)",
+        "stars": 246
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 892
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 967
+      }
+    ]
   }
 ]
