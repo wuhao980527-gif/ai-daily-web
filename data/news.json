@@ -27133,5 +27133,76 @@
         "stars": 183
       }
     ]
+  },
+  {
+    "date": "2026-10-15",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "867e8e",
+        "title": "invoke-ai/InvokeAI",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n![project hero](https://github.com/invoke-ai/InvokeAI/assets/31807370/6e3728c7",
+        "url": "https://github.com/invoke-ai/InvokeAI",
+        "date": "Recent (Trending)",
+        "stars": 235
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 1012
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1021
+      },
+      {
+        "id": "e09ccb",
+        "title": "docker/compose",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Table of Contents\n- [Docker Compose](#docker-compose)\n- [Where to get Docker Compose](#where-to-ge",
+        "url": "https://github.com/docker/compose",
+        "date": "Recent (Trending)",
+        "stars": 153
+      },
+      {
+        "id": "eb0797",
+        "title": "UFund-Me/Qbot",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div>\n  <div align=\"right\">\n    👆 右上角点击 <img class=\"ai-header-badge-img\" src=\"https://img.shields.io",
+        "url": "https://github.com/UFund-Me/Qbot",
+        "date": "Recent (Trending)",
+        "stars": 104
+      }
+    ]
   }
 ]
