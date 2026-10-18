@@ -27346,5 +27346,76 @@
         "stars": 116
       }
     ]
+  },
+  {
+    "date": "2026-10-18",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 899
+      },
+      {
+        "id": "867e8e",
+        "title": "invoke-ai/InvokeAI",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n![project hero](https://github.com/invoke-ai/InvokeAI/assets/31807370/6e3728c7",
+        "url": "https://github.com/invoke-ai/InvokeAI",
+        "date": "Recent (Trending)",
+        "stars": 194
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 976
+      },
+      {
+        "id": "f5f3e1",
+        "title": "DevilXD/TwitchDropsMiner",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Twitch Drops Miner\n\nThis application allows you to AFK mine timed Twitch drops, without having to ",
+        "url": "https://github.com/DevilXD/TwitchDropsMiner",
+        "date": "Recent (Trending)",
+        "stars": 35
+      },
+      {
+        "id": "eb0797",
+        "title": "UFund-Me/Qbot",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div>\n  <div align=\"right\">\n    👆 右上角点击 <img class=\"ai-header-badge-img\" src=\"https://img.shields.io",
+        "url": "https://github.com/UFund-Me/Qbot",
+        "date": "Recent (Trending)",
+        "stars": 118
+      }
+    ]
   }
 ]
