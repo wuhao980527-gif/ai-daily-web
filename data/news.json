@@ -27571,5 +27571,50 @@
         "date": "2026-10"
       }
     ]
+  },
+  {
+    "date": "2026-10-21",
+    "summary": "今日AI领域呈现多维度进展，涵盖3项GitHub动态。",
+    "news": [
+      {
+        "id": "867e8e",
+        "title": "invoke-ai/InvokeAI",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n![project hero](https://github.com/invoke-ai/InvokeAI/assets/31807370/6e3728c7",
+        "url": "https://github.com/invoke-ai/InvokeAI",
+        "date": "Recent (Trending)",
+        "stars": 192
+      },
+      {
+        "id": "440df4",
+        "title": "ImranR98/Obtainium",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!-- <div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/",
+        "url": "https://github.com/ImranR98/Obtainium",
+        "date": "Recent (Trending)",
+        "stars": 296
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Whisper\n\n[[Blog]](https://openai.com/blog/whisper)\n[[Paper]](https://arxiv.org/abs/2212.04356)\n[[M",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 621
+      }
+    ]
   }
 ]
