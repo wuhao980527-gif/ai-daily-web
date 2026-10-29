@@ -28185,5 +28185,88 @@
         "date": "2026-10"
       }
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "399687",
+        "title": "nextcloud/all-in-one",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "暂无详细介绍",
+        "url": "https://github.com/nextcloud/all-in-one",
+        "date": "Recent (Trending)",
+        "stars": 109
+      },
+      {
+        "id": "b01617",
+        "title": "mailcow/mailcow-dockerized",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# mailcow: dockerized - 🐮 + 🐋 = 💕\n\n[![Translation status](https://translate.mailcow.email/widgets/ma",
+        "url": "https://github.com/mailcow/mailcow-dockerized",
+        "date": "Recent (Trending)",
+        "stars": 84
+      },
+      {
+        "id": "680c0b",
+        "title": "EvanLi/Github-Ranking",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "[Github Ranking](./README.md)",
+        "url": "https://github.com/EvanLi/Github-Ranking",
+        "date": "Recent (Trending)",
+        "stars": 179
+      },
+      {
+        "id": "f4dc78",
+        "title": "f/prompts.chat",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n  <a href=\"https://prompts.chat\">\n    <picture>\n      <source media=\"(prefers-co",
+        "url": "https://github.com/f/prompts.chat",
+        "date": "Recent (Trending)",
+        "stars": 1248
+      },
+      {
+        "id": "475033",
+        "title": "tailscale/tailscale",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Tailscale\n\nhttps://tailscale.com\n\nPrivate WireGuard® networks made easy\n\n## Overview\n\nThis reposit",
+        "url": "https://github.com/tailscale/tailscale",
+        "date": "Recent (Trending)",
+        "stars": 378
+      },
+      {
+        "id": "b83eac",
+        "title": "[Qwen] Paper page - Language Models Learn to Improve Language Models",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language models (LLMs) are increasingly used to automate AI research, including language-model",
+        "url": "https://huggingface.co/papers/2610.23344",
+        "date": "2026-10"
+      }
+    ]
   }
 ]
