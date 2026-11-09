@@ -28989,5 +28989,23 @@
         "date": "2026-10"
       }
     ]
+  },
+  {
+    "date": "2026-11-09",
+    "summary": "今日AI领域呈现多维度进展，涵盖1项Papers动态。",
+    "news": [
+      {
+        "id": "8aa240",
+        "title": "[Qwen] Paper page - Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even wh",
+        "url": "https://huggingface.co/papers/2610.37481",
+        "date": "2026-10"
+      }
+    ]
   }
 ]
