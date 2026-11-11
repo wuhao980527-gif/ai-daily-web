@@ -29065,5 +29065,75 @@
         "stars": 1227
       }
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "summary": "今日AI领域呈现多维度进展，涵盖4项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "90f64c",
+        "title": "microsoft/onnxruntime",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>\n\n**ONNX Runti",
+        "url": "https://github.com/microsoft/onnxruntime",
+        "date": "Recent (Trending)",
+        "stars": 67
+      },
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 280
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# The Servo Parallel Browser Engine Project\n\nServo is a prototype web browser engine written in the\n",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 162
+      },
+      {
+        "id": "903bfb",
+        "title": "langchain-ai/langchain",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n  <a href=\"https://docs.langchain.com/oss/python/langchain/overview\">\n    <pict",
+        "url": "https://github.com/langchain-ai/langchain",
+        "date": "Recent (Trending)",
+        "stars": 472
+      },
+      {
+        "id": "b1eba1",
+        "title": "[Microsoft] Paper page - SIRIS: Can LLMs Tell When Simulation Errors Matter in AI-Driven Systems Research",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Hugging Face's logo\n\n# SIRIS: Can LLMs Tell When Simulation Errors Matter in AI-Driven Systems Resea",
+        "url": "https://huggingface.co/papers/2611.10329",
+        "date": "2026-11"
+      }
+    ]
   }
 ]
