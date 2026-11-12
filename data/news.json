@@ -29135,5 +29135,76 @@
         "date": "2026-11"
       }
     ]
+  },
+  {
+    "date": "2026-11-12",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态。",
+    "news": [
+      {
+        "id": "7fdb3d",
+        "title": "aquasecurity/trivy",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n<img src=\"docs/imgs/logo.png\" width=\"200\">\n\n[![GitHub Release][release-img]][re",
+        "url": "https://github.com/aquasecurity/trivy",
+        "date": "Recent (Trending)",
+        "stars": 273
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# The Servo Parallel Browser Engine Project\n\nServo is a prototype web browser engine written in the\n",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 161
+      },
+      {
+        "id": "a4421a",
+        "title": "windmill-labs/windmill",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://www.windmill.dev/\"><img src=\"./imgs/windmill-banner.png\" alt=\"",
+        "url": "https://github.com/windmill-labs/windmill",
+        "date": "Recent (Trending)",
+        "stars": 167
+      },
+      {
+        "id": "a85417",
+        "title": "apache/airflow",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!--\n Licensed to the Apache Software Foundation (ASF) under one\n or more contributor license agreem",
+        "url": "https://github.com/apache/airflow",
+        "date": "Recent (Trending)",
+        "stars": 102
+      },
+      {
+        "id": "4206d1",
+        "title": "antoniaci/blackbird",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Blackbird\n\n<figure><img src=\"./docs/.gitbook/assets/ai-demo.png\" alt=\"\"><figcaption></figcaption><",
+        "url": "https://github.com/antoniaci/blackbird",
+        "date": "Recent (Trending)",
+        "stars": 466
+      }
+    ]
   }
 ]
