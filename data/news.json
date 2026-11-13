@@ -29206,5 +29206,88 @@
         "stars": 466
       }
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "a4421a",
+        "title": "windmill-labs/windmill",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://www.windmill.dev/\"><img src=\"./imgs/windmill-banner.png\" alt=\"",
+        "url": "https://github.com/windmill-labs/windmill",
+        "date": "Recent (Trending)",
+        "stars": 162
+      },
+      {
+        "id": "e09ccb",
+        "title": "docker/compose",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Table of Contents\n- [Docker Compose](#docker-compose)\n- [Where to get Docker Compose](#where-to-ge",
+        "url": "https://github.com/docker/compose",
+        "date": "Recent (Trending)",
+        "stars": 220
+      },
+      {
+        "id": "daebb5",
+        "title": "wagtail/wagtail",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<h1 align=\"center\">\n    <picture>\n        <source media=\"(prefers-color-scheme: light)\" srcset=\".git",
+        "url": "https://github.com/wagtail/wagtail",
+        "date": "Recent (Trending)",
+        "stars": 136
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 435
+      },
+      {
+        "id": "e02354",
+        "title": "servo/servo",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# The Servo Parallel Browser Engine Project\n\nServo is a prototype web browser engine written in the\n",
+        "url": "https://github.com/servo/servo",
+        "date": "Recent (Trending)",
+        "stars": 165
+      },
+      {
+        "id": "1e29ac",
+        "title": "[Qwen] Paper page - Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Hugging Face's logo\n\n# Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models\n",
+        "url": "https://huggingface.co/papers/2611.05927",
+        "date": "2026-11"
+      }
+    ]
   }
 ]
