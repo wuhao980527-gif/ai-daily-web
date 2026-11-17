@@ -29525,5 +29525,88 @@
         "date": "2026-11"
       }
     ]
+  },
+  {
+    "date": "2026-11-17",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "44a160",
+        "title": "facebookresearch/faiss",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Faiss\n\nFaiss is a library for efficient similarity search and clustering of dense vectors. It cont",
+        "url": "https://github.com/facebookresearch/faiss",
+        "date": "Recent (Trending)",
+        "stars": 470
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Whisper\n\n[[Blog]](https://openai.com/blog/whisper)\n[[Paper]](https://arxiv.org/abs/2212.04356)\n[[M",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 661
+      },
+      {
+        "id": "02f976",
+        "title": "upscayl/upscayl",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n  # v2.15 is out! 🥳 [Download Now ⬇️](https://github.com/upscayl/upscayl/relea",
+        "url": "https://github.com/upscayl/upscayl",
+        "date": "Recent (Trending)",
+        "stars": 696
+      },
+      {
+        "id": "e09ccb",
+        "title": "docker/compose",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Table of Contents\n- [Docker Compose](#docker-compose)\n- [Where to get Docker Compose](#where-to-ge",
+        "url": "https://github.com/docker/compose",
+        "date": "Recent (Trending)",
+        "stars": 321
+      },
+      {
+        "id": "cf909f",
+        "title": "huggingface/transformers",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<!---\nCopyright 2020 The HuggingFace Team. All rights reserved.\n\nLicensed under the Apache License, ",
+        "url": "https://github.com/huggingface/transformers",
+        "date": "Recent (Trending)",
+        "stars": 537
+      },
+      {
+        "id": "1e29ac",
+        "title": "[Qwen] Paper page - Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Hugging Face's logo\n\n# Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models\n",
+        "url": "https://huggingface.co/papers/2611.05927",
+        "date": "2026-11"
+      }
+    ]
   }
 ]
