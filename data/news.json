@@ -29608,5 +29608,88 @@
         "date": "2026-11"
       }
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态, 1项Papers动态。",
+    "news": [
+      {
+        "id": "44a160",
+        "title": "facebookresearch/faiss",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Faiss\n\nFaiss is a library for efficient similarity search and clustering of dense vectors. It cont",
+        "url": "https://github.com/facebookresearch/faiss",
+        "date": "Recent (Trending)",
+        "stars": 470
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Whisper\n\n[[Blog]](https://openai.com/blog/whisper)\n[[Paper]](https://arxiv.org/abs/2212.04356)\n[[M",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 723
+      },
+      {
+        "id": "e09ccb",
+        "title": "docker/compose",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Table of Contents\n- [Docker Compose](#docker-compose)\n- [Where to get Docker Compose](#where-to-ge",
+        "url": "https://github.com/docker/compose",
+        "date": "Recent (Trending)",
+        "stars": 406
+      },
+      {
+        "id": "62061a",
+        "title": "saadeghi/daisyui",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<div align=\"center\">\n\n[![][logo-url]][docs-url]\n\n**The most popular, free and open-source component ",
+        "url": "https://github.com/saadeghi/daisyui",
+        "date": "Recent (Trending)",
+        "stars": 101
+      },
+      {
+        "id": "a4421a",
+        "title": "windmill-labs/windmill",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://www.windmill.dev/\"><img src=\"./imgs/windmill-banner.png\" alt=\"",
+        "url": "https://github.com/windmill-labs/windmill",
+        "date": "Recent (Trending)",
+        "stars": 137
+      },
+      {
+        "id": "91d62a",
+        "title": "[Qwen] Paper page - Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Biomolecular foundation models predict the structures of proteins and their complexes accurately, an",
+        "url": "https://huggingface.co/papers/2611.20986",
+        "date": "2026-11"
+      }
+    ]
   }
 ]
