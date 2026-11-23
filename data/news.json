@@ -30035,5 +30035,136 @@
         "stars": 100
       }
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态, 5项Papers动态。",
+    "news": [
+      {
+        "id": "44a160",
+        "title": "facebookresearch/faiss",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Faiss\n\nFaiss is a library for efficient similarity search and clustering of dense vectors. It cont",
+        "url": "https://github.com/facebookresearch/faiss",
+        "date": "Recent (Trending)",
+        "stars": 175
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\".github/post",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 249
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Whisper\n\n[[Blog]](https://openai.com/blog/whisper)\n[[Paper]](https://arxiv.org/abs/2212.04356)\n[[M",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 927
+      },
+      {
+        "id": "7aed3f",
+        "title": "skypilot-org/skypilot",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://skypilot.ai/#gh-light-mode-only\">\n    <img alt=\"SkyPilot\" src=",
+        "url": "https://github.com/skypilot-org/skypilot",
+        "date": "Recent (Trending)",
+        "stars": 37
+      },
+      {
+        "id": "a4421a",
+        "title": "windmill-labs/windmill",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://www.windmill.dev/\"><img src=\"./imgs/windmill-banner.png\" alt=\"",
+        "url": "https://github.com/windmill-labs/windmill",
+        "date": "Recent (Trending)",
+        "stars": 96
+      },
+      {
+        "id": "1c7b18",
+        "title": "[DeepSeek] Paper page - Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process mu",
+        "url": "https://huggingface.co/papers/2611.22033",
+        "date": "2026-11"
+      },
+      {
+        "id": "91d62a",
+        "title": "[Qwen] Paper page - Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Biomolecular foundation models predict the structures of proteins and their complexes accurately, an",
+        "url": "https://huggingface.co/papers/2611.20986",
+        "date": "2026-11"
+      },
+      {
+        "id": "007f34",
+        "title": "[DeepSeek] Paper page - PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language model (LLM) agents%20agents) routinely interact with untrusted external data, exposin",
+        "url": "https://huggingface.co/papers/2611.24362",
+        "date": "2026-11"
+      },
+      {
+        "id": "6e92c1",
+        "title": "[Meta] Keepace.ai: A Technical Report on a Large Language Model for Sports and Health",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "models (LLMs), with their instruction-following and structured-generation capabilities, offer a natu",
+        "url": "https://arxiv.org/html/2610.38249v1",
+        "date": "2026-10"
+      },
+      {
+        "id": "884a89",
+        "title": "[Qwen] [2610.38249] Keepace.ai: A Technical Report on a Large Language Model for Sports and Health",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Title: [2610.38249] Keepace.ai: A Technical Report on a Large Language Model for Sports and Health\n#",
+        "url": "https://arxiv.org/abs/2610.38249",
+        "date": "2026-10"
+      }
+    ]
   }
 ]
