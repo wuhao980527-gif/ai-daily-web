@@ -30166,5 +30166,136 @@
         "date": "2026-10"
       }
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "summary": "今日AI领域呈现多维度进展，涵盖5项GitHub动态, 5项Papers动态。",
+    "news": [
+      {
+        "id": "44a160",
+        "title": "facebookresearch/faiss",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Faiss\n\nFaiss is a library for efficient similarity search and clustering of dense vectors. It cont",
+        "url": "https://github.com/facebookresearch/faiss",
+        "date": "Recent (Trending)",
+        "stars": 163
+      },
+      {
+        "id": "6fb084",
+        "title": "PostHog/posthog",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\".github/post",
+        "url": "https://github.com/PostHog/posthog",
+        "date": "Recent (Trending)",
+        "stars": 255
+      },
+      {
+        "id": "a6f6ce",
+        "title": "openai/whisper",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "# Whisper\n\n[[Blog]](https://openai.com/blog/whisper)\n[[Paper]](https://arxiv.org/abs/2212.04356)\n[[M",
+        "url": "https://github.com/openai/whisper",
+        "date": "Recent (Trending)",
+        "stars": 941
+      },
+      {
+        "id": "7aed3f",
+        "title": "skypilot-org/skypilot",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://skypilot.ai/#gh-light-mode-only\">\n    <img alt=\"SkyPilot\" src=",
+        "url": "https://github.com/skypilot-org/skypilot",
+        "date": "Recent (Trending)",
+        "stars": 37
+      },
+      {
+        "id": "a4421a",
+        "title": "windmill-labs/windmill",
+        "source": "GitHub",
+        "tags": [
+          "#AI",
+          "#GitHub"
+        ],
+        "summary": "<p align=\"center\">\n  <a href=\"https://www.windmill.dev/\"><img src=\"./imgs/windmill-banner.png\" alt=\"",
+        "url": "https://github.com/windmill-labs/windmill",
+        "date": "Recent (Trending)",
+        "stars": 95
+      },
+      {
+        "id": "1c7b18",
+        "title": "[DeepSeek] Paper page - Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process mu",
+        "url": "https://huggingface.co/papers/2611.22033",
+        "date": "2026-11"
+      },
+      {
+        "id": "42e12a",
+        "title": "[DeepSeek] Paper page - A Foundation Model to Measure and Predict Human Behaviour",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language models (LLMs) are increasingly used to infer psychological attributes, predict indivi",
+        "url": "https://huggingface.co/papers/2611.24830",
+        "date": "2026-11"
+      },
+      {
+        "id": "b8e427",
+        "title": "[Meta] Paper page - WeightBench: Evaluating Language Models as Weight-Space Programmers",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other ",
+        "url": "https://huggingface.co/papers/2611.18553",
+        "date": "2026-11"
+      },
+      {
+        "id": "91d62a",
+        "title": "[Qwen] Paper page - Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Biomolecular foundation models predict the structures of proteins and their complexes accurately, an",
+        "url": "https://huggingface.co/papers/2611.20986",
+        "date": "2026-11"
+      },
+      {
+        "id": "007f34",
+        "title": "[DeepSeek] Paper page - PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+        "source": "Papers",
+        "tags": [
+          "#AI",
+          "#Papers"
+        ],
+        "summary": "Large language model (LLM) agents%20agents) routinely interact with untrusted external data, exposin",
+        "url": "https://huggingface.co/papers/2611.24362",
+        "date": "2026-11"
+      }
+    ]
   }
 ]
